@@ -6,69 +6,85 @@
 <title>AI 文章瀑布流 · Stitch Design</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 <style>
-:root {--b:#f8f9fc;--s:#fff;--sh:#f1f3f9;--bd:rgba(0,0,0,0.06);--t:#1a1d23;--ts:#6b7280;--tm:#9ca3af;--ff:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC",Roboto,sans-serif;--fm:"SF Mono","Fira Code","Fira Mono","JetBrains Mono",monospace}
-* {margin:0;padding:0;box-sizing:border-box}
-body {font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoothing:antialiased}
-
-.hdr {position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.72);backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);border-bottom:1px solid var(--bd);padding:10px 20px}
-.hdr-i {max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
-.lg {font-size:1.05em;font-weight:700;background:linear-gradient(135deg,#6366f1,#8b5cf6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.hdr-m {display:flex;align-items:center;gap:8px;font-size:.8em;color:var(--ts)}
-.pill {background:#6366f115;color:#6366f1;padding:2px 10px;border-radius:20px;font-weight:600;font-size:.85em}
-.rf {padding:4px 12px;background:var(--b);border:1px solid var(--bd);border-radius:20px;font-size:.78em;color:var(--ts);cursor:pointer;transition:.2s}
-.rf:hover {background:var(--sh);color:var(--t)}
-
-.sb {background:var(--s);border-bottom:1px solid var(--bd);padding:6px 20px;font-size:.74em;color:var(--tm);white-space:nowrap;overflow-x:auto}
-.sb::-webkit-scrollbar {display:none}
-
-.c {max-width:1400px;margin:0 auto;padding:0 16px}
-
-.hl-s {max-width:1400px;margin:16px auto 0;padding:0 16px}
-.hl-t {font-size:.95em;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:6px}
-.hl-tg {font-size:.65em;font-weight:600;background:#6366f115;color:#6366f1;padding:1px 7px;border-radius:6px;letter-spacing:.5px}
-.hl-g {display:flex;flex-direction:column;gap:10px}
-.hl-r {display:flex;align-items:flex-start;gap:12px;padding:12px 14px;background:var(--s);border-radius:10px;border:1px solid var(--bd);transition:.2s}
-.hl-r:hover {background:var(--sh)}
-.hl-bdg {flex-shrink:0;font-size:.72em;font-weight:600;padding:2px 10px;border-radius:6px;border:1px solid;white-space:nowrap;margin-top:1px}
-.hl-txt {font-size:.82em;line-height:1.65;color:var(--ts);flex:1}
-
-.tb {margin:16px auto 0;max-width:1400px;padding:0 16px;display:flex;gap:4px;flex-wrap:wrap;overflow-x:auto;scrollbar-width:none}
-.tb::-webkit-scrollbar {display:none}
-.tb-it {padding:6px 14px;font-size:.78em;font-weight:500;border-radius:8px;cursor:pointer;white-space:nowrap;transition:.2s;color:var(--ts);background:transparent;border:none}
-.tb-it:hover {background:var(--sh);color:var(--t)}
-.tb-it.act {background:color-mix(in srgb,var(--ac,#6366f1) 12%,transparent);color:var(--ac,#6366f1);font-weight:600}
-
-.sec {display:none;padding-top:8px}
-.sec.act {display:block}
-#sec-all .ms {columns:4;column-gap:14px}
-@media(max-width:1200px){#sec-all .ms{columns:3}}
-@media(max-width:900px){#sec-all .ms{columns:2}}
-@media(max-width:600px){#sec-all .ms{columns:1}}
-.ms {columns:4;column-gap:14px}
+:root{--b:#f8f9fc;--s:#fff;--sh:#f1f3f9;--bd:rgba(0,0,0,.06);--t:#1a1d23;--ts:#6b7280;--tm:#9ca3af;--ac:#6366f1;--ff:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC",Roboto,sans-serif;--fm:"SF Mono","Fira Code","Fira Mono","JetBrains Mono",monospace;--r:8px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoothing:antialiased}
+.hdr{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.72);backdrop-filter:blur(28px) saturate(180%);border-bottom:1px solid var(--bd);padding:10px 20px}
+.hdr-i{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.lg{font-size:1.05em;font-weight:700;background:linear-gradient(135deg,#6366f1,#8b5cf6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hdr-m{display:flex;align-items:center;gap:8px;font-size:.8em;color:var(--ts);flex-wrap:wrap}
+.pill{background:#6366f115;color:#6366f1;padding:2px 10px;border-radius:20px;font-weight:600;font-size:.85em}
+.pill-up{font-size:.7em;color:var(--tm);padding:2px 0}
+.rf{padding:4px 12px;background:var(--b);border:1px solid var(--bd);border-radius:20px;font-size:.78em;color:var(--ts);cursor:pointer;transition:.2s}
+.rf:hover{background:var(--sh);color:var(--t)}
+.sb{background:var(--s);border-bottom:1px solid var(--bd);padding:6px 20px;font-size:.74em;color:var(--tm);overflow:hidden;transition:max-height .3s ease}
+.sb-i{display:flex;align-items:center;gap:4px;max-width:1400px;margin:0 auto}
+.sb-t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1}
+.sb-tg{flex-shrink:0;background:none;border:none;cursor:pointer;padding:0 4px;font-size:.8em;color:var(--tm);transition:transform .2s}
+.sb-tg.open{transform:rotate(180deg)}
+.sb.collapsed{max-height:32px}
+.sb.expanded{max-height:200px}
+.c{max-width:1400px;margin:0 auto;padding:0 16px}
+.hl-s{max-width:1400px;margin:16px auto 0;padding:0 16px}
+.hl-t{font-size:.95em;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.hl-tg{font-size:.65em;font-weight:600;background:#6366f115;color:#6366f1;padding:1px 7px;border-radius:6px;letter-spacing:.5px}
+.hl-g{display:flex;flex-direction:column;gap:10px}
+.hl-r{display:flex;align-items:flex-start;gap:12px;padding:12px 14px;background:var(--s);border-radius:10px;border:1px solid var(--bd);transition:.2s}
+.hl-r:hover{background:var(--sh)}
+.hl-bdg{flex-shrink:0;font-size:.72em;font-weight:600;padding:2px 10px;border-radius:6px;border:1px solid;white-space:nowrap;margin-top:1px}
+.hl-txt{font-size:.82em;line-height:1.65;color:var(--ts);flex:1}
+.sr{margin:10px auto 0;max-width:1400px;padding:0 16px}
+.sr-i{width:100%;padding:8px 14px;border:1px solid var(--bd);border-radius:var(--r);font-size:.85em;background:var(--s);color:var(--t);outline:none;transition:border-color .2s,box-shadow .2s;font-family:var(--ff)}
+.sr-i:focus{border-color:var(--ac);box-shadow:0 0 0 3px #6366f120}
+.sr-i::placeholder{color:var(--tm)}
+.tb{margin:10px auto 0;max-width:1400px;padding:0 16px;display:flex;gap:4px;flex-wrap:wrap;overflow-x:auto;scrollbar-width:none}
+.tb::-webkit-scrollbar{display:none}
+.tb-it{padding:6px 14px;font-size:.78em;font-weight:500;border-radius:8px;cursor:pointer;white-space:nowrap;transition:.2s;color:var(--ts);background:transparent;border:none}
+.tb-it:hover{background:var(--sh);color:var(--t)}
+.tb-it.act{background:color-mix(in srgb,var(--ac,#6366f1) 12%,transparent);color:var(--ac,#6366f1);font-weight:600}
+.sec{display:none;padding-top:8px}
+.sec.act{display:block}
+.ms{columns:4;column-gap:14px}
 @media(max-width:1200px){.ms{columns:3}}
 @media(max-width:900px){.ms{columns:2}}
 @media(max-width:600px){.ms{columns:1}}
-
-.cd {break-inside:avoid;margin-bottom:14px;background:var(--s);border-radius:14px;cursor:pointer;border:1px solid var(--bd);transition:.25s cubic-bezier(.16,1,.3,1)}
-.cd:hover {transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,.08)}
-.cd-b {padding:16px 16px 8px}
-.cd-t {font-size:.9em;font-weight:600;line-height:1.45;color:var(--t);margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.cd-sm {font-size:.8em;color:var(--ts);line-height:1.6;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
-.cd-f {padding:4px 16px 12px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:4px}
-.bdg {font-size:.68em;padding:1px 8px;border-radius:8px;font-weight:500;white-space:nowrap;background:var(--b);color:var(--c);border:1px solid var(--bd)}
-.dt {font-size:.68em;color:var(--tm)}
-
-.sk {margin:24px 0 28px}
-.sk-h {font-size:.95em;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:6px}
-.sk-g {display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px}
-.sk-cd {display:block;background:var(--s);border-radius:10px;padding:12px 14px;text-decoration:none;border:1px solid var(--bd);transition:.25s cubic-bezier(.16,1,.3,1)}
-.sk-cd:hover {transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,0,0,.06)}
-.sk-n {font-size:.8em;font-weight:600;color:#6366f1;font-family:var(--fm);margin-bottom:2px}
-.sk-s {font-size:.7em;color:#f59e0b;margin-bottom:3px}
-.sk-d {font-size:.75em;color:var(--ts);line-height:1.4}
-
-.ft {text-align:center;padding:20px;font-size:.72em;color:var(--tm);border-top:1px solid var(--bd);margin-top:24px}
-
+.ls{display:flex;flex-direction:column;gap:6px}
+.ls .cd{display:flex;align-items:center;gap:12px;padding:10px 14px;margin-bottom:0;border-radius:10px}
+.ls .cd-b{padding:0;flex:1;min-width:0}
+.ls .cd-t{-webkit-line-clamp:2;font-size:.85em}
+.ls .cd-sm{display:none}
+.ls .cd-f{padding:0;flex-shrink:0}
+.ls .cd-ar{display:none}
+.cd{break-inside:avoid;margin-bottom:14px;background:var(--s);border-radius:14px;cursor:pointer;border:1px solid var(--bd);transition:.25s cubic-bezier(.16,1,.3,1);position:relative;overflow:hidden}
+.cd:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,.08)}
+.cd-ar{position:absolute;right:12px;bottom:10px;font-size:1em;color:var(--tm);opacity:0;transition:opacity .25s,transform .25s;transform:translateX(-4px)}
+.cd:hover .cd-ar{opacity:1;transform:translateX(0)}
+.cd-b{padding:16px 16px 8px}
+.cd-t{font-size:.9em;font-weight:600;line-height:1.45;color:var(--t);margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cd-sm{font-size:.8em;color:var(--ts);line-height:1.6;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.cd-f{padding:4px 16px 12px;display:flex;align-items:center;flex-wrap:wrap;gap:4px}
+.bdg{font-size:.68em;padding:1px 8px;border-radius:8px;font-weight:500;white-space:nowrap;background:var(--b);color:var(--c);border:1px solid var(--bd)}
+.dt{font-size:.68em;color:var(--tm);margin-left:auto}
+.au-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:3px;vertical-align:middle}
+.au-lb{font-size:.65em;vertical-align:middle;margin-right:6px;opacity:.7;white-space:nowrap}
+.st-btn{background:none;border:none;cursor:pointer;padding:2px 4px;font-size:.85em;transition:transform .2s;flex-shrink:0;line-height:1}
+.st-btn:hover{transform:scale(1.2)}
+.st-btn .st-o{opacity:.3;color:var(--tm)}
+.st-btn .st-f{display:none}
+.st-btn.starred .st-o{display:none}
+.st-btn.starred .st-f{display:inline;color:#f59e0b}
+.cd.read{opacity:.65}
+.cd.read .cd-t{color:var(--ts)}
+.sk{margin:24px 0 28px}
+.sk-h{font-size:.95em;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.sk-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px}
+.sk-cd{display:block;background:var(--s);border-radius:10px;padding:12px 14px;text-decoration:none;border:1px solid var(--bd);transition:.25s cubic-bezier(.16,1,.3,1)}
+.sk-cd:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,0,0,.06)}
+.sk-n{font-size:.8em;font-weight:600;color:#6366f1;font-family:var(--fm);margin-bottom:2px}
+.sk-s{font-size:.7em;color:#f59e0b;margin-bottom:3px}
+.sk-d{font-size:.75em;color:var(--ts);line-height:1.4}
+.ft{text-align:center;padding:20px;font-size:.72em;color:var(--tm);border-top:1px solid var(--bd);margin-top:24px}
+.empty{text-align:center;padding:40px 20px;color:var(--tm);font-size:.85em}
 @media(prefers-color-scheme:dark){
 :root{--b:#0d0d12;--s:#17171e;--sh:#1f1f28;--bd:rgba(255,255,255,.06);--t:#ededef;--ts:#9d9da3;--tm:#6b6b72}
 .hdr{background:rgba(13,13,18,.72)}
@@ -76,133 +92,171 @@ body {font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoo
 </style>
 </head>
 <body>
-<div class="hdr"><div class="hdr-i"><span class="lg">AI 文章瀑布流</span><div class="hdr-m"><span class="pill">200篇</span><span>2026-04-29</span><button class="rf" onclick="location.reload()">刷新</button></div></div></div>
-<div class="sb">Hugging Face Blog 180篇 · 量子位 8篇 · ArsTechnica - AI 6篇 · Lil'Log (Lilian Weng) 4篇 · TechCrunch - AI 1篇 · MIT Technology Review - AI 1篇</div>
-
-<div class="hl-s">
-  <div class="hl-t">趋势解读 <span class="hl-tg">HIGHLIGHTS</span></div>
-  <div class="hl-g"><div class="hl-r" style="--hl-c:#7c3aed">
-  <span class="hl-bdg" style="background:#7c3aed22;color:#7c3aed;border-color:#7c3aed44">🧠 大模型与基础架构</span>
-  <p class="hl-txt">Transformer 架构之外，新架构探索方兴未艾。状态空间模型（Mamba）、线性注意力机制等创新尝试不断涌现，试图突破传统 Transformer 在长序列推理上的二次方复杂度瓶颈。但正如刘壮所言，数据质量和训练策略对模型性能的影响可能远大于架构选择，行业正在重新审视「规模定律」的边界条件。</p>
-</div><div class="hl-r" style="--hl-c:#d97706">
-  <span class="hl-bdg" style="background:#d9770622;color:#d97706;border-color:#d9770644">🤯 AI Agent与智能体</span>
-  <p class="hl-txt">AI Agent 正从实验走向生产级部署。MCP（Model Context Protocol）和 A2A（Agent-to-Agent）两大协议标准的推进，正在为智能体互操作性铺平道路。在软件开发领域，以 OpenHands、Cursor 和 Claude Code 为代表的 AI Coding Agent 已经嵌入真实开发流程，从辅助工具升级为核心生产力。与此同时，AutoGPT 等通用自主 Agent 框架持续迭代，长时任务执行和多工具编排能力显著提升。百度 GenFlow 4.0 更将 Agent 能力扩展到 Office 三件套——文档生成、表格分析和幻灯片制作全自动化，实现「十分钟干完一周活」。</p>
-</div><div class="hl-r" style="--hl-c:#059669">
-  <span class="hl-bdg" style="background:#05966922;color:#059669;border-color:#05966944">🤖 具身智能与机器人</span>
-  <p class="hl-txt">具身智能的技术栈正在快速收敛。感知层面，多模态融合（视觉+触觉+力觉）成为标配；决策层面，基于大模型的技能学习替代传统的强化学习手工设计奖励函数；执行层面，灵巧手和力矩传感的成熟使精细操作成为可能。政策层面，中国「十四五」规划将具身智能列为重点发展方向，多个省市出台专项扶持政策，产业链上游的传感器、电机、减速器等核心零部件国产化进程加速。</p>
-</div><div class="hl-r" style="--hl-c:#dc2626">
-  <span class="hl-bdg" style="background:#dc262622;color:#dc2626;border-color:#dc262644">🎨 多模态与AIGC</span>
-  <p class="hl-txt">多模态能力正在从实验室走向产品。CLIP 和 SAM 等视觉基础模型被广泛集成到各类应用中，从图像搜索、自动标注到医学影像分析。语音交互方面，Whisper 的本地部署方案使得语音转写不再依赖云端 API，在隐私敏感场景中具有独特价值。端侧多模态模型的出现进一步拓展了应用场景——手机拍照实时翻译、AR 眼镜的环境理解、智能家居的视觉感知，多模态 AI 正在从专业工具变为日常基础设施。</p>
-</div><div class="hl-r" style="--hl-c:#0891b2">
-  <span class="hl-bdg" style="background:#0891b222;color:#0891b2;border-color:#0891b244">💾 AI硬件与芯片</span>
-  <p class="hl-txt">AI 芯片竞争从云端延伸到端侧。NVIDIA 凭借 CUDA 生态持续主导训练市场，但推理侧格局正在变化——Groq 的 LPU 架构在推理速度上实现数量级突破，AMD 的 ROCm 生态加速追赶。中国市场方面，昇腾芯片在政企和运营商场景落地加速，已进入金融、电力等关键行业的核心业务系统。寒武纪和地平线聚焦自动驾驶和边缘计算赛道，形成差异化竞争。端侧 AI 部署成为最热新趋势：高通骁龙 8 Gen 4 和联发科天玑系列均集成专用 NPU，使得 7B 级别模型可以在手机上跑推理。</p>
-</div></div>
-</div>
-
+<div class="hdr"><div class="hdr-i"><span class="lg">AI 文章瀑布流</span><div class="hdr-m"><span class="pill">200篇</span><span>2026-04-29</span><span class="pill-up" id="upd-at"></span><button class="rf" onclick="location.reload()">刷新</button></div></div></div>
+<div class="sb collapsed" id="sb"><div class="sb-i"><span class="sb-t" id="sb-t">Hugging Face Blog 176篇 · 量子位 11篇 · ArsTechnica - AI 6篇 · Lil'Log (Lilian Weng) 4篇 · TechCrunch - AI 2篇 · MIT Technology Review - AI 1篇</span><button class="sb-tg" id="sb-tg" onclick="toggleSource()">▼</button></div></div>
+<div class="hl-s"><div class="hl-t">趋势解读 <span class="hl-tg">HIGHLIGHTS</span></div><div class="hl-g"><div class="hl-r" style="--hl-c:#7c3aed"><span class="hl-bdg" style="background:#7c3aed22;color:#7c3aed;border-color:#7c3aed44">🧠 大模型与基础架构</span><p class="hl-txt">大模型军备竞赛进入新阶段。Google 的 Gemma 系列持续开源，强化在移动端和边缘设备上的部署能力；Anthropic 的 Claude 系列以安全性和长文本理解见长，在企业级市场获得认可；OpenAI 的 GPT 系列维持技术领先但面临日益激烈的竞争。小型化高效模型（sub-10B）异军突起，在消费级 GPU 上即可达到接近旗舰模型的性能。</p></div><div class="hl-r" style="--hl-c:#d97706"><span class="hl-bdg" style="background:#d9770622;color:#d97706;border-color:#d9770644">🤯 AI Agent与智能体</span><p class="hl-txt">Agent 生态正在从单一智能体向多智能体协作演进。Multi-agent 系统在复杂任务拆解、并行执行、自主纠错等方面展现出显著优势。Dify 等平台提供了从原型到生产的完整 Agent 开发链路。AI Agent 不再是实验性概念，而是正在重塑多个行业的实际生产力工具。</p></div><div class="hl-r" style="--hl-c:#059669"><span class="hl-bdg" style="background:#05966922;color:#059669;border-color:#05966944">🤖 具身智能与机器人</span><p class="hl-txt">中国具身智能进入产品化阶段。大咖机器人全球首发吨级重载机器马，覆盖安防巡检、消防救援、工程基建等六大场景。银河通用发布 LDA 框架，提出跨本体世界动作大模型，被业界称为「具身 GPT-2 时刻」。宇树科技的四足机器人已在教育、巡检等场景批量出货。</p></div><div class="hl-r" style="--hl-c:#dc2626"><span class="hl-bdg" style="background:#dc262622;color:#dc2626;border-color:#dc262644">🎨 多模态与AIGC</span><p class="hl-txt">多模态能力正在从实验室走向产品。CLIP 和 SAM 等视觉基础模型被广泛集成到各类应用中。端侧多模态模型的出现进一步拓展了应用场景——手机拍照实时翻译、AR 眼镜的环境理解、智能家居的视觉感知。</p></div><div class="hl-r" style="--hl-c:#0891b2"><span class="hl-bdg" style="background:#0891b222;color:#0891b2;border-color:#0891b244">💾 AI硬件与芯片</span><p class="hl-txt">AI 芯片竞争从云端延伸到端侧。NVIDIA 凭借 CUDA 生态持续主导训练市场，但推理侧格局正在变化——Groq 的 LPU 架构在推理速度上实现突破，AMD 的 ROCm 生态加速追赶。端侧 AI 部署成为最热新趋势，7B 级别模型可以在手机上跑推理。</p></div></div></div>
+<div class="sr"><input class="sr-i" id="sr" type="text" placeholder="搜索文章标题或摘要..." oninput="doSearch()"></div>
 <div class="tb" id="tb"></div>
 <div class="c sec act" id="sec-all"><div class="ms" id="all-ms"></div></div>
-
-<div class="c sk">
-  <div class="sk-h">GitHub 高星 AI Skills 推荐</div>
-  <div class="sk-g"><a href="https://github.com/ollama/ollama" target="_blank" class="sk-cd">
-  <div class="sk-n">ollama/ollama</div>
-  <div class="sk-s">⭐ 170k</div>
-  <div class="sk-d">本地运行大模型，一行命令搞定</div>
-</a><a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank" class="sk-cd">
-  <div class="sk-n">Significant-Gravitas/AutoGPT</div>
-  <div class="sk-s">⭐ 183k</div>
-  <div class="sk-d">自主AI Agent先驱框架</div>
-</a><a href="https://github.com/langgenius/dify" target="_blank" class="sk-cd">
-  <div class="sk-n">langgenius/dify</div>
-  <div class="sk-s">⭐ 139k</div>
-  <div class="sk-d">生产级AI应用开发平台</div>
-</a><a href="https://github.com/huggingface/transformers" target="_blank" class="sk-cd">
-  <div class="sk-n">huggingface/transformers</div>
-  <div class="sk-s">⭐ 160k</div>
-  <div class="sk-d">模型定义与推理框架，行业标准</div>
-</a><a href="https://github.com/rasbt/LLMs-from-scratch" target="_blank" class="sk-cd">
-  <div class="sk-n">rasbt/LLMs-from-scratch</div>
-  <div class="sk-s">⭐ 91k</div>
-  <div class="sk-d">从零实现ChatGPT级LLM</div>
-</a><a href="https://github.com/OpenHands/OpenHands" target="_blank" class="sk-cd">
-  <div class="sk-n">OpenHands/OpenHands</div>
-  <div class="sk-s">⭐ 72k</div>
-  <div class="sk-d">AI驱动的代码开发助手</div>
-</a><a href="https://github.com/hiyouga/LlamaFactory" target="_blank" class="sk-cd">
-  <div class="sk-n">hiyouga/LlamaFactory</div>
-  <div class="sk-s">⭐ 70k</div>
-  <div class="sk-d">100+模型统一高效微调框架</div>
-</a><a href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" class="sk-cd">
-  <div class="sk-n">dair-ai/Prompt-Engineering-Guide</div>
-  <div class="sk-s">⭐ 73k</div>
-  <div class="sk-d">提示工程指南与资源大全</div>
-</a><a href="https://github.com/ultralytics/ultralytics" target="_blank" class="sk-cd">
-  <div class="sk-n">ultralytics/ultralytics</div>
-  <div class="sk-s">⭐ 56k</div>
-  <div class="sk-d">YOLO目标检测框架</div>
-</a><a href="https://github.com/lobehub/lobe-chat" target="_blank" class="sk-cd">
-  <div class="sk-n">lobehub/lobe-chat</div>
-  <div class="sk-s">⭐ 75k</div>
-  <div class="sk-d">现代AI对话平台，多模型支持</div>
-</a></div>
-</div>
-
+<div class="c sk"><div class="sk-h">GitHub 高星 AI 项目推荐 <span id="sk-stat" style="font-size:.65em;font-weight:400;color:var(--tm)"></span></div><div class="sk-g" id="sk-g"><a href="https://github.com/ollama/ollama" target="_blank" class="sk-cd"><div class="sk-n">ollama/ollama</div><div class="sk-s">⭐ 170k</div><div class="sk-d">本地运行大模型，一行命令搞定</div></a><a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank" class="sk-cd"><div class="sk-n">Significant-Gravitas/AutoGPT</div><div class="sk-s">⭐ 183k</div><div class="sk-d">自主AI Agent先驱框架</div></a><a href="https://github.com/langgenius/dify" target="_blank" class="sk-cd"><div class="sk-n">langgenius/dify</div><div class="sk-s">⭐ 139k</div><div class="sk-d">生产级AI应用开发平台</div></a><a href="https://github.com/huggingface/transformers" target="_blank" class="sk-cd"><div class="sk-n">huggingface/transformers</div><div class="sk-s">⭐ 160k</div><div class="sk-d">模型定义与推理框架，行业标准</div></a><a href="https://github.com/rasbt/LLMs-from-scratch" target="_blank" class="sk-cd"><div class="sk-n">rasbt/LLMs-from-scratch</div><div class="sk-s">⭐ 91k</div><div class="sk-d">从零实现ChatGPT级LLM</div></a><a href="https://github.com/OpenHands/OpenHands" target="_blank" class="sk-cd"><div class="sk-n">OpenHands/OpenHands</div><div class="sk-s">⭐ 72k</div><div class="sk-d">AI驱动的代码开发助手</div></a><a href="https://github.com/hiyouga/LlamaFactory" target="_blank" class="sk-cd"><div class="sk-n">hiyouga/LlamaFactory</div><div class="sk-s">⭐ 70k</div><div class="sk-d">100+模型统一高效微调框架</div></a><a href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" class="sk-cd"><div class="sk-n">dair-ai/Prompt-Engineering-Guide</div><div class="sk-s">⭐ 73k</div><div class="sk-d">提示工程指南与资源大全</div></a><a href="https://github.com/ultralytics/ultralytics" target="_blank" class="sk-cd"><div class="sk-n">ultralytics/ultralytics</div><div class="sk-s">⭐ 56k</div><div class="sk-d">YOLO目标检测框架</div></a><a href="https://github.com/lobehub/lobe-chat" target="_blank" class="sk-cd"><div class="sk-n">lobehub/lobe-chat</div><div class="sk-s">⭐ 75k</div><div class="sk-d">现代AI对话平台，多模型支持</div></a></div></div>
 <div class="ft">每日自动更新 · 数据来源: RSS 聚合 · Stitch Design System</div>
-
 <script src="data.js"></script>
 <script>
-(function() {
-  const D = APP_DATA;
-  function render() {
-    // Tabs
-    let tb = '<button class="tb-it act" data-cat="all" style="--ac:#6366f1" onclick="switchTab(\'all\')">全部 <small>('+D.total+')</small></button>';
-    D.tabs.forEach(function(t) {
-      tb += '<button class="tb-it" data-cat="'+t.name+'" style="--ac:'+t.color+'" onclick="switchTab(\''+t.name+'\')">'+t.icon+' '+t.name+' <small>('+t.count+')</small></button>';
-    });
-    document.getElementById('tb').innerHTML = tb;
+(function(){
+var D=APP_DATA;
 
-    // All section
-    var allHtml = '';
-    D.sections.forEach(function(s) {
-      s.cards.forEach(function(c) {
-        allHtml += '<div class="cd" onclick="window.open(\''+c.url+'\',\'_blank\')"><div class="cd-b"><h3 class="cd-t">'+c.title+'</h3><p class="cd-sm">'+c.summary+'</p></div><div class="cd-f"><span class="bdg" style="--c:#475569">'+c.source+'</span><span class="dt">'+c.date+'</span></div></div>';
-      });
-    });
-    document.getElementById('all-ms').innerHTML = allHtml;
+(function(){
+var el=document.getElementById('upd-at');
+var now=new Date();
+var diff=Math.floor((now-new Date(D.today+'T12:00:00'))/60000);
+if(diff<1) el.textContent='刚刚更新';
+else if(diff<60) el.textContent=diff+'分钟前更新';
+else if(diff<1440) el.textContent=Math.floor(diff/60)+'小时前更新';
+else el.textContent=Math.floor(diff/1440)+'天前更新';
+})();
 
-    // Per-category sections (hidden initially)
-    D.sections.forEach(function(s) {
-      var sec = document.createElement('div');
-      sec.className = 'sec';
-      sec.id = 'sec-'+s.name;
-      var ms = document.createElement('div');
-      ms.className = 'ms';
-      s.cards.forEach(function(c) {
-        var cd = document.createElement('div');
-        cd.className = 'cd';
-        cd.onclick = function() { window.open(c.url,'_blank'); };
-        cd.innerHTML = '<div class="cd-b"><h3 class="cd-t">'+c.title+'</h3><p class="cd-sm">'+c.summary+'</p></div><div class="cd-f"><span class="bdg" style="--c:#475569">'+c.source+'</span><span class="dt">'+c.date+'</span></div>';
-        ms.appendChild(cd);
-      });
-      sec.appendChild(ms);
-      document.querySelector('.c').after(sec);
-    });
-  }
+window.toggleSource=function(){
+var sb=document.getElementById('sb');
+var tg=document.getElementById('sb-tg');
+sb.classList.toggle('collapsed');
+sb.classList.toggle('expanded');
+tg.classList.toggle('open');
+};
 
-  window.switchTab = function(name) {
-    document.querySelectorAll('.tb-it').forEach(function(b) { b.classList.remove('act'); });
-    var el = document.querySelector('.tb-it[data-cat="'+name+'"]');
-    if (el) el.classList.add('act');
-    document.querySelectorAll('.sec').forEach(function(s) { s.classList.remove('act'); });
-    if (name === 'all') {
-      document.getElementById('sec-all').classList.add('act');
-    } else {
-      var sec = document.getElementById('sec-'+name);
-      if (sec) sec.classList.add('act');
-    }
-  };
+var SK='ai_n_st',RK='ai_n_rd';
+function gs(){try{return JSON.parse(localStorage.getItem(SK)||'{}')}catch(e){return{}}}
+function ss(s){localStorage.setItem(SK,JSON.stringify(s))}
+function gr(){try{return JSON.parse(localStorage.getItem(RK)||'{}')}catch(e){return{}}}
+function sr(r){localStorage.setItem(RK,JSON.stringify(r))}
+function ts(url){
+var s=gs();if(s[url])delete s[url];else s[url]=1;ss(s);render();
+}
+function mr(url){
+var r=gr();if(!r[url]){r[url]=1;sr(r);
+document.querySelectorAll('.cd[data-url="'+url+'"]').forEach(function(el){el.classList.add('read')});
+}}
 
-  render();
+var authMap={
+"Hugging Face Blog":{lb:"🔵 专业",cl:"#3b82f6"},
+"Lil'Log (Lilian Weng)":{lb:"🔵 专业",cl:"#3b82f6"},
+"Simon Willison's Blog":{lb:"🔵 专业",cl:"#3b82f6"},
+"MIT Technology Review - AI":{lb:"🟢 媒体",cl:"#10b981"},
+"TechCrunch - AI":{lb:"🟢 媒体",cl:"#10b981"},
+"ArsTechnica - AI":{lb:"🟢 媒体",cl:"#10b981"},
+"量子位":{lb:"🟡 中文",cl:"#eab308"}
+};
+
+var dmap={};
+D.sections.forEach(function(s){s.cards.forEach(function(c){dmap[c.url]=fd(c.date)})});
+
+function fd(ds){
+if(!ds)return'';
+ds=ds.trim();
+var ms=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+if(ds.length>=10&&ds[4]==='-'){var p=ds.slice(0,10).split('-');return parseInt(p[1])+'月'+parseInt(p[2])+'日';}
+for(var i=0;i<ms.length;i++){var idx=ds.indexOf(ms[i]);if(idx>=0){var b=ds.slice(0,idx).trim();if(b.endsWith(','))b=b.slice(0,-1).trim();var d=b.match(/\d+/);return (i+1)+'月'+(d?parseInt(d[0])+'日':'');}}
+return ds.slice(0,10);
+}
+
+function bc(c,q){
+if(!q)return 1;
+q=q.toLowerCase();
+return c.title.toLowerCase().indexOf(q)>=0||c.summary.toLowerCase().indexOf(q)>=0;
+}
+
+function render(){
+var q=(document.getElementById('sr')?document.getElementById('sr').value:'').trim();
+var stars=gs(),rd=gr();
+D.sections.forEach(function(s){s._v=s.cards.filter(function(c){return bc(c,q)})});
+var tw=0;D.sections.forEach(function(s){tw+=s._v.length});
+
+var tb='<button class="tb-it act" data-cat="all" style="--ac:#6366f1" onclick=\'switchTab("all")\'>全部 <small>('+tw+')</small></button>';
+var su=Object.keys(stars);
+if(su.length){tb+='<button class="tb-it" data-cat="__s__" style="--ac:#f59e0b" onclick=\'switchTab("__s__")\'>⭐ 星标 <small>('+su.length+')</small></button>';}
+D.tabs.forEach(function(t){
+var s=D.sections.find(function(s){return s.name===t.name});
+if(s._v.length>0||!q){tb+='<button class="tb-it" data-cat="'+t.name+'" style="--ac:'+t.color+'" onclick=\'switchTab("'+t.name.replace(/'/g,'\'')+'")\'>'+t.icon+' '+t.name+' <small>('+s._v.length+')</small></button>';}
+});
+document.getElementById('tb').innerHTML=tb;
+
+function mk(c,st){
+var isr=rd[c.url]?1:0;
+var sc=st?'starred':'';
+var rc=isr?'read':'';
+var au=authMap[c.source]||0;
+var ah=au?'<span class="au-lb"><span class="au-dot" style="background:'+au.cl+'"></span>'+au.lb+'</span>':'';
+var du=dmap[c.url]||c.date;
+var mc='mr("'+c.url.replace(/"/g,'&quot;')+'")';
+return '<div class="cd '+rc+'" data-url="'+c.url+'" onclick="'+mc+';window.open(\''+c.url+'\',\'_blank\')"><div class="cd-b"><h3 class="cd-t">'+c.title+'</h3><p class="cd-sm">'+c.summary+'</p></div><div class="cd-f"><button class="st-btn '+sc+'" onclick=\'event.stopPropagation();ts("'+c.url.replace(/"/g,'&quot;')+'")\' title="星标"><span class="st-o">☆</span><span class="st-f">⭐</span></button>'+ah+'<span class="bdg" style="--c:#475569">'+c.source+'</span><span class="dt">'+du+'</span></div><span class="cd-ar">›</span></div>';
+}
+
+var ah='';D.sections.forEach(function(s){s._v.forEach(function(c){ah+=mk(c,stars[c.url]?1:0)})});
+document.getElementById('all-ms').innerHTML=ah||'<div class="empty">没有匹配的文章</div>';
+
+document.querySelectorAll('.sec:not(#sec-all)').forEach(function(e){e.remove()});
+D.sections.forEach(function(s){
+if(s._v.length===0&&q)return;
+var sec=document.createElement('div');sec.className='sec';sec.id='sec-'+s.name;
+var ul=s._v.length<=8;
+var ms=document.createElement('div');ms.className=ul?'ls':'ms';
+s._v.forEach(function(c){ms.innerHTML+=mk(c,stars[c.url]?1:0)});
+sec.appendChild(ms);document.querySelector('.c').after(sec);
+});
+document.querySelectorAll('.cd[data-url]').forEach(function(el){
+var u=el.getAttribute('data-url');if(rd[u])el.classList.add('read');
+if(stars[u]){var b=el.querySelector('.st-btn');if(b)b.classList.add('starred');}
+});
+}
+
+window.doSearch=function(){render()};
+
+window.switchTab=function(name){
+document.querySelectorAll('.tb-it').forEach(function(b){b.classList.remove('act')});
+var el=document.querySelector('.tb-it[data-cat="'+name+'"]');if(el)el.classList.add('act');
+document.querySelectorAll('.sec').forEach(function(s){s.classList.remove('act')});
+if(name==='all'){document.getElementById('sec-all').classList.add('act');}
+else if(name==='__s__'){showStarred();}
+else{var sec=document.getElementById('sec-'+name);if(sec)sec.classList.add('act');}
+};
+
+window.showStarred=function(){
+document.querySelectorAll('.sec:not(#sec-all)').forEach(function(e){e.style.display='none'});
+var o=document.getElementById('sec-__s__');if(o)o.remove();
+var stars=gs(),su=Object.keys(stars);
+if(!su.length){document.getElementById('sec-all').classList.add('act');return;}
+var sec=document.createElement('div');sec.className='sec act';sec.id='sec-__s__';
+var ms=document.createElement('div');ms.className='ms';
+D.sections.forEach(function(s){s.cards.forEach(function(c){
+if(!stars[c.url])return;
+var cd=document.createElement('div');cd.className='cd';cd.setAttribute('data-url',c.url);
+var mc='mr("'+c.url.replace(/"/g,'&quot;')+'")';
+cd.onclick=function(){mr(c.url);window.open(c.url,'_blank')};
+var h='<div class="cd-b"><h3 class="cd-t">'+c.title+'</h3><p class="cd-sm">'+c.summary+'</p></div><div class="cd-f"><button class="st-btn starred" onclick=\'event.stopPropagation();ts("'+c.url.replace(/"/g,'&quot;')+'")\' title="取消星标"><span class="st-o">☆</span><span class="st-f">⭐</span></button><span class="bdg" style="--c:#475569">'+c.source+'</span><span class="dt">'+c.date+'</span></div><span class="cd-ar">›</span>';
+cd.innerHTML=h;ms.appendChild(cd);
+});
+});
+sec.appendChild(ms);document.querySelector('.c').after(sec);
+};
+
+(function(){
+var skG=document.getElementById('sk-g'),skStat=document.getElementById('sk-stat');
+skStat.textContent='加载中...';
+fetch('https://api.github.com/search/repositories?q=ai+ml+llm&sort=stars&order=desc&per_page=10',{headers:{'Accept':'application/vnd.github.v3+json'}})
+.then(function(r){return r.json()})
+.then(function(d){
+if(!d||!d.items||!d.items.length)throw Error('no data');
+skG.innerHTML='';
+d.items.slice(0,10).forEach(function(r){
+var s=r.stargazers_count>=1000?(r.stargazers_count/1000).toFixed(1)+'k':r.stargazers_count;
+var d=r.description?r.description.slice(0,80):'';
+skG.innerHTML+='<a href="'+r.html_url+'" target="_blank" class="sk-cd"><div class="sk-n">'+r.full_name+'</div><div class="sk-s">⭐ '+s+'</div><div class="sk-d">'+d+'</div></a>';
+});
+skStat.textContent='GitHub API';
+})
+.catch(function(){skStat.textContent='离线模式';});
+})();
+
+render();
 })();
 </script>
 </body>
