@@ -19,11 +19,11 @@
             position: sticky;
             top: 0;
             z-index: 100;
-            background: rgba(255,255,255,0.85);
+            background: rgba(255,255,255,0.88);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid rgba(0,0,0,0.06);
-            padding: 16px 24px;
+            padding: 14px 24px;
         }
 
         .header-inner {
@@ -35,7 +35,7 @@
         }
 
         .header h1 {
-            font-size: 1.2em;
+            font-size: 1.15em;
             font-weight: 700;
             background: linear-gradient(135deg, #007aff, #5856d6);
             -webkit-background-clip: text;
@@ -48,7 +48,7 @@
             color: #86868b;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
         }
 
         .header-meta .count {
@@ -63,44 +63,14 @@
         .sources-bar {
             background: #fff;
             border-bottom: 1px solid #e5e5ea;
-            padding: 10px 24px;
+            padding: 8px 24px;
             display: flex;
             gap: 6px;
             flex-wrap: wrap;
             align-items: center;
-            font-size: 0.8em;
+            font-size: 0.78em;
             color: #86868b;
         }
-
-        .sources-bar .src-dot {
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            display: inline-block;
-            margin-right: 2px;
-        }
-
-        .tab-bar {
-            display: flex;
-            gap: 0;
-            background: #fff;
-            border-bottom: 1px solid #e5e5ea;
-            padding: 0 24px;
-        }
-
-        .tab {
-            padding: 10px 20px;
-            font-size: 0.85em;
-            font-weight: 500;
-            color: #86868b;
-            cursor: pointer;
-            border-bottom: 2px solid transparent;
-            transition: all 0.2s;
-            user-select: none;
-        }
-
-        .tab:hover { color: #1d1d1f; }
-        .tab.active { color: #007aff; border-bottom-color: #007aff; }
 
         .container {
             max-width: 1400px;
@@ -108,6 +78,40 @@
             padding: 16px;
         }
 
+        /* ===== 分类区头 ===== */
+        .category-section {
+            margin-bottom: 28px;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0 4px 10px;
+            border-bottom: 1px solid #e5e5ea;
+            margin-bottom: 12px;
+        }
+
+        .category-icon {
+            font-size: 1.3em;
+        }
+
+        .category-name {
+            font-size: 1em;
+            font-weight: 700;
+            color: #1d1d1f;
+        }
+
+        .category-count {
+            font-size: 0.75em;
+            color: #86868b;
+            background: #f1f5f9;
+            padding: 1px 8px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        /* ===== 瀑布流 ===== */
         .masonry {
             columns: 4;
             column-gap: 12px;
@@ -147,21 +151,21 @@
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
 
         .card-summary {
-            font-size: 0.78em;
-            color: #86868b;
-            line-height: 1.5;
+            font-size: 0.8em;
+            color: #636366;
+            line-height: 1.55;
             display: -webkit-box;
-            -webkit-line-clamp: 2;
+            -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
 
         .card-footer {
-            padding: 8px 16px 12px;
+            padding: 6px 16px 12px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -183,11 +187,63 @@
             color: #aeaeb2;
         }
 
-        .section-title {
-            font-size: 1.1em;
-            font-weight: 700;
-            padding: 8px 0 4px;
-            color: #1d1d1f;
+        /* ===== GitHub Skills 板块 ===== */
+        .skills-section {
+            margin-bottom: 28px;
+        }
+
+        .skills-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0 4px 10px;
+            border-bottom: 1px solid #e5e5ea;
+            margin-bottom: 12px;
+        }
+
+        .skills-header .icon { font-size: 1.3em; }
+        .skills-header .name { font-size: 1em; font-weight: 700; color: #1d1d1f; }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 10px;
+        }
+
+        .skill-card {
+            display: block;
+            background: #fff;
+            border-radius: 12px;
+            padding: 14px 16px;
+            text-decoration: none;
+            border: 1px solid rgba(0,0,0,0.04);
+            transition: transform 0.15s, box-shadow 0.15s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+
+        .skill-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+
+        .skill-name {
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #007aff;
+            margin-bottom: 3px;
+            font-family: "SF Mono", "Fira Code", "Fira Mono", monospace;
+        }
+
+        .skill-stars {
+            font-size: 0.75em;
+            color: #e6a817;
+            margin-bottom: 4px;
+        }
+
+        .skill-desc {
+            font-size: 0.78em;
+            color: #636366;
+            line-height: 1.45;
         }
 
         .refresh-btn {
@@ -201,18 +257,22 @@
         }
         .refresh-btn:hover { background: #e8e8ed; }
 
+        /* ===== 深色模式 ===== */
         @media (prefers-color-scheme: dark) {
             body { background: #000; color: #f5f5f7; }
-            .header { background: rgba(0,0,0,0.85); border-bottom-color: rgba(255,255,255,0.06); }
+            .header { background: rgba(0,0,0,0.88); border-bottom-color: rgba(255,255,255,0.06); }
             .sources-bar { background: #1c1c1e; border-bottom-color: #2c2c2e; color: #98989d; }
-            .tab-bar { background: #1c1c1e; border-bottom-color: #2c2c2e; }
-            .tab { color: #98989d; }
-            .tab:hover { color: #f5f5f7; }
-            .tab.active { color: #0a84ff; border-bottom-color: #0a84ff; }
             .card { background: #1c1c1e; border-color: rgba(255,255,255,0.06); }
             .card-title { color: #f5f5f7; }
             .card-summary { color: #98989d; }
             .date { color: #636366; }
+            .category-header { border-bottom-color: #2c2c2e; }
+            .category-name { color: #f5f5f7; }
+            .category-count { background: #2c2c2e; color: #98989d; }
+            .skills-header .name { color: #f5f5f7; }
+            .skills-header { border-bottom-color: #2c2c2e; }
+            .skill-card { background: #1c1c1e; border-color: rgba(255,255,255,0.06); }
+            .skill-desc { color: #98989d; }
             .refresh-btn { background: #2c2c2e; border-color: #3a3a3c; color: #f5f5f7; }
             .refresh-btn:hover { background: #3a3a3c; }
             .header-meta .count { background: #0a84ff20; color: #0a84ff; }
@@ -224,7 +284,7 @@
         <div class="header-inner">
             <h1>🤖 AI 文章瀑布流</h1>
             <div class="header-meta">
-                <span class="count">10 篇</span>
+                <span class="count">0 篇</span>
                 <span>2026-04-29</span>
                 <button class="refresh-btn" onclick="location.reload()">🔄 刷新</button>
             </div>
@@ -232,259 +292,70 @@
     </div>
 
     <div class="sources-bar">
-        📡 量子位 10篇
-    </div>
-
-    <div class="tab-bar" id="tabBar">
-        <div class="tab active" onclick="switchTab('all')">全部</div>
-        <div class="tab" onclick="switchTab('zh')">🇨🇳 中文</div>
-        <div class="tab" onclick="switchTab('en')">🌐 English</div>
+        📡 
     </div>
 
     <div class="container">
-        <div id="section-all" class="section">
-            <div class="masonry">
-                
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410937.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">不卷参数卷架构，这个开源模型把图像理解和生成统一了</h3>
-            <p class="card-summary">全网开源，即刻可用...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
+        
 
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410791.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">10万引普林斯顿刘壮最新访谈：架构没那么重要，数据才是王道</h3>
-            <p class="card-summary">记忆才是AI最大瓶颈，智能体只是权宜之计...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410738.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">百度GenFlow 4.0发布，Office三件套全包了，还能养「牛马虾」</h3>
-            <p class="card-summary">十分钟干完一周活...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410772.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">刚刚，“云计算一哥”版龙虾发布，奥特曼打着官司也要云站台</h3>
-            <p class="card-summary">GPT-5.5马上也能用了...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410732.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">吨级重载新纪元开启｜大咖机器人全球首发“吨级重载机器马”</h3>
-            <p class="card-summary">覆盖安防巡检、消防救援、工程基建、智能物流、民生养老、个人出行等六大核心场景...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410653.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">银河通用LDA定义全域数据利用范式，跨本体世界动作大模型开启具身GPT-2时刻</h3>
-            <p class="card-summary">开启具身规模化时代...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410519.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、浏览器真能冲浪</h3>
-            <p class="card-summary">百万亿token免费发放，新兴Agent框架免费接入...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410506.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">消费级显卡可以快速上手跑！面壁智能MiniCPM-o 4.5发技术报告</h3>
-            <p class="card-summary">下载量突破25万...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Tue, 28 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410463.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">我嘞个豆！中国企业牵头，ICLR这场Workshop被挤爆了</h3>
-            <p class="card-summary">《近似算法》作者都来了...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Tue, 28 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410450.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">支付宝正式发布“支付宝AI收”，个人开发者0费率使用</h3>
-            <p class="card-summary">助力更多企业与个人低门槛迈入AI时代...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Tue, 28 Ap</span>
-        </div>
-    </div>
-                
+        <div class="skills-section">
+            <div class="skills-header">
+                <span class="icon">⭐</span>
+                <span class="name">GitHub 高星 AI Skills 推荐</span>
             </div>
-        </div>
-        <div id="section-zh" class="section" style="display:none">
-            <div class="masonry">
-                
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410937.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">不卷参数卷架构，这个开源模型把图像理解和生成统一了</h3>
-            <p class="card-summary">全网开源，即刻可用...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410791.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">10万引普林斯顿刘壮最新访谈：架构没那么重要，数据才是王道</h3>
-            <p class="card-summary">记忆才是AI最大瓶颈，智能体只是权宜之计...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410738.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">百度GenFlow 4.0发布，Office三件套全包了，还能养「牛马虾」</h3>
-            <p class="card-summary">十分钟干完一周活...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410772.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">刚刚，“云计算一哥”版龙虾发布，奥特曼打着官司也要云站台</h3>
-            <p class="card-summary">GPT-5.5马上也能用了...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410732.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">吨级重载新纪元开启｜大咖机器人全球首发“吨级重载机器马”</h3>
-            <p class="card-summary">覆盖安防巡检、消防救援、工程基建、智能物流、民生养老、个人出行等六大核心场景...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410653.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">银河通用LDA定义全域数据利用范式，跨本体世界动作大模型开启具身GPT-2时刻</h3>
-            <p class="card-summary">开启具身规模化时代...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410519.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、浏览器真能冲浪</h3>
-            <p class="card-summary">百万亿token免费发放，新兴Agent框架免费接入...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Wed, 29 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410506.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">消费级显卡可以快速上手跑！面壁智能MiniCPM-o 4.5发技术报告</h3>
-            <p class="card-summary">下载量突破25万...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Tue, 28 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410463.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">我嘞个豆！中国企业牵头，ICLR这场Workshop被挤爆了</h3>
-            <p class="card-summary">《近似算法》作者都来了...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Tue, 28 Ap</span>
-        </div>
-    </div>
-
-    <div class="card" onclick="window.open('https://www.qbitai.com/2026/04/410450.html','_blank')">
-        <div class="card-body">
-            <h3 class="card-title">支付宝正式发布“支付宝AI收”，个人开发者0费率使用</h3>
-            <p class="card-summary">助力更多企业与个人低门槛迈入AI时代...</p>
-        </div>
-        <div class="card-footer">
-            <span class="badge" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">量子位</span>
-            <span class="date">Tue, 28 Ap</span>
-        </div>
-    </div>
-            </div>
-        </div>
-        <div id="section-en" class="section" style="display:none">
-            <div class="masonry">
-                <div style="color:#86868b;padding:40px;text-align:center;">No English articles today</div>
+            <div class="skills-grid">
+                    <a href="https://github.com/ollama/ollama" target="_blank" class="skill-card">
+        <div class="skill-name">ollama/ollama</div>
+        <div class="skill-stars">⭐ 170k</div>
+        <div class="skill-desc">本地运行大模型，一行命令搞定</div>
+    </a>
+    <a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank" class="skill-card">
+        <div class="skill-name">Significant-Gravitas/AutoGPT</div>
+        <div class="skill-stars">⭐ 184k</div>
+        <div class="skill-desc">自主AI Agent先驱框架</div>
+    </a>
+    <a href="https://github.com/langgenius/dify" target="_blank" class="skill-card">
+        <div class="skill-name">langgenius/dify</div>
+        <div class="skill-stars">⭐ 140k</div>
+        <div class="skill-desc">生产级AI应用开发平台</div>
+    </a>
+    <a href="https://github.com/huggingface/transformers" target="_blank" class="skill-card">
+        <div class="skill-name">huggingface/transformers</div>
+        <div class="skill-stars">⭐ 160k</div>
+        <div class="skill-desc">🤗 模型定义与推理框架</div>
+    </a>
+    <a href="https://github.com/rasbt/LLMs-from-scratch" target="_blank" class="skill-card">
+        <div class="skill-name">rasbt/LLMs-from-scratch</div>
+        <div class="skill-stars">⭐ 92k</div>
+        <div class="skill-desc">从零实现ChatGPT级LLM</div>
+    </a>
+    <a href="https://github.com/OpenHands/OpenHands" target="_blank" class="skill-card">
+        <div class="skill-name">OpenHands/OpenHands</div>
+        <div class="skill-stars">⭐ 72k</div>
+        <div class="skill-desc">AI驱动的代码开发助手</div>
+    </a>
+    <a href="https://github.com/hiyouga/LlamaFactory" target="_blank" class="skill-card">
+        <div class="skill-name">hiyouga/LlamaFactory</div>
+        <div class="skill-stars">⭐ 71k</div>
+        <div class="skill-desc">100+模型统一高效微调框架</div>
+    </a>
+    <a href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" class="skill-card">
+        <div class="skill-name">dair-ai/Prompt-Engineering-Guide</div>
+        <div class="skill-stars">⭐ 74k</div>
+        <div class="skill-desc">提示工程指南、论文与资源</div>
+    </a>
+    <a href="https://github.com/ultralytics/ultralytics" target="_blank" class="skill-card">
+        <div class="skill-name">ultralytics/ultralytics</div>
+        <div class="skill-stars">⭐ 57k</div>
+        <div class="skill-desc">YOLO目标检测与训练框架</div>
+    </a>
+    <a href="https://github.com/lobehub/lobe-chat" target="_blank" class="skill-card">
+        <div class="skill-name">lobehub/lobe-chat</div>
+        <div class="skill-stars">⭐ 76k</div>
+        <div class="skill-desc">现代AI对话平台，支持多模型</div>
+    </a>
             </div>
         </div>
     </div>
-
-    <script>
-        function switchTab(name) {
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('.section').forEach(s => s.style.display = 'none');
-            event.target.classList.add('active');
-            document.getElementById('section-' + name).style.display = '';
-        }
-    </script>
 </body>
 </html>
