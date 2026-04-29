@@ -26,14 +26,11 @@ body {font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoo
 .hl-s {max-width:1400px;margin:16px auto 0;padding:0 16px}
 .hl-t {font-size:.95em;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:6px}
 .hl-tg {font-size:.65em;font-weight:600;background:#6366f115;color:#6366f1;padding:1px 7px;border-radius:6px;letter-spacing:.5px}
-.hl-g {display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:10px}
-.hl-cd {background:var(--s);border-radius:12px;padding:18px;border:1px solid var(--bd);transition:.25s cubic-bezier(.16,1,.3,1)}
-.hl-cd:hover {transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,0,0,.06)}
-.hl-h {display:flex;align-items:center;gap:6px;margin-bottom:10px}
-.hl-i {font-size:1em}
-.hl-l {font-size:.78em;font-weight:600}
-.hl-n {font-size:.68em;color:var(--tm);background:var(--b);padding:1px 7px;border-radius:6px;margin-left:auto}
-.hl-b p {font-size:.82em;line-height:1.75;color:var(--ts)}
+.hl-g {display:flex;flex-direction:column;gap:10px}
+.hl-r {display:flex;align-items:flex-start;gap:12px;padding:12px 14px;background:var(--s);border-radius:10px;border:1px solid var(--bd);transition:.2s}
+.hl-r:hover {background:var(--sh)}
+.hl-bdg {flex-shrink:0;font-size:.72em;font-weight:600;padding:2px 10px;border-radius:6px;border:1px solid;white-space:nowrap;margin-top:1px}
+.hl-txt {font-size:.82em;line-height:1.65;color:var(--ts);flex:1}
 
 .tb {margin:16px auto 0;max-width:1400px;padding:0 16px;display:flex;gap:4px;flex-wrap:wrap;overflow-x:auto;scrollbar-width:none}
 .tb::-webkit-scrollbar {display:none}
@@ -84,21 +81,21 @@ body {font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoo
 
 <div class="hl-s">
   <div class="hl-t">趋势解读 <span class="hl-tg">HIGHLIGHTS</span></div>
-  <div class="hl-g"><div class="hl-cd" style="--a:#7c3aed">
-  <div class="hl-h"><span class="hl-i">🧠</span><span class="hl-l">大模型与基础架构</span><span class="hl-n">48篇</span></div>
-  <div class="hl-b"><p>Transformer 架构之外，新架构探索方兴未艾。状态空间模型（Mamba）、线性注意力机制等创新尝试不断涌现，试图突破传统 Transformer 在长序列推理上的二次方复杂度瓶颈。但正如刘壮所言，数据质量和训练策略对模型性能的影响可能远大于架构选择，行业正在重新审视「规模定律」的边界条件。</p></div>
-</div><div class="hl-cd" style="--a:#d97706">
-  <div class="hl-h"><span class="hl-i">🤯</span><span class="hl-l">AI Agent与智能体</span><span class="hl-n">8篇</span></div>
-  <div class="hl-b"><p>Agent 生态正在从单一智能体向多智能体协作演进。Multi-agent 系统在复杂任务拆解、并行执行、自主纠错等方面展现出显著优势。企业级应用场景中，Dify 等平台提供了从原型到生产的完整 Agent 开发链路，将对话机器人升级为具备工具使用、信息检索、自主决策能力的智能助理。AI Agent 不再是实验性概念，而是正在重塑软件开发、客户服务、数据分析等多个行业的实际生产力工具。</p></div>
-</div><div class="hl-cd" style="--a:#059669">
-  <div class="hl-h"><span class="hl-i">🤖</span><span class="hl-l">具身智能与机器人</span><span class="hl-n">5篇</span></div>
-  <div class="hl-b"><p>中国具身智能进入产品化阶段。大咖机器人全球首发吨级重载机器马，覆盖安防巡检、消防救援、工程基建等六大场景，标志着机器人从「演示」到「干活」的关键跨越。银河通用发布 LDA（Large Data Assimilation）框架，提出跨本体世界动作大模型，被业界称为「具身 GPT-2 时刻」——意味着机器人不再需要为每个硬件平台单独训练模型，一次训练通用迁移。宇树科技的四足机器人已在教育、巡检等场景批量出货，Figure AI 的人形机器人进入工厂实测。具身智能的落地路径正在变得清晰：从单一场景验证，到跨场景泛化，最终走向通用操作能力。</p></div>
-</div><div class="hl-cd" style="--a:#dc2626">
-  <div class="hl-h"><span class="hl-i">🎨</span><span class="hl-l">多模态与AIGC</span><span class="hl-n">21篇</span></div>
-  <div class="hl-b"><p>统一架构革命正在改变多模态 AI 的游戏规则。过去图像理解与图像生成由不同的模型架构完成——CLIP 做理解、扩散模型做生成——但新一代 VLM（视觉语言模型）正在将两者合二为一。VQ-Diffusion 等技术的持续迭代使得一个模型可以同时完成图像描述、视觉问答、图像生成等任务。视频生成领域，Sora 的突破性进展推动了大量替代方案涌现，开源社区出现了多个高质量的 text-to-video 模型。音频侧，AudioLDM 2 在推理速度上实现突破，消费级 GPU 即可实时完成语音合成和音乐生成。</p></div>
-</div><div class="hl-cd" style="--a:#0891b2">
-  <div class="hl-h"><span class="hl-i">💾</span><span class="hl-l">AI硬件与芯片</span><span class="hl-n">13篇</span></div>
-  <div class="hl-b"><p>AI 芯片竞争的核心战场正在从算力峰值转向能效比和生态兼容性。CUDA 的护城河虽然深厚，但 OpenAI 的 Triton、Google 的 XLA 等编译器层面的抽象正在削弱底层硬件的锁定效应。长期来看，AI 芯片市场将从「一家独大」走向「多极共存」：NVIDIA 主导训练，云端推理群雄逐鹿（AMD、Groq、Cerebras），端侧推理百花齐放（高通、联发科、苹果）。</p></div>
+  <div class="hl-g"><div class="hl-r" style="--hl-c:#7c3aed">
+  <span class="hl-bdg" style="background:#7c3aed22;color:#7c3aed;border-color:#7c3aed44">🧠 大模型与基础架构</span>
+  <p class="hl-txt">Transformer 架构之外，新架构探索方兴未艾。状态空间模型（Mamba）、线性注意力机制等创新尝试不断涌现，试图突破传统 Transformer 在长序列推理上的二次方复杂度瓶颈。但正如刘壮所言，数据质量和训练策略对模型性能的影响可能远大于架构选择，行业正在重新审视「规模定律」的边界条件。</p>
+</div><div class="hl-r" style="--hl-c:#d97706">
+  <span class="hl-bdg" style="background:#d9770622;color:#d97706;border-color:#d9770644">🤯 AI Agent与智能体</span>
+  <p class="hl-txt">AI Agent 正从实验走向生产级部署。MCP（Model Context Protocol）和 A2A（Agent-to-Agent）两大协议标准的推进，正在为智能体互操作性铺平道路。在软件开发领域，以 OpenHands、Cursor 和 Claude Code 为代表的 AI Coding Agent 已经嵌入真实开发流程，从辅助工具升级为核心生产力。与此同时，AutoGPT 等通用自主 Agent 框架持续迭代，长时任务执行和多工具编排能力显著提升。百度 GenFlow 4.0 更将 Agent 能力扩展到 Office 三件套——文档生成、表格分析和幻灯片制作全自动化，实现「十分钟干完一周活」。</p>
+</div><div class="hl-r" style="--hl-c:#059669">
+  <span class="hl-bdg" style="background:#05966922;color:#059669;border-color:#05966944">🤖 具身智能与机器人</span>
+  <p class="hl-txt">具身智能的技术栈正在快速收敛。感知层面，多模态融合（视觉+触觉+力觉）成为标配；决策层面，基于大模型的技能学习替代传统的强化学习手工设计奖励函数；执行层面，灵巧手和力矩传感的成熟使精细操作成为可能。政策层面，中国「十四五」规划将具身智能列为重点发展方向，多个省市出台专项扶持政策，产业链上游的传感器、电机、减速器等核心零部件国产化进程加速。</p>
+</div><div class="hl-r" style="--hl-c:#dc2626">
+  <span class="hl-bdg" style="background:#dc262622;color:#dc2626;border-color:#dc262644">🎨 多模态与AIGC</span>
+  <p class="hl-txt">多模态能力正在从实验室走向产品。CLIP 和 SAM 等视觉基础模型被广泛集成到各类应用中，从图像搜索、自动标注到医学影像分析。语音交互方面，Whisper 的本地部署方案使得语音转写不再依赖云端 API，在隐私敏感场景中具有独特价值。端侧多模态模型的出现进一步拓展了应用场景——手机拍照实时翻译、AR 眼镜的环境理解、智能家居的视觉感知，多模态 AI 正在从专业工具变为日常基础设施。</p>
+</div><div class="hl-r" style="--hl-c:#0891b2">
+  <span class="hl-bdg" style="background:#0891b222;color:#0891b2;border-color:#0891b244">💾 AI硬件与芯片</span>
+  <p class="hl-txt">AI 芯片竞争从云端延伸到端侧。NVIDIA 凭借 CUDA 生态持续主导训练市场，但推理侧格局正在变化——Groq 的 LPU 架构在推理速度上实现数量级突破，AMD 的 ROCm 生态加速追赶。中国市场方面，昇腾芯片在政企和运营商场景落地加速，已进入金融、电力等关键行业的核心业务系统。寒武纪和地平线聚焦自动驾驶和边缘计算赛道，形成差异化竞争。端侧 AI 部署成为最热新趋势：高通骁龙 8 Gen 4 和联发科天玑系列均集成专用 NPU，使得 7B 级别模型可以在手机上跑推理。</p>
 </div></div>
 </div>
 
