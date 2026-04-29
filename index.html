@@ -86,16 +86,16 @@ body {font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoo
   <div class="hl-t">趋势解读 <span class="hl-tg">HIGHLIGHTS</span></div>
   <div class="hl-g"><div class="hl-cd" style="--a:#7c3aed">
   <div class="hl-h"><span class="hl-i">🧠</span><span class="hl-l">大模型与基础架构</span><span class="hl-n">47篇</span></div>
-  <div class="hl-b"><p>大模型军备竞赛进入新阶段。Google 的 Gemma 系列持续开源，强化在移动端和边缘设备上的部署能力；Anthropic 的 Claude 系列以安全性和长文本理解见长，在企业级市场获得认可；OpenAI 的 GPT 系列维持技术领先但面临日益激烈的竞争。一个显著趋势是：小型化高效模型（sub-10B）异军突起，在消费级 GPU 上即可达到接近旗舰模型的性能，大幅降低了 AI 应用的门槛和成本。</p></div>
+  <div class="hl-b"><p>Transformer 架构之外，新架构探索方兴未艾。状态空间模型（Mamba）、线性注意力机制等创新尝试不断涌现，试图突破传统 Transformer 在长序列推理上的二次方复杂度瓶颈。但正如刘壮所言，数据质量和训练策略对模型性能的影响可能远大于架构选择，行业正在重新审视「规模定律」的边界条件。</p></div>
 </div><div class="hl-cd" style="--a:#d97706">
   <div class="hl-h"><span class="hl-i">🤯</span><span class="hl-l">AI Agent与智能体</span><span class="hl-n">8篇</span></div>
-  <div class="hl-b"><p>Agent 生态正在从单一智能体向多智能体协作演进。Multi-agent 系统在复杂任务拆解、并行执行、自主纠错等方面展现出显著优势。企业级应用场景中，Dify 等平台提供了从原型到生产的完整 Agent 开发链路，将对话机器人升级为具备工具使用、信息检索、自主决策能力的智能助理。AI Agent 不再是实验性概念，而是正在重塑软件开发、客户服务、数据分析等多个行业的实际生产力工具。</p></div>
+  <div class="hl-b"><p>AI Agent 正从实验走向生产级部署。MCP（Model Context Protocol）和 A2A（Agent-to-Agent）两大协议标准的推进，正在为智能体互操作性铺平道路。在软件开发领域，以 OpenHands、Cursor 和 Claude Code 为代表的 AI Coding Agent 已经嵌入真实开发流程，从辅助工具升级为核心生产力。与此同时，AutoGPT 等通用自主 Agent 框架持续迭代，长时任务执行和多工具编排能力显著提升。百度 GenFlow 4.0 更将 Agent 能力扩展到 Office 三件套——文档生成、表格分析和幻灯片制作全自动化，实现「十分钟干完一周活」。</p></div>
 </div><div class="hl-cd" style="--a:#059669">
   <div class="hl-h"><span class="hl-i">🤖</span><span class="hl-l">具身智能与机器人</span><span class="hl-n">5篇</span></div>
   <div class="hl-b"><p>具身智能的技术栈正在快速收敛。感知层面，多模态融合（视觉+触觉+力觉）成为标配；决策层面，基于大模型的技能学习替代传统的强化学习手工设计奖励函数；执行层面，灵巧手和力矩传感的成熟使精细操作成为可能。政策层面，中国「十四五」规划将具身智能列为重点发展方向，多个省市出台专项扶持政策，产业链上游的传感器、电机、减速器等核心零部件国产化进程加速。</p></div>
 </div><div class="hl-cd" style="--a:#dc2626">
   <div class="hl-h"><span class="hl-i">🎨</span><span class="hl-l">多模态与AIGC</span><span class="hl-n">21篇</span></div>
-  <div class="hl-b"><p>多模态能力正在从实验室走向产品。CLIP 和 SAM 等视觉基础模型被广泛集成到各类应用中，从图像搜索、自动标注到医学影像分析。语音交互方面，Whisper 的本地部署方案使得语音转写不再依赖云端 API，在隐私敏感场景中具有独特价值。端侧多模态模型的出现进一步拓展了应用场景——手机拍照实时翻译、AR 眼镜的环境理解、智能家居的视觉感知，多模态 AI 正在从专业工具变为日常基础设施。</p></div>
+  <div class="hl-b"><p>统一架构革命正在改变多模态 AI 的游戏规则。过去图像理解与图像生成由不同的模型架构完成——CLIP 做理解、扩散模型做生成——但新一代 VLM（视觉语言模型）正在将两者合二为一。VQ-Diffusion 等技术的持续迭代使得一个模型可以同时完成图像描述、视觉问答、图像生成等任务。视频生成领域，Sora 的突破性进展推动了大量替代方案涌现，开源社区出现了多个高质量的 text-to-video 模型。音频侧，AudioLDM 2 在推理速度上实现突破，消费级 GPU 即可实时完成语音合成和音乐生成。</p></div>
 </div><div class="hl-cd" style="--a:#0891b2">
   <div class="hl-h"><span class="hl-i">💾</span><span class="hl-l">AI硬件与芯片</span><span class="hl-n">13篇</span></div>
   <div class="hl-b"><p>AI 芯片竞争的核心战场正在从算力峰值转向能效比和生态兼容性。CUDA 的护城河虽然深厚，但 OpenAI 的 Triton、Google 的 XLA 等编译器层面的抽象正在削弱底层硬件的锁定效应。长期来看，AI 芯片市场将从「一家独大」走向「多极共存」：NVIDIA 主导训练，云端推理群雄逐鹿（AMD、Groq、Cerebras），端侧推理百花齐放（高通、联发科、苹果）。</p></div>
