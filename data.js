@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-06",
- "fetched_at": "2026-05-06T14:46:40",
- "total": 119,
+ "fetched_at": "2026-05-06T20:00:25",
+ "total": 126,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -50,6 +50,10 @@ const APP_DATA = {
   "雷锋网 - AI": {
    "count": 15,
    "color": "#8b5cf6"
+  },
+  "36氪 - AI": {
+   "count": 7,
+   "color": "#ec4899"
   }
  },
  "tabs": [
@@ -57,25 +61,31 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37
+   "count": 38
   },
   {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 6
+   "count": 9
   },
   {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 3
+   "count": 4
   },
   {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 6
+   "count": 8
+  },
+  {
+   "name": "AI硬件与芯片",
+   "icon": "💾",
+   "color": "#0891b2",
+   "count": 1
   },
   {
    "name": "开源与生态",
@@ -87,13 +97,13 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 13
+   "count": 15
   },
   {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 52
+   "count": 49
   }
  ],
  "sections": [
@@ -101,32 +111,59 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37,
+   "count": 38,
    "cards": [
     {
-     "title": "Apple plans to make iOS 27 a Choose Your Own Adventure of AI models",
-     "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+     "title": "DeepSeek could hit $45B valuation from its first investment round",
+     "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
      "source": "TechCrunch - AI",
-     "date": "2026-05-05",
+     "date": "2026-05-06",
      "summary": "",
      "is_new": true,
      "lang": "en"
     },
     {
-     "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
-     "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-05",
+     "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+     "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+     "source": "Hugging Face Blog",
+     "date": "2026-05-06",
      "summary": "",
      "is_new": true,
      "lang": "en"
     },
     {
-     "title": "Google Home gets upgraded Gemini voice assistant and new camera controls",
-     "url": "https://arstechnica.com/gadgets/2026/05/google-home-gets-upgraded-gemini-voice-assistant-and-new-camera-controls/",
+     "title": "Google DeepMind partners with EVE Online for AI model testing",
+     "url": "https://arstechnica.com/gaming/2026/05/google-deepmind-partners-with-eve-online-for-ai-model-testing/",
      "source": "ArsTechnica - AI",
-     "date": "2026-05-05",
+     "date": "2026-05-06",
      "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Anthropic\\'s Claude Managed Agents can now \"dream,\" sort of",
+     "url": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Google\\'s Gemma 4 AI models get 3x speed boost by predicting future tokens",
+     "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Live blog: Code w/ Claude 2026",
+     "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
+     "source": "Simon Willison\\'s Blog",
+     "date": "2026-05-06",
+     "summary": "<p>I\\'m at Anthropic\\'s Code w/ Claude event today. Here\\'s my live blog of the morning keynote sessions.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>,...",
      "is_new": true,
      "lang": "en"
     },
@@ -172,15 +209,6 @@ const APP_DATA = {
      "source": "Google AI Blog",
      "date": "2026-05-04",
      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WebhooksGeminiAPI-hero.max-600x600.format-webp.webp\">Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Quoting Anthropic",
-     "url": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
-     "source": "Simon Willison\\'s Blog",
-     "date": "2026-05-03",
-     "summary": "<blockquote cite=\"https://www.anthropic.com/research/claude-personal-guidance\"><p>We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of ideas, and speak f...",
      "is_new": false,
      "lang": "en"
     },
@@ -243,15 +271,6 @@ const APP_DATA = {
      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
      "source": "Hugging Face Blog",
      "date": "2026-04-21",
-     "summary": "",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
-     "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-     "source": "Hugging Face Blog",
-     "date": "2026-04-16",
      "summary": "",
      "is_new": false,
      "lang": "en"
@@ -442,8 +461,17 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 6,
+   "count": 9,
    "cards": [
+    {
+     "title": "I Am Begging AI Companies to Stop Naming Features After Human Processes",
+     "url": "https://www.wired.com/story/i-am-begging-ai-companies-to-stop-naming-features-after-human-processes/",
+     "source": "Wired - AI",
+     "date": "2026-05-06",
+     "summary": "Anthropic announced “dreaming” for AI agents to sort through “memories” at its developer conference. Can we not?",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Vibe coding and agentic engineering are getting closer than I\\'d like",
      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
@@ -497,6 +525,24 @@ const APP_DATA = {
      "summary": "雷峰网消息，腾讯云发布一则内部信，将成立云产品六部，负责构建AI原生的代码（CodeBuddy）与泛生产力智能体（WorkBuddy），推进系列智能体产品的能力建设与商业化。腾讯副总裁、腾讯云CTO王慧星兼任云产品六部负责人，向CSIG总裁汤道生汇报；刘毅担任云产品六部助理总经理，向王慧星汇报。此前，腾讯云产研一共有五大产品部，产品一部主要负责IaaS相关产品，以及数据库、消息列队等部分PaaS；产品二部主要负责 PaaS以及大数据；产品三部则是负责智能体开发平台、AI SaaS、知识引擎、计算加速；产品四部负责中台业务，包括面向开发者的AI coding；产品五部负责CDN、音视频相关...",
      "is_new": true,
      "lang": "zh"
+    },
+    {
+     "title": "氪星晚报｜三星电子借AI热潮市值突破1万亿美元；智源发布业内首个心脏磁共振多模态诊断智能体BAAI Cardiac Agent；财政部今年将在香港发行840亿元人民币国债",
+     "url": "<![CDATA[https://36kr.com/p/3797482256325888?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-06",
+     "summary": "大公司： SpaceX提议投入550亿美元在得州启动Terafab项目 埃隆·马斯克旗下的SpaceX公司提议斥资550亿美元，在得克萨斯州启动一座名为Terafab的新半导体生产设施的建设。根据格兰姆斯县官网发布的一份公告，如果该项目的后续阶段得以完成，预计总投资额可能升至1190亿美元。（财联社） 三星电子借AI热潮市值突破1万亿美元 在人工智能相关股票需求蓬勃发展的推动下，三星电子市值突破1万亿美元，成为继台积电之后第二家跻身这一精英俱乐部的东亚企业。（新浪财经） Mike Xu旗下食品科技公司GrubMarket入选《时代》TIME100行业领袖榜单 美国《时代》周刊（TIME）...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "早期项目 | 德国宇航局工程师创业，让硬件开发进入“vibe时代”",
+     "url": "<![CDATA[https://36kr.com/p/3797224394284033?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-06",
+     "summary": "“传统工业软件太难用了。” 这是Orthogonal的创始人吉洋和他身边一大批工业界同行的共同感受。 “AI时代，软件开发已经可以用Cursor做vibe coding了，而硬件设计还停留在原始社会”吉洋在接受硬氪采访时表示，达索、ANSYS等巨头构建的，是一个由高昂授权费和极陡学习曲线砌成的“高墙”，Orthogonal想做的，是把“vibe”的方式带入硬件开发。 Orthogonal创始人吉洋曾在德国宇航局（DLR）及工业界深耕了近二十年，参与过达索系统仿真工具核心功能的研发，领导了空客A350宽体客机电气系统的研发，并在库卡、宝马、西门子高速列车、中国商飞、华为、中国航空发动机集团...",
+     "is_new": true,
+     "lang": "zh"
     }
    ]
   },
@@ -504,14 +550,14 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 3,
+   "count": 4,
    "cards": [
     {
-     "title": "He Couldn’t Land a Job Interview. Was AI to Blame?",
-     "url": "https://www.wired.com/story/he-couldnt-land-a-job-interview-was-ai-to-blame/",
-     "source": "Wired - AI",
-     "date": "2026-05-05",
-     "summary": "Armed with some Python and a white-hot sense of injustice, one medical student spent six months trying to figure out whether an algorithm trashed his job application.",
+     "title": "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
+     "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-06",
+     "summary": "",
      "is_new": true,
      "lang": "en"
     },
@@ -532,6 +578,15 @@ const APP_DATA = {
      "summary": "要闻提示1.宇树机器人在美买票坐飞机，电池被没收，致航班延误逾1小时2.豆包将在免费模式外新增付费订阅，主打生产力场景3.红果短剧将收费？抖音副总裁辟谣：免费追剧核心模式未变4.35岁主管被公司用AI替岗，月薪从2.5万降至1.5万，协商不成被裁，法院判了5.傅盛新品陷“换皮”风波：被指套壳开源项目6.小米MIX Flip小折叠已暂停！Fold大折叠今年重启回归：用上自研玄戒芯7.亚马逊对外开放物流网络，传统快递巨头面临新竞争8.官宣！高通二把手正式跳槽Intel：曾是骁龙处理器一哥今日头条宇树机器人在美买票坐飞机，电池被没收，致航班延误逾1小时5月5日消息，近日，美国一趟从加州奥克兰飞...",
      "is_new": true,
      "lang": "zh"
+    },
+    {
+     "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
+     "url": "<![CDATA[https://36kr.com/p/3789475357400068?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-02",
+     "summary": "文｜肖漫 编辑｜李勤 当下的智能汽车领域，物理 AI 已成为高频词汇，绝大多数智能驾驶算法厂商都在往“物理AI”转型。 卓驭在北京车展上也发布了面向移动物理 AI 的原生多模态基础模型。在卓驭科技副总裁于贝贝看来，算法厂商向物理AI转型不是为了迎合资本市场而编织的想象空间，而是一条关乎厂商存亡的生存法则。 “如果不上这条技术路线，很可能今后就跑不出来了。”于贝贝说。 在新的竞争维度上，算法厂商的对手不再仅仅是曾经的同行，还包括那些从数字 AI 领域跨界而来的巨头、具身智能公司等。 这场全新的竞赛让算法厂商进入全新维度的淘汰赛中，而此次能真正跑出来的玩家，其商业空间也将随着打开。 基于移动...",
+     "is_new": false,
+     "lang": "zh"
     }
    ]
   },
@@ -539,8 +594,35 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 6,
+   "count": 8,
    "cards": [
+    {
+     "title": "Ethos raises $22.75M from a16z for its expert network with voice onboarding",
+     "url": "https://techcrunch.com/2026/05/06/ethos-raises-22-75m-from-a16z-for-its-expert-network-with-voice-onboarding/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "The animated version of the iconic \"Hello, world\" image reveals striking new details",
+     "url": "https://arstechnica.com/space/2026/05/the-animated-version-of-artemis-hello-world-is-even-better-than-the-original/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "5 gardening tips you can try right in Search",
+     "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+     "source": "Google AI Blog",
+     "date": "2026-05-06",
+     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/01-Google_Gardening_Header.max-600x600.format-webp.webp\">We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to help your plants thrive.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
      "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
@@ -578,21 +660,29 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Elevating Austria: Google invests in its first data center in the Alps.",
-     "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
-     "source": "Google AI Blog",
-     "date": "2026-04-23",
-     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp\">Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This fa...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "本周看什么 | 最近值得一看的 10 部作品",
      "url": "https://sspai.com/post/109266",
      "source": "少数派 - AI",
      "date": "2026-05-01",
      "summary": "📅本周新预告《暗影蜘蛛侠》正式预告4月26日，剧集《暗影蜘蛛侠》发布了黑白和彩色双版本正式预告，将于5月27日上线PrimeVideo。尼古拉斯·凯奇领衔主演，聚焦1930年代纽约的一个上了年纪、倒霉 ...<a href=\"https://sspai.com/post/109266\" target=\"_blank\">查看全文</a>",
      "is_new": false,
+     "lang": "zh"
+    }
+   ]
+  },
+  {
+   "name": "AI硬件与芯片",
+   "icon": "💾",
+   "color": "#0891b2",
+   "count": 1,
+   "cards": [
+    {
+     "title": "科氪 | 性能操控赛主机、续航全能超旗舰，「颗秒神器」一加 Ace 6 至尊版正式发布！",
+     "url": "<![CDATA[https://36kr.com/p/3797276726893569?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-06",
+     "summary": "2026年4月28日，一加正式发布「颗秒神器」一加 Ace 6 至尊版。作为游戏性能旗舰最强之选，一加 Ace 6 至尊版搭载当代旗舰芯天玑9500移动平台，并独家写入一加自研芯片级游戏技术——全新一代「风驰游戏内核」，以持续满帧的165超高帧、颗秒级精准的最强触控、感官更沉浸的满配战术工具，重新定义行业最强射击游戏体验。一加 Ace 6 至尊版配备旗舰同款「冰河散热系统」、同档领先的 8600mAh 超巨量「冰川电池」 + 120W 超级闪充组合，首发自研OPPO冰川电池聚能芯片，支持IP66/IP68/IP69/IP69K满级防尘防水，并搭载超流畅更 AI 的新一代ColorOS 1...",
+     "is_new": true,
      "lang": "zh"
     }
    ]
@@ -627,8 +717,35 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 13,
+   "count": 15,
    "cards": [
+    {
+     "title": "How Elon Musk left OpenAI, according to Greg Brockman",
+     "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Report: SpaceX IPO gives Musk unchecked power and forbids investor lawsuits",
+     "url": "https://arstechnica.com/tech-policy/2026/05/report-spacex-ipo-gives-musk-unchecked-power-and-forbids-investor-lawsuits/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird",
+     "url": "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/",
+     "source": "Wired - AI",
+     "date": "2026-05-06",
+     "summary": "In an unexpected turn, the two companies signed a deal for Anthropic to use computing resources from Elon Musk’s xAI.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "OpenAI president forced to read his personal diary entries to jury",
      "url": "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/",
@@ -666,33 +783,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’",
-     "url": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
-     "source": "Wired - AI",
-     "date": "2026-05-04",
-     "summary": "OpenAI’s cofounder and president revealed in federal court on Monday that he’s one of the largest individual stakeholders in the AI lab.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Disneyland Now Uses Face Recognition on Visitors",
-     "url": "https://www.wired.com/story/security-news-this-week-disneyland-now-uses-face-recognition-on-visitors/",
-     "source": "Wired - AI",
-     "date": "2026-05-02",
-     "summary": "Plus: The NSA tests Anthropic’s Mythos Preview to find vulnerabilities, a Finnish teen is charged over the Scattered Spider hacking spree, and more.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat",
-     "url": "https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/",
-     "source": "Wired - AI",
-     "date": "2026-05-01",
-     "summary": "Build American AI, a nonprofit linked to a super PAC bankrolled by executives at OpenAI and Andreessen Horowitz, is funding a campaign to spread pro-AI messaging and stoke fears about China.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "How to build scalable web apps with OpenAI\\'s Privacy Filter",
      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
      "source": "Hugging Face Blog",
@@ -716,6 +806,24 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-06",
      "summary": "刚刚被叫停的 Manus 收购案，或将引爆 Meta 新一轮内斗。对 Meta 而言，这不是一次简单的并购失利：它失去的不只是一个 AI 明星项目，更是旗下老臣派系制衡 AI 新帅 Alexandr Wang 势力扩张的“关键筹码”。硅谷AI圈投资人林舟告诉雷峰网，随着此次交易的戛然而止，本就暗流涌动的 Meta 内斗，或将被推至台前，甚至陷入更大的不确定性。01一场瞄准“AI新势力”的权力制衡尽管 Meta 收购 Manus 的动机有很多，但从某种程度上说，这次收购案也是一次 Meta 内部政治博弈的产物。“Meta 收购 Manus 的台前主导者是扎克伯格，但这个事儿还有个幕后推动者...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
+     "url": "<![CDATA[https://36kr.com/p/3682907323150215?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-06",
+     "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，AI原生健康硬件公司「杉木SHANMU」近日完成近亿元A轮融资，本轮由石溪资本（兆易创新旗下战投基金）领投，韶音科技、博将资本、涌铧投资、上海天使会等多家机构联合参投，老股东甘洁教授旗下知行一号基金和万物为资本追加本轮投资。庚辛资本为本轮财务顾问。 此前公司已获得多家机构加持，包括高秉强教授、松禾资本、启赋资本、浩方创投、北大张海霞教授旗下ICANX基金等。本轮资金将用于旗下DTC消费医疗产品的上市进程、推进B端定制化模块的交付落地，以及开展国内外医疗注册证的申报工作。 家用健康检测并非新的叙事。过去二十年，血糖仪、血压计、尿酸仪早已进入家庭，但其底层...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "美国AI公司Anthropic高管下周将访韩",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3797800026233856?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-06",
+     "summary": "",
      "is_new": true,
      "lang": "zh"
     },
@@ -752,8 +860,44 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 52,
+   "count": 49,
    "cards": [
+    {
+     "title": "SpaceX may spend up to $119B on ‘Terafab’ chip factory in Texas",
+     "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Google updates AI search to include quotes from Reddit and other sources",
+     "url": "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Tinder owner Match Group is slowing hiring to pay for its increased use of AI tools",
+     "url": "https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Apple to pay $250M to settle lawsuit over Siri’s delayed AI features",
+     "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "At TechCrunch Disrupt 2026, all your M&A questions will be answered",
      "url": "https://techcrunch.com/2026/05/06/at-techcrunch-disrupt-2026-all-your-ma-questions-will-be-answered/",
@@ -791,18 +935,36 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Marc Lore says that AI will soon enable anyone open a restaurant",
-     "url": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
-     "source": "TechCrunch - AI",
+     "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+     "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+     "source": "Hugging Face Blog",
      "date": "2026-05-06",
      "summary": "",
      "is_new": true,
      "lang": "en"
     },
     {
-     "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
-     "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
-     "source": "Hugging Face Blog",
+     "title": "FDA vaccine studies censored by Trump admin after finding benefits of shots",
+     "url": "https://arstechnica.com/health/2026/05/trump-admin-censors-more-studies-conflicting-with-rfk-jr-s-anti-vaccine-views/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Here\\'s what has to happen if NASA wants to land on the Moon every month",
+     "url": "https://arstechnica.com/space/2026/05/as-nasa-eyes-lunar-base-theres-still-much-learn-about-landing-on-the-moon/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-06",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Infants are bleeding out after parents decline vitamin K shots given at birth",
+     "url": "https://arstechnica.com/health/2026/05/infants-are-bleeding-to-death-after-parents-shun-routine-vitamin-k-shots/",
+     "source": "ArsTechnica - AI",
      "date": "2026-05-06",
      "summary": "",
      "is_new": true,
@@ -827,7 +989,25 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Apple Will Pay $250 Million to Settle Lawsuit Over Siri\\'s AI Features",
+     "title": "Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows",
+     "url": "https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/",
+     "source": "Wired - AI",
+     "date": "2026-05-06",
+     "summary": "New research suggests that reliance on AI assistants can have a negative impact on people’s ability to think and problem solve.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Hackers Hate AI Slop Even More Than You Do",
+     "url": "https://www.wired.com/story/cybercriminals-are-complaining-about-ai-slop-flooding-their-forums/",
+     "source": "Wired - AI",
+     "date": "2026-05-06",
+     "summary": "It\\'s not just you. Scammers, hackers, and other cybercriminals are complaining about “AI shit” flooding platforms where they discuss cyberattacks and other illegal activity.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Apple Will Pay $250 Million to Settle Lawsuit Over Siri’s AI Features",
      "url": "https://www.wired.com/story/apple-will-pay-dollar250-million-to-settle-lawsuit-over-siris-ai-features/",
      "source": "Wired - AI",
      "date": "2026-05-06",
@@ -845,116 +1025,8 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw",
-     "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Altara secures $7M to bridge the data gap that’s slowing down physical sciences",
-     "url": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "ASML CEO Christophe Fouquet on his company’s monopoly: no one is coming for us",
-     "url": "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Pennsylvania sues Character.AI after a chatbot allegedly posed as a doctor",
-     "url": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "PayPal says it’s ‘becoming a technology company again’ — that means AI",
-     "url": "https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
      "title": "Silicon Valley bets $200M on AI data centers floating in the ocean",
      "url": "https://arstechnica.com/ai/2026/05/silicon-valley-bets-on-floating-ai-data-centers-powered-by-ocean-waves/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Character.AI sued over chatbot that claims to be a real doctor with a license",
-     "url": "https://arstechnica.com/tech-policy/2026/05/character-ai-sued-over-chatbot-that-claims-to-be-a-real-doctor-with-a-license/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Widely used Daemon Tools disk app backdoored in monthlong supply-chain attack",
-     "url": "https://arstechnica.com/security/2026/05/widely-used-daemon-tools-disk-app-backdoored-in-monthlong-supply-chain-attack/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "RFK Jr. plans to curb antidepressants, which he falsely compares to heroin",
-     "url": "https://arstechnica.com/health/2026/05/rfk-jr-plans-to-curb-antidepressants-which-he-falsely-compares-to-heroin/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Trump SEC lets Musk settle $150 million Twitter lawsuit for $1.5 million",
-     "url": "https://arstechnica.com/tech-policy/2026/05/trump-sec-lets-musk-settle-150-million-twitter-lawsuit-for-1-5-million/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "How do you design a $30,000 electric pickup? Inside Ford\\'s skunkworks.",
-     "url": "https://arstechnica.com/cars/2026/05/how-do-you-design-a-30000-electric-pickup-inside-fords-skunkworks/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Charlize Theron is a bewitching Circe in Odyssey trailer",
-     "url": "https://arstechnica.com/culture/2026/05/nolans-the-odyssey-gets-a-new-trailer-and-were-here-for-it/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Musk\\'s Europe gamble: Will others follow the Dutch and approve FSD?",
-     "url": "https://arstechnica.com/cars/2026/05/tesla-fsd-other-european-regulators-skeptical-despite-dutch-approval/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-05",
      "summary": "",
@@ -1151,6 +1223,15 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "8点1氪丨豆包新增付费订阅；抖音集团副总裁回应红果短剧付费；苹果因Siri人工智能功能推迟发布，以2.5亿美元和解诉讼",
+     "url": "<![CDATA[https://36kr.com/p/3797041945304327?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-06",
+     "summary": "今日热点导览 分析师称iPhone 18 Pro定价策略激进，起步价8999元 胖东来郑州店注册成立，预计今年10月开业 保时捷卖掉布加迪，预计2026年销量下滑至3万辆 马斯克就推特持股披露诉讼与美证监会达成和解 三星继承人已付清12万亿韩元遗产税 TOP 3 大新闻 豆包将在免费模式外新增付费订阅，官方回应 近日，豆包App Store页面出现付费版本服务声明。对此，豆包官方回应称，豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，相关方案细节目前还在测试阶段。 另据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "听歌时间到，12 张你可能错过的 2025 华语乐坛好专辑",
      "url": "https://sspai.com/post/109014",
      "source": "少数派 - AI",
@@ -1230,8 +1311,8 @@ const APP_DATA = {
    "name": "ray-project/ray",
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42438,
-   "forks": 7529,
+   "stars": 42439,
+   "forks": 7531,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1260,8 +1341,8 @@ const APP_DATA = {
    "name": "mlflow/mlflow",
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25768,
-   "forks": 5688,
+   "stars": 25771,
+   "forks": 5687,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1288,8 +1369,8 @@ const APP_DATA = {
    "name": "screenpipe/screenpipe",
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18563,
-   "forks": 1682,
+   "stars": 18564,
+   "forks": 1683,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1307,7 +1388,7 @@ const APP_DATA = {
    "name": "stas00/ml-engineering",
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
-   "stars": 17864,
+   "stars": 17867,
    "forks": 1137,
    "language": "Python",
    "topics": [
@@ -1333,7 +1414,7 @@ const APP_DATA = {
    "name": "alibaba/MNN",
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15105,
+   "stars": 15106,
    "forks": 2303,
    "language": "C++",
    "topics": [
@@ -1354,7 +1435,7 @@ const APP_DATA = {
    "name": "ludwig-ai/ludwig",
    "url": "https://github.com/ludwig-ai/ludwig",
    "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-   "stars": 11687,
+   "stars": 11688,
    "forks": 1217,
    "language": "Python",
    "topics": [
@@ -1384,7 +1465,7 @@ const APP_DATA = {
    "name": "tensorzero/tensorzero",
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11329,
+   "stars": 11331,
    "forks": 822,
    "language": "Rust",
    "topics": [
@@ -1414,8 +1495,8 @@ const APP_DATA = {
    "name": "Netflix/metaflow",
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10078,
-   "forks": 1267,
+   "stars": 10077,
+   "forks": 1268,
    "language": "Python",
    "topics": [
     "agents",
@@ -1445,7 +1526,7 @@ const APP_DATA = {
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "stars": 8628,
-   "forks": 959,
+   "forks": 958,
    "language": "Python",
    "topics": [
     "ai-inference",
@@ -1469,7 +1550,7 @@ const APP_DATA = {
    "name": "evidentlyai/evidently",
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7455,
+   "stars": 7456,
    "forks": 837,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1535,7 +1616,7 @@ const APP_DATA = {
    "name": "ashishps1/learn-ai-engineering",
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5454,
+   "stars": 5455,
    "forks": 1357,
    "language": "Unknown",
    "topics": [
@@ -1587,7 +1668,7 @@ const APP_DATA = {
    "name": "huggingface/text-embeddings-inference",
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
-   "stars": 4773,
+   "stars": 4774,
    "forks": 386,
    "language": "Rust",
    "topics": [
