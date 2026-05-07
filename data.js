@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-07",
- "fetched_at": "2026-05-07T08:00:56",
- "total": 125,
+ "fetched_at": "2026-05-07T14:00:33",
+ "total": 121,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -28,7 +28,7 @@ const APP_DATA = {
    "color": "#2563eb"
   },
   "MIT Technology Review - AI": {
-   "count": 7,
+   "count": 5,
    "color": "#059669"
   },
   "量子位": {
@@ -36,7 +36,7 @@ const APP_DATA = {
    "color": "#eab308"
   },
   "APPSO": {
-   "count": 9,
+   "count": 8,
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
@@ -48,7 +48,7 @@ const APP_DATA = {
    "color": "#f97316"
   },
   "雷锋网 - AI": {
-   "count": 15,
+   "count": 14,
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
@@ -61,7 +61,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37
+   "count": 33
   },
   {
    "name": "AI Agent与智能体",
@@ -73,13 +73,13 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 5
+   "count": 8
   },
   {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 8
+   "count": 7
   },
   {
    "name": "AI硬件与芯片",
@@ -91,13 +91,13 @@ const APP_DATA = {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 3
+   "count": 2
   },
   {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 14
+   "count": 12
   },
   {
    "name": "AI安全与对齐",
@@ -109,7 +109,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 45
+   "count": 46
   }
  ],
  "sections": [
@@ -117,7 +117,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37,
+   "count": 33,
    "cards": [
     {
      "title": "DeepSeek could hit $45B valuation from its first investment round",
@@ -158,15 +158,6 @@ const APP_DATA = {
     {
      "title": "Anthropic\\'s Claude Managed Agents can now \"dream,\" sort of",
      "url": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-06",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Google\\'s Gemma 4 AI models get 3x speed boost by predicting future tokens",
-     "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-06",
      "summary": "",
@@ -221,15 +212,6 @@ const APP_DATA = {
     {
      "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models",
      "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-     "source": "MIT Technology Review - AI",
-     "date": "2026-05-01",
-     "summary": "",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "The Download: a new Christian phone network, and debugging LLMs",
-     "url": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
      "source": "MIT Technology Review - AI",
      "date": "2026-05-01",
      "summary": "",
@@ -390,28 +372,10 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "美国暂停对华虹半导体部分供货？中方回应；东方甄选奖励300名员工市值4亿股份，人均超140万元；DeepSeek正在灰度测试「识图模式」",
-     "url": "https://www.leiphone.com/category/zaobao/Yhq9TTDgatWOOdDC.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-02",
-     "summary": "要闻提示1.5月1日起，北京禁飞、禁售无人机！2.美国暂停对华虹半导体部分供货？中方回应3.DeepSeek 终于能“看图”了！灰度“识图模式”，图片理解功能内测4.一加、realme合并：成立子系列事业部，李炳忠任总经理5.主播离职潮后，东方甄选奖励300名员工市值4亿股份，人均超140万元6.阿里高绩效员工年终奖上浮1-2个月，新员工长期激励首年归属近1/37.官方通报网民称霸王茶姬喝出水银：异物为购买人自己投放8.SpaceX批准马斯克天价薪酬，若达成市值与火星殖民目标可获2亿股今日头条5月1日起，北京禁飞、禁售无人机！4月29日消息，从5月1日开始，北京市无人驾驶航空器管理规定将...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
      "title": "谁在 GPT-5.5 脑子里塞了一群「妖怪」？",
      "url": "https://www.ifanr.com/1664679?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
      "date": "2026-04-30",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "开源版的 GPT Image 2，信息图、连续图文、本地部署全拿下｜商汤SenseNova U1实测",
-     "url": "https://www.ifanr.com/1664423?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-04-29",
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh"
@@ -515,6 +479,15 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
+     "url": "<![CDATA[https://36kr.com/p/3786528811572481?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-07",
+     "summary": "文｜王毓婵 周鑫雨 编辑｜杨轩 “看流水（即营收），AI视频类这些项目的表现确实很不错，可以说是AI最赚钱的细分赛道之一。”投资行业人士对36氪说。 中国 AI 视频生成赛道，正在经历大厂模型能力疯狂增长的巨大红利。来自字节跳动的Seedance和来自快手的可灵这两款“超级底座”正在进行一周一小版、两月一大版的高频迭代。阿里巴巴也在4月底，对视频生成模型HappyHorse 1.0开启灰测，720P视频生成刊例价为0.9元/秒。 愿意为此花钱的内容创作者太多了，太急迫了。众多短剧、内容公司排队等待使用Seedance2.0已经成为2026年AI世界的一个奇观。由此，在AI视频模型外“套一...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "像素绽放PixelBloom完成C轮融资，全面发力AI办公解决方案Agent：从“一分钟生成PPT”到“交付商用级结果”",
      "url": "<![CDATA[https://36kr.com/p/3797787228151048?f=rss]]>",
      "source": "36氪 - AI",
@@ -540,15 +513,6 @@ const APP_DATA = {
      "summary": "大公司： SpaceX提议投入550亿美元在得州启动Terafab项目 埃隆·马斯克旗下的SpaceX公司提议斥资550亿美元，在得克萨斯州启动一座名为Terafab的新半导体生产设施的建设。根据格兰姆斯县官网发布的一份公告，如果该项目的后续阶段得以完成，预计总投资额可能升至1190亿美元。（财联社） 三星电子借AI热潮市值突破1万亿美元 在人工智能相关股票需求蓬勃发展的推动下，三星电子市值突破1万亿美元，成为继台积电之后第二家跻身这一精英俱乐部的东亚企业。（新浪财经） Mike Xu旗下食品科技公司GrubMarket入选《时代》TIME100行业领袖榜单 美国《时代》周刊（TIME）...",
      "is_new": true,
      "lang": "zh"
-    },
-    {
-     "title": "早期项目 | 德国宇航局工程师创业，让硬件开发进入“vibe时代”",
-     "url": "<![CDATA[https://36kr.com/p/3797224394284033?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-06",
-     "summary": "“传统工业软件太难用了。” 这是Orthogonal的创始人吉洋和他身边一大批工业界同行的共同感受。 “AI时代，软件开发已经可以用Cursor做vibe coding了，而硬件设计还停留在原始社会”吉洋在接受硬氪采访时表示，达索、ANSYS等巨头构建的，是一个由高昂授权费和极陡学习曲线砌成的“高墙”，Orthogonal想做的，是把“vibe”的方式带入硬件开发。 Orthogonal创始人吉洋曾在德国宇航局（DLR）及工业界深耕了近二十年，参与过达索系统仿真工具核心功能的研发，领导了空客A350宽体客机电气系统的研发，并在库卡、宝马、西门子高速列车、中国商飞、华为、中国航空发动机集团...",
-     "is_new": true,
-     "lang": "zh"
     }
    ]
   },
@@ -556,8 +520,17 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 5,
+   "count": 8,
    "cards": [
+    {
+     "title": "This Reggae Band Is in a Nightmare Battle Against AI Slop Remixes",
+     "url": "https://www.wired.com/story/this-reggae-band-is-in-a-nightmare-battle-against-ai-slop-remixes/",
+     "source": "Wired - AI",
+     "date": "2026-05-07",
+     "summary": "When Stick Figure’s seven-year-old song shot up the charts, the band was thrilled. But its viral moment was spurred by unauthorized AI remixes.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
@@ -595,6 +568,24 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "氪星晚报 ｜千问PC端上线AI语音输入；宝马一季度利润降25%，至23亿欧元",
+     "url": "<![CDATA[https://36kr.com/p/3799089350712324?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-07",
+     "summary": "大公司： 腾讯等入股机器人灵巧手研发商临界点 36氪获悉，天眼查App显示，近日，上海临界点创新智能科技有限公司发生工商变更，新增腾讯旗下上海启善投资有限公司、百度旗下三亚百川致新私募股权投资基金合伙企业（有限合伙）等为股东，同时，注册资本由约554万人民币增至约597万人民币。 该公司成立于今年1月，法定代表人为王闯，经营范围包括人工智能硬件销售、智能机器人销售、智能机器人的研发等，现由智元创新（上海）科技股份有限公司、上海蓝驰新皓创业投资合伙企业（有限合伙）及上述新增股东等共同持股。公开资料显示，该公司由智元机器人将其灵巧手业务拆分而成立，是一家专注于机器人末端执行器，特别是灵巧手研...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "Neuralink：正研发一种能够到达大脑任何区域的手术机器人",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3799233331731717?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-07",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "豆包将新增付费订阅，主打生产力场景；宇树机器人在美买票坐飞机，电池被没收；亚马逊进军物流行业；红果短剧将收费？抖音副总裁辟谣",
      "url": "https://www.leiphone.com/category/zaobao/N2sl4ulRn8N6QNST.html",
      "source": "雷锋网 - AI",
@@ -609,13 +600,13 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 8,
+   "count": 7,
    "cards": [
     {
-     "title": "Ethos raises $22.75M from a16z for its expert network with voice onboarding",
-     "url": "https://techcrunch.com/2026/05/06/ethos-raises-22-75m-from-a16z-for-its-expert-network-with-voice-onboarding/",
+     "title": "Spotify wants to become the home for AI-generated personal audio",
+     "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
      "source": "TechCrunch - AI",
-     "date": "2026-05-06",
+     "date": "2026-05-07",
      "summary": "",
      "is_new": true,
      "lang": "en"
@@ -673,15 +664,6 @@ const APP_DATA = {
      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\">Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
      "is_new": false,
      "lang": "en"
-    },
-    {
-     "title": "本周看什么 | 最近值得一看的 10 部作品",
-     "url": "https://sspai.com/post/109266",
-     "source": "少数派 - AI",
-     "date": "2026-05-01",
-     "summary": "📅本周新预告《暗影蜘蛛侠》正式预告4月26日，剧集《暗影蜘蛛侠》发布了黑白和彩色双版本正式预告，将于5月27日上线PrimeVideo。尼古拉斯·凯奇领衔主演，聚焦1930年代纽约的一个上了年纪、倒霉 ...<a href=\"https://sspai.com/post/109266\" target=\"_blank\">查看全文</a>",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -715,7 +697,7 @@ const APP_DATA = {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 3,
+   "count": 2,
    "cards": [
     {
      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
@@ -734,15 +716,6 @@ const APP_DATA = {
      "summary": "Apple 同意和解 Siri 延期的集体诉讼、Valve 开源 Steam Controller 的外壳 CAD 文件等。<a href=\"https://sspai.com/post/109448\" target=\"_blank\">查看全文</a>",
      "is_new": true,
      "lang": "zh"
-    },
-    {
-     "title": "假期出门太折磨？我的 23 条经验帮你规划惬意旅行",
-     "url": "https://sspai.com/post/100006",
-     "source": "少数派 - AI",
-     "date": "2026-05-03",
-     "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...<a href=\"https://sspai.com/post/100006\" target=\"_blank\">查看全文</a>",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -750,7 +723,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 14,
+   "count": 12,
    "cards": [
     {
      "title": "How Elon Musk left OpenAI, according to Greg Brockman",
@@ -786,15 +759,6 @@ const APP_DATA = {
      "date": "2026-05-06",
      "summary": "In an unexpected turn, the two companies signed a deal for Anthropic to use computing resources from Elon Musk’s xAI.",
      "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "‘I Actually Thought He Was Going to Hit Me,’ OpenAI’s Greg Brockman Says of Elon Musk",
-     "url": "https://www.wired.com/story/greg-brockman-testifies-elon-musk-fight-trial/",
-     "source": "Wired - AI",
-     "date": "2026-05-05",
-     "summary": "OpenAI’s president wrapped his testimony on Tuesday by revealing a fiery meeting with Musk in 2017 and subsequent efforts to remove several board members.",
-     "is_new": false,
      "lang": "en"
     },
     {
@@ -861,15 +825,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
-     "url": "<![CDATA[https://36kr.com/p/3682907323150215?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-06",
-     "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，AI原生健康硬件公司「杉木SHANMU」近日完成近亿元A轮融资，本轮由石溪资本（兆易创新旗下战投基金）领投，韶音科技、博将资本、涌铧投资、上海天使会等多家机构联合参投，老股东甘洁教授旗下知行一号基金和万物为资本追加本轮投资。庚辛资本为本轮财务顾问。 此前公司已获得多家机构加持，包括高秉强教授、松禾资本、启赋资本、浩方创投、北大张海霞教授旗下ICANX基金等。本轮资金将用于旗下DTC消费医疗产品的上市进程、推进B端定制化模块的交付落地，以及开展国内外医疗注册证的申报工作。 家用健康检测并非新的叙事。过去二十年，血糖仪、血压计、尿酸仪早已进入家庭，但其底层...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "OpenAI「复活」了 QQ宠物，网友直接玩疯，把奥特曼和他死对头都养在了电脑里",
      "url": "https://www.ifanr.com/1664765?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
@@ -901,14 +856,59 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 45,
+   "count": 46,
    "cards": [
+    {
+     "title": "China’s Moonshot AI raises $2B at $20B valuation as demand for open-source AI skyrockets",
+     "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-07",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Spotify’s AI DJ now supports French, German, Italian and Brazilian Portuguese",
+     "url": "https://techcrunch.com/2026/05/07/spotifys-ai-dj-now-supports-french-german-italian-and-brazilian-portuguese/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-07",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Five architects of the AI economy explain where the wheels are coming off",
      "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
      "source": "TechCrunch - AI",
      "date": "2026-05-07",
      "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Is your Porsche Taycan too slow at the Nürbugring? You need this Manthey Kit.",
+     "url": "https://arstechnica.com/cars/2026/05/is-your-porsche-taycan-too-slow-at-the-nurbugring-you-need-this-manthey-kit/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-07",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Former NASA chief takes helm of national security space firm",
+     "url": "https://arstechnica.com/space/2026/05/former-nasa-chief-takes-helm-of-national-security-space-firm/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-07",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Thousands of Vibe-Coded Apps Expose Corporate and Personal Data on the Open Web",
+     "url": "https://www.wired.com/story/thousands-of-vibe-coded-apps-expose-corporate-and-personal-data-on-the-open-web/",
+     "source": "Wired - AI",
+     "date": "2026-05-07",
+     "summary": "Companies like Lovable, Base44, Replit, and Netlify use AI to let anyone build a web app in seconds—and in thousands of cases, spill highly sensitive data onto the public internet.",
      "is_new": true,
      "lang": "en"
     },
@@ -951,24 +951,6 @@ const APP_DATA = {
     {
      "title": "Google updates AI search to include quotes from Reddit and other sources",
      "url": "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-06",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Tinder owner Match Group is slowing hiring to pay for its increased use of AI tools",
-     "url": "https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-06",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Apple to pay $250M to settle lawsuit over Siri’s delayed AI features",
-     "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
      "source": "TechCrunch - AI",
      "date": "2026-05-06",
      "summary": "",
@@ -1021,15 +1003,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Here\\'s what has to happen if NASA wants to land on the Moon every month",
-     "url": "https://arstechnica.com/space/2026/05/as-nasa-eyes-lunar-base-theres-still-much-learn-about-landing-on-the-moon/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-06",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
      "title": "Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows",
      "url": "https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/",
      "source": "Wired - AI",
@@ -1053,15 +1026,6 @@ const APP_DATA = {
      "source": "Wired - AI",
      "date": "2026-05-06",
      "summary": "If you bought an iPhone 15 or 16 in the US, you could be set to pocket up to $95 per device as part of the settlement.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Hasan Piker, Self-Described ‘Ayatollah of Woke,’ Wants AI to Die",
-     "url": "https://www.wired.com/story/hasan-piker-user-behavior/",
-     "source": "Wired - AI",
-     "date": "2026-05-06",
-     "summary": "The far-left Twitch streamer says AI is rotting our brains. He’s also addicted to Twitter and listens to at least eight podcasts.",
      "is_new": true,
      "lang": "en"
     },
@@ -1138,15 +1102,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Operationalizing AI for Scale and Sovereignty",
-     "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
-     "source": "MIT Technology Review - AI",
-     "date": "2026-05-01",
-     "summary": "",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "AI and the Future of Cybersecurity: Why Openness Matters",
      "url": "https://huggingface.co/blog/cybersecurity-openness",
      "source": "Hugging Face Blog",
@@ -1192,6 +1147,24 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "新玩意 240｜少数派的编辑们最近买了啥？",
+     "url": "https://sspai.com/post/109474",
+     "source": "少数派 - AI",
+     "date": "2026-05-07",
+     "summary": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@西鸽：盖世小鸡G7Pro天 ...<a href=\"https://sspai.com/post/109474\" target=\"_blank\">查看全文</a>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "一日一技｜为什么你应该关闭 iOS 的键盘声音",
+     "url": "https://sspai.com/post/109460",
+     "source": "少数派 - AI",
+     "date": "2026-05-07",
+     "summary": "安静的 iPhone 才是最好的 iPhone？<a href=\"https://sspai.com/post/109460\" target=\"_blank\">查看全文</a>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "甘南秘境，大白高国：我的甘南自由行记",
      "url": "https://sspai.com/post/109367",
      "source": "少数派 - AI",
@@ -1206,15 +1179,6 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-07",
      "summary": "5 月 6 日，国际市场调研机构沙利文（Frost & Sullivan）发布《中国高校科研机构AI4S市场追踪报告，2025年》。报告显示，阿里云以26%的市场份额领跑中国高校科研机构AI4S云市场，稳居第一。AI4S，即AI for Science，人工智能驱动的科学研究，被称作实验、理论、计算、数据范式之后的“第五范式”。报告显示，中国高校科研AI4S 云市场正处于快速成长期，预计2030年将达107亿元。沙利文指出，与通用企业级AI市场相比，中国高校科研机构 AI4S 的需求正在从单一算力资源，升级为AI 全栈能力建设，更强调科研任务适配性、复杂算力与工具链协同能力，以及跨学科场...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "千问PC端上线AI语音输入",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3798860284156928?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-07",
-     "summary": "",
      "is_new": true,
      "lang": "zh"
     },
@@ -1316,8 +1280,8 @@ const APP_DATA = {
    "name": "ray-project/ray",
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42442,
-   "forks": 7530,
+   "stars": 42447,
+   "forks": 7531,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1346,8 +1310,8 @@ const APP_DATA = {
    "name": "mlflow/mlflow",
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25789,
-   "forks": 5690,
+   "stars": 25804,
+   "forks": 5696,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1374,8 +1338,8 @@ const APP_DATA = {
    "name": "screenpipe/screenpipe",
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18572,
-   "forks": 1684,
+   "stars": 18577,
+   "forks": 1686,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1393,8 +1357,8 @@ const APP_DATA = {
    "name": "stas00/ml-engineering",
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
-   "stars": 17872,
-   "forks": 1137,
+   "stars": 17874,
+   "forks": 1138,
    "language": "Python",
    "topics": [
     "ai",
@@ -1419,7 +1383,7 @@ const APP_DATA = {
    "name": "alibaba/MNN",
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15110,
+   "stars": 15116,
    "forks": 2303,
    "language": "C++",
    "topics": [
@@ -1440,7 +1404,7 @@ const APP_DATA = {
    "name": "ludwig-ai/ludwig",
    "url": "https://github.com/ludwig-ai/ludwig",
    "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-   "stars": 11688,
+   "stars": 11689,
    "forks": 1217,
    "language": "Python",
    "topics": [
@@ -1470,7 +1434,7 @@ const APP_DATA = {
    "name": "tensorzero/tensorzero",
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11333,
+   "stars": 11334,
    "forks": 823,
    "language": "Rust",
    "topics": [
@@ -1500,7 +1464,7 @@ const APP_DATA = {
    "name": "Netflix/metaflow",
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10077,
+   "stars": 10079,
    "forks": 1268,
    "language": "Python",
    "topics": [
@@ -1530,7 +1494,7 @@ const APP_DATA = {
    "name": "bentoml/BentoML",
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
-   "stars": 8629,
+   "stars": 8630,
    "forks": 958,
    "language": "Python",
    "topics": [
@@ -1555,7 +1519,7 @@ const APP_DATA = {
    "name": "evidentlyai/evidently",
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7459,
+   "stars": 7463,
    "forks": 837,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1621,7 +1585,7 @@ const APP_DATA = {
    "name": "ashishps1/learn-ai-engineering",
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5456,
+   "stars": 5457,
    "forks": 1357,
    "language": "Unknown",
    "topics": [
@@ -1673,7 +1637,7 @@ const APP_DATA = {
    "name": "huggingface/text-embeddings-inference",
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
-   "stars": 4774,
+   "stars": 4775,
    "forks": 386,
    "language": "Rust",
    "topics": [
