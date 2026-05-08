@@ -111,13 +111,13 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 @keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
 
 /* ── Bottom nav ── */
-.bn{position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);border-top:1px solid var(--bd);display:flex;overflow-x:auto;scrollbar-width:none;padding-bottom:env(safe-area-inset-bottom,0);height:var(--bn-h)}
+.bn{position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);border-top:1px solid var(--bd);display:flex;overflow-x:auto;scrollbar-width:none;padding-bottom:env(safe-area-inset-bottom,0);max-height:calc(56px + env(safe-area-inset-bottom,0))}
 @media(prefers-color-scheme:dark){.bn{background:rgba(13,13,18,.85)}}
 .bn::-webkit-scrollbar{display:none}
-.bn-it{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:4px 8px;border:none;background:none;cursor:pointer;color:var(--tm);font-size:.55em;transition:.2s;flex-shrink:0;min-width:48px;position:relative;font-weight:500}
+.bn-it{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:5px 8px;border:none;background:none;cursor:pointer;color:var(--tm);font-size:.55em;transition:.2s;flex-shrink:0;min-width:56px;position:relative;font-weight:500}
 .bn-it:active{transform:scale(.92)}
-.bn-it .bn-i{font-size:1.1em;line-height:1;width:20px;height:20px;display:flex;align-items:center;justify-content:center}
-.bn-it .bn-n{font-size:.9em;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:64px}
+.bn-it .bn-i{font-size:1.2em;line-height:1;width:22px;height:22px;display:flex;align-items:center;justify-content:center}
+.bn-it .bn-n{font-size:.9em;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:64px}
 .bn-it.act{color:var(--ac)}
 .bn-it.act::after{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:20px;height:2px;background:var(--ac);border-radius:0 0 2px 2px}
 
