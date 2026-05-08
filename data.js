@@ -1,6 +1,6 @@
 const APP_DATA = {
  "today": "2026-05-08",
- "fetched_at": "2026-05-08T07:00:42",
+ "fetched_at": "2026-05-08T07:22:23",
  "total": 154,
  "sources": {
   "TechCrunch - AI": {
@@ -93,7 +93,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 49
+   "count": 50
   },
   {
    "name": "AI Agent与智能体",
@@ -117,7 +117,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 4
+   "count": 5
   },
   {
    "name": "开源与生态",
@@ -129,7 +129,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 23
+   "count": 21
   },
   {
    "name": "AI安全与对齐",
@@ -149,7 +149,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 49,
+   "count": 50,
    "cards": [
     {
      "title": "Anthropic introduces \"dreaming,\" a system that lets AI agents learn from their own mistakes",
@@ -314,7 +314,7 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "How Sakana trained a 7B model to orchestrate GPT-5, Claude Sonnet 4 and Gemini 2.5 Pro",
+     "title": "How Sakana trained a 7B model to orchestrate GPT, Claude and Gemini LLMs",
      "url": "https://venturebeat.com/orchestration/how-sakana-trained-a-7b-model-to-orchestrate-gpt-5-claude-sonnet-4-and-gemini-2-5-pro",
      "source": "VentureBeat - AI",
      "date": "2026-05-07",
@@ -481,6 +481,15 @@ const APP_DATA = {
      "source": "APPSO",
      "date": "2026-05-08",
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "报告：超四成消费者使用AI工具对比保险产品",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800299958279169?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "36氪获悉，5月7日，元保联合清华大学五道口金融学院中国保险与养老金融研究中心发布《2025年中国互联网保险消费者洞察报告》。《报告》显示，2025年，通过AI大模型或相关APP了解保险信息的消费者占比达16%，同比增长60%。超四成消费者会使用AI工具对比保险产品，以快速梳理产品保障责任、保费价格、理赔条件等信息；超半数消费者将AI推荐产品作为购险参考项，但仅15%真正将AI推荐作为核心决策。",
      "is_new": true,
      "lang": "zh"
     },
@@ -865,7 +874,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 4,
+   "count": 5,
    "cards": [
     {
      "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
@@ -890,7 +899,16 @@ const APP_DATA = {
      "url": "<![CDATA[https://36kr.com/p/3799984046333186?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-08",
-     "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，北京容芯致远科技有限公司（以下简称“容芯致远”）近日完成天使轮数亿元融资。本轮由北京绿色能源和低碳产业基金与赛富投资基金领投，顺禧基金、富华资本、万利达集团、长江创新投、水木清华校友基金、梅花创投等跟投。云岫资本此前参与了公司种子轮投资，本轮继续跟投，并担任长期独家财务顾问。 AI浪潮下，算力需求激增，传统以CPU为中心的架构瓶颈愈发凸显：CPU成为数据调度与交互的核心限制，GPU之间通信效率不足，内存无法实现统一地址空间共享，整体算力利用率较低。 容芯致远创始人石旭毕业于清华大学电子工程系，在芯片设计与AI领域从业多年，接受硬氪采访时，石旭...",
+     "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，北京容芯致远科技有限公司（以下简称“容芯致远”）近日完成天使轮数亿元融资。本轮由北京绿色能源和低碳产业基金与赛富投资基金领投，顺禧基金、富华资本、万利达集团、长江创新投、水木清华校友基金、梅花创投等跟投。云岫资本此前参与了公司种子轮投资，本轮继续跟投，并担任长期独家财务顾问。 AI浪潮下，算力需求激增，传统以CPU为中心的架构瓶颈愈发凸显：CPU成为数据调度与交互的核心限制，GPU之间通信效率不足，内存无法实现统一地址空间共享，整���算力利用率较低。 容芯致远创始人石旭毕业于清华大学电子工程系，在芯片设计与AI领域从业多年，接受硬氪采访时，...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "铂科新材：公司没有与谷歌合作",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800315774475522?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "36氪获悉，铂科新材在互动平台表示，公司芯片电感主要与MPS、伟创力等半导体电源厂商合作为终端芯片及云厂商等供货，公司没有与谷歌合作。",
      "is_new": true,
      "lang": "zh"
     },
@@ -926,7 +944,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 23,
+   "count": 21,
    "cards": [
     {
      "title": "Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI",
@@ -1078,24 +1096,6 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-08",
      "summary": "近日，在AI交易的刺激下，美股屡创新高，与此同时，关于科技板块即将迎来痛苦回调的讨论也甚嚣尘上。但美国传奇投资人、亿万富翁对冲基金经理保罗•都铎•琼斯（Paul Tudor Jones）并未撤离AI投资赛道，反而加码投资。以科技股为主的纳斯达克100指数仅在过去一个月就上涨了18%，但琼斯认为，市场尚未触见顶。他认为，由AI驱动的牛市有望再持续一两年。（财联社）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "爱彼迎：第一季度营收27亿美元，同比增长18%",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3800219287755778?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-08",
-     "summary": "36氪获悉，Airbnb爱彼迎发布2026年第一季度财务业绩。Airbnb爱彼迎发布2026年第一季度财务业绩。财报显示，第一季度营收达到27亿美元，同比增长18%；录得净利润1.6亿美元，调整后的税息折旧及摊销前利润（Adjusted EBITDA）达5.19亿美元，同比增长24%。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "AI医疗迎来高速发展窗口期，8只个股一季报净利润增幅超100%",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3800182180830208?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-08",
-     "summary": "在政策持续赋能、资本加码入局、互联网大厂加速布局的多重利好加持下，AI医疗产业迎来高速发展窗口期。据数据宝统计，A股中布局AI医疗产业链的上市公司共有103家，包括医药生物、计算机行业上市公司。5月8日早盘，概念股涨多跌少，平均上涨0.74%，贝瑞基因、达安基因涨停。从业绩来看，29只AI医疗概念股一季报归母净利润实现同比增长，其中一品红、昭衍新药、博济医药等8只个股增幅在100%以上。（证券时报）",
      "is_new": true,
      "lang": "zh"
     },
@@ -1485,11 +1485,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "小鹏第二代VIA智驾里程占比突破50%",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3800195184336135?f=rss]]>",
+     "title": "千问AI眼镜升级主动服务能力",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800306441886982?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-08",
-     "summary": "36氪获悉，5月8日，小鹏汽车披露，第二代VLA系统推送一个月后，智驾里程占比已突破50%。同期，小鹏第二代VLA百公里接管次数环比下降25.87%，全程100%使用VLA的行程数环比增长27.84%。五一假期期间，小鹏AI辅助驾驶每日使用率达到93.21%，累计行驶里程8446万公里，单车最长智驾里程达到5441公里。",
+     "summary": "36氪获悉，5月8日，千问AI眼镜S1升级主动服务等一系列AI能力，可主动提醒用户“出门带伞”、“抬头活动一下”，打车、闪购、规划行程等生活AI能力也将于本月上线。",
      "is_new": true,
      "lang": "zh"
     },
@@ -1609,6 +1609,7 @@ const APP_DATA = {
    "name": "ray-project/ray",
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+   "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "stars": 42450,
    "forks": 7532,
    "language": "Python",
@@ -1639,6 +1640,7 @@ const APP_DATA = {
    "name": "mlflow/mlflow",
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
+   "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "stars": 25815,
    "forks": 5698,
    "language": "Python",
@@ -1667,6 +1669,7 @@ const APP_DATA = {
    "name": "screenpipe/screenpipe",
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
+   "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "stars": 18590,
    "forks": 1686,
    "language": "Rust",
@@ -1686,6 +1689,7 @@ const APP_DATA = {
    "name": "stas00/ml-engineering",
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
+   "blurb": "Machine Learning Engineering Open Book",
    "stars": 17876,
    "forks": 1138,
    "language": "Python",
@@ -1712,6 +1716,7 @@ const APP_DATA = {
    "name": "alibaba/MNN",
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
+   "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "stars": 15123,
    "forks": 2303,
    "language": "C++",
@@ -1733,6 +1738,7 @@ const APP_DATA = {
    "name": "ludwig-ai/ludwig",
    "url": "https://github.com/ludwig-ai/ludwig",
    "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
+   "blurb": "Low-code framework for building custom LLMs, neural networks, and other AI models",
    "stars": 11689,
    "forks": 1217,
    "language": "Python",
@@ -1763,6 +1769,7 @@ const APP_DATA = {
    "name": "tensorzero/tensorzero",
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
+   "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "stars": 11339,
    "forks": 824,
    "language": "Rust",
@@ -1793,6 +1800,7 @@ const APP_DATA = {
    "name": "Netflix/metaflow",
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
+   "blurb": "Build, Manage and Deploy AI/ML Systems",
    "stars": 10080,
    "forks": 1268,
    "language": "Python",
@@ -1823,6 +1831,7 @@ const APP_DATA = {
    "name": "bentoml/BentoML",
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
+   "blurb": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "stars": 8630,
    "forks": 958,
    "language": "Python",
@@ -1848,6 +1857,7 @@ const APP_DATA = {
    "name": "evidentlyai/evidently",
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
+   "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "stars": 7464,
    "forks": 838,
    "language": "Jupyter Notebook",
@@ -1872,6 +1882,7 @@ const APP_DATA = {
    "name": "postgresml/postgresml",
    "url": "https://github.com/postgresml/postgresml",
    "description": "Postgres with GPUs for ML/AI apps.",
+   "blurb": "Postgres with GPUs for ML/AI apps.",
    "stars": 6782,
    "forks": 361,
    "language": "Rust",
@@ -1899,6 +1910,7 @@ const APP_DATA = {
    "name": "rustformers/llm",
    "url": "https://github.com/rustformers/llm",
    "description": "[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models",
+   "blurb": "[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models",
    "stars": 6149,
    "forks": 377,
    "language": "Rust",
@@ -1914,6 +1926,7 @@ const APP_DATA = {
    "name": "ashishps1/learn-ai-engineering",
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
+   "blurb": "Learn AI and LLMs from scratch using free resources",
    "stars": 5457,
    "forks": 1359,
    "language": "Unknown",
@@ -1936,6 +1949,7 @@ const APP_DATA = {
    "name": "zenml-io/zenml",
    "url": "https://github.com/zenml-io/zenml",
    "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
+   "blurb": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
    "stars": 5407,
    "forks": 612,
    "language": "Python",
@@ -1966,6 +1980,7 @@ const APP_DATA = {
    "name": "huggingface/text-embeddings-inference",
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
+   "blurb": "A blazing fast inference solution for text embeddings models",
    "stars": 4775,
    "forks": 387,
    "language": "Rust",

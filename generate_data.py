@@ -343,8 +343,82 @@ def classify_article(article):
 
 # ── GitHub Trending Fetcher ─────────────────────────────────────
 
+# ── AI Project "What it does" blurbs for popular AI repos ──────
+# When description is short or generic, we add context via a known-repo map.
+# Keyed by full_name (lowercase). Falls back to truncated description.
+AI_PROJECT_BLURBS = {
+    "openai/whisper": "Speech recognition model — transcribes audio in 99+ languages, near-human accuracy.",
+    "openai/gpt-4": "GPT-4 multimodal language model — advanced reasoning, vision understanding, long context.",
+    "openai/gpt-3": "GPT-3 language model — text generation, translation, QA, and code completion.",
+    "openai/clip": "Vision-language model — connects images and text for zero-shot classification.",
+    "openai/dall-e": "Text-to-image generation — create detailed images from natural language prompts.",
+    "deepseek-ai/deepseek-v4": "DeepSeek reasoning model — strong math/coding performance, cost-efficient inference.",
+    "deepseek-ai/deepseek-r1": "Reasoning-focused LLM — chain-of-thought, math, code with reinforcement learning.",
+    "deepseek-ai/deepseek-coder": "Code-specialized LLM — supports 87+ programming languages, trained on 2T tokens.",
+    "deepseek-ai/deepseek-v3": "DeepSeek-V3 MoE language model — 671B total params, 37B activated per token.",
+    "deepseek-ai/deepseek": "DeepSeek LLM — open-source chat model with strong multilingual performance.",
+    "meta-llama/llama": "Meta's open-source LLM family — Llama 2/3, foundation for many fine-tuned models.",
+    "meta-llama/llama-3": "Meta Llama 3 — open-source 8B/70B/405B models, strong benchmarks across tasks.",
+    "mistralai/mistral": "Mistral AI — efficient open-weight LLMs with strong reasoning and code abilities.",
+    "mistralai/mixtral": "Mixtral 8x22B MoE — sparse mixture-of-experts model, efficient inference.",
+    "anthropics/claude": "Anthropic Claude — safety-aligned AI assistant, strong coding and analysis.",
+    "anthropic/claude-code": "Claude Code — terminal-based AI coding agent with tool use and file editing.",
+    "google/gemini": "Google Gemini — multimodal model family, text/image/audio/video understanding.",
+    "google-deepmind/gemini": "Google DeepMind Gemini — multimodal AI with long context and agent capabilities.",
+    "qwenlm/qwen": "Alibaba Qwen — open-source bilingual (CN/EN) LLM family with strong performance.",
+    "qwenlm/qwen2": "Qwen2 — next-gen bilingual LLM, improved coding, math, and long-context handling.",
+    "qwenlm/qwen2.5": "Qwen2.5 — upgraded bilingual LLM, stronger reasoning, larger vocabulary.",
+    "01-ai/yi": "01.AI Yi — bilingual open-source LLM, competitive with LLaMA-class models.",
+    "THUDM/chatglm": "ChatGLM — Tsinghua bilingual LLM, efficient Chinese-English dialogue.",
+    "THUDM/glm": "GLM — Tsinghua general language model, foundation for ChatGLM series.",
+    "timqian/chinese-independent-blogs": "Chinese independent blog aggregator — curated list of personal tech blogs.",
+    "suno-ai/suno": "AI music generation — text-to-song with realistic vocals and instruments.",
+    "RVC-Project/RVC": "Real-time voice conversion — clone any voice with minimal training data.",
+    "hpcaitech/colossalai": "Distributed AI training framework — efficient parallel training for large models.",
+    "langchain-ai/langchain": "LLM application framework — chaining, agents, RAG, and tool orchestration.",
+    "langgenius/dify": "LLM application platform — visual workflow builder for AI apps and agents.",
+    "n8n-io/n8n": "AI workflow automation — connect LLMs, APIs, and services with visual nodes.",
+    "lobehub/lobe-chat": "Modern AI chat interface — multi-provider, plugin system, agent marketplace.",
+    "open-webui/open-webui": "Self-hosted AI chat UI — Ollama/OpenAI compatible, document RAG, multi-user.",
+    "ollama/ollama": "Local LLM runner — run Llama, Qwen, Mistral and hundreds of models locally.",
+    "ggerganov/llama.cpp": "CPU-friendly LLM inference — run LLMs on consumer hardware efficiently.",
+    "gradio-app/gradio": "ML demo UI framework — turn any Python model into a web interface.",
+    "huggingface/transformers": "HuggingFace Transformers — universal API for 100k+ pretrained models.",
+    "huggingface/diffusers": "Diffusion model library — Stable Diffusion, fine-tuning, image pipelines.",
+    "comfyanonymous/comfyui": "Node-based Stable Diffusion UI — visual workflow for image generation.",
+    "AUTOMATIC1111/stable-diffusion-webui": "Stable Diffusion web interface — image generation, inpainting, extensions.",
+    "microsoft/autogen": "Multi-agent conversation framework — build LLM agent teams for complex tasks.",
+    "microsoft/semantic-kernel": "AI orchestration SDK — integrate LLMs, plugins, and memory into apps.",
+    "microsoft/generative-ai-for-beginners": "Microsoft AI curriculum — 18-lesson generative AI course for beginners.",
+    "openai/openai-cookbook": "OpenAI API examples — code patterns, guides, and best practices collection.",
+    "crewai": "Multi-agent AI orchestration — role-based agent teams for autonomous task execution.",
+}
+
+
+def fetch_repo_blurb(full_name, description, topics):
+    """Generate a concise \"what this does\" blurb for a trending repo."""
+    key = full_name.lower().strip()
+    # Exact match first
+    if key in AI_PROJECT_BLURBS:
+        return AI_PROJECT_BLURBS[key]
+    # Try partial key match
+    for k, v in AI_PROJECT_BLURBS.items():
+        if k in key or key in k:
+            return v
+    # Fallback: use description, or derive from name if empty
+    desc = (description or "").strip()
+    if desc and len(desc) > 15:
+        return desc[:200]
+    # Last resort: generate from repo name
+    name = full_name.split("/")[-1] if "/" in full_name else full_name
+    parts = re.sub(r'[-_]', ' ', name).split()
+    if parts and parts[0][0].isupper():
+        return f"{' '.join(parts)} — open-source AI/ML project."
+    return f"AI/ML project on GitHub — {full_name}."
+
+
 def fetch_github_trending():
-    """Fetch top AI/ML repos from GitHub API, return list of repo objects."""
+    """Fetch top AI/ML repos from GitHub API, return list of repo objects with blurbs."""
     url = "https://api.github.com/search/repositories?q=ai+ml+llm&sort=stars&order=desc&per_page=15"
     print("  📡 GitHub Trending (AI repos) ...", end=" ", flush=True)
     try:
@@ -366,10 +440,12 @@ def fetch_github_trending():
     for r in items[:15]:
         lang = r.get("language") or "Unknown"
         desc = (r.get("description") or "")[:200] if r.get("description") else ""
+        blurb = fetch_repo_blurb(r["full_name"], desc, r.get("topics", []))
         repos.append({
             "name": r["full_name"],
             "url": r["html_url"],
             "description": desc,
+            "blurb": blurb,  # <-- new: concise what-it-does summary
             "stars": r["stargazers_count"],
             "forks": r.get("forks_count", 0),
             "language": lang,
