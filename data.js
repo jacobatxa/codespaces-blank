@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-08",
- "fetched_at": "2026-05-08T06:32:45",
- "total": 125,
+ "fetched_at": "2026-05-08T06:36:21",
+ "total": 155,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -15,6 +15,14 @@ const APP_DATA = {
    "count": 12,
    "color": "#f97316"
   },
+  "The Verge - AI": {
+   "count": 10,
+   "color": "#8b5cf6"
+  },
+  "OpenAI Blog": {
+   "count": 8,
+   "color": "#059669"
+  },
   "Wired - AI": {
    "count": 8,
    "color": "#eab308"
@@ -23,12 +31,16 @@ const APP_DATA = {
    "count": 12,
    "color": "#0891b2"
   },
+  "VentureBeat - AI": {
+   "count": 7,
+   "color": "#14b8a6"
+  },
   "Google AI Blog": {
    "count": 8,
    "color": "#2563eb"
   },
   "MIT Technology Review - AI": {
-   "count": 5,
+   "count": 8,
    "color": "#059669"
   },
   "量子位": {
@@ -52,40 +64,60 @@ const APP_DATA = {
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
-   "count": 9,
+   "count": 11,
    "color": "#ec4899"
   }
+ },
+ "shortNames": {
+  "Hugging Face Blog": "HF",
+  "Lil'Log (Lilian Weng)": "Lil.Log",
+  "Simon Willison's Blog": "S.Willison",
+  "MIT Technology Review - AI": "MIT Rev.",
+  "TechCrunch - AI": "TechCrunch",
+  "ArsTechnica - AI": "ArsTech",
+  "The Verge - AI": "The Verge",
+  "VentureBeat - AI": "VB",
+  "Google AI Blog": "Google AI",
+  "OpenAI Blog": "OpenAI",
+  "Wired - AI": "Wired",
+  "量子位": "量子位",
+  "36氪 - AI": "36氪",
+  "APPSO": "APPSO",
+  "机器之心": "机器之心",
+  "动点科技 - AI": "动点",
+  "少数派 - AI": "少数派",
+  "雷锋网 - AI": "雷锋网"
  },
  "tabs": [
   {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 33
+   "count": 49
   },
   {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 10
+   "count": 11
   },
   {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 6
+   "count": 8
   },
   {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 6
+   "count": 8
   },
   {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 2
+   "count": 4
   },
   {
    "name": "开源与生态",
@@ -97,7 +129,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 19
+   "count": 23
   },
   {
    "name": "AI安全与对齐",
@@ -109,7 +141,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 47
+   "count": 50
   }
  ],
  "sections": [
@@ -117,8 +149,116 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 33,
+   "count": 49,
    "cards": [
+    {
+     "title": "Anthropic introduces \"dreaming,\" a system that lets AI agents learn from their own mistakes",
+     "url": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-08",
+     "summary": "Anthropic on Tuesday unveiled a suite of updates to its Claude Managed Agents platform at its second annual Code with Claude developer conference in San Francisco, introducing a new capability called \"dreaming\" that lets AI agents learn from their own past sessions and improve over time — a step ...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "OpenAI introduces new ‘Trusted Contact’ safeguard for cases of possible self-harm",
+     "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-07",
+     "summary": "The company is expanding its efforts to protect ChatGPT users in cases where conversations may turn to self-harm.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster",
+     "source": "The Verge - AI",
+     "date": "2026-05-07",
+     "summary": "The week leading up to Thanksgiving 2023 was the AI industry\\'s biggest soap opera moment. OpenAI CEO Sam Altman was abruptly ousted from his role at the ChatGPT maker. The explanation? That Altman was \"not consistently candid in his communications with the board.\" Now, via witness testimony and t...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "ChatGPT’s ‘Trusted Contact’ will alert loved ones of safety concerns",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification",
+     "source": "The Verge - AI",
+     "date": "2026-05-07",
+     "summary": "OpenAI is launching an optional safety feature for ChatGPT that allows adult users to assign an emergency contact for mental health and safety concerns. Friends, family members, or caregivers designated as a \"Trusted Contact\" will be notified if OpenAI detects that a person may have discussed top...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+     "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+     "source": "The Verge - AI",
+     "date": "2026-05-07",
+     "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profi...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "OpenClaw and Claude can put your AI-generated podcasts in Spotify",
+     "url": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
+     "source": "The Verge - AI",
+     "date": "2026-05-07",
+     "summary": "Save to Spotify is a new command-line tool designed specifically for AI agents like OpenClaw, Claude Code, or OpenAI Codex. If you\\'re the kind of person who collects research on a topic, then feeds it through their AI of choice to create audio summaries and personal podcasts, this lets you save t...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+     "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+     "source": "OpenAI Blog",
+     "date": "2026-05-07",
+     "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Parloa builds service agents customers want to talk to",
+     "url": "https://openai.com/index/parloa",
+     "source": "OpenAI Blog",
+     "date": "2026-05-07",
+     "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Advancing voice intelligence with new models in the API",
+     "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+     "source": "OpenAI Blog",
+     "date": "2026-05-07",
+     "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Testing ads in ChatGPT",
+     "url": "https://openai.com/index/testing-ads-in-chatgpt",
+     "source": "OpenAI Blog",
+     "date": "2026-05-07",
+     "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Introducing Trusted Contact in ChatGPT",
+     "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+     "source": "OpenAI Blog",
+     "date": "2026-05-07",
+     "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Simplex rethinks software development with Codex",
+     "url": "https://openai.com/index/simplex",
+     "source": "OpenAI Blog",
+     "date": "2026-05-07",
+     "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Trump Pivots on AI Regulation, Worker Ousted by DOGE Runs for Office, and Hantavirus Explained",
      "url": "https://www.wired.com/story/uncanny-valley-podcast-trump-pivots-ai-regulation-worker-ousted-by-doge-runs-for-office-hantavirus-explained/",
@@ -174,6 +314,33 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "How Sakana trained a 7B model to orchestrate GPT-5, Claude Sonnet 4 and Gemini 2.5 Pro",
+     "url": "https://venturebeat.com/orchestration/how-sakana-trained-a-7b-model-to-orchestrate-gpt-5-claude-sonnet-4-and-gemini-2-5-pro",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-07",
+     "summary": "Every LangChain pipeline your team hardcodes starts breaking the moment the query distribution shifts — and it always shifts. That bottleneck is what Sakana AI set out to eliminate.Researchers at Sakana AI have introduced the \"RL Conductor,\" a small language model trained via reinforcement learni...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Meet ZAYA1-8B, a super efficient, open reasoning model trained on AMD Instinct MI300 GPUs",
+     "url": "https://venturebeat.com/technology/meet-zaya1-8b-a-super-efficient-open-reasoning-model-trained-on-amd-instinct-mi300-gpus",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-07",
+     "summary": "Even as leading AI providers like OpenAI and Anthropic battle over the compute to train and release ever larger, more powerful models, other labs are going in a different direction — pursuing the development of smaller, more efficient models and often open sourcing them. The latest worth paying a...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Why AI breaks without context — and how to fix it",
+     "url": "https://venturebeat.com/orchestration/why-ai-breaks-without-context-and-how-to-fix-it",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-07",
+     "summary": "Presented by Zeta GlobalThe gap between what AI promises and what it delivers is not subtle. The same model can produce precise, useful output in one system and generic, irrelevant results in another. The issue is not the model. It\\'s the context.Most enterprise systems were not built for how AI o...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
      "source": "Hugging Face Blog",
@@ -187,7 +354,16 @@ const APP_DATA = {
      "url": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-06",
-     "summary": "",
+     "summary": "Deal follows others with Microsoft, Amazon, and more.",
+     "is_new": false,
+     "lang": "en"
+    },
+    {
+     "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+     "url": "https://openai.com/index/singular-bank",
+     "source": "OpenAI Blog",
+     "date": "2026-05-06",
+     "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
      "is_new": false,
      "lang": "en"
     },
@@ -232,7 +408,7 @@ const APP_DATA = {
      "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
      "source": "MIT Technology Review - AI",
      "date": "2026-05-01",
-     "summary": "",
+     "summary": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into bankrolling the company. Along the way, he warned that AI could destroy us all and sat th...",
      "is_new": false,
      "lang": "en"
     },
@@ -286,7 +462,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/414194.html",
      "source": "量子位",
      "date": "2026-05-08",
-     "summary": "",
+     "summary": "OpenAI上新三款实时语音模型",
      "is_new": true,
      "lang": "zh"
     },
@@ -295,7 +471,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/414141.html",
      "source": "量子位",
      "date": "2026-05-08",
-     "summary": "",
+     "summary": "这跟中国的开源精神，显然是一脉相承的",
      "is_new": true,
      "lang": "zh"
     },
@@ -313,7 +489,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/413782.html",
      "source": "量子位",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "推动医疗保障体系迈入数智化新阶段",
      "is_new": true,
      "lang": "zh"
     },
@@ -331,7 +507,7 @@ const APP_DATA = {
      "url": "https://cn.technode.com/post/2026-05-07/deepseek-big-fund-funding-valuation-over-300-billion-yuan/",
      "source": "动点科技 - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "梁文锋也可能以个人身份参与本轮出资",
      "is_new": true,
      "lang": "zh"
     },
@@ -422,8 +598,17 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 10,
+   "count": 11,
    "cards": [
+    {
+     "title": "Perplexity’s Personal Computer is now available to everyone on Mac",
+     "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-07",
+     "summary": "Perplexity\\'s Personal Computer brings AI agents to your Mac, and is now open to everyone.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Vibe coding and agentic engineering are getting closer than I\\'d like",
      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
@@ -474,7 +659,7 @@ const APP_DATA = {
      "url": "<![CDATA[https://36kr.com/newsflashes/3800237602020361?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-08",
-     "summary": "",
+     "summary": "5月8日，AI硬件公司“未来智能”完成亿元级A+轮融资，传音参投并达成战略合作。双方将整合各自在硬件研发及全球渠道上的优势，共同打造具备自主感知与执行能力的下一代AI Agent硬件。据了解，本轮融资资金将重点用于两大方向：一是加大AI Agent领域的人才投入和生态建设，二是拓展上游供应链，联合核心元器件厂商共同开发面向“AI听”与“AI看”的专用硬件组件，构建下一代AI硬件的底层能力。",
      "is_new": true,
      "lang": "zh"
     },
@@ -483,7 +668,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/413912.html",
      "source": "量子位",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "背靠国内最大ComfyUI生态",
      "is_new": true,
      "lang": "zh"
     },
@@ -492,7 +677,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/413612.html",
      "source": "量子位",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "低提示词，挑战主流模型的交互逻辑",
      "is_new": true,
      "lang": "zh"
     },
@@ -520,7 +705,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 6,
+   "count": 8,
    "cards": [
     {
      "title": "This Reggae Band Is in a Nightmare Battle Against AI Slop Remixes",
@@ -529,6 +714,24 @@ const APP_DATA = {
      "date": "2026-05-07",
      "summary": "When Stick Figure’s seven-year-old song shot up the charts, the band was thrilled. But its viral moment was spurred by unauthorized AI remixes.",
      "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "The app store for robots has arrived: Hugging Face launches open-source Reachy Mini App Store with 200+ apps",
+     "url": "https://venturebeat.com/technology/the-app-store-for-robots-has-arrived-hugging-face-launches-open-source-reachy-mini-app-store-with-200-apps",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-06",
+     "summary": "There\\'s an app for nearly every imaginable user and use case these days, but one thing they all have in common is that they\\'re centered around one device: the smartphone.That changes today as Hugging Face, the 10-year-old New York City startup best known for being the go-to place online to host a...",
+     "is_new": false,
+     "lang": "en"
+    },
+    {
+     "title": "The Download: inside the Musk v. Altman trial, and AI for democracy",
+     "url": "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/",
+     "source": "MIT Technology Review - AI",
+     "date": "2026-05-05",
+     "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Week one of the Musk v. Altman trial: what it was like in the room Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of…",
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -545,7 +748,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/413830.html",
      "source": "量子位",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "1亿美元种子轮团队出手，单个模型解锁单手打蛋解魔方弹钢琴",
      "is_new": true,
      "lang": "zh"
     },
@@ -554,7 +757,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/413613.html",
      "source": "量子位",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "IPO前夕，高管集体出走",
      "is_new": true,
      "lang": "zh"
     },
@@ -582,15 +785,33 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 6,
+   "count": 8,
    "cards": [
     {
      "title": "OpenAI launches new voice intelligence features in its API",
      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
      "source": "TechCrunch - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "The new features could be handy for customer service systems, but OpenAI says they have applications that work across a variety of other fields, including education and creator platforms.",
      "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Uber uses OpenAI to help people earn smarter and book faster",
+     "url": "https://openai.com/index/uber",
+     "source": "OpenAI Blog",
+     "date": "2026-05-06",
+     "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
+     "is_new": false,
+     "lang": "en"
+    },
+    {
+     "title": "Market research is too slow for the AI era, so Brox built 60,000 identical \\'digital twins\\' of real people you can survey instantly, repeatedly",
+     "url": "https://venturebeat.com/data/market-research-is-too-slow-for-the-ai-era-so-brox-built-60-000-identical-digital-twins-of-real-people-you-can-survey-instantly-repeatedly",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-06",
+     "summary": "In a world where a viral TikTok video can cause a brand to trend globally in mere hours, the traditional market research cycle — often spanning 12 weeks — is becoming a liability. The lag between a survey question and the answers from a wide (or targeted) pool of respondents has become a primary ...",
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -644,8 +865,26 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 2,
+   "count": 4,
    "cards": [
+    {
+     "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
+     "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-07",
+     "summary": "Elon Musk\\'s legal effort to dismantle OpenAI may hinge on how its for-profit subsidiary enhances or detracts from the frontier lab\\'s founding mission of ensuring that humanity benefits from artificial general intelligence.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "How David Sacks crashed and burned in the White House",
+     "url": "https://www.theverge.com/column/925487/david-sacks-trump-administration-ai-model-review",
+     "source": "The Verge - AI",
+     "date": "2026-05-06",
+     "summary": "Hello and welcome to Regulator, a newsletter exclusively for Verge subscribers about tech, politics, and Washington intrigue. (It\\'s basically House of Cards, but for nerds.) Not a subscriber yet? You really should become one, and to save you a Google search, here is the direct link to do so! And ...",
+     "is_new": false,
+     "lang": "en"
+    },
     {
      "title": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构",
      "url": "<![CDATA[https://36kr.com/p/3799984046333186?f=rss]]>",
@@ -687,7 +926,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 19,
+   "count": 23,
    "cards": [
     {
      "title": "Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI",
@@ -703,25 +942,7 @@ const APP_DATA = {
      "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
      "source": "TechCrunch - AI",
      "date": "2026-05-07",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "OpenAI introduces new ‘Trusted Contact’ safeguard for cases of possible self-harm",
-     "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
-     "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "",
+     "summary": "AI startup Pit is led by the co-founders of European scooter giant Voi and backed by a16z, which is leading the startup’s $16 million seed round.",
      "is_new": true,
      "lang": "en"
     },
@@ -730,7 +951,7 @@ const APP_DATA = {
      "url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
      "source": "TechCrunch - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "Security researchers at Mozilla say Anthropic\\'s Mythos has unearthed a wealth of high-severity bugs in Firefox.",
      "is_new": true,
      "lang": "en"
     },
@@ -739,7 +960,16 @@ const APP_DATA = {
      "url": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
      "source": "TechCrunch - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "Startup Battlefield 200 applications are open, but only for three more weeks. Apply by May 27 for your shot at VC access, global visibility, TechCrunch coverage, $100,000 equity-free, and more opportunities for major scaling impact.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Exhibit at TechCrunch Disrupt 2026: Get in front of 10,000 decision-makers before space runs out",
+     "url": "https://techcrunch.com/2026/05/07/exhibit-at-techcrunch-disrupt-2026-get-in-front-of-10000-decision-makers-before-space-runs-out/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-07",
+     "summary": "If startup visibility, traction, and real deals matter, you should be on the TechCrunch Disrupt 2026 exhibit floor. Get your 6\\' exhibit table before your competitor does.",
      "is_new": true,
      "lang": "en"
     },
@@ -748,7 +978,16 @@ const APP_DATA = {
      "url": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "Musk was “prepared to do the for-profit, provided he would get control.”",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Anthropic Skill scanners passed every check. The malicious code rode in on a test file.",
+     "url": "https://venturebeat.com/security/anthropic-skill-scanners-passed-every-check-malicious-code-test-file",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-07",
+     "summary": "Picture this scenario: An Anthropic Skill scanner runs a full analysis of a Skill pulled from ClawHub or skills.sh. Its markdown instructions are clean, and no prompt injection is detected. No shell commands are hiding in the SKILL.md. Green across the board.The scanner never looked at the .test....",
      "is_new": true,
      "lang": "en"
     },
@@ -789,6 +1028,24 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "Week one of the Musk v. Altman trial: What it was like in the room",
+     "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
+     "source": "MIT Technology Review - AI",
+     "date": "2026-05-04",
+     "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Two of the most powerful people in AI—Sam Altman and Elon Musk—began their face-off in court in Oakland, California, last week. Musk is suing OpenAI, alleging ...",
+     "is_new": false,
+     "lang": "en"
+    },
+    {
+     "title": "Tailoring AI solutions for health care needs",
+     "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
+     "source": "MIT Technology Review - AI",
+     "date": "2026-05-04",
+     "summary": "The AI market is full of big promises of grand transformation. Health care is a prime target for those promises, beset as it is by financial pressures, labor shortages, and the growing burden of caring for an aging population. AI developers are targeting functions that vary widely, from curing ca...",
+     "is_new": false,
+     "lang": "en"
+    },
+    {
      "title": "How to build scalable web apps with OpenAI\\'s Privacy Filter",
      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
      "source": "Hugging Face Blog",
@@ -820,7 +1077,25 @@ const APP_DATA = {
      "url": "<![CDATA[https://36kr.com/newsflashes/3800235938814984?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-08",
-     "summary": "",
+     "summary": "近日，在AI交易的刺激下，美股屡创新高，与此同时，关于科技板块即将迎来痛苦回调的讨论也甚嚣尘上。但美国传奇投资人、亿万富翁对冲基金经理保罗•都铎•琼斯（Paul Tudor Jones）并未撤离AI投资赛道，反而加码投资。以科技股为主的纳斯达克100指数仅在过去一个月就上涨了18%，但琼斯认为，市场尚未触见顶。他认为，由AI驱动的牛市有望再持续一两年。（财联社）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "爱彼迎：第一季度营收27亿美元，同比增长18%",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800219287755778?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "36氪获悉，Airbnb爱彼迎发布2026年第一季度财务业绩。Airbnb爱彼迎发布2026年第一季度财务业绩。财报显示，第一季度营收达到27亿美元，同比增长18%；录得净利润1.6亿美元，调整后的税息折旧及摊销前利润（Adjusted EBITDA）达5.19亿美元，同比增长24%。",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "AI医疗迎来高速发展窗口期，8只个股一季报净利润增幅超100%",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800182180830208?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "在政策持续赋能、资本加码入局、互联网大厂加速布局的多重利好加持下，AI医疗产业迎来高速发展窗口期。据数据宝统计，A股中布局AI医疗产业链的上市公司共有103家，包括医药生物、计算机行业上市公司。5月8日早盘，概念股涨多跌少，平均上涨0.74%，贝瑞基因、达安基因涨停。从业绩来看，29只AI医疗概念股一季报归母净利润实现同比增长，其中一品红、昭衍新药、博济医药等8只个股增幅在100%以上。（证券时报）",
      "is_new": true,
      "lang": "zh"
     },
@@ -873,7 +1148,7 @@ const APP_DATA = {
      "url": "https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-06",
-     "summary": "",
+     "summary": "Trump forced to admit Biden was right on AI safety testing.",
      "is_new": false,
      "lang": "en"
     }
@@ -883,23 +1158,14 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 47,
+   "count": 50,
    "cards": [
     {
      "title": "Why you can never get your doctor to call you back",
      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
      "source": "TechCrunch - AI",
      "date": "2026-05-08",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Perplexity’s Personal Computer is now available to everyone on Mac",
-     "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "",
+     "summary": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren\\'t worried about that; they\\'re more worried ...",
      "is_new": true,
      "lang": "en"
     },
@@ -908,16 +1174,7 @@ const APP_DATA = {
      "url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
      "source": "TechCrunch - AI",
      "date": "2026-05-07",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Exhibit at TechCrunch Disrupt 2026: Get in front of 10,000 decision-makers before space runs out",
-     "url": "https://techcrunch.com/2026/05/07/exhibit-at-techcrunch-disrupt-2026-get-in-front-of-10000-decision-makers-before-space-runs-out/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "",
+     "summary": "Based on Whitney Wolfe Herd\\'s past comments about Bumble\\'s new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
      "is_new": true,
      "lang": "en"
     },
@@ -926,7 +1183,7 @@ const APP_DATA = {
      "url": "https://techcrunch.com/podcast/auroras-chris-urmson-on-why-self-driving-trucks-are-finally-ready-to-scale/",
      "source": "TechCrunch - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "Self-driving has been “almost here” for over a decade. But somewhere between DARPA challenges and a handful of driverless trucks hauling freight between Dallas and Houston, Aurora co-founder and CEO Chris Urmson’s story changed. The self-driving truck company started commercial driverless operati...",
      "is_new": true,
      "lang": "en"
     },
@@ -935,7 +1192,7 @@ const APP_DATA = {
      "url": "https://techcrunch.com/2026/05/07/2-days-left-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
      "source": "TechCrunch - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "Two days left to save up to $410 on your pass, and get a second one at 50% off to TechCrunch Disrupt 2026. Offer ends May 8, 11:59 p.m. PT. Register now.",
      "is_new": true,
      "lang": "en"
     },
@@ -944,7 +1201,7 @@ const APP_DATA = {
      "url": "https://arstechnica.com/tech-policy/2026/05/ice-protesters-sue-to-stop-dhs-from-seizing-dna-samples/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "Lawsuit accuses DHS of plugging DNA database into ICE surveillance machine.",
      "is_new": true,
      "lang": "en"
     },
@@ -953,7 +1210,7 @@ const APP_DATA = {
      "url": "https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "The developer of Firefox says it has \"completely bought in\" on AI-assisted bug discovery.",
      "is_new": true,
      "lang": "en"
     },
@@ -962,7 +1219,7 @@ const APP_DATA = {
      "url": "https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "The $100 Fitbit Air is available for preorder today.",
      "is_new": true,
      "lang": "en"
     },
@@ -971,7 +1228,7 @@ const APP_DATA = {
      "url": "https://arstechnica.com/science/2026/05/rip-social-media-what-comes-next-is-messy/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "As social media splinters, how can we keep the new online spaces from devolving into toxic pits of despair?",
      "is_new": true,
      "lang": "en"
     },
@@ -980,7 +1237,7 @@ const APP_DATA = {
      "url": "https://arstechnica.com/cars/2026/05/is-your-porsche-taycan-too-slow-at-the-nurbugring-you-need-this-manthey-kit/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "Nordschleife-specialist Manthey has developed an upgrade package for the Porsche EV.",
      "is_new": true,
      "lang": "en"
     },
@@ -989,7 +1246,34 @@ const APP_DATA = {
      "url": "https://arstechnica.com/space/2026/05/former-nasa-chief-takes-helm-of-national-security-space-firm/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "\"The spacecraft can also be refueled, and it can refuel others.\"",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Apple’s AirPods with cameras for AI are apparently close to production",
+     "url": "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production",
+     "source": "The Verge - AI",
+     "date": "2026-05-07",
+     "summary": "Apple\\'s rumored AirPods with cameras are nearing a stage where the company will test early mass production, Bloomberg\\'s Mark Gurman reports. Currently, Apple testers are \"actively using\" prototypes that are in the design validation test stage, which is one step before the production validation te...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "SpaceX has a $55 billion plan to build AI chips in Texas",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips",
+     "source": "The Verge - AI",
+     "date": "2026-05-07",
+     "summary": "Elon Musk\\'s plans to get into the AI chip manufacturing business are going to be costly. As the New York Times and CNBC report, SpaceX is planning to invest at least $55 billion into its \"Terafab\" chip plant in Austin, Texas. That\\'s according to the details of a public hearing notice filed in Gri...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Google’s taking a big swing at AI health with the Fitbit Air",
+     "url": "https://www.theverge.com/gadgets/925458/google-health-fitbit-air-ai-coaching-wearables-fitness-trackers",
+     "source": "The Verge - AI",
+     "date": "2026-05-07",
+     "summary": "It\\'s a Whoop dupe. That was my first thought when I saw the new $99 Google Fitbit Air. You can hardly blame me. The band is screenless with a metallic fabric clasp. My eyes flickered between the Fitbit Air and my wrist, where I\\'m wearing a Whoop MG. Was I not seeing double? But as […]",
      "is_new": true,
      "lang": "en"
     },
@@ -1021,6 +1305,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "The Download: the tech reshaping IVF and the rise of balcony solar",
+     "url": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/",
+     "source": "MIT Technology Review - AI",
+     "date": "2026-05-07",
+     "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s next for IVF IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expensive—and...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
      "source": "Hugging Face Blog",
@@ -1034,7 +1327,7 @@ const APP_DATA = {
      "url": "https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-06",
-     "summary": "",
+     "summary": "Vandenberg Space Force Base in California is set to become SpaceX\\'s busiest launch site—for now.",
      "is_new": false,
      "lang": "en"
     },
@@ -1043,7 +1336,7 @@ const APP_DATA = {
      "url": "https://arstechnica.com/gadgets/2026/05/tsmc-taps-wind-power-as-ai-chip-demand-soars-taiwan-feels-energy-crunch/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-06",
-     "summary": "",
+     "summary": "TSMC backs renewables during record demand for energy-hungry chip manufacturing.",
      "is_new": false,
      "lang": "en"
     },
@@ -1052,7 +1345,34 @@ const APP_DATA = {
      "url": "https://arstechnica.com/tech-policy/2026/05/court-strikes-down-fcc-anti-discrimination-rule-opposed-by-internet-providers/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-06",
-     "summary": "",
+     "summary": "Chairman Brendan Carr celebrates FCC court loss in case over Biden-era rule.",
+     "is_new": false,
+     "lang": "en"
+    },
+    {
+     "title": "Musk’s biggest loyalist became his biggest liability",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
+     "source": "The Verge - AI",
+     "date": "2026-05-06",
+     "summary": "I sat down in the Musk v. Altman trial courtroom today, painfully aware that no one was going to ask Shivon Zilis the question on everyone\\'s minds: Girl, what the fuck are you doing? Zilis, who testified under oath that she is the mother of four of Musk\\'s children, was… What\\'s the best way to […]",
+     "is_new": false,
+     "lang": "en"
+    },
+    {
+     "title": "Google shuts down Project Mariner",
+     "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
+     "source": "The Verge - AI",
+     "date": "2026-05-06",
+     "summary": "Google has pulled the plug on Project Mariner, an experimental feature designed to perform tasks for you across the web, as reported earlier by Wired\\'s Maxwell Zeff. The Project Mariner landing page now contains a message that says: \"Thank you for using Project Mariner. It was shut down on May 4t...",
+     "is_new": false,
+     "lang": "en"
+    },
+    {
+     "title": "The Download: seafloor science and military chatbots",
+     "url": "https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/",
+     "source": "MIT Technology Review - AI",
+     "date": "2026-05-06",
+     "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining Last week, two oblong neon submersibles started to descend nearly 6,000 meter...",
      "is_new": false,
      "lang": "en"
     },
@@ -1066,29 +1386,11 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "The Download: inside the Musk v. Altman trial, and AI for democracy",
-     "url": "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/",
-     "source": "MIT Technology Review - AI",
-     "date": "2026-05-05",
-     "summary": "",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "A blueprint for using AI to strengthen democracy",
      "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
      "source": "MIT Technology Review - AI",
      "date": "2026-05-05",
-     "summary": "",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Tailoring AI solutions for health care needs",
-     "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
-     "source": "MIT Technology Review - AI",
-     "date": "2026-05-04",
-     "summary": "",
+     "summary": "Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping give rise to the Reformation and, eventually, representative government. The telegraph made it possible to administer vast nations like the US, acc...",
      "is_new": false,
      "lang": "en"
     },
@@ -1097,7 +1399,7 @@ const APP_DATA = {
      "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
      "source": "MIT Technology Review - AI",
      "date": "2026-05-01",
-     "summary": "",
+     "summary": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review’s EmTech AI conference explores why security must be rethought ...",
      "is_new": false,
      "lang": "en"
     },
@@ -1124,7 +1426,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/414156.html",
      "source": "量子位",
      "date": "2026-05-08",
-     "summary": "",
+     "summary": "服务FSD和Optimus",
      "is_new": true,
      "lang": "zh"
     },
@@ -1133,7 +1435,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/414125.html",
      "source": "量子位",
      "date": "2026-05-08",
-     "summary": "",
+     "summary": "全部都是AI加持的超级个体",
      "is_new": true,
      "lang": "zh"
     },
@@ -1160,7 +1462,7 @@ const APP_DATA = {
      "url": "https://cn.technode.com/post/2026-05-08/apple-airpods-cameras-ai-production/",
      "source": "动点科技 - AI",
      "date": "2026-05-08",
-     "summary": "",
+     "summary": "据彭博社记者马克·古尔曼报道，传闻中苹果 […]",
      "is_new": true,
      "lang": "zh"
     },
@@ -1183,11 +1485,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "AI医疗迎来高速发展窗口期，8只个股一季报净利润增幅超100%",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3800182180830208?f=rss]]>",
+     "title": "小鹏第二代VIA智驾里程占比突破50%",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800195184336135?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-08",
-     "summary": "",
+     "summary": "36氪获悉，5月8日，小鹏汽车披露，第二代VLA系统推送一个月后，智驾里程占比已突破50%。同期，小鹏第二代VLA百公里接管次数环比下降25.87%，全程100%使用VLA的行程数环比增长27.84%。五一假期期间，小鹏AI辅助驾驶每日使用率达到93.21%，累计行驶里程8446万公里，单车最长智驾里程达到5441公里。",
      "is_new": true,
      "lang": "zh"
     },
@@ -1196,7 +1498,7 @@ const APP_DATA = {
      "url": "https://www.qbitai.com/2026/05/414006.html",
      "source": "量子位",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "让广告创意不再卡在预算里",
      "is_new": true,
      "lang": "zh"
     },
@@ -1205,7 +1507,7 @@ const APP_DATA = {
      "url": "https://cn.technode.com/post/2026-05-07/musk-xai-spacex-ai/",
      "source": "动点科技 - AI",
      "date": "2026-05-07",
-     "summary": "",
+     "summary": "马斯克在 X 上表示，xAI 将作为一家 […]",
      "is_new": true,
      "lang": "zh"
     },

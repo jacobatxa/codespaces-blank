@@ -200,8 +200,13 @@ try{STATE.read=JSON.parse(localStorage.getItem(RK)||'{}')}catch(e){}
 
 /* ── Helpers ── */
 function shortSrc(s){
-  var m={'Hugging Face Blog':'HF',"Lil'Log (Lilian Weng)":'Lil.Log',"Simon Willison's Blog":'S.Willison','MIT Technology Review - AI':'MIT Rev.','TechCrunch - AI':'TechCrunch','ArsTechnica - AI':'ArsTech','The Verge - AI':'The Verge','VentureBeat - AI':'VB','Google AI Blog':'Google AI','OpenAI Blog':'OpenAI','Meta AI Blog':'Meta AI','Wired - AI':'Wired','量子位':'量子位','36氪 - AI':'36氪','APPSO':'APPSO','虎嗅 - AI':'虎嗅','机器之心':'机器之心','动点科技 - AI':'动点','少数派 - AI':'少数派','雷锋网 - AI':'雷锋网','品玩 - AI':'品玩'};
-  return m[s]||s;
+  // Use mapped source names from data
+  var m = {};
+  // Build from SOURCE_SHORT-like structure in data
+  if (D.shortNames) {
+    m = D.shortNames;
+  }
+  return m[s] || s.slice(0, 12) + (s.length > 12 ? '…' : '');
 }
 function fmtDate(ds){
   if(!ds)return'';
@@ -409,8 +414,15 @@ function startAutoRefresh(){
     fetch('data.js?t='+Date.now())
     .then(function(r){return r.text()})
     .then(function(txt){
-      try{eval(txt);if(typeof APP_DATA!=='undefined'){D=APP_DATA;render()}}
-      catch(e){}
+      try{
+        var newData = JSON.parse(txt.replace('const APP_DATA = ','').replace(/;$/,''));
+        if(newData && newData.total) {
+          D = newData;
+          // Re-cache shortNames
+          if(D.shortNames) window._shortNames = D.shortNames;
+          render();
+        }
+      } catch(e) {}
     })
     .catch(function(){});
   },300000); // 5 min
@@ -425,8 +437,14 @@ window.manualRefresh=function(){
   fetch('data.js?t='+Date.now())
   .then(function(r){return r.text()})
   .then(function(txt){
-    try{eval(txt);if(typeof APP_DATA!=='undefined'){D=APP_DATA;render()}}
-    catch(e){}
+    try{
+      var newData = JSON.parse(txt.replace('const APP_DATA = ','').replace(/;$/,''));
+      if(newData && newData.total) {
+        D = newData;
+        if(D.shortNames) window._shortNames = D.shortNames;
+        render();
+      }
+    } catch(e) {}
   })
   .catch(function(){})
   .finally(function(){

@@ -8,15 +8,14 @@ Balanced Chinese/English sources (target: ~50/50)
 import json
 import re
 import html
-import time
+import os
 import urllib.request
 import urllib.error
-import xml.parsers.expat
 from datetime import datetime, timezone
 
 # ── Configuration ────────────────────────────────────────────────
 MAX_ARTICLES = 200
-CACHE_TTL = 3600  # 1 hour
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ── RSS Sources ──────────────────────────────────────────────────
 # Balanced: ~50% English, ~50% Chinese
@@ -117,21 +116,6 @@ SOURCES = [
         "name": "雷锋网 - AI",
         "lang": "zh",
         "url": "https://www.leiphone.com/feed",
-        "max": 20,
-        "filter_ai": True
-    },
-    {
-        "name": "品玩 - AI",
-        "lang": "zh",
-        "url": "https://www.pingwest.com/feed",
-        "max": 20,
-        "filter_ai": True
-    },
-    # ── New Chinese Sources ──
-    {
-        "name": "虎嗅 - AI",
-        "lang": "zh",
-        "url": "https://www.huxiu.com/rss",
         "max": 20,
         "filter_ai": True
     },
@@ -276,9 +260,21 @@ def parse_feed(raw):
             return ""
 
         title = html.unescape(re.sub(r'<[^>]+>', '', extract("title")))
+        if not title:
+            # Fallback: try to get title directly with CDATA handling
+            raw_title = extract("title")
+            cdata_m = re.search(r'<!\[CDATA\[(.*?)\]\]>', raw_title, re.DOTALL)
+            if cdata_m:
+                title = html.unescape(cdata_m.group(1).strip())
+            else:
+                title = html.unescape(raw_title.strip())
         link = extract("link")
         summary_raw = extract("summary") or extract("description") or extract("content") or ""
         summary = html.unescape(re.sub(r'<[^>]+>', '', summary_raw)).strip()
+        if not summary:
+            cdata_m = re.search(r'<!\[CDATA\[(.*?)\]\]>', summary_raw, re.DOTALL)
+            if cdata_m:
+                summary = html.unescape(cdata_m.group(1).strip())
         date_str = extract("published") or extract("updated") or extract("pubDate") or ""
 
         # Clean up summary
@@ -404,8 +400,6 @@ SOURCE_COLORS = {
     "动点科技 - AI": "#10b981",
     "少数派 - AI": "#f97316",
     "雷锋网 - AI": "#8b5cf6",
-    "品玩 - AI": "#f43f5e",
-    "虎嗅 - AI": "#ef4444",
 }
 
 SOURCE_SHORT = {
@@ -427,8 +421,6 @@ SOURCE_SHORT = {
     "动点科技 - AI": "动点",
     "少数派 - AI": "少数派",
     "雷锋网 - AI": "雷锋网",
-    "品玩 - AI": "品玩",
-    "虎嗅 - AI": "虎嗅",
 }
 
 SOURCE_TAGS = {
@@ -450,8 +442,6 @@ SOURCE_TAGS = {
     "动点科技 - AI": "中文",
     "少数派 - AI": "中文",
     "雷锋网 - AI": "中文",
-    "品玩 - AI": "中文",
-    "虎嗅 - AI": "中文",
 }
 
 
@@ -533,12 +523,20 @@ def main():
     
     print(f"  📊 Balanced: {len(selected_en)} EN + {len(selected_zh)} ZH = {len(selected_en) + len(selected_zh)} total")
     
-    # If one side has fewer, fill from the other
-    selected = selected_en + selected_zh
+    # Combine and fill remaining slots from the side with more articles
+    selected_urls = set()
+    selected = []
+    for a in selected_en + selected_zh:
+        if a["url"] not in selected_urls:
+            selected_urls.add(a["url"])
+            selected.append(a)
+    
     remaining = MAX_ARTICLES - len(selected)
     if remaining > 0:
-        extra = [a for a in deduped if a not in selected][:remaining]
-        selected.extend(extra)
+        extra = [a for a in deduped if a["url"] not in selected_urls][:remaining]
+        for a in extra:
+            selected_urls.add(a["url"])
+            selected.append(a)
     
     # Final balance stats
     final_en = sum(1 for a in selected if a["lang"] == "en")
@@ -600,6 +598,7 @@ def main():
         "fetched_at": fetched_at,
         "total": len(selected),
         "sources": {k: {"count": v, "color": SOURCE_COLORS.get(k, "#6b7280")} for k, v in source_counts.items() if v > 0},
+        "shortNames": SOURCE_SHORT,
         "tabs": tabs,
         "sections": sections,
         "trending": trending,
@@ -624,7 +623,8 @@ def main():
     
     # Write data.js
     js = "const APP_DATA = " + json.dumps(clean, ensure_ascii=False, indent=1) + ";"
-    with open("/tmp/codespaces-blank/data.js", "w", encoding="utf-8") as f:
+    output_path = os.path.join(SCRIPT_DIR, "data.js")
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(js)
     
     print(f"\n  ✅ data.js written with {len(selected)} articles")
