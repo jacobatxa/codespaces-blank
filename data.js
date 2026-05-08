@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-08",
- "fetched_at": "2026-05-08T01:08:40",
- "total": 116,
+ "fetched_at": "2026-05-08T06:32:45",
+ "total": 125,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -36,7 +36,7 @@ const APP_DATA = {
    "color": "#eab308"
   },
   "APPSO": {
-   "count": 9,
+   "count": 11,
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
@@ -48,8 +48,12 @@ const APP_DATA = {
    "color": "#f97316"
   },
   "雷锋网 - AI": {
-   "count": 15,
+   "count": 13,
    "color": "#8b5cf6"
+  },
+  "36氪 - AI": {
+   "count": 9,
+   "color": "#ec4899"
   }
  },
  "tabs": [
@@ -63,37 +67,37 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 7
+   "count": 10
   },
   {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 4
+   "count": 6
   },
   {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 7
+   "count": 6
   },
   {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 1
+   "count": 2
   },
   {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 3
+   "count": 1
   },
   {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 15
+   "count": 19
   },
   {
    "name": "AI安全与对齐",
@@ -105,7 +109,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 45
+   "count": 47
   }
  ],
  "sections": [
@@ -278,6 +282,24 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
+     "url": "https://www.qbitai.com/2026/05/414194.html",
+     "source": "量子位",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国AI行",
+     "url": "https://www.qbitai.com/2026/05/414141.html",
+     "source": "量子位",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "终于能听 GPT-5 给我说人话了",
      "url": "https://www.ifanr.com/1665115?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
@@ -289,15 +311,6 @@ const APP_DATA = {
     {
      "title": "云知声山海知医慧保大模型重磅发布：以高密智能深耕高价值场景，重构医疗保险数智新生态",
      "url": "https://www.qbitai.com/2026/05/413782.html",
-     "source": "量子位",
-     "date": "2026-05-07",
-     "summary": "",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "马斯克22万张GPU全卖给Claude用：5小时限额翻倍，双方合作建太空算力",
-     "url": "https://www.qbitai.com/2026/05/413569.html",
      "source": "量子位",
      "date": "2026-05-07",
      "summary": "",
@@ -402,15 +415,6 @@ const APP_DATA = {
      "summary": "在过去两年的大模型工业化进程中，安全审计始终遵循着一套 “猫鼠游戏” 的默认设定：开发者微调模型以增强能力，而安全专家则通过红队测试（Red Teaming）或白盒探测来寻找潜在的 “后门” 或 “偏见”。这套逻辑的前提是：模型是一个被动的受访者，它的行为必须由外部观测者通过穷举输入或数学解构来 “审判”。然而，当 OpenAI、Anthropic、Meta 等公司全面开放微调 API 后，微调带来的不可检测行为成为了最严峻的安全挑战之一。过去我们审计模型，始终沿着一条低效的路径：通过外部输入去 “探测” 模型。黑盒测试就像在干草堆里找针，覆盖率极低；白盒分析试图解码数千亿参数的神经元，...",
      "is_new": false,
      "lang": "zh"
-    },
-    {
-     "title": "我所知道的代季峰：从微软亚研7万次引用，到盛大3亿美金风暴",
-     "url": "https://www.leiphone.com/category/academic/pNVXLgzCg8mIBdH9.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-04-30",
-     "summary": "“如果说谁是下一个DeepSeek，我认为是盛大。”一位接近代季峰的资深业者向雷峰网笃定地预测，不过这是半年前。 DeepSeek的成功，被业界总结为三个条件：不以短期商业化为目的、拥有一群极致纯粹的人、以及深不见底的钱袋子。在大厂受困于KPI压力、明星创业公司挣扎于融资周期的背景下，手握千亿现金、对资本投入近乎 “无感” 盛大创始人陈天桥，恰恰满足了全部条件。更何况，他找到了计算机视觉领域的泰斗级人物代季峰。2025 年 8 月，陈天桥创立的 MiroMind 正式亮相，他与代季峰强强联手的团队阵容，瞬间成为全球 AGI 赛道的焦点。短短数月，团队便推出了全栈开源深度研究系统 Miro...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -418,7 +422,7 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 7,
+   "count": 10,
    "cards": [
     {
      "title": "Vibe coding and agentic engineering are getting closer than I\\'d like",
@@ -457,6 +461,24 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "最强「种草」帝国，为何突然加速 AI",
+     "url": "<![CDATA[https://36kr.com/p/3799028783439111?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "作者 | 肖思佳 编辑 | 乔芊 杨轩 所有互联网大中厂都渴望在AI时代博得位置，在这场比赛中，小红书曾是克制的那个。 在一个搜索属性与社区属性并存，以真实经验分享为核心的产品中，活人感与AI、温情和算法，始终像天平的两端。 很长一段时间里，小红书既没有完全缺席技术探索，也没有像许多同行那样高调推进AI产品化。相反，这家公司始终在两股力量的拉锯和平衡中前行：一边持续投入模型能力，一边谨慎控制AI对社区生态的介入。 但2026年，随着Agent叙事的升温，小红书开始显露出某种急迫。 4月30日，小红书发送全员内部信，宣布成立AI一级部门Dots，“建立从模型研发、基础设施、工程到产品的完整...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "“未来智能”完成亿元级A+轮融资，与传音合作打造下一代AI Agent硬件",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800237602020361?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "原生Agent杀入画布！一站式搞定专业创作，全程可控、不抽卡",
      "url": "https://www.qbitai.com/2026/05/413912.html",
      "source": "量子位",
@@ -475,6 +497,15 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
+     "url": "<![CDATA[https://36kr.com/p/3786528811572481?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-07",
+     "summary": "文｜王毓婵 周鑫雨 编辑｜杨轩 “看流水（即营收），AI视频类这些项目的表现确实很不错，可以说是AI最赚钱的细分赛道之一。”投资行业人士对36氪说。 中国 AI 视频生成赛道，正在经历大厂模型能力疯狂增长的巨大红利。来自字节跳动的Seedance和来自快手的可灵这两款“超级底座”正在进行一周一小版、两月一大版的高频迭代。阿里巴巴也在4月底，对视频生成模型HappyHorse 1.0开启灰测，720P视频生成刊例价为0.9元/秒。 愿意为此花钱的内容创作者太多了，太急迫了。众多短剧、内容公司排队等待使用Seedance2.0已经成为2026年AI世界的一个奇观。由此，在AI视频模型外“套一...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "独家丨腾讯云成立云产品六部，王慧星担任负责人",
      "url": "https://www.leiphone.com/category/industrynews/YkSi35iAcrFzjzVJ.html",
      "source": "雷锋网 - AI",
@@ -489,7 +520,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 4,
+   "count": 6,
    "cards": [
     {
      "title": "This Reggae Band Is in a Nightmare Battle Against AI Slop Remixes",
@@ -499,6 +530,15 @@ const APP_DATA = {
      "summary": "When Stick Figure’s seven-year-old song shot up the charts, the band was thrilled. But its viral moment was spurred by unauthorized AI remixes.",
      "is_new": true,
      "lang": "en"
+    },
+    {
+     "title": "总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪；昆仑芯启动A股IPO；男子五一加班身亡！涉事公司：假期自愿",
+     "url": "https://www.leiphone.com/category/zaobao/tqf2pEDQn63OH1d6.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-08",
+     "summary": "要闻提示1.总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪2.宇树G1人形机器人在韩国出家：法名「迦悲」，需遵守不过度充电等戒律3.61岁男子五一加班在车间身亡！涉事公司：假期自愿，正积极处理4.三星关停中国家电业务，员工获N+3或N+4补偿！京东宣布过保产品免费上门检测5.腾讯混元高级研究员于文豪加盟OpenAI6.新功能？微信未读语音消息由红变灰引热议！腾讯客户回应7.昆仑芯启动A股IPO！百度持股比例57.67%8.苹果首款AI可穿戴设备：内置摄像头的AirPods已进入DVT阶段，预计最快9月搭载新Siri亮相今日头条总部人均奖金610万，中国厂却一毛...",
+     "is_new": true,
+     "lang": "zh"
     },
     {
      "title": "一年磨一剑，今年最炸机器人Demo来了！",
@@ -519,6 +559,15 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "氪星晚报 ｜千问PC端上线AI语音输入；宝马一季度利润降25%，至23亿欧元",
+     "url": "<![CDATA[https://36kr.com/p/3799089350712324?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-07",
+     "summary": "大公司： 腾讯等入股机器人灵巧手研发商临界点 36氪获悉，天眼查App显示，近日，上海临界点创新智能科技有限公司发生工商变更，新增腾讯旗下上海启善投资有限公司、百度旗下三亚百川致新私募股权投资基金合伙企业（有限合伙）等为股东，同时，注册资本由约554万人民币增至约597万人民币。 该公司成立于今年1月，法定代表人为王闯，经营范围包括人工智能硬件销售、智能机器人销售、智能机器人的研发等，现由智元创新（上海）科技股份有限公司、上海蓝驰新皓创业投资合伙企业（有限合伙）及上述新增股东等共同持股。公开资料显示，该公司由智元机器人将其灵巧手业务拆分而成立，是一家专注于机器人末端执行器，特别是灵巧手研...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "豆包将新增付费订阅，主打生产力场景；宇树机器人在美买票坐飞机，电池被没收；亚马逊进军物流行业；红果短剧将收费？抖音副总裁辟谣",
      "url": "https://www.leiphone.com/category/zaobao/N2sl4ulRn8N6QNST.html",
      "source": "雷锋网 - AI",
@@ -533,7 +582,7 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 7,
+   "count": 6,
    "cards": [
     {
      "title": "OpenAI launches new voice intelligence features in its API",
@@ -588,15 +637,6 @@ const APP_DATA = {
      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\">Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
      "is_new": false,
      "lang": "en"
-    },
-    {
-     "title": "本周看什么 | 最近值得一看的 10 部作品",
-     "url": "https://sspai.com/post/109266",
-     "source": "少数派 - AI",
-     "date": "2026-05-01",
-     "summary": "📅本周新预告《暗影蜘蛛侠》正式预告4月26日，剧集《暗影蜘蛛侠》发布了黑白和彩色双版本正式预告，将于5月27日上线PrimeVideo。尼古拉斯·凯奇领衔主演，聚焦1930年代纽约的一个上了年纪、倒霉 ...<a href=\"https://sspai.com/post/109266\" target=\"_blank\">查看全文</a>",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -604,8 +644,17 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 1,
+   "count": 2,
    "cards": [
+    {
+     "title": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构",
+     "url": "<![CDATA[https://36kr.com/p/3799984046333186?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，北京容芯致远科技有限公司（以下简称“容芯致远”）近日完成天使轮数亿元融资。本轮由北京绿色能源和低碳产业基金与赛富投资基金领投，顺禧基金、富华资本、万利达集团、长江创新投、水木清华校友基金、梅花创投等跟投。云岫资本此前参与了公司种子轮投资，本轮继续跟投，并担任长期独家财务顾问。 AI浪潮下，算力需求激增，传统以CPU为中心的架构瓶颈愈发凸显：CPU成为数据调度与交互的核心限制，GPU之间通信效率不足，内存无法实现统一地址空间共享，整体算力利用率较低。 容芯致远创始人石旭毕业于清华大学电子工程系，在芯片设计与AI领域从业多年，接受硬氪采访时，石旭...",
+     "is_new": true,
+     "lang": "zh"
+    },
     {
      "title": "Anthropic 2千亿豪赌，谷歌云成最大赢家？",
      "url": "https://www.leiphone.com/category/yanxishe/61V72k9RQozzfeX2.html",
@@ -621,17 +670,8 @@ const APP_DATA = {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 3,
+   "count": 1,
    "cards": [
-    {
-     "title": "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
-     "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "",
-     "is_new": true,
-     "lang": "en"
-    },
     {
      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
@@ -640,15 +680,6 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en"
-    },
-    {
-     "title": "假期出门太折磨？我的 23 条经验帮你规划惬意旅行",
-     "url": "https://sspai.com/post/100006",
-     "source": "少数派 - AI",
-     "date": "2026-05-03",
-     "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...<a href=\"https://sspai.com/post/100006\" target=\"_blank\">查看全文</a>",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -656,8 +687,17 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 15,
+   "count": 19,
    "cards": [
+    {
+     "title": "Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI",
+     "url": "https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/",
+     "source": "Wired - AI",
+     "date": "2026-05-08",
+     "summary": "Leaders at the tech giant were skeptical of OpenAI—but wary of pushing it into the arms of Amazon, according to emails dating back to 2018.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Voi founders’ new AI startup Pit has become the latest rising star out of Stockholm",
      "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
@@ -758,6 +798,33 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家",
+     "url": "<![CDATA[https://36kr.com/p/3799129165863937?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "作者｜黄楠 周鑫雨 编辑｜袁斯来 杨轩 硬氪独家获悉，AI卡片录音笔公司Plaud已于2025年年中拿下腾讯的融资，估值达10亿美元；目前，Plaud公司估值已涨至约20亿美元。同时，硬氪从相关人士处了解到，Plaud正在推进与腾讯会议之间的硬件合作。 有关上述信息，硬氪向Plaud及腾讯方面求证，双方均表示消息不实。 一名接近Plaud人士告诉硬氪，Plaud在2024年的总营收约5600万美金，利润率接近20%，“2025年营收差不多涨了3倍”。另有知情者透露，2025年Plaud全年收入达到了历年最高，大陆全线产品的出货量符合内部预期。 但Plaud出货量谈不上高，有一位行业人士告...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "8点1氪丨段永平再加仓泡泡玛特；多平台已下架“全李酒店”；世界杯决赛门票1张200万美元，FIFA回应",
+     "url": "<![CDATA[https://36kr.com/p/3799881836633093?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "今日热点导览 30年前捐赠书画部分去向不明？天津美院回应 张雪怒斥门店给用户备注磨叽并补偿车主1万 茅台集团总经理王莉已回归 港交所计划未来数月推出黄金期货 马斯克：xAI作为独立公司将解散并入SpaceX TOP3大新闻 “很久没有这种兴奋感了”，段永平再加仓泡泡玛特 5月7日，知名投资人段永平在社交平台发文称，把中国神华全部换成了泡泡玛特。值得注意的是，段永平此前已经多次表达了对泡泡玛特的看好，并直言“很久没有这种兴奋感了”，此次是首次明确已实际建仓泡泡玛特。此前通过卖出看跌期权的方式布局。段永平还表示：“我理解王宁（泡泡玛特创始人）不是因为我的投资，而是因为我曾经是个‘企业家’，我...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "华尔街传奇投资人：AI牛市还能再持续一两年，已加码布局",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800235938814984?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "无问芯穹再获超7亿融资：首发AI生产力公式，跻身Token经济枢纽",
      "url": "https://www.leiphone.com/category/yanxishe/eM6mjqZl27orl1gE.html",
      "source": "雷锋网 - AI",
@@ -816,8 +883,17 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 45,
+   "count": 47,
    "cards": [
+    {
+     "title": "Why you can never get your doctor to call you back",
+     "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Perplexity’s Personal Computer is now available to everyone on Mac",
      "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
@@ -981,15 +1057,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows",
-     "url": "https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/",
-     "source": "Wired - AI",
-     "date": "2026-05-06",
-     "summary": "New research suggests that reliance on AI assistants can have a negative impact on people’s ability to think and problem solve.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "datasette-referrer-policy 0.1",
      "url": "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything",
      "source": "Simon Willison\\'s Blog",
@@ -1053,26 +1120,80 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "特斯拉百万年薪招数据标注员，朝九晚五，无需AI经验",
+     "url": "https://www.qbitai.com/2026/05/414156.html",
+     "source": "量子位",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "第一批「AI原生」本科生，要毕业了",
+     "url": "https://www.qbitai.com/2026/05/414125.html",
+     "source": "量子位",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "独家｜苹果带摄像头的AirPods或被迫暂停，部分产线「原地解散」",
+     "url": "https://www.ifanr.com/1665134?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
+     "date": "2026-05-08",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "早报｜曝苹果考虑取消入门款MacBook Neo/理想高管谈MEGA设计争议:不是失败/千问PC端上线AI语音输入",
+     "url": "https://www.ifanr.com/1665130?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
+     "date": "2026-05-08",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "苹果带摄像头的 AirPods 要来了，据称已接近量产",
+     "url": "https://cn.technode.com/post/2026-05-08/apple-airpods-cameras-ai-production/",
+     "source": "动点科技 - AI",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "万字复盘我家的装修过程，希望可以帮你避避坑",
+     "url": "https://sspai.com/post/109397",
+     "source": "少数派 - AI",
+     "date": "2026-05-08",
+     "summary": "从 0 开始装修新家，这些事项值得你避坑。<a href=\"https://sspai.com/post/109397\" target=\"_blank\">查看全文</a>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "派早报：Google 发布 Fitbit Air 等",
+     "url": "https://sspai.com/post/109489",
+     "source": "少数派 - AI",
+     "date": "2026-05-08",
+     "summary": "高通发布骁龙 6 Gen 5 / 4 Gen 5 移动平台，Google 宣布停运 Project Mariner 等。<a href=\"https://sspai.com/post/109489\" target=\"_blank\">查看全文</a>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "AI医疗迎来高速发展窗口期，8只个股一季报净利润增幅超100%",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3800182180830208?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "离谱！一句话+百元预算，这只龙虾就给我搓出了一支百万级广告片？",
      "url": "https://www.qbitai.com/2026/05/414006.html",
-     "source": "量子位",
-     "date": "2026-05-07",
-     "summary": "",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "英伟达重新思考AI TCO：为何每Token成本才是唯一重要的指标",
-     "url": "https://www.qbitai.com/2026/05/413604.html",
-     "source": "量子位",
-     "date": "2026-05-07",
-     "summary": "",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "Token需求狂飙千倍，22亿热钱涌向这家AGI Infra头号玩家",
-     "url": "https://www.qbitai.com/2026/05/413591.html",
      "source": "量子位",
      "date": "2026-05-07",
      "summary": "",
@@ -1122,24 +1243,6 @@ const APP_DATA = {
      "date": "2026-05-07",
      "summary": "5 月 6 日，国际市场调研机构沙利文（Frost & Sullivan）发布《中国高校科研机构AI4S市场追踪报告，2025年》。报告显示，阿里云以26%的市场份额领跑中国高校科研机构AI4S云市场，稳居第一。AI4S，即AI for Science，人工智能驱动的科学研究，被称作实验、理论、计算、数据范式之后的“第五范式”。报告显示，中国高校科研AI4S 云市场正处于快速成长期，预计2030年将达107亿元。沙利文指出，与通用企业级AI市场相比，中国高校科研机构 AI4S 的需求正在从单一算力资源，升级为AI 全栈能力建设，更强调科研任务适配性、复杂算力与工具链协同能力，以及跨学科场...",
      "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "AI PPT，这次是真不用返工了",
-     "url": "https://www.qbitai.com/2026/05/413296.html",
-     "source": "量子位",
-     "date": "2026-05-06",
-     "summary": "",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "AI使用率超八成，新加坡为何仍被列为AI过渡市场？",
-     "url": "https://cn.technode.com/post/2026-05-06/singapore-ai-adoption-transitional-market-ey-2026/",
-     "source": "动点科技 - AI",
-     "date": "2026-05-06",
-     "summary": "",
-     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1204,24 +1307,6 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh"
-    },
-    {
-     "title": "美团首度披露AI商家工具应用进展：已服务超180万实体商家",
-     "url": "https://www.leiphone.com/category/industrynews/M7UHcqytIywn2Wbu.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-04-30",
-     "summary": "4月29日，美团官方公众号披露了面向实体商家的AI工具矩阵最新进展。美团“AI小管家”不断迭代升级，核心功能已服务超180万实体商家，具备选址分析、经营数据洞察、智能客服应答、门店视觉设计等能力，并支持方言识别及无障碍语音交互。目前，美团“AI小管家”已开展一系列服务商家的实践——选址开店方面，“袋鼠参谋”累计生成32万份选址报告，选址准确率达87%；经营服务方面，“智能掌柜”每周服务近10万商家主动提问，累计解决660万个经营问题；口碑管理方面，大众点评AI全年拦截异常评价近405万条；服务零售“AI数字员工”已覆盖200余种行业，提供客服、店长、运营、排班四岗位全天候在线服务。美团表...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "担心被Skill替代的打工人发现：“根本不是那么回事”",
-     "url": "https://www.leiphone.com/category/ai/ntkufUQjQzmHXh5J.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-04-30",
-     "summary": "“现在，和Skill协作成了我们的日常工作，但公司里也没见谁‘被Skill替代’而被裁呀。”一家跨境电商的运营赵磊向雷峰网吐槽道，语气里有点无奈，又藏着点庆幸。在他看来，前段时间网上热议的“蒸馏同事”、“Skill替代打工人”更像是AI浪潮冲过来时，引发的下意识恐慌，但大家慌过之后发现：Skill不仅没让我变得清闲、无事可干，反而让我天天加班……“只是靴子没有落地罢了。”程序员刘雨有着不同的看法，“把工作技能Skill化对不同岗位的冲击是不一样的，自然大家感受到的危机程度也不同。要说现在最悬的，可能就是我们程序员和运营。”那么，事实的真相究竟是什么？喧嚣过后，冷静下来，我们有必要探究一下...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   }
@@ -1231,7 +1316,7 @@ const APP_DATA = {
    "name": "ray-project/ray",
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42446,
+   "stars": 42449,
    "forks": 7532,
    "language": "Python",
    "topics": [
@@ -1261,8 +1346,8 @@ const APP_DATA = {
    "name": "mlflow/mlflow",
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25812,
-   "forks": 5696,
+   "stars": 25815,
+   "forks": 5697,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1289,7 +1374,7 @@ const APP_DATA = {
    "name": "screenpipe/screenpipe",
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18585,
+   "stars": 18590,
    "forks": 1686,
    "language": "Rust",
    "topics": [
@@ -1308,7 +1393,7 @@ const APP_DATA = {
    "name": "stas00/ml-engineering",
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
-   "stars": 17877,
+   "stars": 17876,
    "forks": 1138,
    "language": "Python",
    "topics": [
@@ -1334,7 +1419,7 @@ const APP_DATA = {
    "name": "alibaba/MNN",
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15120,
+   "stars": 15123,
    "forks": 2303,
    "language": "C++",
    "topics": [
@@ -1385,8 +1470,8 @@ const APP_DATA = {
    "name": "tensorzero/tensorzero",
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11337,
-   "forks": 823,
+   "stars": 11339,
+   "forks": 824,
    "language": "Rust",
    "topics": [
     "ai",
