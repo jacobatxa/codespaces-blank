@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>Stitch · AI 资讯</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>AI</text></svg>">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 :root{--b:#f4f5f7;--s:#fff;--sh:#eef0f4;--bd:rgba(0,0,0,.07);--t:#1a1d23;--ts:#6b7280;--tm:#9ca3af;--ac:#6366f1;--ff:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC","Hiragino Sans GB","Microsoft YaHei",Roboto,sans-serif;--fm:"SF Mono","Fira Code","Fira Mono","JetBrains Mono",monospace;--r:12px;--sb-h:54px;--bn-h:56px;--shad:0 1px 3px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.06)}
@@ -19,8 +19,8 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 /* ── Header ── */
 .hdr{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.78);backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);border-bottom:1px solid var(--bd);padding:8px 14px;padding-top:calc(8px + env(safe-area-inset-top,0));display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:var(--sb-h)}
 @media(prefers-color-scheme:dark){.hdr{background:rgba(13,13,18,.82)}}
-.hdr-lg{font-size:1em;font-weight:700;background:linear-gradient(135deg,#6366f1,#8b5cf6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap;display:flex;align-items:center;gap:5px}
-.hdr-lg::before{content:"🤖";-webkit-text-fill-color:initial}
+.hdr-lg{font-size:1em;font-weight:700;background:linear-gradient(135deg,#6366f1,#8b5cf6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap;display:flex;align-items:center;gap:6px}
+.hdr-lg::before{content:"AI";-webkit-text-fill-color:initial;font-size:.7em;font-weight:800;background:linear-gradient(135deg,#6366f1,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hdr-r{display:flex;align-items:center;gap:6px;flex-shrink:0}
 .hdr-upd{font-size:.62em;color:var(--tm);white-space:nowrap;font-family:var(--fm)}
 .hdr-rf{width:32px;height:32px;border-radius:50%;border:none;background:var(--sh);color:var(--ts);font-size:.9em;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;flex-shrink:0}
@@ -84,11 +84,15 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 .ac-sm{font-size:.72em;color:var(--ts);line-height:1.45;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ac-f{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
 .ac-bdg{font-size:.58em;padding:2px 7px;border-radius:5px;font-weight:500;white-space:nowrap;border:1px solid;line-height:1.3}
-.ac-new{font-size:.55em;padding:1px 5px;border-radius:3px;font-weight:700;background:#dc262615;color:#dc2626;letter-spacing:.3px}
+.ac-new{font-size:.55em;padding:2px 6px;border-radius:3px;font-weight:700;background:#dc262615;color:#dc2626;letter-spacing:.3px}
 .ac-dt{font-size:.6em;color:var(--tm);margin-left:auto;white-space:nowrap}
-.ac-st{background:none;border:none;cursor:pointer;padding:3px;font-size:.85em;transition:transform .15s;flex-shrink:0;line-height:1;border-radius:4px;color:var(--tm)}
+.ac-st{background:none;border:none;cursor:pointer;padding:3px;font-size:.85em;transition:transform .15s;flex-shrink:0;line-height:1;border-radius:4px;color:var(--bd);width:22px;text-align:center}
 .ac-st:active{transform:scale(1.3)}
 .ac-st.starred{color:#f59e0b}
+.ac-st.starred::after{content:''}
+.ac-st::after{content:'★';font-size:12px;display:block;line-height:1}
+.ac-st:not(.starred){color:var(--bd)}
+.ac-st:not(.starred)::after{content:'★'}
 
 /* ── Skeleton loading ── */
 .sk{padding:8px 14px 10px;display:flex;flex-direction:column;gap:8px}
@@ -106,11 +110,11 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 .bn{position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);border-top:1px solid var(--bd);display:flex;overflow-x:auto;scrollbar-width:none;padding-bottom:env(safe-area-inset-bottom,0);height:var(--bn-h)}
 @media(prefers-color-scheme:dark){.bn{background:rgba(13,13,18,.85)}}
 .bn::-webkit-scrollbar{display:none}
-.bn-it{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:4px 8px;border:none;background:none;cursor:pointer;color:var(--tm);font-size:.55em;transition:.2s;flex-shrink:0;min-width:48px;position:relative}
+.bn-it{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:4px 8px;border:none;background:none;cursor:pointer;color:var(--tm);font-size:.55em;transition:.2s;flex-shrink:0;min-width:48px;position:relative;font-weight:500}
 .bn-it:active{transform:scale(.92)}
-.bn-it .bn-i{font-size:1.4em;line-height:1}
-.bn-it .bn-n{font-size:.9em;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:60px}
-.bn-it.act{color:var(--ac);font-weight:600}
+.bn-it .bn-i{font-size:1.1em;line-height:1;width:20px;height:20px;display:flex;align-items:center;justify-content:center}
+.bn-it .bn-n{font-size:.9em;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:64px}
+.bn-it.act{color:var(--ac)}
 .bn-it.act::after{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:20px;height:2px;background:var(--ac);border-radius:0 0 2px 2px}
 
 /* ── Starred tab ── */
@@ -128,6 +132,10 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 .err{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:var(--ts);font-size:.85em;padding:20px;max-width:300px}
 .err-t{font-size:2em;margin-bottom:10px}
 
+/* ── Tab icons via CSS ── */
+.bn-it[data-tab="all"] .bn-i::before{content:'⊞';font-size:14px}
+.bn-it[data-tab="__s__"] .bn-i::before{content:'★';font-size:14px}
+
 /* ── Tablet / Desktop ── */
 @media(min-width:640px){
 .fd{flex-direction:row;flex-wrap:wrap;max-width:1200px;margin:0 auto}
@@ -142,7 +150,7 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 
 <!-- Header -->
 <div class="hdr">
-  <span class="hdr-lg">Stitch · AI</span>
+  <span class="hdr-lg"></span>
   <div class="hdr-r">
     <span class="hdr-upd" id="hdrUpd"></span>
     <button class="hdr-rf" id="hdrRf" onclick="manualRefresh()">
@@ -168,7 +176,7 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 
   <!-- Trending -->
   <div class="tr" id="trSec" style="display:none">
-    <div class="tr-h"><span>🔥 GitHub Trending · AI 项目</span><span class="tr-h-sp"></span><span class="tr-upd" id="trUpd"></span></div>
+    <div class="tr-h"><span>趋势项目</span><span class="tr-h-sp"></span><span class="tr-upd" id="trUpd"></span></div>
     <div class="tr-g" id="trG"></div>
   </div>
 
@@ -176,7 +184,7 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
   <div class="fd" id="fd"></div>
 
   <!-- Footer -->
-  <div class="ft">每日自动更新 · Stitch Design System · <span id="ftUpd"></span></div>
+  <div class="ft">每日更新 · <span id="ftUpd"></span></div>
 </div>
 
 <!-- Bottom nav -->
@@ -187,10 +195,23 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 (function(){
 /* ── Check data loaded ── */
 if(typeof APP_DATA==='undefined'){
-  document.getElementById('fd').innerHTML='<div class="err"><div class="err-t">⚠️</div>数据加载失败，请刷新页面重试</div>';
+  document.getElementById('fd').innerHTML='<div class="err"><div class="err-t">!</div>数据加载失败，请刷新页面重试</div>';
   return;
 }
 var D=APP_DATA;
+
+/* ── TAB_ICONS: map category name → clean icon glyph ── */
+var TAB_ICONS = {
+  "大模型与基础架构": "∎",
+  "AI Agent与智能体": "◇",
+  "具身智能与机器人": "▽",
+  "多模态与AIGC": "◎",
+  "AI硬件与芯片": "□",
+  "开源与生态": "○",
+  "AI商业与投融资": "△",
+  "AI安全与对齐": "⊡",
+  "其他AI资讯": "⋯",
+};
 
 /* ── State ── */
 var STATE={activeTab:'all',activeSource:null,search:'',stars:{},read:{}};
@@ -200,9 +221,7 @@ try{STATE.read=JSON.parse(localStorage.getItem(RK)||'{}')}catch(e){}
 
 /* ── Helpers ── */
 function shortSrc(s){
-  // Use mapped source names from data
   var m = {};
-  // Build from SOURCE_SHORT-like structure in data
   if (D.shortNames) {
     m = D.shortNames;
   }
@@ -295,14 +314,14 @@ function renderTrending(){
     var desc=r.description?escHtml(r.description.slice(0,120)):'';
     var st=r.stars>=1000?(r.stars/1000).toFixed(1)+'k':r.stars;
     var lang=r.language?'<span class="tr-lang">'+escHtml(r.language)+'</span>':'';
-    g.innerHTML+='<a href="'+escAttr(r.url)+'" target="_blank" rel="noopener" class="tr-cd"><div class="tr-hd"><span class="tr-n">'+escHtml(r.name)+'</span><span class="tr-st">⭐ '+st+'</span></div><div class="tr-d">'+desc+'</div><div class="tr-f">'+lang+'</div></a>';
+    g.innerHTML+='<a href="'+escAttr(r.url)+'" target="_blank" rel="noopener" class="tr-cd"><div class="tr-hd"><span class="tr-n">'+escHtml(r.name)+'</span><span class="tr-st">'+st+'</span></div><div class="tr-d">'+desc+'</div><div class="tr-f">'+lang+'</div></a>';
   });
 }
 
 /* ── Render cards ── */
 function renderCards(cards){
   var fd=document.getElementById('fd');
-  if(!cards.length){fd.innerHTML='<div class="fd-empty">😴 没有匹配的文章</div>';return}
+  if(!cards.length){fd.innerHTML='<div class="fd-empty">没有匹配的文章</div>';return}
   var html='';
   cards.forEach(function(c,i){
     var readClass=STATE.read[c.url]?'read':'';
@@ -312,7 +331,7 @@ function renderCards(cards){
     var date=fmtDate(c.date);
     var isNew=c.is_new?'<span class="ac-new">NEW</span>':'';
     var urlEsc=escAttr(c.url);
-    html+='<a class="ac '+readClass+'" data-url="'+c.url+'" href="'+urlEsc+'" target="_blank" rel="noopener" onclick="markRead(\''+urlEsc+'\')" style="animation-delay:'+(i*0.03)+'s"><div class="ac-t">'+escHtml(c.title)+'</div><div class="ac-sm">'+escHtml(c.summary)+'</div><div class="ac-f"><button class="ac-st '+starClass+'" onclick="toggleStar(\''+urlEsc+'\',event)" title="星标">'+(STATE.stars[c.url]?'⭐':'☆')+'</button>'+isNew+'<span class="ac-bdg" style="color:'+srcColor+';border-color:'+srcColor+'44;background:'+srcColor+'15">'+escHtml(srcShort)+'</span><span class="ac-dt">'+date+'</span></div></a>';
+    html+='<a class="ac '+readClass+'" data-url="'+c.url+'" href="'+urlEsc+'" target="_blank" rel="noopener" onclick="markRead(\''+urlEsc+'\')" style="animation-delay:'+(i*0.03)+'s"><div class="ac-t">'+escHtml(c.title)+'</div><div class="ac-sm">'+escHtml(c.summary)+'</div><div class="ac-f"><button class="ac-st '+starClass+'" onclick="toggleStar(\''+urlEsc+'\',event)" title="星标"></button>'+isNew+'<span class="ac-bdg" style="color:'+srcColor+';border-color:'+srcColor+'44;background:'+srcColor+'15">'+escHtml(srcShort)+'</span><span class="ac-dt">'+date+'</span></div></a>';
   });
   fd.innerHTML=html;
 }
@@ -322,14 +341,16 @@ function renderNav(){
   var bn=document.getElementById('bn');
   var html='';
   // All tab
-  html+='<button class="bn-it'+(STATE.activeTab==='all'?' act':'')+'" onclick="switchTab(\'all\')"><span class="bn-i">📰</span><span class="bn-n">全部</span></button>';
+  var allIcon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>';
+  html+='<button class="bn-it'+(STATE.activeTab==='all'?' act':'')+'" onclick="switchTab(\'all\')" data-tab="all"><span class="bn-i">'+allIcon+'</span><span class="bn-n">全部</span></button>';
   // Starred tab
-  var su=Object.keys(STATE.stars).length;
-  html+='<button class="bn-it bn-st'+(STATE.activeTab==='__s__'?' act':'')+'" onclick="switchTab(\'__s__\')"><span class="bn-i">⭐</span><span class="bn-n">星标'+(su?' '+su:'')+'</span></button>';
+  var starIcon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="'+(Object.keys(STATE.stars).length?'#f59e0b':'none')+'" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>';
+  html+='<button class="bn-it bn-st'+(STATE.activeTab==='__s__'?' act':'')+'" onclick="switchTab(\'__s__\')"><span class="bn-i">'+starIcon+'</span><span class="bn-n">星标'+(Object.keys(STATE.stars).length?' '+Object.keys(STATE.stars).length:'')+'</span></button>';
   // Category tabs
   if(D.tabs){
     D.tabs.forEach(function(t){
-      html+='<button class="bn-it'+(STATE.activeTab===t.name?' act':'')+'" onclick="switchTab(\''+t.name.replace(/'/g,"\\'")+'\')"><span class="bn-i">'+t.icon+'</span><span class="bn-n">'+t.name+'</span></button>';
+      var icon = TAB_ICONS[t.name] || '·';
+      html+='<button class="bn-it'+(STATE.activeTab===t.name?' act':'')+'" onclick="switchTab(\''+t.name.replace(/'/g,"\\'")+'\')" data-tab="'+t.name+'"><span class="bn-i">'+icon+'</span><span class="bn-n">'+t.name+'</span></button>';
     });
   }
   bn.innerHTML=html;
@@ -418,7 +439,6 @@ function startAutoRefresh(){
         var newData = JSON.parse(txt.replace('const APP_DATA = ','').replace(/;$/,''));
         if(newData && newData.total) {
           D = newData;
-          // Re-cache shortNames
           if(D.shortNames) window._shortNames = D.shortNames;
           render();
         }

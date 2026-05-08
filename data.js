@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-08",
- "fetched_at": "2026-05-08T06:36:21",
- "total": 155,
+ "fetched_at": "2026-05-08T07:00:42",
+ "total": 154,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -52,7 +52,7 @@ const APP_DATA = {
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
-   "count": 3,
+   "count": 2,
    "color": "#10b981"
   },
   "少数派 - AI": {
@@ -141,7 +141,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 50
+   "count": 49
   }
  ],
  "sections": [
@@ -1158,7 +1158,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 50,
+   "count": 49,
    "cards": [
     {
      "title": "Why you can never get your doctor to call you back",
@@ -1503,15 +1503,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "马斯克：xAI 解散，将成为 SpaceX 的 AI 产品",
-     "url": "https://cn.technode.com/post/2026-05-07/musk-xai-spacex-ai/",
-     "source": "动点科技 - AI",
-     "date": "2026-05-07",
-     "summary": "马斯克在 X 上表示，xAI 将作为一家 […]",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "新玩意 240｜少数派的编辑们最近买了啥？",
      "url": "https://sspai.com/post/109474",
      "source": "少数派 - AI",
@@ -1618,7 +1609,7 @@ const APP_DATA = {
    "name": "ray-project/ray",
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42449,
+   "stars": 42450,
    "forks": 7532,
    "language": "Python",
    "topics": [
@@ -1649,7 +1640,7 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "stars": 25815,
-   "forks": 5697,
+   "forks": 5698,
    "language": "Python",
    "topics": [
     "agentops",
