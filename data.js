@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-09",
- "fetched_at": "2026-05-09T06:00:07",
- "total": 151,
+ "fetched_at": "2026-05-09T12:01:01",
+ "total": 143,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -48,23 +48,23 @@ const APP_DATA = {
    "color": "#eab308"
   },
   "APPSO": {
-   "count": 12,
+   "count": 9,
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
-   "count": 3,
+   "count": 2,
    "color": "#10b981"
   },
   "少数派 - AI": {
-   "count": 2,
+   "count": 1,
    "color": "#f97316"
   },
   "雷锋网 - AI": {
-   "count": 15,
+   "count": 14,
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
-   "count": 13,
+   "count": 11,
    "color": "#ec4899"
   }
  },
@@ -93,19 +93,19 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 50
+   "count": 46
   },
   {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 9
+   "count": 10
   },
   {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 5
+   "count": 6
   },
   {
    "name": "多模态与AIGC",
@@ -117,7 +117,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 9
+   "count": 8
   },
   {
    "name": "开源与生态",
@@ -129,19 +129,19 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 16
+   "count": 13
   },
   {
    "name": "AI安全与对齐",
    "icon": "🛡️",
    "color": "#dc2626",
-   "count": 1
+   "count": 2
   },
   {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 54
+   "count": 51
   }
  ],
  "sections": [
@@ -149,7 +149,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 50,
+   "count": 46,
    "cards": [
     {
      "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
@@ -431,6 +431,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件",
+     "url": "https://www.qbitai.com/2026/05/414827.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "实现过程开源可复现",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%",
      "url": "https://www.qbitai.com/2026/05/414496.html",
      "source": "量子位",
@@ -440,11 +449,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "梁文锋出资200亿！DeepSeek首轮创纪录融资500亿，V4.1定档6月",
-     "url": "https://www.qbitai.com/2026/05/414432.html",
-     "source": "量子位",
+     "title": "阶跃语音生成模型，拿下 AA 榜语音竞技场国产第一，全球第三",
+     "url": "https://www.leiphone.com/category/industrynews/ZrhId0k9AjggOERD.html",
+     "source": "雷锋网 - AI",
      "date": "2026-05-09",
-     "summary": "如果最终落地，这会是中国大模型公司有史以来最大的一轮融资",
+     "summary": "5 月 9 日，全球权威 TTS 评测榜单 Artificial Analysis Speech Arena Leaderboard 更新，阶跃语音生成模型 StepAudio 2.5 TTS 跻身全球前三，成为当前榜单排名最高的中国大模型。不同于传统实验室指标，该榜单采用盲测 Elo 评分机制，由用户在不知道模型身份的情况下，直接对同一文本生成的两段语音进行听感判断，测试覆盖客户服务、知识分享、数字助手、娱乐等真实应用场景。这意味着，StepAudio 2.5 TTS 的领先并不只是参数或指标上的提升，而是在真实用户听感中展现出更自然、更接近真人表达的能力，在实际落地中具备更强竞争力。...",
      "is_new": true,
      "lang": "zh"
     },
@@ -458,47 +467,29 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "bosie创始人刘光耀成为Kimi顾问？刘光耀回复“没入职”",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801525719949057?f=rss]]>",
+     "title": "Deepseek和阿里谈崩了？市场人士回应",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801813920144901?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-09",
-     "summary": "36氪独家获悉，无性别服饰品牌bosie创始人刘光耀，近期以顾问身份参与到月之暗面旗下AI产品Kimi的市场与内容传播工作中。对此，刘光耀本人的回复是“没入职”。曾有月之暗面市场部人员表示，刘光耀的身份是\"顾问\"。另有月之暗面相关人员称听说了，但还没见过人，“顾问太多了，很多我们都没见过。”",
+     "summary": "5月8日，有消息称，4月，DeepSeek（深度求索）罕见展开一场巨额融资计划，同时吸引了腾讯和阿里巴巴两家大厂。据该消息，近期，阿里巴巴和DeepSeek谈崩了。对此，市场人士透露，阿里应该没有进行谈判。（每经网）",
      "is_new": true,
      "lang": "zh"
     },
     {
-     "title": "Redis之父下场，给DeepSeek V4单独造了一台推理引擎",
-     "url": "https://www.qbitai.com/2026/05/414316.html",
-     "source": "量子位",
-     "date": "2026-05-08",
-     "summary": "Mac上就能本地跑deepseek",
+     "title": "百度正式发布文心大模型5.1",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801731549371905?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "36氪获悉，百度正式发布新一代基础大模型文心大模型 5.1。据官方介绍，文心 5.1采用“多维弹性预训练”技术，仅以业界同规模模型约6%的预训练成本，达到基础效果领先水平，登上LMArena搜索榜国内第一。",
      "is_new": true,
      "lang": "zh"
     },
     {
-     "title": "Anthropic出手！AI的内心独白，曝光了",
-     "url": "https://www.qbitai.com/2026/05/414213.html",
-     "source": "量子位",
-     "date": "2026-05-08",
-     "summary": "原来Claude早就识破了人类的套路（doge）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
-     "url": "https://www.qbitai.com/2026/05/414194.html",
-     "source": "量子位",
-     "date": "2026-05-08",
-     "summary": "OpenAI上新三款实时语音模型",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国AI行",
-     "url": "https://www.qbitai.com/2026/05/414141.html",
-     "source": "量子位",
-     "date": "2026-05-08",
-     "summary": "这跟中国的开源精神，显然是一脉相承的",
+     "title": "智源FlagSafe平台正式发布",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801709226483208?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "36氪获悉，近日，北京智源人工智能研究院联合北京大学、北京邮电大学、北京航空航天大学、上海交通大学、中国科学院信息工程研究所、中国科学院计算技术研究所等国内机构，正式发布FlagSafe大模型安全平台。平台首批汇聚多个前沿大模型安全研究项目，围绕红队演练、蓝队防御、白盒透视三个核心方向，共同打造覆盖风险发现、防御治理与机理解释的高标准安全平台。",
      "is_new": true,
      "lang": "zh"
     },
@@ -566,33 +557,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "等 DeepSeek 回复的 30 秒，是手机最好玩的半小时",
-     "url": "https://www.ifanr.com/1664713?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-06",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "刚刚，GPT-5.5 Instant 发布，奥特曼还邀请马斯克参加 AI 办的派对",
-     "url": "https://www.ifanr.com/1664764?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-06",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "早报｜iPhone 17包揽Q1全球最畅销手机前三/曝Siri将推出独立App对标ChatGPT/鸿蒙智行回应零重力座椅夹人",
-     "url": "https://www.ifanr.com/1664813?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-06",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
      "title": "爱芯元智的双轮驱动：车载放量，边缘爆发",
      "url": "https://www.leiphone.com/category/transportation/ufAiBGGYeOrCDL9X.html",
      "source": "雷锋网 - AI",
@@ -607,7 +571,7 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 9,
+   "count": 10,
    "cards": [
     {
      "title": "Running Codex safely at OpenAI",
@@ -664,6 +628,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "美图RoboNeo全新升级：首创影像创作Agent Teams",
+     "url": "https://www.qbitai.com/2026/05/415010.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "打造“赛博乙方天团”",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "打破科技数据壁垒！智会心研官宣：高级检索+AI深度分析，面向个人免费开放！",
      "url": "https://www.qbitai.com/2026/05/414445.html",
      "source": "量子位",
@@ -696,8 +669,17 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 5,
+   "count": 6,
    "cards": [
+    {
+     "title": "Hackable Robot Lawn Mower Unlocks a New Nightmare",
+     "url": "https://www.wired.com/story/security-news-this-week-hackable-robot-lawnmower-unlocks-a-new-nightmare/",
+     "source": "Wired - AI",
+     "date": "2026-05-09",
+     "summary": "Plus: Meta officially kills encrypted Instagram DMs, the Trump administration targets “violent left wing extremists,” leaked documents reveal Russia's school for elite hackers, and more.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Nanoleaf bets its future on robots, red light therapy, and AI",
      "url": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness",
@@ -717,20 +699,20 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "东土科技等在湖北成立智能机器人产业发展公司，注册资本3.5亿",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801625136684804?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "空间智能的“具身化”跃迁，高德ABot体系模型夺冠AGIBot全球挑战赛",
+     "url": "https://www.qbitai.com/2026/05/414826.html",
+     "source": "量子位",
      "date": "2026-05-09",
-     "summary": "36氪获悉，天眼查App显示，近日，湖北省智能机器人产业发展有限公司成立，法定代表人为李平，注册资本3.5亿人民币，经营范围包括工业自动控制系统装置制造、人工智能基础软件开发、人工智能应用软件开发、智能机器人的研发等，由东土科技、宜昌启宸投资发展有限公司、上海科鸿创智技术有限公司共同持股。",
+     "summary": "以0.829的总成绩荣登榜首",
      "is_new": true,
      "lang": "zh"
     },
     {
-     "title": "牧原股份在横琴成立现代农牧科技公司，注册资本5亿",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801450279083783?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "VLA死了，遥操也死了！英伟达机器人一号位说的",
+     "url": "https://www.qbitai.com/2026/05/414547.html",
+     "source": "量子位",
      "date": "2026-05-09",
-     "summary": "36氪获悉，天眼查App显示，近日，广东横琴牧原现代农牧科技有限公司成立，法定代表人为张亭，注册资本5亿人民币，经营范围包括人工智能基础软件开发、人工智能应用软件开发、智能机器人的研发、人工智能行业应用系统集成服务等，由牧原股份全资持股。",
+     "summary": "Jim Fan全新暴论出炉",
      "is_new": true,
      "lang": "zh"
     },
@@ -802,7 +784,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 9,
+   "count": 8,
    "cards": [
     {
      "title": "Intel’s comeback story is even wilder than it seems",
@@ -850,20 +832,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "长电科技：一季度产能利用率超过80%，产能供不应求",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801553821654531?f=rss]]>",
+     "title": "字节跳动据悉计划将AI基础设施支出增加25%",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801787739282952?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-09",
-     "summary": "长电科技高管在业绩说明会上表示，一季度国内市场呈现淡季不淡特点，整体产能利用率已超过80%。目前公司正加快推动长电微电子晶圆级微系统集成高端制造项目的产品上量，上海临港车规级芯片封测项目正式启用，多家国内外车载芯片客户的生产项目正在积极推进产品认证和量产导入工作。另外，在原材料价格上涨、产能供不应求情况下，公司不断优选客户、优化产品结构，提升单位价格。（证券时报）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "需求持续升温，AI芯片制造商Cerebras拟上调IPO价格区间",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801408298065416?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "据报道，随着投资者对人工智能芯片制造商Cerebras Systems股票的需求继续升温，该公司最早将于当地时间下周一上调IPO价格区间至每股125美元至135美元。知情人士称，这次IPO已吸引超20倍的认购订单。Cerebras提交给美国证监会的文件显示，该公司目前寻求筹集35亿美元，正以每股115美元至125美元的价格推介2800万股股票。（界面）",
+     "summary": "据报道，随着内存芯片成本上涨以及字节跳动加速布局人工智能（AI），该公司已将今年的AI基础设施支出计划增加25%至2000亿元人民币。（财联社）",
      "is_new": true,
      "lang": "zh"
     },
@@ -917,7 +890,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 16,
+   "count": 13,
    "cards": [
     {
      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
@@ -1019,15 +992,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "“吾流文化“完成亿元级融资",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801562643521031?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "36氪获悉，近日，“吾流文化“宣布完成亿元级别融资，本轮融资由凯辉基金、五源资本联合领投，柠萌影视战略投资，景铄TWS与棕榈资本担任财务顾问。资金将重点用于IP商业化体系建设，涵盖IP储备扩充、自有供应链升级、渠道布局完善、出海能力提升及AI赋能下非实体衍生的创新探索。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家",
      "url": "<![CDATA[https://36kr.com/p/3799129165863937?f=rss]]>",
      "source": "36氪 - AI",
@@ -1044,24 +1008,6 @@ const APP_DATA = {
      "summary": "5 月 7 日，无问芯穹宣布此前已再获超 7 亿元融资，持续稳居中国 AI 原生基础设施公司融资规模之首。联合领投方为杭州高新金投集团和惠远资本，跟投方包括国兴资本、秦淮数据、广发乾和、力合清瞳、中保投资、AEF NextGen、腾瑞资本、卡莱特、中信建投资本和宽德智能学习实验室 (Will)，老股东君联资本、上海国投孚腾和元智未来追加投资。 据悉，本轮融资已于数月前完成，资金将重点投向三大方向：一是夯实无问芯穹多元异构技术的领先地位，扩大 Token （词元）经济时代，极致优化的可用算力规模；二是持续强化软硬协同的技术优势，加快从“电能到 Token”的生产效率跃升；三是构建具备自主进...",
      "is_new": false,
      "lang": "zh"
-    },
-    {
-     "title": "OpenAI总裁的私密日记，被马斯克律师当庭念出：让我赚到10亿美元",
-     "url": "https://www.ifanr.com/1664851?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-06",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "独家丨Manus 收购案叫停「后遗症」：Meta AI 宫斗迎来最大变数",
-     "url": "https://www.leiphone.com/category/industrynews/XLaWypQzCBXv3vqU.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-06",
-     "summary": "刚刚被叫停的 Manus 收购案，或将引爆 Meta 新一轮内斗。对 Meta 而言，这不是一次简单的并购失利：它失去的不只是一个 AI 明星项目，更是旗下老臣派系制衡 AI 新帅 Alexandr Wang 势力扩张的“关键筹码”。硅谷AI圈投资人林舟告诉雷峰网，随着此次交易的戛然而止，本就暗流涌动的 Meta 内斗，或将被推至台前，甚至陷入更大的不确定性。01一场瞄准“AI新势力”的权力制衡尽管 Meta 收购 Manus 的动机有很多，但从某种程度上说，这次收购案也是一次 Meta 内部政治博弈的产物。“Meta 收购 Manus 的台前主导者是扎克伯格，但这个事儿还有个幕后推动者...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -1069,7 +1015,7 @@ const APP_DATA = {
    "name": "AI安全与对齐",
    "icon": "🛡️",
    "color": "#dc2626",
-   "count": 1,
+   "count": 2,
    "cards": [
     {
      "title": "Governance, not gatekeeping: How SAP brings enterprise‑grade safety to AI connectivity",
@@ -1079,6 +1025,15 @@ const APP_DATA = {
      "summary": "Presented by SAPThe enterprise software industry has undergone a fundamental shift, and vendors are adapting their approaches to better protect the customers who rely on them. For years, every global platform vendor running multi-tenant cloud infrastructure has maintained documented rate limits, ...",
      "is_new": true,
      "lang": "en"
+    },
+    {
+     "title": "两项AI政策发布，范式智能战略布局与产业方向高度契合",
+     "url": "https://www.qbitai.com/2026/05/415019.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地",
+     "is_new": true,
+     "lang": "zh"
     }
    ]
   },
@@ -1086,7 +1041,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 54,
+   "count": 51,
    "cards": [
     {
      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
@@ -1314,15 +1269,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Thousands of Vibe-Coded Apps Expose Corporate and Personal Data on the Open Web",
-     "url": "https://www.wired.com/story/thousands-of-vibe-coded-apps-expose-corporate-and-personal-data-on-the-open-web/",
-     "source": "Wired - AI",
-     "date": "2026-05-07",
-     "summary": "Companies like Lovable, Base44, Replit, and Netlify use AI to let anyone build a web app in seconds—and in thousands of cases, spill highly sensitive data onto the public internet.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "Big Words",
      "url": "https://simonwillison.net/2026/May/7/big-words/#atom-everything",
      "source": "Simon Willison's Blog",
@@ -1431,11 +1377,38 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "阶跃最新语音模型位列 Artificial Analysis 评测榜中国第一",
+     "url": "https://www.qbitai.com/2026/05/415023.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "谷歌「AI联合数学家」来了！刷新最难数学AI基准SOTA，牛津教授用它解开群论悬案",
+     "url": "https://www.qbitai.com/2026/05/414788.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "谷歌AI for Math迈出最新一步",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我看愣了",
      "url": "https://www.qbitai.com/2026/05/414501.html",
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "眼镜里的信息第一次「立」起来了",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "播放破亿的 AI 短片，名场面是一个「穿帮镜头」| 对话《纸手机》主创",
+     "url": "https://www.ifanr.com/1661163?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
+     "date": "2026-05-09",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": true,
      "lang": "zh"
     },
@@ -1449,29 +1422,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "小鹏汽车：公司近期并未被“约谈”，也不存在被立案调查",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801547699281665?f=rss]]>",
+     "title": "光帆带摄像头AI耳机本月开售",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801812857871876?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-09",
-     "summary": "36氪获悉，小鹏汽车法务部发文称，公司关注到，部分社交账号通过AI应用，恶意炒作“8家新能源车企被集中约谈”“3家涉嫌违规被立案调查”等信息，并将公司纳入名单，对公司品牌和声誉造成恶劣影响。经核实，公司近期并未收到此类不实信息提到的所谓“约谈”，也不存在被立案调查。公司已经对相关制谣传谣主体进行取证，后续会依法追究其法律责任。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "持续领跑！商汤大装置稳居中国MaaS市场第一梯队",
-     "url": "https://www.qbitai.com/2026/05/414428.html",
-     "source": "量子位",
-     "date": "2026-05-08",
-     "summary": "位列第二",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "特斯拉百万年薪招数据标注员，朝九晚五，无需AI经验",
-     "url": "https://www.qbitai.com/2026/05/414156.html",
-     "source": "量子位",
-     "date": "2026-05-08",
-     "summary": "服务FSD和Optimus",
+     "summary": "36氪获悉，光帆科技官方账号发布发售预热海报。海报显示，全球首款具备视觉感知能力的主动式AI耳机——光帆全感AI耳机，将于5月15日正式开售。",
      "is_new": true,
      "lang": "zh"
     },
@@ -1512,15 +1467,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "苹果带摄像头的 AirPods 要来了，据称已接近量产",
-     "url": "https://cn.technode.com/post/2026-05-08/apple-airpods-cameras-ai-production/",
-     "source": "动点科技 - AI",
-     "date": "2026-05-08",
-     "summary": "据彭博社记者马克·古尔曼报道，传闻中苹果 […]",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "派早报：Google 发布 Fitbit Air 等",
      "url": "https://sspai.com/post/109489",
      "source": "少数派 - AI",
@@ -1548,29 +1494,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "我写了一个 skill，用 AI 给 AI「除味儿」",
-     "url": "https://sspai.com/post/109288",
-     "source": "少数派 - AI",
-     "date": "2026-05-06",
-     "summary": "强硬规则约束下的公式化表达，即便去除了现在的 AI 味，会不会产生新的 AI 味呢？查看全文",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
      "title": "蚂蚁阿福启动“健康中国体检关怀行动”，为1亿人免费解读体检报告",
      "url": "https://www.leiphone.com/category/industrynews/B3MGZRHtiuWL4b1A.html",
      "source": "雷锋网 - AI",
      "date": "2026-05-06",
      "summary": "春季是传统的体检季，可很多人拿到体检报告却犯了难。一项5000名网友参与的调研显示，80%的受访者表示体检报告没有得到详细讲解，也不知道检后该怎么做；75%的受访者没有按体检报告的建议进行复查。为解决这一普遍痛点，5月6日，国内最大的AI健康应用蚂蚁阿福启动“健康中国体检关怀行动”，为1亿人免费解读体检报告。用户打开阿福App拍照或上传体检报告，即可获得实时、免费、专业的解读，明明白白看懂报告。阿福解读体检报告以“红绿灯”形式清晰告知检查结果关注优先级，并给到针对性的健康行动清单。随着“健康中国”战略深入推进，预防性健康管理成为大众关切的重点，体检更是提升全民健康水平的重要抓手。阿福启动...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "全球首款8K AI拇指运动相机！光子跃迁LEAPTIC Cube正式预售",
-     "url": "https://www.leiphone.com/category/industrynews/yna6yWhZdmT3QxYt.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-06",
-     "summary": "它是唯一登录央视春晚的智能影像品牌，也是首个拿下TechRadar“Best of CES”奖项的中国智能影像产品，还是CES 2026被媒体誉为AI影像新物种的拇指相机。近日，承载着全球期待与顶级赞誉的全球首款8K AI拇指运动相机 LEAPTIC Cube正式预售（4月30日-5月11日）。这不仅是一次新品的预售，更像是一场关于「创作自由」的宣言。根据新品信息，光子跃迁并未试图在传统运动相机的赛道上做加法，而是选择打破物理与认知的双重边界，用仅有拇指大小的体积，向世界证明：极致的便携、顶格的画质与懂你所想的AI，从来不是一道单选题。形态革命：不止于小，更在于巧第一次将LEAPTIC ...",
      "is_new": false,
      "lang": "zh"
     }
@@ -1583,8 +1511,8 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42468,
-   "forks": 7535,
+   "stars": 42472,
+   "forks": 7537,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1614,8 +1542,8 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25833,
-   "forks": 5698,
+   "stars": 25835,
+   "forks": 5700,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1643,8 +1571,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18610,
-   "forks": 1692,
+   "stars": 18620,
+   "forks": 1693,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1663,7 +1591,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17886,
+   "stars": 17888,
    "forks": 1139,
    "language": "Python",
    "topics": [
@@ -1690,7 +1618,7 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15134,
+   "stars": 15137,
    "forks": 2303,
    "language": "C++",
    "topics": [
@@ -1713,7 +1641,7 @@ const APP_DATA = {
    "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
    "blurb": "Low-code framework for building custom LLMs, neural networks, and other AI models",
    "stars": 11691,
-   "forks": 1218,
+   "forks": 1217,
    "language": "Python",
    "topics": [
     "computer-vision",
@@ -1743,8 +1671,8 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11343,
-   "forks": 825,
+   "stars": 11346,
+   "forks": 824,
    "language": "Rust",
    "topics": [
     "ai",
@@ -1774,7 +1702,7 @@ const APP_DATA = {
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
    "blurb": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10082,
+   "stars": 10083,
    "forks": 1270,
    "language": "Python",
    "topics": [
@@ -1805,7 +1733,7 @@ const APP_DATA = {
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "blurb": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
-   "stars": 8632,
+   "stars": 8634,
    "forks": 958,
    "language": "Python",
    "topics": [
@@ -1831,7 +1759,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7465,
+   "stars": 7466,
    "forks": 838,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1900,8 +1828,8 @@ const APP_DATA = {
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
    "blurb": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5461,
-   "forks": 1360,
+   "stars": 5463,
+   "forks": 1361,
    "language": "Unknown",
    "topics": [
     "agentic-ai",
@@ -1923,7 +1851,7 @@ const APP_DATA = {
    "url": "https://github.com/zenml-io/zenml",
    "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
    "blurb": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
-   "stars": 5409,
+   "stars": 5410,
    "forks": 612,
    "language": "Python",
    "topics": [
