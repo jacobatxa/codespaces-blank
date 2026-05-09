@@ -1,6 +1,6 @@
 const APP_DATA = {
  "today": "2026-05-09",
- "fetched_at": "2026-05-09T12:01:01",
+ "fetched_at": "2026-05-09T18:00:14",
  "total": 143,
  "sources": {
   "TechCrunch - AI": {
@@ -117,7 +117,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 8
+   "count": 9
   },
   {
    "name": "开源与生态",
@@ -135,7 +135,7 @@ const APP_DATA = {
    "name": "AI安全与对齐",
    "icon": "🛡️",
    "color": "#dc2626",
-   "count": 2
+   "count": 1
   },
   {
    "name": "其他AI资讯",
@@ -449,6 +449,15 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "深度解析：DeepSeek不差钱，为什么还要融500亿？",
+     "url": "https://www.leiphone.com/category/yanxishe/0XQEjmCNYEmRB8Rn.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-09",
+     "summary": "某位多次接近梁文锋的顶级投资人曾无奈向雷峰网表示：梁文锋最讨厌两件事：跟VC吃饭，对外解释DeepSeek的决策。这位幻方量化出身的程序员创业者，过去两年对所有找上门来的投资人说过同一句话——\"VC的钱是负担\"。腾讯来谈过，阿里来谈过，市面几乎每一家顶级风投都在他的闭门羹列表里。他觉得这些人都得帮LP赚钱，\"所以谈不到一块去\"。而梁文锋确实有说这句话的底气。一位与梁文锋有过多次接触的大厂前副总裁曾和雷峰网透露，梁文锋有一笔规模在20到30亿的基金，这基金不用来对外募资，是自己的钱。而在另一名顶级资本人的口中，梁文锋曾对外表示他有四五万张卡，40、50亿是拿得出来的，不需要外部机构掏钱。了...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "阶跃语音生成模型，拿下 AA 榜语音竞技场国产第一，全球第三",
      "url": "https://www.leiphone.com/category/industrynews/ZrhId0k9AjggOERD.html",
      "source": "雷锋网 - AI",
@@ -485,7 +494,7 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "智源FlagSafe平台正式发布",
+     "title": "��源FlagSafe平台正式发布",
      "url": "<![CDATA[https://36kr.com/newsflashes/3801709226483208?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-09",
@@ -555,15 +564,6 @@ const APP_DATA = {
      "summary": "要闻提示1.三星宣布停止在中国大陆市场销售所有家电产品，手机业务不受影响2.估值近450亿美元？DeepSeek获国家大基金领投磋商3.中国航天员中心招募志愿者：最高拿7万元，还能玩手机4.月之暗面将完成20亿美元融资，投后估值超200亿美元5.丢失7年的手机突然发定位和照片，机主成功找回！魅族客服回应6.突发！陈天桥旗下 MiroMind AI 暂停中国服务7.OpenAI联合创始人法庭作证：2017年马斯克因控制权被拒“险些动手”8.马斯克：xAI将更名为SpaceXAI，不再作为独立公司存在今日头条三星宣布停止在中国大陆市场销售所有家电产品，手机业务不受影响5月6日消息，三星电子在...",
      "is_new": false,
      "lang": "zh"
-    },
-    {
-     "title": "爱芯元智的双轮驱动：车载放量，边缘爆发",
-     "url": "https://www.leiphone.com/category/transportation/ufAiBGGYeOrCDL9X.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-06",
-     "summary": "作者丨郑浩钧编辑丨李雨晨作为中国汽车产业的年度盛会，2026北京车展不仅汇聚了全球主流车企的最新车型，更成为AI芯片与物理AI落地的核心节点。从L2+智驾的标配化普及，到舱驾融合的系统级竞争，再到边缘侧大模型的悄然渗透，一场围绕AI在物理世界落地的产业变革正在上演。在这场变革中，AI芯片扮演了极其重要的角色。2025年以来，AI芯片行业正式进入“车载智能化+边缘大模型”的双轮驱动周期。一方面，智驾渗透率持续攀升，法规强标与高阶NOA并行推进，国产替代与出海需求同步升温；另一方面，以DeepSeek为代表的大模型突破，推动边缘推理从概念走向规模化落地，工业视觉、移动机器人、AI Agent...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -573,6 +573,15 @@ const APP_DATA = {
    "color": "#d97706",
    "count": 10,
    "cards": [
+    {
+     "title": "Intent-based chaos testing is designed for when AI behaves confidently — and wrongly",
+     "url": "https://venturebeat.com/infrastructure/intent-based-chaos-testing-is-designed-for-when-ai-behaves-confidently-and-wrongly",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-09",
+     "summary": "Here is a scenario that should concern every enterprise architect shipping autonomous AI systems right now: An observability agent is running in production. Its job is to detect infrastructure anomalies and trigger the appropriate response. Late one night, it flags an elevated anomaly score acros...",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Running Codex safely at OpenAI",
      "url": "https://openai.com/index/running-codex-safely",
@@ -633,15 +642,6 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "打造“赛博乙方天团”",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "打破科技数据壁垒！智会心研官宣：高级检索+AI深度分析，面向个人免费开放！",
-     "url": "https://www.qbitai.com/2026/05/414445.html",
-     "source": "量子位",
-     "date": "2026-05-09",
-     "summary": "智会心研面向个人用户免费开放高级检索与 AI 深度分析核心功能，涵盖专利 AI 检索、AI 伴读、图表分析及多智能体协作，助力研发与情报分析高效完成，降低技术创新门槛。",
      "is_new": true,
      "lang": "zh"
     },
@@ -784,8 +784,17 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 8,
+   "count": 9,
    "cards": [
+    {
+     "title": "Nvidia has already committed $40B to equity AI deals this year",
+     "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-09",
+     "summary": "Nvidia continues to be a big investor in the AI ecosystem.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Intel’s comeback story is even wilder than it seems",
      "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
@@ -1015,17 +1024,8 @@ const APP_DATA = {
    "name": "AI安全与对齐",
    "icon": "🛡️",
    "color": "#dc2626",
-   "count": 2,
+   "count": 1,
    "cards": [
-    {
-     "title": "Governance, not gatekeeping: How SAP brings enterprise‑grade safety to AI connectivity",
-     "url": "https://venturebeat.com/orchestration/governance-not-gatekeeping-how-sap-brings-enterprise-grade-safety-to-ai-connectivity",
-     "source": "VentureBeat - AI",
-     "date": "2026-05-08",
-     "summary": "Presented by SAPThe enterprise software industry has undergone a fundamental shift, and vendors are adapting their approaches to better protect the customers who rely on them. For years, every global platform vendor running multi-tenant cloud infrastructure has maintained documented rate limits, ...",
-     "is_new": true,
-     "lang": "en"
-    },
     {
      "title": "两项AI政策发布，范式智能战略布局与产业方向高度契合",
      "url": "https://www.qbitai.com/2026/05/415019.html",
@@ -1043,6 +1043,15 @@ const APP_DATA = {
    "color": "#6b7280",
    "count": 51,
    "cards": [
+    {
+     "title": "The new Wild West of AI kids’ toys",
+     "url": "https://arstechnica.com/ai/2026/05/the-new-wild-west-of-ai-kids-toys/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-09",
+     "summary": "These connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
@@ -1161,15 +1170,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "DNA identifies four more crew members of doomed Franklin expedition",
-     "url": "https://arstechnica.com/science/2026/05/dna-identifies-four-more-crew-members-of-doomed-franklin-expedition/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-08",
-     "summary": "Erebus; the fourth was Petty Officer Harry Peglar of the HMS Terror.]]>",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
      "title": "All the latest updates on AI data centers",
      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
      "source": "The Verge - AI",
@@ -1239,15 +1239,6 @@ const APP_DATA = {
      "date": "2026-05-08",
      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading everywhere, and it is not going away. But what will it do? What effect will it have on our society? Will…",
      "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Bumble is getting rid of the swipe, CEO says",
-     "url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
-     "is_new": false,
      "lang": "en"
     },
     {
@@ -1375,6 +1366,15 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en"
+    },
+    {
+     "title": "太初元碁携龙虾一体机亮相北京科博会",
+     "url": "https://www.qbitai.com/2026/05/415027.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "",
+     "is_new": true,
+     "lang": "zh"
     },
     {
      "title": "阶跃最新语音模型位列 Artificial Analysis 评测榜中国第一",
@@ -1511,8 +1511,8 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42472,
-   "forks": 7537,
+   "stars": 42476,
+   "forks": 7538,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1542,8 +1542,8 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25835,
-   "forks": 5700,
+   "stars": 25840,
+   "forks": 5702,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1571,8 +1571,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18620,
-   "forks": 1693,
+   "stars": 18624,
+   "forks": 1694,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1618,8 +1618,8 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15137,
-   "forks": 2303,
+   "stars": 15138,
+   "forks": 2302,
    "language": "C++",
    "topics": [
     "arm",
@@ -1640,7 +1640,7 @@ const APP_DATA = {
    "url": "https://github.com/ludwig-ai/ludwig",
    "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
    "blurb": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-   "stars": 11691,
+   "stars": 11692,
    "forks": 1217,
    "language": "Python",
    "topics": [
@@ -1671,7 +1671,7 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11346,
+   "stars": 11347,
    "forks": 824,
    "language": "Rust",
    "topics": [
@@ -1702,7 +1702,7 @@ const APP_DATA = {
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
    "blurb": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10083,
+   "stars": 10082,
    "forks": 1270,
    "language": "Python",
    "topics": [
@@ -1759,8 +1759,8 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7466,
-   "forks": 838,
+   "stars": 7468,
+   "forks": 840,
    "language": "Jupyter Notebook",
    "topics": [
     "data-drift",
@@ -1784,7 +1784,7 @@ const APP_DATA = {
    "url": "https://github.com/postgresml/postgresml",
    "description": "Postgres with GPUs for ML/AI apps.",
    "blurb": "Postgres with GPUs for ML/AI apps.",
-   "stars": 6782,
+   "stars": 6783,
    "forks": 361,
    "language": "Rust",
    "topics": [
@@ -1828,7 +1828,7 @@ const APP_DATA = {
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
    "blurb": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5463,
+   "stars": 5465,
    "forks": 1361,
    "language": "Unknown",
    "topics": [
