@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-09",
- "fetched_at": "2026-05-09T03:29:41",
- "total": 150,
+ "fetched_at": "2026-05-09T06:00:07",
+ "total": 151,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -64,7 +64,7 @@ const APP_DATA = {
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
-   "count": 12,
+   "count": 13,
    "color": "#ec4899"
   }
  },
@@ -93,7 +93,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 48
+   "count": 50
   },
   {
    "name": "AI Agent与智能体",
@@ -105,7 +105,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 3
+   "count": 5
   },
   {
    "name": "多模态与AIGC",
@@ -117,7 +117,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 10
+   "count": 9
   },
   {
    "name": "开源与生态",
@@ -129,7 +129,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 17
+   "count": 16
   },
   {
    "name": "AI安全与对齐",
@@ -141,7 +141,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 55
+   "count": 54
   }
  ],
  "sections": [
@@ -149,7 +149,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 48,
+   "count": 50,
    "cards": [
     {
      "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
@@ -431,6 +431,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%",
+     "url": "https://www.qbitai.com/2026/05/414496.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "搜索、知识、Agent 能力全面提升",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "梁文锋出资200亿！DeepSeek首轮创纪录融资500亿，V4.1定档6月",
      "url": "https://www.qbitai.com/2026/05/414432.html",
      "source": "量子位",
@@ -445,6 +454,15 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "整理｜Kris 今日热点导览 香港拿下世界杯转播权，FIFA与央视谈判仍陷僵局 油价上调，加满一箱92号汽油将多花12.5元 钱江摩托否认“围剿张雪机车” 30条中日航线4月取消全部航班 SpaceX冲刺上市，资本开支飙升数百亿 TOP3大新闻 DeepSeek拟募资最高500亿元 据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。(财联社) “全国销冠”任晓敏被刑拘，泰康人寿回应 5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注。对此，公司高度重视，第一时间组织专项工作组派驻...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "bosie创始人刘光耀成为Kimi顾问？刘光耀回复“没入职”",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801525719949057?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "36氪独家获悉，无性别服饰品牌bosie创始人刘光耀，近期以顾问身份参与到月之暗面旗下AI产品Kimi的市场与内容传播工作中。对此，刘光耀本人的回复是“没入职”。曾有月之暗面市场部人员表示，刘光耀的身份是\"顾问\"。另有月之暗面相关人员称听说了，但还没见过人，“顾问太多了，很多我们都没见过。”",
      "is_new": true,
      "lang": "zh"
     },
@@ -646,21 +664,21 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "打破科技数据壁垒！智会心研官宣：高级检索+AI深度分析，面向个人免费开放！",
+     "url": "https://www.qbitai.com/2026/05/414445.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "智会心研面向个人用户免费开放高级检索与 AI 深度分析核心功能，涵盖专利 AI 检索、AI 伴读、图表分析及多智能体协作，助力研发与情报分析高效完成，降低技术创新门槛。",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "小红书四年AI 路：FOMO、犹豫，到突然加速",
      "url": "<![CDATA[https://36kr.com/p/3799028783439111?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-08",
      "summary": "作者 | 肖思佳 编辑 | 乔芊 杨轩 所有互联网大中厂都渴望在AI时代博得位置，在这场比赛中，小红书曾是克制的那个。 在一个搜索属性与社区属性并存，以真实经验分享为核心的产品中，活人感与AI、温情和算法，始终像天平的两端。 很长一段时间里，小红书既没有完全缺席技术探索，也没有像许多同行那样高调推进AI产品化。相反，这家公司始终在两股力量的拉锯和平衡中前行：一边持续投入模型能力，一边谨慎控制AI对社区生态的介入。 但2026年，随着Agent叙事的升温，小红书开始显露出某种急迫。 4月30日，小红书发送全员内部信，宣布成立AI一级部门Dots，“建立从模型研发、基础设施、工程到产品的完整...",
      "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "原生Agent杀入画布！一站式搞定专业创作，全程可控、不抽卡",
-     "url": "https://www.qbitai.com/2026/05/413912.html",
-     "source": "量子位",
-     "date": "2026-05-07",
-     "summary": "背靠国内最大ComfyUI生态",
-     "is_new": false,
      "lang": "zh"
     },
     {
@@ -678,7 +696,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 3,
+   "count": 5,
    "cards": [
     {
      "title": "Nanoleaf bets its future on robots, red light therapy, and AI",
@@ -697,6 +715,24 @@ const APP_DATA = {
      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Week one of the Musk v. Altman trial: what it was like in the room Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of…",
      "is_new": false,
      "lang": "en"
+    },
+    {
+     "title": "东土科技等在湖北成立智能机器人产业发展公司，注册资本3.5亿",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801625136684804?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "36氪获悉，天眼查App显示，近日，湖北省智能机器人产业发展有限公司成立，法定代表人为李平，注册资本3.5亿人民币，经营范围包括工业自动控制系统装置制造、人工智能基础软件开发、人工智能应用软件开发、智能机器人的研发等，由东土科技、宜昌启宸投资发展有限公司、上海科鸿创智技术有限公司共同持股。",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "牧原股份在横琴成立现代农牧科技公司，注册资本5亿",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801450279083783?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "36氪获悉，天眼查App显示，近日，广东横琴牧原现代农牧科技有限公司成立，法定代表人为张亭，注册资本5亿人民币，经营范围包括人工智能基础软件开发、人工智能应用软件开发、智能机器人的研发、人工智能行业应用系统集成服务等，由牧原股份全资持股。",
+     "is_new": true,
+     "lang": "zh"
     },
     {
      "title": "总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪；昆仑芯启动A股IPO；男子五一加班身亡！涉事公司：假期自愿",
@@ -766,7 +802,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 10,
+   "count": 9,
    "cards": [
     {
      "title": "Intel’s comeback story is even wilder than it seems",
@@ -814,29 +850,20 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "长电科技：一季度产能利用率超过80%，产能供不应求",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801553821654531?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "长电科技高管在业绩说明会上表示，一季度国内市场呈现淡季不淡特点，整体产能利用率已超过80%。目前公司正加快推动长电微电子晶圆级微系统集成高端制造项目的产品上量，上海临港车规级芯片封测项目正式启用，多家国内外车载芯片客户的生产项目正在积极推进产品认证和量产导入工作。另外，在原材料价格上涨、产能供不应求情况下，公司不断优选客户、优化产品结构，提升单位价格。（证券时报）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "需求持续升温，AI芯片制造商Cerebras拟上调IPO价格区间",
      "url": "<![CDATA[https://36kr.com/newsflashes/3801408298065416?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "据报道，随着投资者对人工智能芯片制造商Cerebras Systems股票的需求继续升温，该公司最早将于当地时间下周一上调IPO价格区间至每股125美元至135美元。知情人士称，这次IPO已吸引超20倍的认购订单。Cerebras提交给美国证监会的文件显示，该公司目前寻求筹集35亿美元，正以每股115美元至125美元的价格推介2800万股股票。（界面）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "阿波罗和黑石等机构考虑参与博通近350亿美元融资",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801359034113538?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "据报道， 阿波罗全球管理公司和黑石集团都在参与同博通洽谈约350亿美元融资的私募信贷贷款机构之列。据悉，这笔融资将帮助博通为人工智能任务芯片的开发提供资金。知情人士称，洽谈仍在进行，条款可能发生变化。（界面）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "英特尔与苹果据悉达成初步协议，将为后者设备制造芯片",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801360095289088?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "据报道，英特尔已与苹果达成初步协议，将为后者设备制造部分芯片。据悉，两家公司已谈判一年多，目前仍不清楚英特尔将为哪些苹果产品制造芯片。（界面）",
      "is_new": true,
      "lang": "zh"
     },
@@ -890,7 +917,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 17,
+   "count": 16,
    "cards": [
     {
      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
@@ -992,20 +1019,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "Anthropic据悉同Akamai签署18亿美元计算协议",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801405713374981?f=rss]]>",
+     "title": "“吾流文化“完成亿元级融资",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801562643521031?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-09",
-     "summary": "据报道，Anthropic已同云服务提供商Akamai Technologies签署一项18亿美元的计算交易，以满足对其人工智能软件的激增需求。Akamai表示，已与一家“领先的前沿模型提供商”达成一项为期七年的云计算协议，但未点名该公司。（新浪财经）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "谷歌旗下Isomorphic Labs拟在新一轮融资中筹集逾20亿美元",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801377962090247?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "据报道，谷歌DeepMind分拆出来的AI驱动药物研发公司Isomorphic Labs正深入洽谈，计划在新一轮融资中筹集超过20亿美元。知情人士称，曾主导Isomorphic Labs去年首轮融资的风投机构Thrive Capital将牵头本轮新融资，Alphabet也将参与。（界面）",
+     "summary": "36氪获悉，近日，“吾流文化“宣布完成亿元级别融资，本轮融资由凯辉基金、五源资本联合领投，柠萌影视战略投资，景铄TWS与棕榈资本担任财务顾问。资金将重点用于IP商业化体系建设，涵盖IP储备扩充、自有供应链升级、渠道布局完善、出海能力提升及AI赋能下非实体衍生的创新探索。",
      "is_new": true,
      "lang": "zh"
     },
@@ -1068,7 +1086,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 55,
+   "count": 54,
    "cards": [
     {
      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
@@ -1413,11 +1431,29 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我看愣了",
+     "url": "https://www.qbitai.com/2026/05/414501.html",
+     "source": "量子位",
+     "date": "2026-05-09",
+     "summary": "眼镜里的信息第一次「立」起来了",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "AI开始接管年轻人的「精神自留地」",
      "url": "<![CDATA[https://36kr.com/p/3801461350702855?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "撰文｜锅包柚 封面来源｜Unsplash（AI辅助扩图） 五一假期已经结束，但打工人的“节后综合症”并未消退。 面对永远99+的工作群消息，和改不完的PPT，打工人蝈蝈在摸鱼时打开灵光APP里的一个小游戏——“老板被我fire了”。 屏幕里跳出老板最爱的PUA话术：“你们要相信我的眼光”“现在的付出都是值得的”。她疯狂点击，伴随着金币掉落的音效，在赛博世界里体验了一把将老板痛扁、原地暴富的爽感。 “老板被我fire了” 这个让蝈蝈短暂“活过来”的应用，不是什么专业团队做的。而是一个同样被工作折磨的网友@二旬老人，在灵光APP免费花30秒随手“搓”出来的。 这届年轻人，连发泄情绪都要精打细...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "小鹏汽车：公司近期并未被“约谈”，也不存在被立案调查",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3801547699281665?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "36氪获悉，小鹏汽车法务部发文称，公司关注到，部分社交账号通过AI应用，恶意炒作“8家新能源车企被集中约谈”“3家涉嫌违规被立案调查”等信息，并将公司纳入名单，对公司品牌和声誉造成恶劣影响。经核实，公司近期并未收到此类不实信息提到的所谓“约谈”，也不存在被立案调查。公司已经对相关制谣传谣主体进行取证，后续会依法追究其法律责任。",
      "is_new": true,
      "lang": "zh"
     },
@@ -1436,15 +1472,6 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-08",
      "summary": "服务FSD和Optimus",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "第一批「AI原生」本科生，要毕业了",
-     "url": "https://www.qbitai.com/2026/05/414125.html",
-     "source": "量子位",
-     "date": "2026-05-08",
-     "summary": "全部都是AI加持的超级个体",
      "is_new": true,
      "lang": "zh"
     },
@@ -1512,24 +1539,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "高盛：美国数据中心用电需求或在两年内翻倍",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3800643284245513?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-08",
-     "summary": "高盛预计，美国数据中心电力需求将从2025年的31GW增长至2026年的41GW，并在2027年进一步升至66GW。高盛认为，本轮AI数据中心扩张正在重塑美国地理格局。得州和佐治亚州正成为AI数据中心的重要聚集地，因为这些地区电力供应扩张更快，接入能力更强。（财联社）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "离谱！一句话+百元预算，这只龙虾就给我搓出了一支百万级广告片？",
-     "url": "https://www.qbitai.com/2026/05/414006.html",
-     "source": "量子位",
-     "date": "2026-05-07",
-     "summary": "让广告创意不再卡在预算里",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
      "title": "中国高校科研 AI 云市场，阿里云第一！",
      "url": "https://www.leiphone.com/category/industrynews/oue4W89QPv8sRtVl.html",
      "source": "雷锋网 - AI",
@@ -1574,7 +1583,7 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42467,
+   "stars": 42468,
    "forks": 7535,
    "language": "Python",
    "topics": [
@@ -1605,7 +1614,7 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25831,
+   "stars": 25833,
    "forks": 5698,
    "language": "Python",
    "topics": [
@@ -1634,8 +1643,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18607,
-   "forks": 1691,
+   "stars": 18610,
+   "forks": 1692,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1654,7 +1663,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17885,
+   "stars": 17886,
    "forks": 1139,
    "language": "Python",
    "topics": [
@@ -1681,7 +1690,7 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15132,
+   "stars": 15134,
    "forks": 2303,
    "language": "C++",
    "topics": [
@@ -1765,7 +1774,7 @@ const APP_DATA = {
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
    "blurb": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10081,
+   "stars": 10082,
    "forks": 1270,
    "language": "Python",
    "topics": [
@@ -1796,7 +1805,7 @@ const APP_DATA = {
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "blurb": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
-   "stars": 8631,
+   "stars": 8632,
    "forks": 958,
    "language": "Python",
    "topics": [
@@ -1875,8 +1884,8 @@ const APP_DATA = {
    "url": "https://github.com/rustformers/llm",
    "description": "[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models",
    "blurb": "[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models",
-   "stars": 6149,
-   "forks": 377,
+   "stars": 6150,
+   "forks": 378,
    "language": "Rust",
    "topics": [
     "ai",
