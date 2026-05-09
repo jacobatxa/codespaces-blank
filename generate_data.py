@@ -277,7 +277,10 @@ def parse_feed(raw):
                 summary = html.unescape(cdata_m.group(1).strip())
         date_str = extract("published") or extract("updated") or extract("pubDate") or ""
 
-        # Clean up summary
+        # Clean up summary — strip HTML thoroughly (including HTML entities that contain tags)
+        summary = re.sub(r'<[^>]+>', '', summary)
+        summary = html.unescape(summary)  # unescape again after stripping
+        summary = re.sub(r'<[^>]+>', '', summary)  # strip any tags that were entity-encoded
         summary = re.sub(r'\s+', ' ', summary).strip()
         if len(summary) > 300:
             summary = summary[:297] + "..."
@@ -680,10 +683,13 @@ def main():
         "trending": trending,
     }
     
-    # Sanitize for JavaScript
+    # Sanitize for JavaScript — remove control characters and normalize whitespace
+    # json.dumps handles all JSON-escaping (quotes, backslashes) correctly
     def sanitize(v):
         if isinstance(v, str):
-            v = v.replace("\\", "\\\\").replace("'", "\\'").replace("\n", " ").replace("\r", " ")
+            v = v.replace("\n", " ").replace("\r", " ").replace("\t", " ")
+            # Remove any remaining control characters
+            v = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', v)
             return v
         return v
     
@@ -697,7 +703,7 @@ def main():
     
     clean = sanitize_value(output)
     
-    # Write data.js
+    # Write data.js — use json.dumps with proper escaping
     js = "const APP_DATA = " + json.dumps(clean, ensure_ascii=False, indent=1) + ";"
     output_path = os.path.join(SCRIPT_DIR, "data.js")
     with open(output_path, "w", encoding="utf-8") as f:
