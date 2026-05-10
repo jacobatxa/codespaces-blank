@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-10",
- "fetched_at": "2026-05-10T12:01:03",
- "total": 132,
+ "fetched_at": "2026-05-10T18:00:29",
+ "total": 137,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -62,6 +62,10 @@ const APP_DATA = {
   "雷锋网 - AI": {
    "count": 15,
    "color": "#8b5cf6"
+  },
+  "36氪 - AI": {
+   "count": 5,
+   "color": "#ec4899"
   }
  },
  "shortNames": {
@@ -89,7 +93,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 38
+   "count": 37
   },
   {
    "name": "AI Agent与智能体",
@@ -107,7 +111,7 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 5
+   "count": 6
   },
   {
    "name": "AI硬件与芯片",
@@ -125,7 +129,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 11
+   "count": 13
   },
   {
    "name": "AI安全与对齐",
@@ -137,7 +141,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 53
+   "count": 56
   }
  ],
  "sections": [
@@ -145,7 +149,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 38,
+   "count": 37,
    "cards": [
     {
      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
@@ -171,15 +175,6 @@ const APP_DATA = {
      "source": "VentureBeat - AI",
      "date": "2026-05-08",
      "summary": "Just a few weeks after announcing Claude Managed Agents, Anthropic has updated the platform with three new capabilities that collapse infrastructure layers like memory, evaluation, and multi-agent orchestration, into a single runtime.This move could threaten the standalone tools that many enterpr...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "OpenAI introduces new ‘Trusted Contact’ safeguard for cases of possible self-harm",
-     "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "The company is expanding its efforts to protect ChatGPT users in cases where conversations may turn to self-harm.",
      "is_new": false,
      "lang": "en"
     },
@@ -346,15 +341,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "datasette-llm 0.1a7",
-     "url": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
-     "source": "Simon Willison's Blog",
-     "date": "2026-05-05",
-     "summary": "Release: datasette-llm 0.1a7 Mechanism for configuring default options for specific models. Part of Datasette's evolving support mechanism for plugins that use LLMs. It's now possible to configure a model with default options, e.g. to say all enrichment operations should use a specific model with...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
      "source": "Google AI Blog",
@@ -432,6 +418,15 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-09",
      "summary": "5 月 9 日，全球权威 TTS 评测榜单 Artificial Analysis Speech Arena Leaderboard 更新，阶跃语音生成模型 StepAudio 2.5 TTS 跻身全球前三，成为当前榜单排名最高的中国大模型。不同于传统实验室指标，该榜单采用盲测 Elo 评分机制，由用户在不知道模型身份的情况下，直接对同一文本生成的两段语音进行听感判断，测试覆盖客户服务、知识分享、数字助手、娱乐等真实应用场景。这意味着，StepAudio 2.5 TTS 的领先并不只是参数或指标上的提升，而是在真实用户听感中展现出更自然、更接近真人表达的能力，在实际落地中具备更强竞争力。...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉",
+     "url": "<![CDATA[https://36kr.com/p/3801348046151428?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "整理｜Kris 今日热点导览 香港拿下世界杯转播权，FIFA与央视谈判仍陷僵局 油价上调，加满一箱92号汽油将多花12.5元 钱江摩托否认“围剿张雪机车” 30条中日航线4月取消全部航班 SpaceX冲刺上市，资本开支飙升数百亿 TOP3大新闻 DeepSeek拟募资最高500亿元 据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。(财联社) “全国销冠”任晓敏被刑拘，泰康人寿回应 5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注。对此，公司高度重视，第一时间组织专项工作组派驻...",
      "is_new": true,
      "lang": "zh"
     },
@@ -534,15 +529,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Perplexity’s Personal Computer is now available to everyone on Mac",
-     "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "Perplexity's Personal Computer brings AI agents to your Mac, and is now open to everyone.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
      "source": "Simon Willison's Blog",
@@ -576,6 +562,15 @@ const APP_DATA = {
      "date": "2026-05-09",
      "summary": "打造“赛博乙方天团”",
      "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "小红书四年AI 路：FOMO、犹豫，到突然加速",
+     "url": "<![CDATA[https://36kr.com/p/3799028783439111?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-08",
+     "summary": "作者 | 肖思佳 编辑 | 乔芊 杨轩 所有互联网大中厂都渴望在AI时代博得位置，在这场比赛中，小红书曾是克制的那个。 在一个搜索属性与社区属性并存，以真实经验分享为核心的产品中，活人感与AI、温情和算法，始终像天平的两端。 很长一段时间里，小红书既没有完全缺席技术探索，也没有像许多同行那样高调推进AI产品化。相反，这家公司始终在两股力量的拉锯和平衡中前行：一边持续投入模型能力，一边谨慎控制AI对社区生态的介入。 但2026年，随着Agent叙事的升温，小红书开始显露出某种急迫。 4月30日，小红书发送全员内部信，宣布成立AI一级部门Dots，“建立从模型研发、基础设施、工程到产品的完整...",
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -655,8 +650,17 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 5,
+   "count": 6,
    "cards": [
+    {
+     "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+     "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-10",
+     "summary": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Quoting Luke Curley",
      "url": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
@@ -796,8 +800,17 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 11,
+   "count": 13,
    "cards": [
+    {
+     "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
+     "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-10",
+     "summary": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
@@ -889,6 +902,15 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "获高秉强、蓝驰领投数千万融资，浙大00后创业者从远景观测切入AI智能影像｜硬氪首发",
+     "url": "<![CDATA[https://36kr.com/p/3797202414820359?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，星识（宁波）科技有限公司（以下简称“星识科技”）近日连续完成天使+轮和天使++轮融资，累计金额达数千万元。两轮融资分别由高秉强教授旗下高锋耐心资本和蓝驰创投领投、松禾资本跟投，老股东清水湾二期基金及奇绩创坛持续加注。本轮资金将主要用于智能影像核心技术研发、新品矩阵打造和产品体验的迭代优化，以及生产体系与供应链能力建设。此前，公司已获得李泽湘教授旗下宁波智能技术研究院、清水湾二期基金及奇绩创坛的种子轮及天使轮投资。 星识科技是一家专注智能影像技术研发与硬件制造的企业，以远景观测场景为切点，曾推出融合AI功能的Vizta智能望远镜，已在Kickstarte...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "无问芯穹再获超7亿融资：首发AI生产力公式，跻身Token经济枢纽",
      "url": "https://www.leiphone.com/category/yanxishe/eM6mjqZl27orl1gE.html",
      "source": "雷锋网 - AI",
@@ -920,7 +942,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 53,
+   "count": 56,
    "cards": [
     {
      "title": "Do you take after your dad’s RNA?",
@@ -937,6 +959,15 @@ const APP_DATA = {
      "source": "ArsTechnica - AI",
      "date": "2026-05-10",
      "summary": "Fortunately, it happened early in the morning, so nobody was around.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Quoting Andrew Quinn",
+     "url": "https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything",
+     "source": "Simon Willison's Blog",
+     "date": "2026-05-10",
+     "summary": "One could say in the first quarter-century of my life, that while I was always fascinated by programming, I could never overcome the guilt of not really knowing whether the tool I am building right now isn’t already superceded by some much better implementation someone else has already written 30...",
      "is_new": true,
      "lang": "en"
     },
@@ -1265,6 +1296,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互",
+     "url": "https://www.qbitai.com/2026/05/415048.html",
+     "source": "量子位",
+     "date": "2026-05-10",
+     "summary": "福尔摩斯探案都能演",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "浙大校友用AI突破32年拉姆齐数下界",
      "url": "https://www.qbitai.com/2026/05/415031.html",
      "source": "量子位",
@@ -1279,6 +1319,15 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-10",
      "summary": "5月9日，光帆科技官方账号发布发售预热海报。海报显示，全球首款具备视觉感知能力的主动式AI耳机——光帆全感AI耳机，将于5月15日正式开售。此前一天，据The Verge等媒体报道，苹果正在推进带摄像头的AirPods于年内落地。随着头部厂商加入，支持视觉感知的AI耳机正在成为硬件赛道中新的焦点。作为面向下一代人机交互打造的AI可穿戴设备，光帆AI全感穿戴设备的核心特点可以概括为“全感知、主动式、个性化”。其中“全感知”意味着设备具备视觉感知、位置感知、身体状态感知等多维感知能力，能够更完整地理解用户所处的环境；“主动式”代表产品区别于传统AI硬件被动等待指令的交互方式，设备可以基于场景...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "Ozon大中华区总裁Simon Huang：中国卖家，正在涌向俄罗斯｜专访",
+     "url": "<![CDATA[https://36kr.com/p/3802822550839047?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-10",
+     "summary": "编者按：上个月月底，36氪在厦门参加了一场Ozon全球招商启动大会，我们发现现场人山人海。火热的出海和国内经济形成鲜明对比，特别是一组数据吸引了我们注意：尽管俄罗斯电商渗透率在2025年才23%，但是Ozon在2017年至2025年间，实现了91%的年均复合增长率。 这些高增长数据背后，似乎隐藏着比较大的商业机会，但机会究竟是什么？中国卖家如何在AI时代抓住？那边电商处于什么阶段？带着这些疑问，36氪和Ozon大中华区总裁Simon Huang（黄效）进行了一次交流。结论就是：俄语区还有比较长的红利期，中国电商迁移过去有足够的品牌优势、供应链优势，以及运营优势。以下为正文： 过去几年，中...",
      "is_new": true,
      "lang": "zh"
     },
@@ -1310,20 +1359,20 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我看愣了",
-     "url": "https://www.qbitai.com/2026/05/414501.html",
-     "source": "量子位",
-     "date": "2026-05-09",
-     "summary": "眼镜里的信息第一次「立」起来了",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "播放破亿的 AI 短片，名场面是一个「穿帮镜头」| 对话《纸手机》主创",
      "url": "https://www.ifanr.com/1661163?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
      "date": "2026-05-09",
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "AI开始接管年轻人的「精神自留地」",
+     "url": "<![CDATA[https://36kr.com/p/3801461350702855?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-09",
+     "summary": "撰文｜锅包柚 封面来源｜Unsplash（AI辅助扩图） 五一假期已经结束，但打工人的“节后综合症”并未消退。 面对永远99+的工作群消息，和改不完的PPT，打工人蝈蝈在摸鱼时打开灵光APP里的一个小游戏——“老板被我fire了”。 屏幕里跳出老板最爱的PUA话术：“你们要相信我的眼光”“现在的付出都是值得的”。她疯狂点击，伴随着金币掉落的音效，在赛博世界里体验了一把将老板痛扁、原地暴富的爽感。 “老板被我fire了” 这个让蝈蝈短暂“活过来”的应用，不是什么专业团队做的。而是一个同样被工作折磨的网友@二旬老人，在灵光APP免费花30秒随手“搓”出来的。 这届年轻人，连发泄情绪都要精打细...",
      "is_new": true,
      "lang": "zh"
     },
@@ -1408,7 +1457,7 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42482,
+   "stars": 42481,
    "forks": 7537,
    "language": "Python",
    "topics": [
@@ -1439,8 +1488,8 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25845,
-   "forks": 5703,
+   "stars": 25855,
+   "forks": 5709,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1468,8 +1517,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18631,
-   "forks": 1695,
+   "stars": 18633,
+   "forks": 1696,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1488,7 +1537,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17890,
+   "stars": 17891,
    "forks": 1139,
    "language": "Python",
    "topics": [
@@ -1515,8 +1564,8 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15142,
-   "forks": 2304,
+   "stars": 15141,
+   "forks": 2305,
    "language": "C++",
    "topics": [
     "arm",
@@ -1537,7 +1586,7 @@ const APP_DATA = {
    "url": "https://github.com/ludwig-ai/ludwig",
    "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
    "blurb": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-   "stars": 11692,
+   "stars": 11691,
    "forks": 1217,
    "language": "Python",
    "topics": [
@@ -1568,7 +1617,7 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11349,
+   "stars": 11350,
    "forks": 824,
    "language": "Rust",
    "topics": [
@@ -1630,8 +1679,8 @@ const APP_DATA = {
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "blurb": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
-   "stars": 8635,
-   "forks": 958,
+   "stars": 8636,
+   "forks": 959,
    "language": "Python",
    "topics": [
     "ai-inference",
@@ -1656,7 +1705,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7472,
+   "stars": 7473,
    "forks": 843,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1709,7 +1758,7 @@ const APP_DATA = {
    "url": "https://github.com/rustformers/llm",
    "description": "[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models",
    "blurb": "[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models",
-   "stars": 6149,
+   "stars": 6148,
    "forks": 377,
    "language": "Rust",
    "topics": [
@@ -1725,7 +1774,7 @@ const APP_DATA = {
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
    "blurb": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5465,
+   "stars": 5466,
    "forks": 1361,
    "language": "Unknown",
    "topics": [
@@ -1748,7 +1797,7 @@ const APP_DATA = {
    "url": "https://github.com/zenml-io/zenml",
    "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
    "blurb": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
-   "stars": 5410,
+   "stars": 5409,
    "forks": 612,
    "language": "Python",
    "topics": [
@@ -1779,7 +1828,7 @@ const APP_DATA = {
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
    "blurb": "A blazing fast inference solution for text embeddings models",
-   "stars": 4781,
+   "stars": 4782,
    "forks": 387,
    "language": "Rust",
    "topics": [
