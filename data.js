@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-10",
- "fetched_at": "2026-05-10T00:00:25",
- "total": 143,
+ "fetched_at": "2026-05-10T06:00:09",
+ "total": 139,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -48,7 +48,7 @@ const APP_DATA = {
    "color": "#eab308"
   },
   "APPSO": {
-   "count": 9,
+   "count": 8,
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
@@ -64,7 +64,7 @@ const APP_DATA = {
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
-   "count": 11,
+   "count": 8,
    "color": "#ec4899"
   }
  },
@@ -93,7 +93,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 45
+   "count": 41
   },
   {
    "name": "AI Agent与智能体",
@@ -105,7 +105,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 6
+   "count": 7
   },
   {
    "name": "多模态与AIGC",
@@ -117,7 +117,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 8
+   "count": 7
   },
   {
    "name": "开源与生态",
@@ -129,7 +129,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 13
+   "count": 12
   },
   {
    "name": "AI安全与对齐",
@@ -141,7 +141,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 52
+   "count": 53
   }
  ],
  "sections": [
@@ -149,7 +149,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 45,
+   "count": 41,
    "cards": [
     {
      "title": "Chrome's 4GB AI model isn't new, but you're not wrong for being confused",
@@ -422,20 +422,20 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "特斯拉：最后一辆Model S和Model X已在弗里蒙特工厂下线",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3802823310188292?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-10",
+     "summary": "当地时间5月9日，特斯拉在社交平台表示，最后一辆Model S和最后一辆Model X已在弗里蒙特工厂下线。（界面新闻）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件",
      "url": "https://www.qbitai.com/2026/05/414827.html",
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "实现过程开源可复现",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%",
-     "url": "https://www.qbitai.com/2026/05/414496.html",
-     "source": "量子位",
-     "date": "2026-05-09",
-     "summary": "搜索、知识、Agent 能力全面提升",
      "is_new": true,
      "lang": "zh"
     },
@@ -463,33 +463,6 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "整理｜Kris 今日热点导览 香港拿下世界杯转播权，FIFA与央视谈判仍陷僵局 油价上调，加满一箱92号汽油将多花12.5元 钱江摩托否认“围剿张雪机车” 30条中日航线4月取消全部航班 SpaceX冲刺上市，资本开支飙升数百亿 TOP3大新闻 DeepSeek拟募资最高500亿元 据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。(财联社) “全国销冠”任晓敏被刑拘，泰康人寿回应 5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注。对此，公司高度重视，第一时间组织专项工作组派驻...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "Deepseek和阿里谈崩了？市场人士回应",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801813920144901?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "5月8日，有消息称，4月，DeepSeek（深度求索）罕见展开一场巨额融资计划，同时吸引了腾讯和阿里巴巴两家大厂。据该消息，近期，阿里巴巴和DeepSeek谈崩了。对此，市场人士透露，阿里应该没有进行谈判。（每经网）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "百度正式发布文心大模型5.1",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801731549371905?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "36氪获悉，百度正式发布新一代基础大模型文心大模型 5.1。据官方介绍，文心 5.1采用“多维弹性预训练”技术，仅以业界同规模模型约6%的预训练成本，达到基础效果领先水平，登上LMArena搜索榜国内第一。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "智源FlagSafe平台正式发布",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801709226483208?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "36氪获悉，近日，北京智源人工智能研究院联合北京大学、北京邮电大学、北京航空航天大学、上海交通大学、中国科学院信息工程研究所、中国科学院计算技术研究所等国内机构，正式发布FlagSafe大模型安全平台。平台首批汇聚多个前沿大模型安全研究项目，围绕红队演练、蓝队防御、白盒透视三个核心方向，共同打造覆盖风险发现、防御治理与机理解释的高标准安全平台。",
      "is_new": true,
      "lang": "zh"
     },
@@ -535,15 +508,6 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-08",
      "summary": "5月8日，在2026移动云大会上，中国移动与火山引擎正式发布“移动引擎机密模型服务”专区，为各行业提供兼具技术领先与安全可信的AI服务，包括豆包大模型MaaS服务、Agent开发平台和工具等。 【中国移动与火山引擎发布“移动引擎机密模型服务”】通过在移动云上构建安全可信的机密执行环境，该服务让豆包大模型在推理过程中保持端到端加密，让整个推理过程可追溯可审计；同时实现零硬件投入，全托管免运维。后续还将集成HiAgent、Arkclaw 等智能体开发平台和工具，并逐步提供一系列开箱即用的行业智能体，打造先进技术、安全合规与成本可控的“更优解”。目前，该服务已上线豆包视频生成模型Seedanc...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "早报｜DeepSeek首轮融资曝光，估值450亿美元/谷歌称Android不会推出「液态玻璃」/三星宣布在中国大陆停售所有家电产品",
-     "url": "https://www.ifanr.com/1664941?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-07",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh"
     },
@@ -669,7 +633,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 6,
+   "count": 7,
    "cards": [
     {
      "title": "Hackable Robot Lawn Mower Unlocks a New Nightmare",
@@ -697,6 +661,15 @@ const APP_DATA = {
      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Week one of the Musk v. Altman trial: what it was like in the room Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of…",
      "is_new": false,
      "lang": "en"
+    },
+    {
+     "title": "我国经济增长动能澎湃",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3802935832616709?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-10",
+     "summary": "国家发展改革委国家信息中心今天发布4月份经济各领域先行指标，显示出经济稳步向好的大趋势。投资方面，数字基础设施投资活跃度快速提升，投资加速向新赛道集聚。国家信息中心最新数据显示，4月份，人工智能、人形机器人等前沿领域的资本投资金额同比增长175.2%。数据、算力、网络等领域的基础设施项目中标金额同比增长61.7%，经济增长新动能持续激活。随着财政金融协同促内需、消费品以旧换新等政策持续发力，叠加多地中小学春假及踏青出行热潮，4月份，消费市场延续规模增长、结构优化的向好态势。4月份“春游”“赏花”等关键词搜索量环比分别增长118.1%和43.4%；景区、城市公园、绿道等户外场所周边消费热度...",
+     "is_new": true,
+     "lang": "zh"
     },
     {
      "title": "空间智能的“具身化”跃迁，高德ABot体系模型夺冠AGIBot全球挑战赛",
@@ -784,7 +757,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 8,
+   "count": 7,
    "cards": [
     {
      "title": "Nvidia has already committed $40B to equity AI deals this year",
@@ -814,6 +787,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "英伟达全面布局AI生态 股权投资今年已超400亿美元",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3802794581991168?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-10",
+     "summary": "5月9日，英伟达在AI热潮中通过大手笔投资上下游企业，打造从芯片到AI模型的完整生态体系。数据显示，今年英伟达股权投资已突破400亿美元。业内人士指出，这种投资模式不仅帮助英伟达锁定下游客户，还在一定程度上确保了公司硬件需求的稳定供应。（财联社）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "早报｜小米增程SUV 曝光，但不叫YU9/苹果与英特尔达成初步芯片代工协议/Cloudflare用AI裁掉20%员工",
      "url": "https://www.ifanr.com/1665264?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
@@ -829,24 +811,6 @@ const APP_DATA = {
      "date": "2026-05-09",
      "summary": "据《华尔街日报》报道，苹果和英特尔已达成 […]",
      "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "字节跳动据悉计划将AI基础设施支出增加25%",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801787739282952?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "据报道，随着内存芯片成本上涨以及字节跳动加速布局人工智能（AI），该公司已将今年的AI基础设施支出计划增加25%至2000亿元人民币。（财联社）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构",
-     "url": "<![CDATA[https://36kr.com/p/3799984046333186?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-08",
-     "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，北京容芯致远科技有限公司（以下简称“容芯致远”）近日完成天使轮数亿元融资。本轮由北京绿色能源和低碳产业基金与赛富投资基金领投，顺禧基金、富华资本、万利达集团、长江创新投、水木清华校友基金、梅花创投等跟投。云岫资本此前参与了公司种子轮投资，本轮继续跟投，并担任长期独家财务顾问。 AI浪潮下，算力需求激增，传统以CPU为中心的架构瓶颈愈发凸显：CPU成为数据调度与交互的核心限制，GPU之间通信效率不足，内存无法实现统一地址空间共享，整体算力利用率较低。 容芯致远创始人石旭毕业于清华大学电子工程系，在芯片设计与AI领域从业多年，接受硬氪采访时，石旭...",
-     "is_new": false,
      "lang": "zh"
     },
     {
@@ -890,7 +854,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 13,
+   "count": 12,
    "cards": [
     {
      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
@@ -992,15 +956,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "Plaud获头��大厂投资，目前估值达20亿美元｜硬氪独家",
-     "url": "<![CDATA[https://36kr.com/p/3799129165863937?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-08",
-     "summary": "作者｜黄楠 周鑫雨 编辑｜袁斯来 杨轩 硬氪独家获悉，AI卡片录音笔公司Plaud已于2025年年中拿下腾讯的融资，估值达10亿美元；目前，Plaud公司估值已涨至约20亿美元。同时，硬氪从相关人士处了解到，Plaud正在推进与腾讯会议之间的硬件合作。 有关上述信息，硬氪向Plaud及腾讯方面求证，双方均表示消息不实。 一名接近Plaud人士告诉硬氪，Plaud在2024年的总营收约5600万美金，利润率接近20%，“2025年营收差不多涨了3倍”。另有知情者透露，2025年Plaud全年收入达到了历年最高，大陆全线产品的出货量符合内部预期。 但Plaud出货量谈不上高，有一位行业人士告...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
      "title": "无问芯穹再获超7亿融资：首发AI生产力公式，跻身Token经济枢纽",
      "url": "https://www.leiphone.com/category/yanxishe/eM6mjqZl27orl1gE.html",
      "source": "雷锋网 - AI",
@@ -1032,7 +987,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 52,
+   "count": 53,
    "cards": [
     {
      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
@@ -1368,6 +1323,24 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "浙大校友用AI突破32年拉姆齐数下界",
+     "url": "https://www.qbitai.com/2026/05/415031.html",
+     "source": "量子位",
+     "date": "2026-05-10",
+     "summary": "拉姆齐数R(3,17) 下界从92提升至93",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "Ozon大中华区总裁Simon Huang：中国卖家，正在涌向俄罗斯｜专访",
+     "url": "<![CDATA[https://36kr.com/p/3802822550839047?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-10",
+     "summary": "编者按：上个月月底，36氪在厦门参加了一场Ozon全球招商启动大会，我们发现现场人山人海。火热的出海和国内经济形成鲜明对比，特别是一组数据吸引了我们注意：尽管俄罗斯电商渗透率在2025年才23%，但是Ozon在2017年至2025年间，实现了91%的年均复合增长率。 这些高增长数据背后，似乎隐藏着比较大的商业机会，但机会究竟是什么？中国卖家如何在AI时代抓住？那边电商处于什么阶段？带着这些疑问，36氪和Ozon大中华区总裁Simon Huang（黄效）进行了一次交流。结论就是：俄语区还有比较长的红利期，中国电商迁移过去有足够的品牌优势、供应链优势，以及运营优势。以下为正文： 过去几年，中...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "太初元碁携龙虾一体机亮相北京科博会",
      "url": "https://www.qbitai.com/2026/05/415027.html",
      "source": "量子位",
@@ -1418,15 +1391,6 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "撰文｜锅包柚 封面来源｜Unsplash（AI辅助扩图） 五一假期已经结束，但打工人的“节后综合症”并未消退。 面对永远99+的工作群消息，和改不完的PPT，打工人蝈蝈在摸鱼时打开灵光APP里的一个小游戏——“老板被我fire了”。 屏幕里跳出老板最爱的PUA话术：“你们要相信我的眼光”“现在的付出都是值得的”。她疯狂点击，伴随着金币掉落的音效，在赛博世界里体验了一把将老板痛扁、原地暴富的爽感。 “老板被我fire了” 这个让蝈蝈短暂“活过来”的应用，不是什么专业团队做的。而是一个同样被工作折磨的网友@二旬老人，在灵光APP免费花30秒随手“搓”出来的。 这届年轻人，连发泄情绪都要精打细...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "光帆带摄像头AI耳机本月开售",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3801812857871876?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "36氪获悉，光帆科技官方账号发布发售预热海报。海报显示，全球首款具备视觉感知能力的主动式AI耳机——光帆全感AI耳机，将于5月15日正式开售。",
      "is_new": true,
      "lang": "zh"
     },
@@ -1511,8 +1475,8 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42479,
-   "forks": 7537,
+   "stars": 42481,
+   "forks": 7536,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1542,8 +1506,8 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25841,
-   "forks": 5703,
+   "stars": 25842,
+   "forks": 5702,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1571,8 +1535,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18625,
-   "forks": 1694,
+   "stars": 18630,
+   "forks": 1695,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1591,7 +1555,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17887,
+   "stars": 17890,
    "forks": 1139,
    "language": "Python",
    "topics": [
@@ -1619,7 +1583,7 @@ const APP_DATA = {
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "stars": 15140,
-   "forks": 2303,
+   "forks": 2304,
    "language": "C++",
    "topics": [
     "arm",
@@ -1671,7 +1635,7 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11347,
+   "stars": 11348,
    "forks": 824,
    "language": "Rust",
    "topics": [
@@ -1733,7 +1697,7 @@ const APP_DATA = {
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "blurb": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
-   "stars": 8634,
+   "stars": 8635,
    "forks": 958,
    "language": "Python",
    "topics": [
@@ -1784,7 +1748,7 @@ const APP_DATA = {
    "url": "https://github.com/postgresml/postgresml",
    "description": "Postgres with GPUs for ML/AI apps.",
    "blurb": "Postgres with GPUs for ML/AI apps.",
-   "stars": 6783,
+   "stars": 6784,
    "forks": 361,
    "language": "Rust",
    "topics": [
@@ -1828,7 +1792,7 @@ const APP_DATA = {
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
    "blurb": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5466,
+   "stars": 5465,
    "forks": 1361,
    "language": "Unknown",
    "topics": [
@@ -1882,7 +1846,7 @@ const APP_DATA = {
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
    "blurb": "A blazing fast inference solution for text embeddings models",
-   "stars": 4778,
+   "stars": 4779,
    "forks": 387,
    "language": "Rust",
    "topics": [
