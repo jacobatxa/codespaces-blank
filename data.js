@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-11",
- "fetched_at": "2026-05-11T00:00:17",
- "total": 142,
+ "fetched_at": "2026-05-11T06:00:39",
+ "total": 145,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -48,23 +48,23 @@ const APP_DATA = {
    "color": "#eab308"
   },
   "APPSO": {
-   "count": 8,
+   "count": 9,
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
-   "count": 2,
+   "count": 3,
    "color": "#10b981"
   },
   "少数派 - AI": {
-   "count": 1,
+   "count": 2,
    "color": "#f97316"
   },
   "雷锋网 - AI": {
-   "count": 15,
+   "count": 16,
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
-   "count": 10,
+   "count": 9,
    "color": "#ec4899"
   }
  },
@@ -93,19 +93,19 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 38
+   "count": 47
   },
   {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 11
+   "count": 9
   },
   {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 6
+   "count": 5
   },
   {
    "name": "多模态与AIGC",
@@ -117,19 +117,19 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 7
+   "count": 5
   },
   {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 2
+   "count": 1
   },
   {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 14
+   "count": 13
   },
   {
    "name": "AI安全与对齐",
@@ -141,7 +141,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 58
+   "count": 59
   }
  ],
  "sections": [
@@ -149,7 +149,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 38,
+   "count": 47,
    "cards": [
     {
      "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
@@ -242,15 +242,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Testing ads in ChatGPT",
-     "url": "https://openai.com/index/testing-ads-in-chatgpt",
-     "source": "OpenAI Blog",
-     "date": "2026-05-07",
-     "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "Introducing Trusted Contact in ChatGPT",
      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
      "source": "OpenAI Blog",
@@ -260,11 +251,11 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Simplex rethinks software development with Codex",
-     "url": "https://openai.com/index/simplex",
+     "title": "Testing ads in ChatGPT",
+     "url": "https://openai.com/index/testing-ads-in-chatgpt",
      "source": "OpenAI Blog",
      "date": "2026-05-07",
-     "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+     "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
      "is_new": false,
      "lang": "en"
     },
@@ -332,15 +323,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "How ChatGPT learns about the world while protecting privacy",
-     "url": "https://openai.com/index/how-chatgpt-protects-privacy",
-     "source": "OpenAI Blog",
-     "date": "2026-05-06",
-     "summary": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "Live blog: Code w/ Claude 2026",
      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
      "source": "Simon Willison's Blog",
@@ -404,6 +386,123 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
+     "url": "https://www.qbitai.com/2026/05/415065.html",
+     "source": "量子位",
+     "date": "2026-05-11",
+     "summary": "真正学会了在隐空间里进行“物理思考”",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "派早报：苹果与英特尔就芯片代工达成初步协议",
+     "url": "https://sspai.com/post/109610",
+     "source": "少数派 - AI",
+     "date": "2026-05-11",
+     "summary": "苹果与英特尔就芯片代工达成初步协议芯片缺货导致主板厂商出货暴跌人形机器人在韩国受戒入佛门AI 儿童玩具泛滥引发担忧特朗普政府通过 ChatGPT 做出的停止拨款决定被判无效谷歌验证码将检查 Play 框架，非原版 Android 用户或受阻看看就行的简讯少数派的近期动态你可能错过的好文章查看全文",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "1/10Token 消耗干同样的活！Ling-2.6-flash 想帮开发者把 AI 成本打下来",
+     "url": "https://www.leiphone.com/category/industrynews/QhnlRFknR5wZ5zSN.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "雷峰网讯 用户苦 Token 成本久矣。“烧了几千块钱的 Token，Agent 还是没把活干完”，这或许是第一批尝鲜“养虾”的弄潮儿们最不想面对、却又最常遭遇的尴尬时刻。当 Agent 越发全面地接管工作流，人们在交付效果的权衡中，开始更多地看到效率问题。有时候它们能自主完成需求分析、多轮修改，直接交付可用的文案或代码，有时候却在复杂任务的拆解中，迷失工具调用的方向。端到端的任务场景，往往会让成本失控的问题更加凸显。一觉醒来，Token账单几百美元，正事却没干多少。不少开发者会将之归咎于 Agent 的架构设计、工具链的完善程度，或是 Prompt 工程的深浅。但更根本的矛盾是，大模型...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "生数科技完成近 20 亿元人民币 B 轮融资，发力通用世界模型",
+     "url": "https://www.leiphone.com/category/industrynews/TrrORc51VW5YFJIg.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "雷峰网讯 中国世界模型团队再传捷报，朱军领衔的生数科技，宣布完成了近 20 亿元人民币的 B 轮融资。本轮融资由阿里云领投，中网投、九安海棠、好未来、光合创投等投资人战略投资，星连资本、达泰资本、建发新兴投资、百度 BV 风投、卓源亚洲等原有股东持续追加投资。这已经是生数科技在 2026 年拿到的第二笔大额融资，距离上一轮由中关村科学城公司、星连资本领投的超 6 亿元人民币 A＋ 轮融资，仅仅时隔两个月。生数科技成立于 2023 年 3 月，其成名之战是 2024 年 4 月发布的视频大模型 Vidu，后者是中国首个全面对标 Sora 的文生视频大模型。2026 年 1 月 30 日，V...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "西游取经团再出征：小米 Token Plan 能把 Token 价格打下来吗？",
+     "url": "https://www.leiphone.com/category/industrynews/mWIHUz8lwJU3sPLe.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "雷峰网讯 大模型要怎么收费，众说纷纭。今天最常见的是订阅制，都说模型是新时代的基建，但没见谁家电表是包月的。作为模型层的后起之秀，4 月 3 日，小米发布了第一款“走字儿”的 Token Plan。在这套计费方案中，Token 消耗的最小计数单位被统一为 Credit。用户为后者付费，购买额度不一的套餐。在调用 MiMo 系列的不同模型时，每个 Credit 点数也对应着不同的 Token 额度，换算比例如下：MiMo-V2-Omni 256k 上下文：1x（消耗 1 Token = 1 Credit）MiMo-V2-Pro 256k 上下文： 2x（消耗 1 Token = 2 Cre...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "「双线实测」Qwen 3.6-Plus，Agentic Coding 已经这么能「扛活儿」了？",
+     "url": "https://www.leiphone.com/category/industrynews/qItAp7UT0tLEbVHm.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "雷峰网讯 你可以从同事.skill 的爆火中看到两种截然不同的时代情绪，其一固然是对 Markdown 文件“大变活人”这一魔幻现实的试探，而反面则是如今对模型能力的评价，已经离不开工作级任务的场景。“AI 能不能替代程序员”的老生常谈之下，今天的真问题是，国产大模型能在多大程度上接管开发工作流。这背后是一个被反复验证的痛点：当 AI Agent 被放进真实项目，它并没有想象中那么“能扛活”。它能开始任务，但执行过程反复中断，多轮对话后上下文丢失，结果前后不一致。面对非标准需求时，工具调用也频频失误。你一觉醒来，发现流程早已卡死，标准结局总是如此。问题的根源不在 Agent 的外壳，而在...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "一分钟的奇迹与幻觉：实测世界模型Happy Oyster",
+     "url": "https://www.leiphone.com/category/industrynews/QBapMiCiAXZp5bFu.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "雷峰网讯 4 月 16 日，阿里发布了主打实时构建和交互的开放式世界模型产品 Happy Oyster。基于原生多模态架构，Happy Oyster 支持多模态输入与音视频联合生成，且生成过程中能够持续接收用户指令，实现画面实时响应、持续演绎。如果说 AGI 是终极愿景，具身智能是物质载体，那么世界模型就是这一切的认知基础。它在技术脉络中占据了一个极其特殊的位置，那就是从大模型的“预测下一个词“，向”预测下一个物理状态“的演进节点。这也让世界模型成为了一条炙手可热的赛道。16 日当天，腾讯开源了 HY-World 2.0，次日群核科技在港交所上市，成为“全球空间智能第一股“。视角拉得更远...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "DeepSeek-V4：华为昇腾适配、性价比王者、最新底层技术",
+     "url": "https://www.leiphone.com/category/industrynews/qTjFsz6f4ahsrfvu.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "雷峰网讯 越过数个发布窗口，4 月 24 日，DeepSeek 最新一代旗舰模型 DeepSeek-V4 终于正式发布。此次发布的 DeepSeek-V4 主打百万字超长上下文，在 Agent 能力、世界知识和推理性能上均表现亮眼。有意思的是，4 月 8 日凌晨 DeepSeek 悄然上线了专家模式和快速模式，外界一度猜测是 V4 的不同版本。这一猜测得到了官方确认，按参数量大小，V4 此次同步推出了 pro 及 flash 两个版本。相较于前代模型，V4 的 Agent 能力有了大幅提高。DeepSeek-V4-Pro 在 Agentic Coding 评测中，已达到当前开源模型最佳水...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "全球首个！千问与淘宝全面打通，开启AI购物全新体验",
+     "url": "https://www.leiphone.com/category/industrynews/OViAeCCutlvONYDx.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "千问上也能“逛淘宝”了！5月11日，千问与淘宝全面打通，开启AI购物全新体验。用户打开千问App，与AI对话，即可完成淘宝上的商品挑选、对比及下单购买；打开淘宝App，点击“千问AI购物助手”，即可AI购物，并使用AI试穿、AI算优惠、AI低价帮抢等功能。这是全球超大规模电商平台与顶级大模型应用的首次深度融合。阿里率先在行业内打通AI购物全链路，首次实现AI购物从商品推荐到下单、履约、售后的全流程闭环，标志着阿里AI电商的重要一步。雷峰网]]>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "外星人真存在？美国公布首批UFO文件，画面曝光；梁文锋自掏200亿领投DeepSeek，V4.1拟6月上新；阶跃星辰将完成近25亿美元融资，冲刺IPO",
+     "url": "https://www.leiphone.com/category/zaobao/R7fA5J26Mw29n7NB.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "要闻提示1.美国公布首批UFO文件，画面曝光：阿联酋现水母状物体，月球上空光点悬浮2.梁文锋自掏200亿领投DeepSeek，阿里或出局，V4.1计划6月上新3.阶跃星辰将完成近25亿美元融资，加速冲刺港股IPO4.传腾讯实习生大涨薪，百度“职级调整”5.美团前无人车负责人夏华夏或加盟灵心巧手6.华为版劳斯莱斯！鸿蒙智行尊界M900渲染图曝光：车长近5.5米7.Anthropic 拟今夏融资数百亿美元，冲击万亿估值反超 OpenAI8.特斯拉放大招：年薪百万急招数据标注员，朝九晚五还无需AI经验今日头条美国公布首批UFO文件，画面曝光：阿联酋现水母状物体，月球上空光点悬浮5月8日，美国国...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "这有意思吗？奥迪高管炮轰友商：用特调车刷圈速、轮胎/悬挂改过；大裁员、关闭电池等业务！保时捷启动断臂求生；哈啰再回应脚踩青桔美团",
+     "url": "https://www.leiphone.com/category/zaobao/dRmsojpFSEI4Bdil.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "要闻提示1.上汽奥迪高管炮轰行业乱象：很多品牌用特调车刷圈速，轮胎换过、悬挂改过、软件单独写2.任正非罕见出镜：华为芯片基础技术研究实验室亮相《新闻联播》3.大裁员、关闭电池、自行车等业务！中国销量暴跌下，保时捷断臂求生4.最新进展！哈啰再回应脚踩青桔美团：涉事人员已依规处理5.微信转账灰度测试“组合支付”：可同时选择零钱 + 银行卡，余额不足无需再凑钱提现6.小红书启动新一轮期权回购：在职员工25.5美元，离职21美元7.美国FCC宣布豁免：允许某些外国生产的无人机、消费级路由器软件更新至2029年8.功勋车型正式停产：特斯拉弗里蒙特工厂最后一辆 Model S 和 X 生产下线今日头...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "8点1氪丨SK海力士回应“员工人均奖金达610万元”传闻；世界杯中国转播费从3亿美元腰斩到1.5亿；曝三星中国家电部门裁员补偿N+4，还送手机",
+     "url": "<![CDATA[https://36kr.com/p/3804132892646919?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "今日热点导览 一季度全国结婚登记169.7万对 bosie创始人刘光耀成为Kimi顾问？刘光耀回复“没入职” 英特尔与苹果据悉达成初步协议，将为后者设备制造芯片 业内人士称阿里未参与DeepSeek融资 新华社调查“胖东来为啥总被黑” TOP3大新闻 员工人均奖金达610万人民币？SK海力士回应 近日有消息称，SK海力士韩国员工人均奖金将达610万人民币。该消息源于国际投行麦格理证券的预测。该投行认为，若SK海力士2027 年营业利润达到447万亿韩元，按营业利润的10%和去年年末约3.5万名员工总数简单计算，分红总规模将达到约44.7万亿韩元，人均可发放奖金约12.9亿韩元，接近610...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "AI创作平台灵珠正式开启第二次内测",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3804428056976901?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "36氪获悉，5月11日，AI创作平台灵珠正式开启第二次内测。本次内测带来三大升级：一是取消邀请码限制，所有用户均可直接登录体验；二是正式环境全面接入DeepSeek V4大模型，需求分析环节效率提升约3倍，用户提交创意后，系统分析并优化需求的时间从原来的近20秒缩短到不到5秒；三是对登录界面和应用广场界面进行了全面优化。",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件",
      "url": "https://www.qbitai.com/2026/05/414827.html",
      "source": "量子位",
@@ -449,15 +548,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "终于能听 GPT-5 给我说人话了",
-     "url": "https://www.ifanr.com/1665115?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-08",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
      "title": "火山引擎携手中国移动，首创机密模型服务新模式",
      "url": "https://www.leiphone.com/category/industrynews/qMyCzGke8pn9Ddrk.html",
      "source": "雷锋网 - AI",
@@ -483,15 +573,6 @@ const APP_DATA = {
      "summary": "5月8日，在2026移动云大会上，中国移动与火山引擎正式发布“移动引擎机密模型服务”专区，为各行业提供兼具技术领先与安全可信的AI服务，包括豆包大模型MaaS服务、Agent开发平台和工具等。 【中国移动与火山引擎发布“移动引擎机密模型服务”】通过在移动云上构建安全可信的机密执行环境，该服务让豆包大模型在推理过程中保持端到端加密，让整个推理过程可追溯可审计；同时实现零硬件投入，全托管免运维。后续还将集成HiAgent、Arkclaw 等智能体开发平台和工具，并逐步提供一系列开箱即用的行业智能体，打造先进技术、安全合规与成本可控的“更优解”。目前，该服务已上线豆包视频生成模型Seedanc...",
      "is_new": false,
      "lang": "zh"
-    },
-    {
-     "title": "三星官宣家电业务退出中国大陆市场；曝DeepSeek投后估值或达450亿美元；中国航天员中心招募「卧床」志愿者：最高拿7万元，还能玩手机",
-     "url": "https://www.leiphone.com/category/zaobao/hStD94lQmS7vzJG3.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-07",
-     "summary": "要闻提示1.三星宣布停止在中国大陆市场销售所有家电产品，手机业务不受影响2.估值近450亿美元？DeepSeek获国家大基金领投磋商3.中国航天员中心招募志愿者：最高拿7万元，还能玩手机4.月之暗面将完成20亿美元融资，投后估值超200亿美元5.丢失7年的手机突然发定位和照片，机主成功找回！魅族客服回应6.突发！陈天桥旗下 MiroMind AI 暂停中国服务7.OpenAI联合创始人法庭作证：2017年马斯克因控制权被拒“险些动手”8.马斯克：xAI将更名为SpaceXAI，不再作为独立公司存在今日头条三星宣布停止在中国大陆市场销售所有家电产品，手机业务不受影响5月6日消息，三星电子在...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -499,7 +580,7 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 11,
+   "count": 9,
    "cards": [
     {
      "title": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
@@ -581,24 +662,6 @@ const APP_DATA = {
      "summary": "打造“赛博乙方天团”",
      "is_new": false,
      "lang": "zh"
-    },
-    {
-     "title": "小红书四年AI 路：FOMO、犹豫，到突然加速",
-     "url": "<![CDATA[https://36kr.com/p/3799028783439111?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-08",
-     "summary": "作者 | 肖思佳 编辑 | 乔芊 杨轩 所有互联网大中厂都渴望在AI时代博得位置，在这场比赛中，小红书曾是克制的那个。 在一个搜索属性与社区属性并存，以真实经验分享为核心的产品中，活人感与AI、温情和算法，始终像天平的两端。 很长一段时间里，小红书既没有完全缺席技术探索，也没有像许多同行那样高调推进AI产品化。相反，这家公司始终在两股力量的拉锯和平衡中前行：一边持续投入模型能力，一边谨慎控制AI对社区生态的介入。 但2026年，随着Agent叙事的升温，小红书开始显露出某种急迫。 4月30日，小红书发送全员内部信，宣布成立AI一级部门Dots，“建立从模型研发、基础设施、工程到产品的完整...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "独家丨腾讯云成立云产品六部，王慧星担任负责人",
-     "url": "https://www.leiphone.com/category/industrynews/YkSi35iAcrFzjzVJ.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-06",
-     "summary": "雷峰网消息，腾讯云发布一则内部信，将成立云产品六部，负责构建AI原生的代码（CodeBuddy）与泛生产力智能体（WorkBuddy），推进系列智能体产品的能力建设与商业化。腾讯副总裁、腾讯云CTO王慧星兼任云产品六部负责人，向CSIG总裁汤道生汇报；刘毅担任云产品六部助理总经理，向王慧星汇报。此前，腾讯云产研一共有五大产品部，产品一部主要负责IaaS相关产品，以及数据库、消息列队等部分PaaS；产品二部主要负责 PaaS以及大数据；产品三部则是负责智能体开发平台、AI SaaS、知识引擎、计算加速；产品四部负责中台业务，包括面向开发者的AI coding；产品五部负责CDN、音视频相关...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -606,7 +669,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 6,
+   "count": 5,
    "cards": [
     {
      "title": "Hackable Robot Lawn Mower Unlocks a New Nightmare",
@@ -636,29 +699,20 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "硬氪专访 | 拿到行业最大单笔融资后，余轶南说万里长征才走了第一步",
+     "url": "<![CDATA[https://36kr.com/p/3804282431659779?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "作者 | 邱晓芬 编辑 | 袁斯来 余轶南似乎是那种总能提前踩中风口的冒险家。 他总在追逐更新、更刺激，早期甚至带着些浪漫想象。博士毕业后，他没有如很多同侪一般，进入学术圈，过上平稳安定的一生，而是冲入互联网浪潮，2015年，他又因为余凯一句“我们一起去做 AI 芯片吧？” ，便追随余凯加入地平线创始团队，成为001号员工。此后几年，地平线逐渐成长为国际上自动驾驶领域最受关注的科技公司之一，并于2024年在港交所上市，成为当年港股最大的IPO。 2024年底，他离开地平线，创立「维他动力」，希望把过去十年在自动驾驶领域积累的能力，迁移到消费级机器人上。 （图源/企业） 余轶南有种知识分子...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "空间智能的“具身化”跃迁，高德ABot体系模型夺冠AGIBot全球挑战赛",
      "url": "https://www.qbitai.com/2026/05/414826.html",
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "以0.829的总成绩荣登榜首",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "VLA死了，遥操也死了！英伟达机器人一号位说的",
-     "url": "https://www.qbitai.com/2026/05/414547.html",
-     "source": "量子位",
-     "date": "2026-05-09",
-     "summary": "Jim Fan全新暴论出炉",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪；昆仑芯启动A股IPO；男子五一加班身亡！涉事公司：假期自愿",
-     "url": "https://www.leiphone.com/category/zaobao/tqf2pEDQn63OH1d6.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-08",
-     "summary": "要闻提示1.总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪2.宇树G1人形机器人在韩国出家：法名「迦悲」，需遵守不过度充电等戒律3.61岁男子五一加班在车间身亡！涉事公司：假期自愿，正积极处理4.三星关停中国家电业务，员工获N+3或N+4补偿！京东宣布过保产品免费上门检测5.腾讯混元高级研究员于文豪加盟OpenAI6.新功能？微信未读语音消息由红变灰引热议！腾讯客户回应7.昆仑芯启动A股IPO！百度持股比例57.67%8.苹果首款AI可穿戴设备：内置摄像头的AirPods已进入DVT阶段，预计最快9月搭载新Siri亮相今日头条总部人均奖金610万，中国厂却一毛...",
      "is_new": false,
      "lang": "zh"
     }
@@ -721,7 +775,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 7,
+   "count": 5,
    "cards": [
     {
      "title": "Nvidia has already committed $40B to equity AI deals this year",
@@ -751,15 +805,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "苹果A20Pro将迎来两大升级",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804119505870340?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "据行业爆料，苹果A20 Pro将迎来两大核心升级。首先在制程工艺上，这款芯片将采用台积电最新的2nm工艺。从现有3nm制程升级至2nm，意味着在芯片尺寸基本不变的前提下，A20 Pro能够实现更强性能输出，同时运行能效大幅提升。 其次，A20 Pro还将首次引入WMCM先进封装工艺。这也是苹果首度在iPhone处理器上落地该项技术，其核心逻辑是在晶圆切割之前，就完成SoC、内存等多芯片的垂直堆叠与电路互联，整体整合完毕后再切割为独立芯片，具备无中介层、互联距离短、集成度拉满的特点。（新浪财经）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "早报｜小米增程SUV 曝光，但不叫YU9/苹果与英特尔达成初步芯片代工协议/Cloudflare用AI裁掉20%员工",
      "url": "https://www.ifanr.com/1665264?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
@@ -776,15 +821,6 @@ const APP_DATA = {
      "summary": "据《华尔街日报》报道，苹果和英特尔已达成 […]",
      "is_new": false,
      "lang": "zh"
-    },
-    {
-     "title": "Anthropic 2千亿豪赌，谷歌云成最大赢家？",
-     "url": "https://www.leiphone.com/category/yanxishe/61V72k9RQozzfeX2.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-07",
-     "summary": "01Anthropic豪掷2千亿美元锁定谷歌云在硅谷，2千亿美元能买到什么？换算成现金，它能买下整整两个英特尔；换算成算力，人类历史上最昂贵的一份“芯片租赁合同”即将诞生。2026年5月5日，据The Information报道，AI初创公司Anthropic已承诺在未来五年内向Google Cloud支付约2千亿美元，用于获取5吉瓦的TPU算力和云服务。交易的结构分两层。第一层是Anthropic向Google Cloud购买5吉瓦的下一代TPU算力。这些芯片由Google与Broadcom联合开发，与NVIDIA GPU形成直接竞争。第二层是Alphabet的投资：Google计划向...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -792,7 +828,7 @@ const APP_DATA = {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 2,
+   "count": 1,
    "cards": [
     {
      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
@@ -802,15 +838,6 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en"
-    },
-    {
-     "title": "海信&Vidda“非电视”发布会：六大3C潮品齐发，RGB-Mini LED领衔技术下放",
-     "url": "https://www.leiphone.com/category/weiwu/w3z7rUtQyVlcwUoc.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-08",
-     "summary": "5月8日，主题为“有态度 就登场”的海信&Vidda全场景新品发布会正式拉开帷幕。作为全球显示产业的领跑者，海信视像在这一次的发布会上，打破传统屏幕的物理界限，以显示技术为原点，向声音、智能感知与移动能源全面延伸。这并非一次简单的品类试水，而是海信以50余年深厚的全栈智能硬件研发底座和全链AI智造能力，向全场景3C生态发起的一次系统性技术赋能。本次发布会，海信以清晰的场景优先级，构建了一套完整的智慧生活拼图：从主打户外高画质观影体验的Vidda LightGo流光派三色激光投影，到重塑桌面专业级生产力的海信UX系列RGB-Mini LED显示器；从提供全屋沉浸陪伴的海信大白闺蜜机X8 U...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   },
@@ -818,8 +845,17 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 14,
+   "count": 13,
    "cards": [
+    {
+     "title": "OpenAI Campus Network: Student club interest form",
+     "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+     "source": "OpenAI Blog",
+     "date": "2026-05-11",
+     "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
@@ -902,20 +938,11 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "泉果基金杜凡：本轮科技变革的量级有望超越以往的互联网浪潮",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804124173295368?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "泰国批准近万亿泰铢投资，新加坡被列为AI过渡市场｜SEA Now",
+     "url": "https://cn.technode.com/post/2026-05-11/now-for-2026-05-04-2026-05-10/",
+     "source": "动点科技 - AI",
      "date": "2026-05-11",
-     "summary": "在AI浪潮持续演进的背景下，科技投资再度成为市场核心主线。从算力基建到应用落地，从半导体国产替代到先进制造升级，科技产业正不断孕育新的投资机遇。作为长期深耕科技领域的基金经理，泉果基金杜凡先后亲历移动互联网、云计算、4G/5G通信技术迭代，以及当前全面展开的AI革命。在他看来，本轮科技变革的量级有望超越以往的互联网浪潮。“从产业一线感知，我们仿佛正面对一堵陡然竖立的高墙，虽难以准确预判其最终高度，但向上的趋势是清晰而确定的。”杜凡在接受记者采访时表示。（证券时报）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "偏股混合型基金指数创新高 ，光通信超越“宁组合”抱团力度",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804097314283268?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "时隔五年，偏股混合型基金指数终于再创历史新高。这不仅意味着逾千只主动权益基金的收益率节节高升，而且代表着众多一度深陷泥潭、净值腰斩的基金已经“爬出深坑”，公募基金的主动投资能力再度走向上升通道。然而，此番登顶的推手却“物是人非”，光通信以超越当年“宁组合”的抱团力度站上C位，中际旭创已经取代宁德时代成为主动权益基金第一大重仓股。在偏股混合型基金指数创新高的同时，基金正蜂拥押注以光通信为代表的AI硬件赛道，新一轮极致抱团行情正在上演。（证券时报）",
+     "summary": "2026.05.04-2026.05.10",
      "is_new": true,
      "lang": "zh"
     },
@@ -934,15 +961,6 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，星识（宁波）科技有限公司（以下简称“星识科技”）近日连续完成天使+轮和天使++轮融资，累计金额达数千万元。两轮融资分别由高秉强教授旗下高锋耐心资本和蓝驰创投领投、松禾资本跟投，老股东清水湾二期基金及奇绩创坛持续加注。本轮资金将主要用于智能影像核心技术研发、新品矩阵打造和产品体验的迭代优化，以及生产体系与供应链能力建设。此前，公司已获得李泽湘教授旗下宁波智能技术研究院、清水湾二期基金及奇绩创坛的种子轮及天使轮投资。 星识科技是一家专注智能影像技术研发与硬件制造的企业，以远景观测场景为切点，曾推出融合AI功能的Vizta智能望远镜，已在Kickstarte...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "无问芯穹再获超7亿融资：首发AI生产力公式，跻身Token经济枢纽",
-     "url": "https://www.leiphone.com/category/yanxishe/eM6mjqZl27orl1gE.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-07",
-     "summary": "5 月 7 日，无问芯穹宣布此前已再获超 7 亿元融资，持续稳居中国 AI 原生基础设施公司融资规模之首。联合领投方为杭州高新金投集团和惠远资本，跟投方包括国兴资本、秦淮数据、广发乾和、力合清瞳、中保投资、AEF NextGen、腾瑞资本、卡莱特、中信建投资本和宽德智能学习实验室 (Will)，老股东君联资本、上海国投孚腾和元智未来追加投资。 据悉，本轮融资已于数月前完成，资金将重点投向三大方向：一是夯实无问芯穹多元异构技术的领先地位，扩大 Token （词元）经济时代，极致优化的可用算力规模；二是持续强化软硬协同的技术优势，加快从“电能到 Token”的生产效率跃升；三是构建具备自主进...",
      "is_new": false,
      "lang": "zh"
     }
@@ -969,8 +987,17 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 58,
+   "count": 59,
    "cards": [
+    {
+     "title": "How enterprises are scaling AI",
+     "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+     "source": "OpenAI Blog",
+     "date": "2026-05-11",
+     "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Do you take after your dad’s RNA?",
      "url": "https://arstechnica.com/science/2026/05/do-you-take-after-your-dads-rna/",
@@ -986,6 +1013,15 @@ const APP_DATA = {
      "source": "ArsTechnica - AI",
      "date": "2026-05-10",
      "summary": "Fortunately, it happened early in the morning, so nobody was around.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Quoting New York Times Editors’ Note",
+     "url": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
+     "source": "Simon Willison's Blog",
+     "date": "2026-05-10",
+     "summary": "This article was updated after The Times learned that a remark attributed to Pierre Poilievre, the Conservative leader, was in fact an A.I.-generated summary of his views about Canadian politics that A.I. rendered as a quotation. The reporter should have checked the accuracy of what the A.I. tool...",
      "is_new": true,
      "lang": "en"
     },
@@ -1278,15 +1314,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Our AI started a cafe in Stockholm",
-     "url": "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything",
-     "source": "Simon Willison's Blog",
-     "date": "2026-05-05",
-     "summary": "Our AI started a cafe in Stockholm Andon Labs previously started an AI-run retail store in San Francisco. Now they're running a similar experiment in Stockholm, Sweden, only this time it's a cafe. These experiments are interesting, and often throw out amusing anecdotes: During the first week of i...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "A blueprint for using AI to strengthen democracy",
      "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
      "source": "MIT Technology Review - AI",
@@ -1323,20 +1350,56 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "A股“红五月”格局有望延续，聚焦科技、资源两大景气方向",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804113111326470?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "川普、孙宇晨都来当 AI 黄牛了，这门暴利生意的水有多深？",
+     "url": "https://www.ifanr.com/1665224?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
      "date": "2026-05-11",
-     "summary": "“五一”假期后A股市场迎来“开门红”，其中“双创指数”强势领涨，创业板指上周上涨3.24%，科创50指数上涨4.42%。展望后市，券商研报判断，5月A股有望延续震荡向上格局，短期市场或因前期累积涨幅较大，出现小幅休整，但难以改变中期上行的核心趋势。综合来看，受益于全球AI算力需求爆发及一季度业绩兑现，A股科技与资源两大高景气主线得到进一步确认。（上证报）",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": true,
      "lang": "zh"
     },
     {
-     "title": "短剧出海爆发式增长，AI译制服务成为行业刚需",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804084482268932?f=rss]]>",
+     "title": "黄仁勋致 2026 届毕业生：别慌，AI 把所有人拉回同一起跑线 | 附演讲全文",
+     "url": "https://www.ifanr.com/1665359?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
+     "date": "2026-05-11",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "第一批用 AI 写代码的 10 后，已经被苹果邀请去 WWDC 了",
+     "url": "https://www.ifanr.com/1664956?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
+     "date": "2026-05-11",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "让AI接管我家：钢铁侠有的，我也能有",
+     "url": "https://www.leiphone.com/category/industrynews/gviRvLXNoDhGBFHK.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-11",
+     "summary": "雷峰网讯 2026年4月的一个凌晨，4点07分，一切崩溃了。前一天晚上，我让家里的AI通宵干活——整理NAS（网络存储服务器，简单说就是“家用大型移动硬盘”）里20年攒下的几十TB数据，包括照片、文档、视频，AI要一个个分类，已经跑了整整6个小时。结果，路由器突然重启了。我的笔记本自动重连WiFi时，犯了个致命错误：它没连家里的主路由，反而连上了运营商的光猫网络。就这一个小失误，导致NAS、AI服务器全部失联，六个小时的工作功亏一篑，整个家庭AI系统像多米诺骨牌一样，彻底崩了。早上7点，我打开电脑，屏幕上全是“连接失败”的提示——这是我用AI重建家庭数字生活的第九天，前八天的惊喜，差点被...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "腾讯云：QClaw正式上线“文件空间”功能",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3804407430782729?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-11",
-     "summary": "近两年，海外短剧市场迎来爆发式增长，海外各大短剧应用下载量、用户规模一路飙升，而中国企业已成为这场全球短剧热潮中的核心玩家。公开数据显示，2025年中国出海短剧应用下载量占全球短剧产品下载量的80%以上。不只是应用占据主流，海外热播的短剧内容，亦有相当一部分源自国内成品剧的译制输出。随着短剧出海全面提速，规模化、高效率的译制需求急剧增长，AI译制服务成为行业刚需。“人工每月仅能翻译约10部短剧，成本1500元至3000元/部；而我们的AI译制服务每月可轻松完成超1000部短剧翻译，成本300元至500元/部。效率大幅提升，成本显著降低。”杭州小影创新科技股份有限公司（下称“小影科技”）业...",
+     "summary": "36氪获悉，据腾讯云官微，今天，QClaw正式上线“文件空间”功能。只需一次授权，QClaw就能将本地文件、腾讯文档、ima知识库一站式全面打通。从找资料、AI加工，到最终产出和协作，全部在一个工作台里闭环。",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "美图“无痕改字”AI功能支持中、英、日、韩、泰等多语种",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3804377640099593?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "36氪获悉，近日，美图公司旗下美图影像研究院（MT Lab）6篇论文获ICLR、CVPR、ICML三大国际顶会录用。其中，聚焦场景文本编辑的研究入选ICML 2026，相关技术已落地为美图设计室App和美图秀秀PC版“无痕改字”功能。该功能突破传统改字的预设词表限制，支持中、英、日、韩、泰等多语种，并能保持字体风格与画面质感一致，无明显拼接痕迹。",
      "is_new": true,
      "lang": "zh"
     },
@@ -1449,47 +1512,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "早报｜曝苹果考虑取消入门款MacBook Neo/理想高管谈MEGA设计争议:不是失败/千问PC端上线AI语音输入",
-     "url": "https://www.ifanr.com/1665130?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-08",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
      "title": "派早报：Google 发布 Fitbit Air 等",
      "url": "https://sspai.com/post/109489",
      "source": "少数派 - AI",
      "date": "2026-05-08",
      "summary": "高通发布骁龙 6 Gen 5 / 4 Gen 5 移动平台，Google 宣布停运 Project Mariner 等。查看全文",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "当AI开始懂情绪，AI奇妙物语点亮全民创意风潮",
-     "url": "https://www.leiphone.com/category/industrynews/iAOqSCD9VnjVkekb.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-08",
-     "summary": "2026年社交网络的“活人感”，一定是AI给的。从朋友圈的“赛博旅行照”到聊天框里的“AI扩图”，生成式AI已不再是极客的玩具，而是普通人记录生活、表达情绪的第六感。当技术门槛被踏平，一场关于“谁更会玩”的创意竞赛悄然开启。近日，由「AI奇妙物语」与安慕希联合发起的“即梦X安慕希整颗蓝莓AI创作大赛” 正在社交平台卷起一场创意风暴。这场事关想象力的全民狂欢折射出的是“AI奇妙物语”IP的先锋创意和贴近大众生活的特质，也为行业提供了一个“AI+艺术+品牌”深度融合的样本。用AI解构生活，给日常加上奇幻滤镜「AI奇妙物语」以“先锋影像”为定位，以“东方梦境”为美学基调。它的诞生就是要打破大众...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "中国高校科研 AI 云市场，阿里云第一！",
-     "url": "https://www.leiphone.com/category/industrynews/oue4W89QPv8sRtVl.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-07",
-     "summary": "5 月 6 日，国际市场调研机构沙利文（Frost & Sullivan）发布《中国高校科研机构AI4S市场追踪报告，2025年》。报告显示，阿里云以26%的市场份额领跑中国高校科研机构AI4S云市场，稳居第一。AI4S，即AI for Science，人工智能驱动的科学研究，被称作实验、理论、计算、数据范式之后的“第五范式”。报告显示，中国高校科研AI4S 云市场正处于快速成长期，预计2030年将达107亿元。沙利文指出，与通用企业级AI市场相比，中国高校科研机构 AI4S 的需求正在从单一算力资源，升级为AI 全栈能力建设，更强调科研任务适配性、复杂算力与工具链协同能力，以及跨学科场...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "蚂蚁阿福启动“健康中国体检关怀行动”，为1亿人免费解读体检报告",
-     "url": "https://www.leiphone.com/category/industrynews/B3MGZRHtiuWL4b1A.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-06",
-     "summary": "春季是传统的体检季，可很多人拿到体检报告却犯了难。一项5000名网友参与的调研显示，80%的受访者表示体检报告没有得到详细讲解，也不知道检后该怎么做；75%的受访者没有按体检报告的建议进行复查。为解决这一普遍痛点，5月6日，国内最大的AI健康应用蚂蚁阿福启动“健康中国体检关怀行动”，为1亿人免费解读体检报告。用户打开阿福App拍照或上传体检报告，即可获得实时、免费、专业的解读，明明白白看懂报告。阿福解读体检报告以“红绿灯”形式清晰告知检查结果关注优先级，并给到针对性的健康行动清单。随着“健康中国”战略深入推进，预防性健康管理成为大众关切的重点，体检更是提升全民健康水平的重要抓手。阿福启动...",
      "is_new": false,
      "lang": "zh"
     }
@@ -1502,7 +1529,7 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42486,
+   "stars": 42493,
    "forks": 7537,
    "language": "Python",
    "topics": [
@@ -1533,7 +1560,7 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25860,
+   "stars": 25863,
    "forks": 5711,
    "language": "Python",
    "topics": [
@@ -1562,7 +1589,7 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18635,
+   "stars": 18640,
    "forks": 1696,
    "language": "Rust",
    "topics": [
@@ -1582,7 +1609,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17893,
+   "stars": 17898,
    "forks": 1139,
    "language": "Python",
    "topics": [
@@ -1609,7 +1636,7 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15143,
+   "stars": 15144,
    "forks": 2305,
    "language": "C++",
    "topics": [
@@ -1631,7 +1658,7 @@ const APP_DATA = {
    "url": "https://github.com/ludwig-ai/ludwig",
    "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
    "blurb": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-   "stars": 11691,
+   "stars": 11692,
    "forks": 1217,
    "language": "Python",
    "topics": [
@@ -1662,7 +1689,7 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11352,
+   "stars": 11353,
    "forks": 824,
    "language": "Rust",
    "topics": [
@@ -1693,7 +1720,7 @@ const APP_DATA = {
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
    "blurb": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10086,
+   "stars": 10087,
    "forks": 1270,
    "language": "Python",
    "topics": [
@@ -1724,7 +1751,7 @@ const APP_DATA = {
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "blurb": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
-   "stars": 8636,
+   "stars": 8638,
    "forks": 959,
    "language": "Python",
    "topics": [
@@ -1750,7 +1777,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7475,
+   "stars": 7476,
    "forks": 843,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1803,7 +1830,7 @@ const APP_DATA = {
    "url": "https://github.com/rustformers/llm",
    "description": "[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models",
    "blurb": "[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models",
-   "stars": 6148,
+   "stars": 6149,
    "forks": 377,
    "language": "Rust",
    "topics": [
@@ -1842,7 +1869,7 @@ const APP_DATA = {
    "url": "https://github.com/zenml-io/zenml",
    "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
    "blurb": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
-   "stars": 5409,
+   "stars": 5410,
    "forks": 612,
    "language": "Python",
    "topics": [
