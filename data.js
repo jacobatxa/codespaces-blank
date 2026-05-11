@@ -1,7 +1,7 @@
 const APP_DATA = {
- "today": "2026-05-10",
- "fetched_at": "2026-05-10T18:00:29",
- "total": 137,
+ "today": "2026-05-11",
+ "fetched_at": "2026-05-11T00:00:17",
+ "total": 142,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -64,7 +64,7 @@ const APP_DATA = {
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
-   "count": 5,
+   "count": 10,
    "color": "#ec4899"
   }
  },
@@ -93,13 +93,13 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37
+   "count": 38
   },
   {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 10
+   "count": 11
   },
   {
    "name": "具身智能与机器人",
@@ -111,13 +111,13 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 6
+   "count": 5
   },
   {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 6
+   "count": 7
   },
   {
    "name": "开源与生态",
@@ -129,7 +129,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 13
+   "count": 14
   },
   {
    "name": "AI安全与对齐",
@@ -141,7 +141,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 56
+   "count": 58
   }
  ],
  "sections": [
@@ -149,8 +149,17 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37,
+   "count": 38,
    "cards": [
+    {
+     "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
+     "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-10",
+     "summary": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
      "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
@@ -400,7 +409,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "实现过程开源可复现",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -409,7 +418,7 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-09",
      "summary": "某位多次接近梁文锋的顶级投资人曾无奈向雷峰网表示：梁文锋最讨厌两件事：跟VC吃饭，对外解释DeepSeek的决策。这位幻方量化出身的程序员创业者，过去两年对所有找上门来的投资人说过同一句话——\"VC的钱是负担\"。腾讯来谈过，阿里来谈过，市面几乎每一家顶级风投都在他的闭门羹列表里。他觉得这些人都得帮LP赚钱，\"所以谈不到一块去\"。而梁文锋确实有说这句话的底气。一位与梁文锋有过多次接触的大厂前副总裁曾和雷峰网透露，梁文锋有一笔规模在20到30亿的基金，这基金不用来对外募资，是自己的钱。而在另一名顶级资本人的口中，梁文锋曾对外表示他有四五万张卡，40、50亿是拿得出来的，不需要外部机构掏钱。了...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -418,7 +427,7 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-09",
      "summary": "5 月 9 日，全球权威 TTS 评测榜单 Artificial Analysis Speech Arena Leaderboard 更新，阶跃语音生成模型 StepAudio 2.5 TTS 跻身全球前三，成为当前榜单排名最高的中国大模型。不同于传统实验室指标，该榜单采用盲测 Elo 评分机制，由用户在不知道模型身份的情况下，直接对同一文本生成的两段语音进行听感判断，测试覆盖客户服务、知识分享、数字助手、娱乐等真实应用场景。这意味着，StepAudio 2.5 TTS 的领先并不只是参数或指标上的提升，而是在真实用户听感中展现出更自然、更接近真人表达的能力，在实际落地中具备更强竞争力。...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -427,7 +436,7 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "整理｜Kris 今日热点导览 香港拿下世界杯转播权，FIFA与央视谈判仍陷僵局 油价上调，加满一箱92号汽油将多花12.5元 钱江摩托否认“围剿张雪机车” 30条中日航线4月取消全部航班 SpaceX冲刺上市，资本开支飙升数百亿 TOP3大新闻 DeepSeek拟募资最高500亿元 据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。(财联社) “全国销冠”任晓敏被刑拘，泰康人寿回应 5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注。对此，公司高度重视，第一时间组织专项工作组派驻...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -490,14 +499,23 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 10,
+   "count": 11,
    "cards": [
     {
-     "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
-     "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+     "title": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
+     "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
      "source": "Hugging Face Blog",
-     "date": "2026-05-09",
+     "date": "2026-05-10",
      "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "AI tool poisoning exposes a major flaw in enterprise agent security",
+     "url": "https://venturebeat.com/security/ai-tool-poisoning-exposes-a-major-flaw-in-enterprise-agent-security",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-10",
+     "summary": "AI agents choose tools from shared registries by matching natural-language descriptions. But no human is verifying whether those descriptions are true. I discovered this gap when I filed Issue #141 in the CoSAI secure-ai-tooling repository. I assumed it would be treated as a single risk entry. Th...",
      "is_new": true,
      "lang": "en"
     },
@@ -507,7 +525,7 @@ const APP_DATA = {
      "source": "VentureBeat - AI",
      "date": "2026-05-09",
      "summary": "Here is a scenario that should concern every enterprise architect shipping autonomous AI systems right now: An observability agent is running in production. Its job is to detect infrastructure anomalies and trigger the appropriate response. Late one night, it flags an elevated anomaly score acros...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -561,7 +579,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "打造“赛博乙方天团”",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -596,7 +614,7 @@ const APP_DATA = {
      "source": "Wired - AI",
      "date": "2026-05-09",
      "summary": "Plus: Meta officially kills encrypted Instagram DMs, the Trump administration targets “violent left wing extremists,” leaked documents reveal Russia's school for elite hackers, and more.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -623,7 +641,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "以0.829的总成绩荣登榜首",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -632,7 +650,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "Jim Fan全新暴论出炉",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -650,8 +668,17 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 6,
+   "count": 5,
    "cards": [
+    {
+     "title": "Get ready for the whisper-filled office of the future",
+     "url": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-10",
+     "summary": "How will work setups change if we spend more and more time talking to our computers?",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
@@ -667,7 +694,7 @@ const APP_DATA = {
      "source": "Simon Willison's Blog",
      "date": "2026-05-09",
      "summary": "WebRTC is designed to degrade and drop my prompt during poor network conditions. wtf my dude WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a conference call, that’s WebRTC baybee. The idea is that conference calls depend on rapid back-and-for...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -676,24 +703,6 @@ const APP_DATA = {
      "source": "The Verge - AI",
      "date": "2026-05-08",
      "summary": "Sometimes, companies pick CEOs based on carefully laid succession plans designed to maximize investor confidence and future performance. Other times, apparently, companies pick CEOs based on a bunch of video calls while the current CEO is texting the former CEO about who the new CEO even is. Such...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "5% GPU utilization: The $401 billion AI infrastructure problem enterprises can't keep ignoring",
-     "url": "https://venturebeat.com/infrastructure/5-gpu-utilization-the-401-billion-ai-infrastructure-problem-enterprises-cant-keep-ignoring",
-     "source": "VentureBeat - AI",
-     "date": "2026-05-08",
-     "summary": "For the last 24 months, one narrative justified every over-provisioned data center and bloated IT budget: the GPU scramble. Silicon was the new oil, and H100s traded like contraband. Reserve capacity now or your enterprise would be left behind.The bill is now due, and the CFO is paying attention....",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "OpenAI launches new voice intelligence features in its API",
-     "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "The new features could be handy for customer service systems, but OpenAI says they have applications that work across a variety of other fields, including education and creator platforms.",
      "is_new": false,
      "lang": "en"
     },
@@ -712,7 +721,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 6,
+   "count": 7,
    "cards": [
     {
      "title": "Nvidia has already committed $40B to equity AI deals this year",
@@ -720,7 +729,7 @@ const APP_DATA = {
      "source": "TechCrunch - AI",
      "date": "2026-05-09",
      "summary": "Nvidia continues to be a big investor in the AI ecosystem.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -742,12 +751,21 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "苹果A20Pro将迎来两大升级",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3804119505870340?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "据行业爆料，苹果A20 Pro将迎来两大核心升级。首先在制程工艺上，这款芯片将采用台积电最新的2nm工艺。从现有3nm制程升级至2nm，意味着在芯片尺寸基本不变的前提下，A20 Pro能够实现更强性能输出，同时运行能效大幅提升。 其次，A20 Pro还将首次引入WMCM先进封装工艺。这也是苹果首度在iPhone处理器上落地该项技术，其核心逻辑是在晶圆切割之前，就完成SoC、内存等多芯片的垂直堆叠与电路互联，整体整合完毕后再切割为独立芯片，具备无中介层、互联距离短、集成度拉满的特点。（新浪财经）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "早报｜小米增程SUV 曝光，但不叫YU9/苹果与英特尔达成初步芯片代工协议/Cloudflare用AI裁掉20%员工",
      "url": "https://www.ifanr.com/1665264?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
      "date": "2026-05-09",
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -756,7 +774,7 @@ const APP_DATA = {
      "source": "动点科技 - AI",
      "date": "2026-05-09",
      "summary": "据《华尔街日报》报道，苹果和英特尔已达成 […]",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -800,7 +818,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 13,
+   "count": 14,
    "cards": [
     {
      "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
@@ -875,15 +893,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Voi founders’ new AI startup Pit has become the latest rising star out of Stockholm",
-     "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-07",
-     "summary": "AI startup Pit is led by the co-founders of European scooter giant Voi and backed by a16z, which is leading the startup’s $16 million seed round.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "How to build scalable web apps with OpenAI's Privacy Filter",
      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
      "source": "Hugging Face Blog",
@@ -893,12 +902,30 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "泉果基金杜凡：本轮科技变革的量级有望超越以往的互联网浪潮",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3804124173295368?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "在AI浪潮持续演进的背景下，科技投资再度成为市场核心主线。从算力基建到应用落地，从半导体国产替代到先进制造升级，科技产业正不断孕育新的投资机遇。作为长期深耕科技领域的基金经理，泉果基金杜凡先后亲历移动互联网、云计算、4G/5G通信技术迭代，以及当前全面展开的AI革命。在他看来，本轮科技变革的量级有望超越以往的互联网浪潮。“从产业一线感知，我们仿佛正面对一堵陡然竖立的高墙，虽难以准确预判其最终高度，但向上的趋势是清晰而确定的。”杜凡在接受记者采访时表示。（证券时报）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "偏股混合型基金指数创新高 ，光通信超越“宁组合”抱团力度",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3804097314283268?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "时隔五年，偏股混合型基金指数终于再创历史新高。这不仅意味着逾千只主动权益基金的收益率节节高升，而且代表着众多一度深陷泥潭、净值腰斩的基金已经“爬出深坑”，公募基金的主动投资能力再度走向上升通道。然而，此番登顶的推手却“物是人非”，光通信以超越当年“宁组合”的抱团力度站上C位，中际旭创已经取代宁德时代成为主动权益基金第一大重仓股。在偏股混合型基金指数创新高的同时，基金正蜂拥押注以光通信为代表的AI硬件赛道，新一轮极致抱团行情正在上演。（证券时报）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "索尼 PlayStation：AI 是帮助制作游戏的“强大工具”",
      "url": "https://cn.technode.com/post/2026-05-09/sony-playstation-ai-powerful-tool-games/",
      "source": "动点科技 - AI",
      "date": "2026-05-09",
      "summary": "在当地时间周五的财报发布会上，索尼分享了 […]",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -907,7 +934,7 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，星识（宁波）科技有限公司（以下简称“星识科技”）近日连续完成天使+轮和天使++轮融资，累计金额达数千万元。两轮融资分别由高秉强教授旗下高锋耐心资本和蓝驰创投领投、松禾资本跟投，老股东清水湾二期基金及奇绩创坛持续加注。本轮资金将主要用于智能影像核心技术研发、新品矩阵打造和产品体验的迭代优化，以及生产体系与供应链能力建设。此前，公司已获得李泽湘教授旗下宁波智能技术研究院、清水湾二期基金及奇绩创坛的种子轮及天使轮投资。 星识科技是一家专注智能影像技术研发与硬件制造的企业，以远景观测场景为切点，曾推出融合AI功能的Vizta智能望远镜，已在Kickstarte...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -933,7 +960,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     }
    ]
@@ -942,7 +969,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 56,
+   "count": 58,
    "cards": [
     {
      "title": "Do you take after your dad’s RNA?",
@@ -977,7 +1004,7 @@ const APP_DATA = {
      "source": "TechCrunch - AI",
      "date": "2026-05-09",
      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -986,7 +1013,7 @@ const APP_DATA = {
      "source": "ArsTechnica - AI",
      "date": "2026-05-09",
      "summary": "These connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1296,6 +1323,24 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "A股“红五月”格局有望延续，聚焦科技、资源两大景气方向",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3804113111326470?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "“五一”假期后A股市场迎来“开门红”，其中“双创指数”强势领涨，创业板指上周上涨3.24%，科创50指数上涨4.42%。展望后市，券商研报判断，5月A股有望延续震荡向上格局，短期市场或因前期累积涨幅较大，出现小幅休整，但难以改变中期上行的核心趋势。综合来看，受益于全球AI算力需求爆发及一季度业绩兑现，A股科技与资源两大高景气主线得到进一步确认。（上证报）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "短剧出海爆发式增长，AI译制服务成为行业刚需",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3804084482268932?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-11",
+     "summary": "近两年，海外短剧市场迎来爆发式增长，海外各大短剧应用下载量、用户规模一路飙升，而中国企业已成为这场全球短剧热潮中的核心玩家。公开数据显示，2025年中国出海短剧应用下载量占全球短剧产品下载量的80%以上。不只是应用占据主流，海外热播的短剧内容，亦有相当一部分源自国内成品剧的译制输出。随着短剧出海全面提速，规模化、高效率的译制需求急剧增长，AI译制服务成为行业刚需。“人工每月仅能翻译约10部短剧，成本1500元至3000元/部；而我们的AI译制服务每月可轻松完成超1000部短剧翻译，成本300元至500元/部。效率大幅提升，成本显著降低。”杭州小影创新科技股份有限公司（下称“小影科技”）业...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互",
      "url": "https://www.qbitai.com/2026/05/415048.html",
      "source": "量子位",
@@ -1337,7 +1382,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1346,7 +1391,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1355,7 +1400,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-09",
      "summary": "谷歌AI for Math迈出最新一步",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1364,7 +1409,7 @@ const APP_DATA = {
      "source": "APPSO",
      "date": "2026-05-09",
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1373,7 +1418,7 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-09",
      "summary": "撰文｜锅包柚 封面来源｜Unsplash（AI辅助扩图） 五一假期已经结束，但打工人的“节后综合症”并未消退。 面对永远99+的工作群消息，和改不完的PPT，打工人蝈蝈在摸鱼时打开灵光APP里的一个小游戏——“老板被我fire了”。 屏幕里跳出老板最爱的PUA话术：“你们要相信我的眼光”“现在的付出都是值得的”。她疯狂点击，伴随着金币掉落的音效，在赛博世界里体验了一把将老板痛扁、原地暴富的爽感。 “老板被我fire了” 这个让蝈蝈短暂“活过来”的应用，不是什么专业团队做的。而是一个同样被工作折磨的网友@二旬老人，在灵光APP免费花30秒随手“搓”出来的。 这届年轻人，连发泄情绪都要精打细...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1457,7 +1502,7 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42481,
+   "stars": 42486,
    "forks": 7537,
    "language": "Python",
    "topics": [
@@ -1488,8 +1533,8 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25855,
-   "forks": 5709,
+   "stars": 25860,
+   "forks": 5711,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1517,7 +1562,7 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18633,
+   "stars": 18635,
    "forks": 1696,
    "language": "Rust",
    "topics": [
@@ -1537,7 +1582,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17891,
+   "stars": 17893,
    "forks": 1139,
    "language": "Python",
    "topics": [
@@ -1564,7 +1609,7 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15141,
+   "stars": 15143,
    "forks": 2305,
    "language": "C++",
    "topics": [
@@ -1617,7 +1662,7 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11350,
+   "stars": 11352,
    "forks": 824,
    "language": "Rust",
    "topics": [
@@ -1648,7 +1693,7 @@ const APP_DATA = {
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
    "blurb": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10085,
+   "stars": 10086,
    "forks": 1270,
    "language": "Python",
    "topics": [
@@ -1705,7 +1750,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7473,
+   "stars": 7475,
    "forks": 843,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1828,7 +1873,7 @@ const APP_DATA = {
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
    "blurb": "A blazing fast inference solution for text embeddings models",
-   "stars": 4782,
+   "stars": 4783,
    "forks": 387,
    "language": "Rust",
    "topics": [
