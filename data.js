@@ -1,6 +1,6 @@
 const APP_DATA = {
- "today": "2026-05-11",
- "fetched_at": "2026-05-11T18:01:01",
+ "today": "2026-05-12",
+ "fetched_at": "2026-05-12T00:00:52",
  "total": 143,
  "sources": {
   "TechCrunch - AI": {
@@ -93,7 +93,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37
+   "count": 35
   },
   {
    "name": "AI Agent与智能体",
@@ -111,7 +111,7 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 5
+   "count": 6
   },
   {
    "name": "AI硬件与芯片",
@@ -129,13 +129,13 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 17
+   "count": 20
   },
   {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 58
+   "count": 56
   }
  ],
  "sections": [
@@ -143,8 +143,35 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37,
+   "count": 35,
    "cards": [
+    {
+     "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+     "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+     "source": "Hugging Face Blog",
+     "date": "2026-05-11",
+     "summary": "",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "OpenAI just released its answer to Claude Mythos",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+     "source": "The Verge - AI",
+     "date": "2026-05-11",
+     "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likel...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Here’s what Mira Murati’s AI company is up to",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+     "source": "The Verge - AI",
+     "date": "2026-05-11",
+     "summary": "Thinking Machines, the AI company founded by former OpenAI CTO Mira Murati, announced Monday that it's working on something called \"interaction models.\" The idea behind interaction models, according to Thinking Machines, is that they will let people \"collaborate with AI the way we naturally colla...",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
@@ -155,12 +182,39 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "How ChatGPT adoption broadened in early 2026",
+     "url": "https://openai.com/signals/research/2026q1-update",
+     "source": "OpenAI Blog",
+     "date": "2026-05-11",
+     "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Using LLM in the shebang line of a script",
+     "url": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+     "source": "Simon Willison's Blog",
+     "date": "2026-05-11",
+     "summary": "TIL: Using LLM in the shebang line of a script Kim_Bruning on Hacker News: But seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...] This inspired me to look at patterns for doing exactly that with LLM. Here's the simplest, which takes advantage of LLM ...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Thinking Machines shows off preview of near-realtime AI voice and video conversation with new 'interaction models'",
+     "url": "https://venturebeat.com/technology/thinking-machines-shows-off-preview-of-near-realtime-ai-voice-and-video-conversation-with-new-interaction-models",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-11",
+     "summary": "Is AI leaving the era of \"turn-based\" chat?Right now, all of us who use AI models regularly for work or in our personal lives know that the basic interaction mode across text, imagery, audio, and video remains the same: the human user provides an input, waits anywhere between milliseconds to minu...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
      "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
      "source": "TechCrunch - AI",
      "date": "2026-05-10",
      "summary": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -178,24 +232,6 @@ const APP_DATA = {
      "source": "VentureBeat - AI",
      "date": "2026-05-08",
      "summary": "Voice agents have been expensive to run and painful to orchestrate, not because the models can't handle conversation, but because context ceilings forced enterprises to build session resets, state compression, and reconstruction layers into every deployment. OpenAI's three new voice models are de...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Anthropic wants to own your agent's memory, evals, and orchestration — and that should make enterprises nervous",
-     "url": "https://venturebeat.com/orchestration/anthropic-wants-to-own-your-agents-memory-evals-and-orchestration-and-that-should-make-enterprises-nervous",
-     "source": "VentureBeat - AI",
-     "date": "2026-05-08",
-     "summary": "Just a few weeks after announcing Claude Managed Agents, Anthropic has updated the platform with three new capabilities that collapse infrastructure layers like memory, evaluation, and multi-agent orchestration, into a single runtime.This move could threaten the standalone tools that many enterpr...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster",
-     "source": "The Verge - AI",
-     "date": "2026-05-07",
-     "summary": "The week leading up to Thanksgiving 2023 was the AI industry's biggest soap opera moment. OpenAI CEO Sam Altman was abruptly ousted from his role at the ChatGPT maker. The explanation? That Altman was \"not consistently candid in his communications with the board.\" Now, via witness testimony and t...",
      "is_new": false,
      "lang": "en"
     },
@@ -227,29 +263,11 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Testing ads in ChatGPT",
-     "url": "https://openai.com/index/testing-ads-in-chatgpt",
-     "source": "OpenAI Blog",
-     "date": "2026-05-07",
-     "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "Trump Pivots on AI Regulation, Worker Ousted by DOGE Runs for Office, and Hantavirus Explained",
      "url": "https://www.wired.com/story/uncanny-valley-podcast-trump-pivots-ai-regulation-worker-ousted-by-doge-runs-for-office-hantavirus-explained/",
      "source": "Wired - AI",
      "date": "2026-05-07",
      "summary": "Today on Uncanny Valley, we’re diving into recent reports that the Trump administration is considering an executive order that would establish some sort of federal oversight over new AI models.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "How to Disable Google's Gemini in Chrome",
-     "url": "https://www.wired.com/story/you-can-disable-gemini-in-chrome-if-its-freaking-you-out/",
-     "source": "Wired - AI",
-     "date": "2026-05-07",
-     "summary": "Chrome users were caught off guard by a 4-GB Google AI model baked into Chrome, sparking privacy concerns. The good news: You can easily uninstall it. The bad? You might not want to.",
      "is_new": false,
      "lang": "en"
     },
@@ -286,15 +304,6 @@ const APP_DATA = {
      "source": "Hugging Face Blog",
      "date": "2026-05-06",
      "summary": "",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Live blog: Code w/ Claude 2026",
-     "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
-     "source": "Simon Willison's Blog",
-     "date": "2026-05-06",
-     "summary": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. Tags: ai, generative-ai, llms, anthropic, claude, claude-code, live-blog",
      "is_new": false,
      "lang": "en"
     },
@@ -443,33 +452,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "欧盟委员会对OpenAI开放新型ChatGPT模型访问权限表示欢迎",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804814505123331?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "欧盟委员会发言人托马斯·雷尼尔5月11日表示，欧盟委员会欢迎OpenAI拟开放其最新版ChatGPT模型访问权限的意向，本周将与OpenAI展开进一步交流。欧盟委员会发言人指出，与Anthropic公司就其Mythos模型进行的磋商目前处于不同阶段，双方正保持持续接触，欧盟委员会正寻求与Anthropic达成类似目前正与OpenAI探讨的解决方案。（财联社）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "央行：展望未来，人工智能行业将为经济高质量发展注入更多动能",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804805665906435?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "36氪获悉，央行发布2026年第一季度中国货币政策执行报告，其中提到展望未来，人工智能行业将为经济高质量发展注入更多动能。一是技术迭代持续加速。随着多模态、强逻辑推理等关键技术不断突破，国产大模型性能有望进一步提升。二是产业融合向纵深发展。人工智能将深度融入智能制造、金融、医疗、交通等关键领域，推动传统产业全流程智能化重构。三是国际市场空间持续拓展。国内人工智能企业在东南亚、中东等新兴市场落地应用项目，产品与服务出海步伐进一步加快，国际竞争力稳步提升。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉",
-     "url": "<![CDATA[https://36kr.com/p/3801348046151428?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-09",
-     "summary": "整理｜Kris 今日热点导览 香港拿下世界杯转播权，FIFA与央视谈判仍陷僵局 油价上调，加满一箱92号汽油将多花12.5元 钱江摩托否认“围剿张雪机车” 30条中日航线4月取消全部航班 SpaceX冲刺上市，资本开支飙升数百亿 TOP3大新闻 DeepSeek拟募资最高500亿元 据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。(财联社) “全国销冠”任晓敏被刑拘，泰康人寿回应 5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注。对此，公司高度重视，第一时间组织专项工作组派驻...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
      "title": "ChatGPT，别再「稳稳接住我」了｜附指南",
      "url": "https://www.ifanr.com/1665148?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
@@ -487,6 +469,15 @@ const APP_DATA = {
    "count": 11,
    "cards": [
     {
+     "title": "Quoting James Shore",
+     "url": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+     "source": "Simon Willison's Blog",
+     "date": "2026-05-11",
+     "summary": "Your AI coding agent, the one you use to write code, needs to reduce your maintenance costs. Not by a little bit, either. You write code twice as quick now? Better hope you’ve halved your maintenance costs. Three times as productive? One third the maintenance costs. Otherwise, you’re screwed. You...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "Learning on the Shop floor",
      "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
      "source": "Simon Willison's Blog",
@@ -496,12 +487,21 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "AI agents are running hospital records and factory inspections. Enterprise IAM was never built for them.",
+     "url": "https://venturebeat.com/security/cisco-dickman-agentic-ai-trust-identity-governance-microsegmentation",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-11",
+     "summary": "A doctor in a hospital exam room watches as a medical transcription agent updates electronic health records, prompts prescription options, and surfaces patient history in real time. A computer vision agent on a manufacturing line is running quality control at speeds no human inspector can match. ...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "AI tool poisoning exposes a major flaw in enterprise agent security",
      "url": "https://venturebeat.com/security/ai-tool-poisoning-exposes-a-major-flaw-in-enterprise-agent-security",
      "source": "VentureBeat - AI",
      "date": "2026-05-10",
      "summary": "AI agents choose tools from shared registries by matching natural-language descriptions. But no human is verifying whether those descriptions are true. I discovered this gap when I filed Issue #141 in the CoSAI secure-ai-tooling repository. I assumed it would be treated as a single risk entry. Th...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -519,24 +519,6 @@ const APP_DATA = {
      "source": "OpenAI Blog",
      "date": "2026-05-08",
      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "An AI agent rewrote a Fortune 50 security policy. Here's how to govern AI agents before one does the same.",
-     "url": "https://venturebeat.com/security/cisco-crowdstrike-rsac-2026-agent-identity-iam-gap-maturity-model",
-     "source": "VentureBeat - AI",
-     "date": "2026-05-08",
-     "summary": "A CEO’s AI agent rewrote the company’s security policy. Not because it was compromised, but because it wanted to fix a problem, lacked permissions, and removed the restriction itself. Every identity check passed. CrowdStrike CEO George Kurtz disclosed the incident and a second one at his RSAC 202...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Vibe coding and agentic engineering are getting closer than I'd like",
-     "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
-     "source": "Simon Willison's Blog",
-     "date": "2026-05-06",
-     "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison. Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my ow...",
      "is_new": false,
      "lang": "en"
     },
@@ -559,13 +541,13 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
-     "url": "https://huggingface.co/blog/ecom-rlve",
-     "source": "Hugging Face Blog",
-     "date": "2026-04-16",
-     "summary": "",
-     "is_new": false,
-     "lang": "en"
+     "title": "阿里发布AI店小蜜，平均询单转化提升超10%",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3805011485581065?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-12",
+     "summary": "36氪获悉，5月11日，阿里发布全新AI店小蜜，这是电商行业首个具备售前售后办事能力的客服agent。实测数据显示，商家接入AI店小蜜后，平均转人工率下降45% ，“AI+人”协同转化效果相比纯人工客服增加超10%。",
+     "is_new": true,
+     "lang": "zh"
     },
     {
      "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
@@ -644,24 +626,33 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 5,
+   "count": 6,
    "cards": [
+    {
+     "title": "Digg tries again, this time as an AI news aggregator",
+     "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-11",
+     "summary": "In an email to beta testers, the company said the site's goal is to \"track the most influential voices in a space\" and to surface the news that's actually worth \"paying attention to.\"",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Get ready for the whisper-filled office of the future",
      "url": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
      "source": "TechCrunch - AI",
      "date": "2026-05-10",
      "summary": "How will work setups change if we spend more and more time talking to our computers?",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
-     "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+     "title": "Voice AI in India is hard — Wispr Flow is betting on it anyway",
      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
      "source": "TechCrunch - AI",
      "date": "2026-05-10",
      "summary": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -745,20 +736,20 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "埃隆·马斯克的Terafab计划或助推英特尔及芯片设备公司",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3805022288961287?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-12",
+     "summary": "埃隆·马斯克的庞大Terafab项目可能成为英特尔及多家芯片设备公司的重大利好，但华尔街认为目前仍有充分理由保持谨慎。据Wedbush称，SpaceX正计划向得克萨斯州拟议的半导体制造项目投入550亿美元，如果后续扩建阶段推进，总成本可能高达1190亿美元。仅其规模就已引起投资者关注，因为这将是美国多年来最雄心勃勃的芯片制造项目之一。（新浪财经）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "发布A10后，零跑能否挑战月销10万辆？",
      "url": "https://www.leiphone.com/category/transportation/1h6yt9X8UvAqgBoP.html",
      "source": "雷锋网 - AI",
      "date": "2026-05-11",
      "summary": "10万级车型的市场需求辽阔，往往是车企壮大规模、实现销量进阶的必经之地。手握海豚、海鸥、秦plus等热门车型，比亚迪稳坐中国“车王”的位置；2025年，吉利星愿以46.5万辆的成绩成为中国市场销量最高的单一车型。跨越生存红线的新势力也加入规模游戏。2025年交付60万辆的零跑，立下了今年销量突破百万的增长计划。实现70%的高增长，要求零跑增加产品组合，覆盖更多价格带，挖掘更广袤的增量空间。想要在10万级这个成本、技术都受到约束的市场中取胜，就要找到多走一步的可能性。零跑A10沿袭差异化打法的思路，放大车内空间、延长纯电续航、同时发力智能驾驶，加装激光雷达和高通8295和8650芯片，做出...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "人工智能芯片公司Cerebras Systems目前寻求IPO募资高达48亿美元",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804850707570440?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "人工智能芯片公司Cerebras Systems目前寻求IPO募资高达48亿美元，此前目标为35亿美元。（财联社）",
      "is_new": true,
      "lang": "zh"
     },
@@ -803,7 +794,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 17,
+   "count": 20,
    "cards": [
     {
      "title": "Samsung made a “mockery” of Dua Lipa by putting her picture on TV boxes, lawsuit says",
@@ -833,12 +824,21 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "Ilya Sutskever Stands by His Role in Sam Altman’s OpenAI Ouster: ‘I Didn’t Want It to Be Destroyed’",
+     "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/",
+     "source": "Wired - AI",
+     "date": "2026-05-11",
+     "summary": "The former OpenAI chief scientist may be estranged from the company, but he still came to its defense as he testified on Monday.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
      "source": "TechCrunch - AI",
      "date": "2026-05-10",
      "summary": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -905,6 +905,33 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "中信建投：AI产业建议从需求维度出发",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3805525872320256?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-12",
+     "summary": "36氪获悉，中信建投研报称，2026年，计算机板块正迎来基本面修复与AI范式转移的共振拐点，模型能力迭代未见上限，Claw类应用渗透率快速提升，国内算力需求陡增，AI infra走进新阶段。下半年建议关注：1）AI产业建议从需求维度出发，关注涨价、缺货的算力方向、提效的infra与云产业、部分景气度高的应用方向。2）非AI产业的投资建议关注政策催化下的数币2.0、智驾以及商业航天等政策催化机会。",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "Alphabet探索首次日元债券发售以支持AI扩张",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3805024994549251?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-12",
+     "summary": "据报道，Alphabet正在考虑首次发行日元计价债券，因为该公司寻求额外的资金来源以支持不断增长的人工智能投资。此次潜在发行可能包括高级无担保日元债券，并将视市场情况而定。Alphabet据称已选定瑞穗银行、美国银行和摩根士丹利负责此次交易。（新浪财经）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "OpenAI收购咨询公司Tomoro并成立新实体，加速企业级AI部署",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3805023424339456?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-12",
+     "summary": "5月11日，OpenAI宣布成立名为“OpenAI Deployment Company”的新实体，旨在通过深度工程支持加速人工智能在企业端的实质性落地。作为该战略的核心举措，OpenAI已达成协议收购咨询与工程公司Tomoro。Tomoro团队约150名资深AI部署专家将并入该实体。该项目得到了TPG、贝恩资本及软银等多家顶级投资机构的支持。（界面）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
      "url": "https://www.qbitai.com/2026/05/415714.html",
      "source": "量子位",
@@ -932,15 +959,6 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "软银孙正义拟在法国投资数十亿美元建设人工智能数据中心",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3804875318812164?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "5月11日消息，据报道，软银集团创始人孙正义正与法国总统马克龙进行深度磋商，计划在未来几周内宣布一项法国AI数据中心项目。作为软银构建全球人工智能基础设施战略的一部分，孙正义正考虑在法国投入数十亿美元。（界面）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "索尼 PlayStation：AI 是帮助制作游戏的“强大工具”",
      "url": "https://cn.technode.com/post/2026-05-09/sony-playstation-ai-powerful-tool-games/",
      "source": "动点科技 - AI",
@@ -954,7 +972,7 @@ const APP_DATA = {
      "url": "<![CDATA[https://36kr.com/p/3797202414820359?f=rss]]>",
      "source": "36氪 - AI",
      "date": "2026-05-09",
-     "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，星识（宁波）科技有限公司（以下简称“星识科技”）近日连续完成天使+轮和天使++轮融资，累计金额达数千万元。两轮融资分别由高秉强教授旗下高锋耐心资本和蓝驰创投领投、松禾资本跟投，老股东清水湾二期基金及奇绩创坛持续加注。本轮资金将主要用于智能影像核心技术研发、新品矩阵打造和产品体验的迭代优化，以及生产体系与供应链能力建设。此前，公司已获得李泽湘教授旗下宁波智能技术研究院、清水湾二期基金及奇绩创坛的种子轮及天使轮投资。 星识科技是一家专注智能影像技术研发与硬件制造的企业，以远景观测场景为切点，曾推出融合AI功能的Vizta智能望远镜，已在Kickstarte...",
+     "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，星识（宁波）科技有限公司（以下简称“星识科技”）近日连续完成天使+轮和天使++轮融资，累计金额达数千万元。两轮融资分别由高秉强教授旗下高锋耐心资本和蓝驰创投领投、松禾资本跟投，老股东清水湾二期基金及奇绩创坛持续加注。本轮资金将主要��于智能影像核心技术研发、新品矩阵打造和产品体验的迭代优化，以及生产体系与供应链能力建设。此前，公司已获得李泽湘教授旗下宁波智能技术研究院、清水湾二期基金及奇绩创坛的种子轮及天使轮投资。 星识科技是一家专注智能影像技术研发与硬件制造的企业，以远景观测场景为切点，曾推出融合AI功能的Vizta智能望远镜，已在Kickstart...",
      "is_new": false,
      "lang": "zh"
     }
@@ -964,23 +982,68 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 58,
+   "count": 56,
    "cards": [
-    {
-     "title": "Digg tries again, this time as an AI news aggregator",
-     "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-11",
-     "summary": "Digg returns (again) as another place to read AI news.",
-     "is_new": true,
-     "lang": "en"
-    },
     {
      "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
      "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
      "source": "TechCrunch - AI",
      "date": "2026-05-11",
      "summary": "The apparently insatiable demand for AI compute has data center entrepreneurs looking to the stars. There's a key problem: There aren't enough rockets to put data centers in orbit around Earth, and they're too expensive.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Linux bitten by second severe vulnerability in as many weeks",
+     "url": "https://arstechnica.com/security/2026/05/linux-bitten-by-second-severe-vulnerability-in-as-many-weeks/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-11",
+     "summary": "Production-version patches are coming online and should be installed pronto.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Audi has a new Q9 flagship coming soon: Here's its interior",
+     "url": "https://arstechnica.com/cars/2026/05/take-a-look-inside-audis-new-big-three-row-q9-suv/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-11",
+     "summary": "Audi made sure to consult American tastes for its first full-size SUV.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "After banning foreign routers, FCC says existing ones can get updates until 2029",
+     "url": "https://arstechnica.com/tech-policy/2026/05/fcc-slightly-relaxes-foreign-router-ban-allows-software-updates-until-2029/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-11",
+     "summary": "FCC extends waiver allowing routers and drones to get patches for two more years.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Data center guzzled 30 million gallons of water and nobody noticed for months",
+     "url": "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-11",
+     "summary": "Can AI save us from the AI industry’s endless thirst for water? Outlook not so good.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Passengers from hantavirus ship arrive in US; 3 people in biocontainment",
+     "url": "https://arstechnica.com/health/2026/05/passengers-from-hantavirus-ship-arrive-in-us-3-people-in-biocontainment/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-11",
+     "summary": "A US passenger tested \"mildly positive,\" but WHO is calling it \"inconclusive\" for now.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Starlink shuts down its GPS-style cheat code. Researchers may unlock it anyway.",
+     "url": "https://arstechnica.com/gadgets/2026/05/starlink-blocks-access-to-its-gps-alternative-ahead-of-spacex-ipo/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-11",
+     "summary": "Shutdown of Starlink location feature won’t dampen interest in GPS alternatives.",
      "is_new": true,
      "lang": "en"
     },
@@ -1039,6 +1102,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "Your AI Use Is Breaking My Brain",
+     "url": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
+     "source": "Simon Willison's Blog",
+     "date": "2026-05-11",
+     "summary": "Your AI Use Is Breaking My Brain Excellent, angry piece by Jason Koebler on how AI writing online is becoming impossible to avoid, filtering it is mentally exhausting and it's even starting to distort regular human writing styles. I particularly liked his use of the term \"Zombie Internet\" to defi...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "The new AI-powered Google Finance is expanding to Europe.",
      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
      "source": "Google AI Blog",
@@ -1084,30 +1156,12 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Do you take after your dad’s RNA?",
-     "url": "https://arstechnica.com/science/2026/05/do-you-take-after-your-dads-rna/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-10",
-     "summary": "Evidence is growing that sperm carries marks of a father’s life experiences, influencing traits in offspring.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Huge landslide created a 500-meter-high tsunami in a major tourist area",
-     "url": "https://arstechnica.com/science/2026/05/how-a-melting-glacier-led-to-a-500-meter-high-tsunami/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-10",
-     "summary": "Fortunately, it happened early in the morning, so nobody was around.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
      "title": "Quoting New York Times Editors’ Note",
      "url": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
      "source": "Simon Willison's Blog",
      "date": "2026-05-10",
      "summary": "This article was updated after The Times learned that a remark attributed to Pierre Poilievre, the Conservative leader, was in fact an A.I.-generated summary of his views about Canadian politics that A.I. rendered as a quotation. The reporter should have checked the accuracy of what the A.I. tool...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1116,7 +1170,7 @@ const APP_DATA = {
      "source": "Simon Willison's Blog",
      "date": "2026-05-10",
      "summary": "One could say in the first quarter-century of my life, that while I was always fascinated by programming, I could never overcome the guilt of not really knowing whether the tool I am building right now isn’t already superceded by some much better implementation someone else has already written 30...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1125,15 +1179,6 @@ const APP_DATA = {
      "source": "TechCrunch - AI",
      "date": "2026-05-09",
      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "The new Wild West of AI kids’ toys",
-     "url": "https://arstechnica.com/ai/2026/05/the-new-wild-west-of-ai-kids-toys/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-09",
-     "summary": "These connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
      "is_new": false,
      "lang": "en"
     },
@@ -1152,33 +1197,6 @@ const APP_DATA = {
      "source": "Hugging Face Blog",
      "date": "2026-05-08",
      "summary": "",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Manufacturing qubits that can move",
-     "url": "https://arstechnica.com/science/2026/05/manufacturing-qubits-that-can-move/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-08",
-     "summary": "It's hard to mix electronic manufacturing and flexible geometry.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Trump reportedly plans to fire FDA Commissioner Marty Makary",
-     "url": "https://arstechnica.com/health/2026/05/trump-reportedly-plans-to-fire-fda-commissioner-marty-makary/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-08",
-     "summary": "The plan isn't final and could change, but his ouster would be no surprise.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "ABC refuses to capitulate to Trump admin, fights FCC probe into The View",
-     "url": "https://arstechnica.com/tech-policy/2026/05/abc-fights-trump-fccs-attempt-to-control-content-of-broadcast-tv-shows/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-08",
-     "summary": "FCC chair hasn't been able to bully ABC and owner Disney into submission.",
      "is_new": false,
      "lang": "en"
     },
@@ -1255,29 +1273,11 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Apple’s AirPods with cameras for AI are apparently close to production",
-     "url": "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production",
-     "source": "The Verge - AI",
-     "date": "2026-05-07",
-     "summary": "Apple's rumored AirPods with cameras are nearing a stage where the company will test early mass production, Bloomberg's Mark Gurman reports. Currently, Apple testers are \"actively using\" prototypes that are in the design validation test stage, which is one step before the production validation te...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "Big Words",
      "url": "https://simonwillison.net/2026/May/7/big-words/#atom-everything",
      "source": "Simon Willison's Blog",
      "date": "2026-05-07",
      "summary": "Tool: Big Words I'm using my vibe coded macOS presentations tool to put together a talk, and I wanted to add a slide with some text on it. The tool only accepts URLs, so I put together a quick page that accepts query string arguments and turns them into a simple slide. Here's an example: https://...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "GitHub Repo Stats",
-     "url": "https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything",
-     "source": "Simon Willison's Blog",
-     "date": "2026-05-07",
-     "summary": "Tool: GitHub Repo Stats One of the things I always look for when evaluating a new GitHub repository is the number of commits it has... but that number isn't visible on GitHub's mobile site layout. I built this tool to fix that, using this prompt: Given a GitHub repo URL or foo/bar repo ID show in...",
      "is_new": false,
      "lang": "en"
     },
@@ -1422,7 +1422,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-10",
      "summary": "福尔摩斯探案都能演",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1431,7 +1431,7 @@ const APP_DATA = {
      "source": "量子位",
      "date": "2026-05-10",
      "summary": "拉姆齐数R(3,17) 下界从92提升至93",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1440,7 +1440,7 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-10",
      "summary": "编者按：上个月月底，36氪在厦门参加了一场Ozon全球招商启动大会，我们发现现场人山人海。火热的出海和国内经济形成鲜明对比，特别是一组数据吸引了我们注意：尽管俄罗斯电商渗透率在2025年才23%，但是Ozon在2017年至2025年间，实现了91%的年均复合增长率。 这些高增长数据背后，似乎隐藏着比较大的商业机会，但机会究竟是什么？中国卖家如何在AI时代抓住？那边电商处于什么阶段？带着这些疑问，36氪和Ozon大中华区总裁Simon Huang（黄效）进行了一次交流。结论就是：俄语区还有比较长的红利期，中国电商迁移过去有足够的品牌优势、供应链优势，以及运营优势。以下为正文： 过去几年，中...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1498,7 +1498,7 @@ const APP_DATA = {
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "stars": 42501,
-   "forks": 7539,
+   "forks": 7540,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1528,8 +1528,8 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25869,
-   "forks": 5716,
+   "stars": 25872,
+   "forks": 5717,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1557,7 +1557,7 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18649,
+   "stars": 18654,
    "forks": 1697,
    "language": "Rust",
    "topics": [
@@ -1604,8 +1604,8 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15149,
-   "forks": 2306,
+   "stars": 15150,
+   "forks": 2307,
    "language": "C++",
    "topics": [
     "arm",
@@ -1689,7 +1689,7 @@ const APP_DATA = {
    "description": "Build, Manage and Deploy AI/ML Systems",
    "blurb": "Build, Manage and Deploy AI/ML Systems",
    "stars": 10088,
-   "forks": 1271,
+   "forks": 1272,
    "language": "Python",
    "topics": [
     "agents",
@@ -1745,7 +1745,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7481,
+   "stars": 7482,
    "forks": 843,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1814,8 +1814,8 @@ const APP_DATA = {
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
    "blurb": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5470,
-   "forks": 1361,
+   "stars": 5473,
+   "forks": 1362,
    "language": "Unknown",
    "topics": [
     "agentic-ai",
@@ -1837,7 +1837,7 @@ const APP_DATA = {
    "url": "https://github.com/zenml-io/zenml",
    "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
    "blurb": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
-   "stars": 5410,
+   "stars": 5411,
    "forks": 612,
    "language": "Python",
    "topics": [
@@ -1868,7 +1868,7 @@ const APP_DATA = {
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
    "blurb": "A blazing fast inference solution for text embeddings models",
-   "stars": 4785,
+   "stars": 4788,
    "forks": 387,
    "language": "Rust",
    "topics": [
