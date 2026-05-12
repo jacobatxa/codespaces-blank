@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-12",
- "fetched_at": "2026-05-12T06:00:30",
- "total": 139,
+ "fetched_at": "2026-05-12T12:00:51",
+ "total": 131,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -48,11 +48,11 @@ const APP_DATA = {
    "color": "#eab308"
   },
   "APPSO": {
-   "count": 6,
+   "count": 5,
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
-   "count": 2,
+   "count": 3,
    "color": "#10b981"
   },
   "少数派 - AI": {
@@ -60,12 +60,8 @@ const APP_DATA = {
    "color": "#f97316"
   },
   "雷锋网 - AI": {
-   "count": 12,
+   "count": 14,
    "color": "#8b5cf6"
-  },
-  "36氪 - AI": {
-   "count": 10,
-   "color": "#ec4899"
   }
  },
  "shortNames": {
@@ -93,19 +89,19 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 34
+   "count": 32
   },
   {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 12
+   "count": 14
   },
   {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 9
+   "count": 7
   },
   {
    "name": "多模态与AIGC",
@@ -117,25 +113,25 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 5
+   "count": 4
   },
   {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 1
+   "count": 2
   },
   {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 20
+   "count": 16
   },
   {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 51
+   "count": 49
   }
  ],
  "sections": [
@@ -143,7 +139,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 34,
+   "count": 32,
    "cards": [
     {
      "title": "Thinking Machines wants to build an AI that actually listens while it talks",
@@ -362,29 +358,20 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "何恺明团队论文全景扫描：一场关于「生成范式」的多角度突破 | CVPR 2026",
+     "url": "https://www.leiphone.com/category/ai/dIG98W2KaEKFQ5Xp.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-12",
+     "summary": "2025 年到 2026 年，如果要问生成式 AI 领域最值得关注的研究方向，流匹配（Flow Matching） 是一个无法绕开的答案。从去年起，这个名字开始频繁出现在顶会论文里、被工业界反复讨论、被拿来和统治了图像生成领域长达五年的扩散模型正面比较。所谓流匹配，本质上是用常微分方程路径（ODE path）替代扩散模型的随机微分方程路径，让数据从噪声到图像的转变不再依赖数百步迭代，从而在理论上实现更高效的生成。但从理论可行到工程落地，中间隔着无数技术细节——训练目标怎么设计、架构怎么选、速度和质量如何兼顾，每一步都是坑。何恺明团队正是在这个节点上，密集地交出了一份多角度的答卷。AI科技...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "谁来解决大模型的“最后一公里”工程难题？",
      "url": "https://www.leiphone.com/category/industrynews/rT4Gl5nSCqJunF8o.html",
      "source": "雷锋网 - AI",
      "date": "2026-05-12",
      "summary": "2026年的AI行业正陷入一种集体焦虑——DeepSeek、Kimi、Qwen……当一家企业的技术栈里躺着五到十个不同厂商的API密钥时，“多模接入”从战略优势变成了工程噩梦。协议不统一、计费黑盒化、故障切换靠人工、敏感数据在各部门的代码里裸奔——这些藏在模型能力之下的“隐性成本”，正在吃掉企业的AI预算。大模型产业的天平正在倾斜：上半场的赢家是参数规模最大的那个，下半场的赢家则可能是让模型真正“好用”的基础设施。ThinkFlow登场：给大模型时代造一个“智能调度层”记者获悉，网易有道智云近日正式发布企业级大模型聚合平台ThinkFlow。它负责解决一个被长期忽视的关键问题：当企业面对...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果",
-     "url": "https://www.qbitai.com/2026/05/415186.html",
-     "source": "量子位",
-     "date": "2026-05-11",
-     "summary": "陶哲轩：但「消化」属于人类",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
-     "url": "https://www.qbitai.com/2026/05/415065.html",
-     "source": "量子位",
-     "date": "2026-05-11",
-     "summary": "真正学会了在隐空间里进行“物理思考”",
      "is_new": true,
      "lang": "zh"
     },
@@ -441,15 +428,6 @@ const APP_DATA = {
      "summary": "第三方智驾供应商的竞争在过去一年格外激烈。华为乾崑智驾搭载超过170万辆新车，合作车型品牌25家，综合领先；强调数据驱动的Momenta以端到端+强化学习见长，占据过半的市场份额；元戎启行依托VLA大模型和爆款车型策略强势扩张；而地平线的野心从芯片走向系统级方案提供者。头部供应商看似格局初定，但随着AI技术的介入，新的变数已经出现。入场仅一年的千里科技从旁杀出，更是在22日举办的AI战略暨产品发布会上放出激进目标：三年内实现量产800万套智驾方案，成为全球最大智驾供应商之一。同时，到2030年，将有30万辆搭载千里科技解决方案的Robotaxi穿行在世界各地。这份大胆又激进的规划图背后，...",
      "is_new": true,
      "lang": "zh"
-    },
-    {
-     "title": "8点1氪丨SK海力士回应“员工人均奖金达610万元”传闻；世界杯中国转播费从3亿美元腰斩到1.5亿；曝三星中国家电部门裁员补偿N+4，还送手机",
-     "url": "<![CDATA[https://36kr.com/p/3804132892646919?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "今日热点导览 一季度全国结婚登记169.7万对 bosie创始人刘光耀成为Kimi顾问？刘光耀回复“没入职” 英特尔与苹果据悉达成初步协议，将为后者设备制造芯片 业内人士称阿里未参与DeepSeek融资 新华社调查“胖东来为啥总被黑” TOP3大新闻 员工人均奖金达610万人民币？SK海力士回应 近日有消息称，SK海力士韩国员工人均奖金将达610万人民币。该消息源于国际投行麦格理证券的预测。该投行认为，若SK海力士2027 年营业利润达到447万亿韩元，按营业利润的10%和去年年末约3.5万名员工总数简单计算，分红总规模将达到约44.7万亿韩元，人均可发放奖金约12.9亿韩元，接近610...",
-     "is_new": true,
-     "lang": "zh"
     }
    ]
   },
@@ -457,8 +435,17 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 12,
+   "count": 14,
    "cards": [
+    {
+     "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+     "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-12",
+     "summary": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
      "url": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
@@ -541,6 +528,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
+     "url": "https://www.qbitai.com/2026/05/416582.html",
+     "source": "量子位",
+     "date": "2026-05-12",
+     "summary": "累计发现23个独立安全漏洞",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
      "url": "https://www.qbitai.com/2026/05/416034.html",
      "source": "量子位",
@@ -573,7 +569,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 9,
+   "count": 7,
    "cards": [
     {
      "title": "Joanna Stern is not a robot, but she lived with them",
@@ -603,6 +599,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "商汤善惠烧卖购机器人小店上海“开业”，让机器人真正落地线下零售",
+     "url": "https://www.qbitai.com/2026/05/416590.html",
+     "source": "量子位",
+     "date": "2026-05-12",
+     "summary": "打造“一人多面”的具身智能便利店",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "派早报：大疆发布扫拖机器人 ROMO 2 系列等",
      "url": "https://sspai.com/post/109647",
      "source": "少数派 - AI",
@@ -612,47 +617,20 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
+     "title": "从「座上宾」到「主战场」：具身智能如何完成对计算机视觉的「范式夺权」？| CVPR 2026",
+     "url": "https://www.leiphone.com/category/ai/HjikQc8qSRrbSlIL.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-12",
+     "summary": "当机器从识别图像走向介入现实，视觉研究的边界也被重新划定。 作者丨郑佳美 编辑丨马晓宁 如果您漫步在 CVPR 2026 的会场，会产生一种强烈的错觉：自己是不是跑错了场馆，误入了 ICRA 或者 IROS 的现场？满屏的机械臂抓取、足式机器人的越野导航、以及在虚拟沙盒中进行千亿次迭代的物理模拟。具身智能（Embodied AI）已经不再是视觉领域的一个“边缘分支”，而是以一种占据主舞台的姿态，成为视觉顶会最难被忽视的叙事之一。这种范式的易位，让人们不禁回想起 2017 年机器人学界的顶级盛会 IROS。当时，机器人专家们打破了固守多年的运动学控制圈层，邀请计算机视觉泰斗、ImageNe...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "愿景2036丨一场关于未来10年AI技术主权争夺战，追觅打了头阵",
      "url": "https://www.leiphone.com/category/weiwu/qzNsjHpqOoV0W2HX.html",
      "source": "雷锋网 - AI",
      "date": "2026-05-12",
      "summary": "2026年的春天，硅谷的空气里弥漫着未来的气息。美国时间4月28日，追觅科技在这里呈现了一个覆盖起居、烹饪、清洁、护理乃至庭院的庞大智能产品矩阵。能感知用户、定向送风的空调，能管理全家营养健康的冰箱，能自主完成全流程的洗衣机器人，以及更聪明的割草机、泳池机器人……这些产品共同指向一个明确的信号：AI正在深入硬件的骨髓，重写每一个家电品类的定义。行业喧嚣，人人皆言“重做一遍”。然而，口号背后，一个更现实的问题浮现：谁有能力定义这场“重写”的标准与方向？或者说，在即将到来的新牌局中，谁具备坐上“主桌”、参与制定核心规则的资格？追觅的硅谷展示，可被视为对这一问题的一次系统性回应。其回应的重点在...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "36氪首发｜新加坡博士团队创业获种子轮融资，首款产品做“会飞的家庭管家”",
-     "url": "<![CDATA[https://36kr.com/p/3805672617959173?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，深圳熵约智能科技有限公司（下称“熵约科技”）日前完成数百万美元种子轮融资，本轮融资由初心资本独家投资。 熵约科技由新加坡南洋理工大学博士曾武，马来西亚理科大学博士况伟杰，清华智能产业研究院研究员万浩诚共同创立，核心团队成员来自清华大学、华中科技大学，南京航空航天大学，字节跳动，比亚迪等高校和企业，背景覆盖人工智能、理论物理与微型无人机系统。 目前，熵约科技的首款产品针对家庭空间设计，为全球首款家庭飞行机器人Flyer O1。 （图源/企业） 曾武介绍称：“家庭环境中，地面环境其实是多障碍的，设备活动受限；而空中空间相对开阔，因此我们选择从飞行...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "王腾AI睡眠公司获新一轮融资，多方资本加持",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3805880695774984?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "36氪获悉，企查查APP显示，近日，王腾创办的睡眠健康公司今日宜休已完成新一轮融资，本轮引入CMC资本、云九资本、君礼资本、弘晖基金、高瓴创投。今年1月，该公司已完成总规模为数千万元的种子轮融资，投资方包括智元机器人、高瓴创投等。北京今日宜休科技有限责任公司成立于2026年1月，注册资本约110.86万元，法定代表人王腾，经营范围包含健康咨询服务、人工智能应用软件开发、人工智能基础软件开发等，由王腾、上海瓴智新创创业投资合伙企业（有限合伙）、智元创新（上海）科技股份有限公司、ST喜临门等共同持股。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "跨本体、长任务、可预测……Motubrain双榜登顶只是一个开始",
-     "url": "https://www.leiphone.com/category/robot/HAI2o8QlGcvmhGTL.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-11",
-     "summary": "机器人离落地干活又近了一步。 作者丨高景辉 编辑丨马晓宁 “机器人都能做后空翻、跑马拉松了，怎么还是干不了活？”在有关具身机器人的视频评论区，我们总能看到这样的疑问。的确，纵观行业当前的大部分具身机器人，在尝试“干活”的时候总会遇到尴尬场面：要么一次只能干一件事，一点都不“通用”；要么经常卡顿，需要人为干预；要么换了个机型，就动不了了。这不禁令人疑惑：具身智能离真正帮我们干活，到底还有多远？01 Motubrain 双榜登顶，机器人干活能力有了 “合格线”很多人把具身机器人干不了活，归咎为模型能力不足，无法胜任各种场景的干活需求。但事实果真如此吗？人们想交给具身智能来干的活千千万万，既包...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "硬氪专访 | 拿到行业最大单笔融资后，余轶南说万里长征才走了第一步",
-     "url": "<![CDATA[https://36kr.com/p/3804282431659779?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "作者 | 邱晓芬 编辑 | 袁斯来 余轶南似乎是那种总能提前踩中风口的冒险家。 他总在追逐更新、更刺激，早期甚至带着些浪漫想象。博士毕业后，他没有如很多同侪一般，进入学术圈，过上平稳安定的一生，而是冲入互联网浪潮，2015年，他又因为余凯一句“我们一起去做 AI 芯片吧？” ，便追随余凯加入地平线创始团队，成为001号员工。此后几年，地平线逐渐成长为国际上自动驾驶领域最受关注的科技公司之一，并于2024年在港交所上市，成为当年港股最大的IPO。 2024年底，他离开地平线，创立「维他动力」，希望把过去十年在自动驾驶领域积累的能力，迁移到消费级机器人上。 （图源/企业） 余轶南有种知识分子...",
      "is_new": true,
      "lang": "zh"
     }
@@ -733,7 +711,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 5,
+   "count": 4,
    "cards": [
     {
      "title": "Google stopped a zero-day hack that it says was developed with AI",
@@ -770,15 +748,6 @@ const APP_DATA = {
      "summary": "California gubernatorial candidate Tom Steyer is proposing a new jobs guarantee for workers displaced by artificial intelligence.",
      "is_new": false,
      "lang": "en"
-    },
-    {
-     "title": "发布A10后，零跑能否挑战月销10万辆？",
-     "url": "https://www.leiphone.com/category/transportation/1h6yt9X8UvAqgBoP.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-11",
-     "summary": "10万级车型的市场需求辽阔，往往是车企壮大规模、实现销量进阶的必经之地。手握海豚、海鸥、秦plus等热门车型，比亚迪稳坐中国“车王”的位置；2025年，吉利星愿以46.5万辆的成绩成为中国市场销量最高的单一车型。跨越生存红线的新势力也加入规模游戏。2025年交付60万辆的零跑，立下了今年销量突破百万的增长计划。实现70%的高增长，要求零跑增加产品组合，覆盖更多价格带，挖掘更广袤的增量空间。想要在10万级这个成本、技术都受到约束的市场中取胜，就要找到多走一步的可能性。零跑A10沿袭差异化打法的思路，放大车内空间、延长纯电续航、同时发力智能驾驶，加装激光雷达和高通8295和8650芯片，做出...",
-     "is_new": true,
-     "lang": "zh"
     }
    ]
   },
@@ -786,7 +755,7 @@ const APP_DATA = {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 1,
+   "count": 2,
    "cards": [
     {
      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
@@ -796,6 +765,15 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en"
+    },
+    {
+     "title": "龙虾退烧后，荣耀给它造了一个宇宙",
+     "url": "https://www.qbitai.com/2026/05/416081.html",
+     "source": "量子位",
+     "date": "2026-05-12",
+     "summary": "OpenClaw 不缺掌声了，它缺的是一个能长期生长的硬件生态。",
+     "is_new": true,
+     "lang": "zh"
     }
    ]
   },
@@ -803,7 +781,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 20,
+   "count": 16,
    "cards": [
     {
      "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
@@ -905,11 +883,29 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
+     "url": "https://www.qbitai.com/2026/05/416056.html",
+     "source": "量子位",
+     "date": "2026-05-12",
+     "summary": "快手，可能要亲手拆出第二家“快手”了。",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "OpenAI新设AI部署公司，首期投入超40亿美元",
      "url": "https://cn.technode.com/post/2026-05-12/openai-launches-deployment-company-with-over-4-billion-investment/",
      "source": "动点科技 - AI",
      "date": "2026-05-12",
      "summary": "OpenAI Deployment Company",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "马斯克爆出「权力暗桩」，奥特曼进入反击时刻？",
+     "url": "https://www.leiphone.com/category/ai/VZm3rt1QhzalTW22.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-12",
+     "summary": "5月，随马斯克诉 OpenAI 一案进入第二周，案件焦点逐渐从马斯克本人转向 OpenAI 的内部治理结构及董事会相关证言。更多的证据被呈现出来：比如2017年马斯克试图将OpenAI吞并入Tesla的\"打包方案\"，Brockman日记记录谈判破裂后马斯克\"撕画摔门\"的细节，Karpathy被秘密挖角等。5月6日，Oakland联邦法庭上出现了一个更特殊的身影，Shivon Zilis。她是马斯克四个孩子的母亲，也是OpenAI的前董事会成员。2026年5月6日，OpenAI公司前董事会成员Shivon Zilis离开位于加利福尼亚州奥克兰的联邦法院。她站上证人席，揭开了一个连法官都为之...",
      "is_new": true,
      "lang": "zh"
     },
@@ -923,65 +919,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "Walulu：用六个月撕开一条新赛道",
-     "url": "<![CDATA[https://36kr.com/p/3805761383751427?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "文丨果脯 近日，成都雨之灵动科技有限公司（后称雨之灵动）宣布完成总额数千万人民币的天使轮及Pre-A轮融资。 目前其投资方阵容已颇为亮眼，包含KK集团、4399、科大讯飞和一家知名财务投资机构，涵盖了财务资本、渠道资源、游戏行业及AI技术四大维度。做到这种程度，基本已经覆盖了一家AI消费品公司的所需的核心拼图。 雨之灵动能同时吸引到这四类资方，一定程度上说明他们的项目不仅打动了财务投资人的直觉，也获得了产品方对其产品的市场期望。 雨之灵动的核心产品是AI仿生毛绒宠物Walulu。在公司创始人兼CEO顾小毛的愿景中，他们希望将Walulu打造成“AI时代的宝可梦”。 这并非雨之灵动最早的想...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "8点1氪丨美国总统特朗普：非常期待中国之行  ；OPPO发布母亲节文案事件问责通告；快手计划分拆可灵AI，融资20亿美元",
-     "url": "<![CDATA[https://36kr.com/p/3805557782486785?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "今日热点导览 天舟十号货运飞船与空间站组合体完成交会对接 国家广播电视总局：4月经备案国产电视动画片51部、9659分钟 任天堂股价因Switch 2游戏前景不佳大幅下跌 千问与淘宝打通，正式上线AI购物 TOP3大新闻 美国总统特朗普：非常期待中国之行 外交部发言人宣布：应国家主席习近平邀请，美利坚合众国总统唐纳德·特朗普将于5月13日至15日对中国进行国事访问。 当地时间5月11日，美国总统特朗普在其社交媒体“真实社交”发文表示，非常期待即将开启的中国之行，并称中国是“一个令人惊叹的国家”。(央视新闻) OPPO就母亲节文案事件发布问责通告，高级副总裁职级直降两级 5月11日，界面新...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "快手：正在评估拟议重组可灵AI之相关资产及业务的方案，拟议方案仍处于初步阶段",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3805794741804809?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "36氪获悉，快手公告，公司注意到，于2026年5月11日，有媒体报道本公司有意就本集团可灵AI之相关资产及业务获取外部融资及拟议独立上市。公司谨此向股东及投资者作出更新，为了进一步利用外部财务资源，本公司董事会正在评估拟议重组可灵AI之相关资产及业务的方案，其中或涉及引入外部融资。于本公告日期，上述拟议方案仍处于初步阶段，本公司尚未就此签署任何最终协议。概不保证该等拟议方案将会进行。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "美股IPO在即，美众议院监督委员会对OpenAI首席执行官展开调查",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3805787720785665?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "据报道，在OpenAI即将IPO之际，该公司CEO山姆·奥特曼的个人投资正受到美共和党人愈发严格的审查。美众议院监督委员会已展开调查，以查明是否存在潜在利益冲突，而多个共和党州检察长则呼吁美国证监会对其进行审查。（界面）",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
-     "url": "https://www.qbitai.com/2026/05/415714.html",
-     "source": "量子位",
-     "date": "2026-05-11",
-     "summary": "Cerebras预计本周公布定价",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "泰国批准近万亿泰铢投资，新加坡被列为AI过渡市场｜SEA Now",
      "url": "https://cn.technode.com/post/2026-05-11/now-for-2026-05-04-2026-05-10/",
      "source": "动点科技 - AI",
      "date": "2026-05-11",
      "summary": "2026.05.04-2026.05.10",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "氪星晚报 ｜千问与淘宝打通，正式上线AI购物；泡泡玛特将在5月13日举行2026年一季度业务更新电话会",
-     "url": "<![CDATA[https://36kr.com/p/3804795647729411?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-11",
-     "summary": "大公司： 百济神州：第一季度净利润为16.08亿元，同比扭亏为盈 36氪获悉，百济神州发布2026年一季度业绩报告。报告显示，2026年第一季度实现营业收入105.44亿元，同比增长31.0%；归属于上市公司股东的净利润为16.08亿元，上年同期亏损，同比扭亏为盈。业绩变动主要系产品收入增长和费用管理推动了经营效率的提升。 营收确认规则是否存在调整可能？贵州茅台回应 5月11日，贵州茅台召开2025年度及2026年第一季度业绩说明会。会上，针对公司营业收入确认规则以及后续是否存在调整的可能的提问，贵州茅台财务总监、代董事会秘书余思明回应表示，公司严格按照财政部《企业会计准则第14号——收...",
      "is_new": true,
      "lang": "zh"
     }
@@ -991,8 +933,17 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 51,
+   "count": 49,
    "cards": [
+    {
+     "title": "Once again, SpaceX has set a new record for the tallest rocket ever built",
+     "url": "https://arstechnica.com/space/2026/05/spacex-completes-fueling-test-setting-stage-for-first-launch-of-starship-v3/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-12",
+     "summary": "SpaceX cleared an important milestone Monday on the road to launching a new version of Starship.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
      "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
@@ -1080,15 +1031,6 @@ const APP_DATA = {
      "source": "ArsTechnica - AI",
      "date": "2026-05-11",
      "summary": "Rather than dig in, the sport is being proactive about fixing the problem.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Sony's failed war against Internet piracy may doom other copyright lawsuits",
-     "url": "https://arstechnica.com/tech-policy/2026/05/sonys-failed-war-against-internet-piracy-may-doom-other-copyright-lawsuits/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-11",
-     "summary": "Cable firm Cox's Supreme Court win may help all tech providers, not just ISPs.",
      "is_new": true,
      "lang": "en"
     },
@@ -1188,15 +1130,6 @@ const APP_DATA = {
      "source": "TechCrunch - AI",
      "date": "2026-05-09",
      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-     "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-08",
-     "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
      "is_new": false,
      "lang": "en"
     },
@@ -1345,20 +1278,47 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "AI第一金主黄仁勋：日均花掉20亿",
+     "url": "https://www.qbitai.com/2026/05/416540.html",
+     "source": "量子位",
+     "date": "2026-05-12",
+     "summary": "“AI御三家”都投了",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "Markdown要凉…卡帕西也站HTML了",
+     "url": "https://www.qbitai.com/2026/05/416339.html",
+     "source": "量子位",
+     "date": "2026-05-12",
+     "summary": "去质疑一切吧",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "通用汽车裁减超600名IT员工，用人需求转向AI方向",
+     "url": "https://cn.technode.com/post/2026-05-12/gm-cuts-over-600-it-jobs-shifts-hiring-toward-ai/",
+     "source": "动点科技 - AI",
+     "date": "2026-05-12",
+     "summary": "近一年多来，通用汽车持续调整软件和技术团队",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "CVPR 2026 3D 视觉前沿梳理：模型正在学会理解、生成和构建世界",
+     "url": "https://www.leiphone.com/category/ai/AgZr3UPqBUgK1Dv2.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-12",
+     "summary": "3D 视觉正从重建生成，走向空间理解、动态模拟与工程化应用。 作者丨郑佳美 编辑丨岑 峰 如果说过去几年的视觉 AI 主要是在回答“模型能不能看懂一张图”，那么到 CVPR 2026，一个更清晰的趋势正在浮现：模型正在被要求理解图像背后的三维世界。二维图像只是现实世界在某个视角下的投影，真正困难的地方不在于生成一张看起来合理的画面，而在于模型能否理解物体的空间结构、相机运动、材质光照、物理变化，以及这些信息在不同视角和不同时间中的一致性。从今年的一系列 3D 视觉相关工作可以看到，研究重点正在从“生成结果是否好看”，转向“生成过程是否具备空间逻辑”。有的工作试图通过自监督 3D 重建，让...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
      "url": "https://www.qbitai.com/2026/05/415842.html",
      "source": "量子位",
      "date": "2026-05-11",
      "summary": "AI时代最贵的东西，已经不是模型了",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
-     "url": "https://www.qbitai.com/2026/05/415403.html",
-     "source": "量子位",
-     "date": "2026-05-11",
-     "summary": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
      "is_new": true,
      "lang": "zh"
     },
@@ -1415,42 +1375,6 @@ const APP_DATA = {
      "summary": "近日，国际顶级学术期刊《Science》发布专题报道，聚焦全球前沿材料科学领域的顶级学者。材科源图（MatSource）董事长李昊教授在报道中接受专访，分享了他对材料科学未来发展的深刻洞见。全新格局与新范式“ What we need is a new landscape, a new paradigm. ”——材科源图董事长李昊教授李昊教授在接受《Science》采访时提出的这一核心观点，不仅直击了传统材料科学“高成本、长周期、依赖试错与经验”的发展痛点，更深刻洞察了当前行业所处的关键转型期。他指出，随着人工智能与数据驱动方法的快速发展，未来的材料研发必须突破“单一材料、单一性能”的局...",
      "is_new": true,
      "lang": "zh"
-    },
-    {
-     "title": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互",
-     "url": "https://www.qbitai.com/2026/05/415048.html",
-     "source": "量子位",
-     "date": "2026-05-10",
-     "summary": "福尔摩斯探案都能演",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "浙大校友用AI突破32年拉姆齐数下界",
-     "url": "https://www.qbitai.com/2026/05/415031.html",
-     "source": "量子位",
-     "date": "2026-05-10",
-     "summary": "拉姆齐数R(3,17) 下界从92提升至93",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "Ozon大中华区总裁Simon Huang：中国卖家，正在涌向俄罗斯｜专访",
-     "url": "<![CDATA[https://36kr.com/p/3802822550839047?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-10",
-     "summary": "编者按：上个月月底，36氪在厦门参加了一场Ozon全球招商启动大会，我们发现现场人山人海。火热的出海和国内经济形成鲜明对比，特别是一组数据吸引了我们注意：尽管俄罗斯电商渗透率在2025年才23%，但是Ozon在2017年至2025年间，实现了91%的年均复合增长率。 这些高增长数据背后，似乎隐藏着比较大的商业机会，但机会究竟是什么？中国卖家如何在AI时代抓住？那边电商处于什么阶段？带着这些疑问，36氪和Ozon大中华区总裁Simon Huang（黄效）进行了一次交流。结论就是：俄语区还有比较长的红利期，中国电商迁移过去有足够的品牌优势、供应链优势，以及运营优势。以下为正文： 过去几年，中...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "播放破亿的 AI 短片，名场面是一个「穿帮镜头」| 对话《纸手机》主创",
-     "url": "https://www.ifanr.com/1661163?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-09",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   }
@@ -1461,8 +1385,8 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42504,
-   "forks": 7540,
+   "stars": 42506,
+   "forks": 7554,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1492,8 +1416,8 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25876,
-   "forks": 5718,
+   "stars": 25886,
+   "forks": 5720,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1521,8 +1445,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18657,
-   "forks": 1697,
+   "stars": 18660,
+   "forks": 1699,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1541,7 +1465,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17903,
+   "stars": 17905,
    "forks": 1139,
    "language": "Python",
    "topics": [
@@ -1568,8 +1492,8 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15151,
-   "forks": 2307,
+   "stars": 15154,
+   "forks": 2308,
    "language": "C++",
    "topics": [
     "arm",
@@ -1622,7 +1546,7 @@ const APP_DATA = {
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "stars": 11360,
-   "forks": 825,
+   "forks": 826,
    "language": "Rust",
    "topics": [
     "ai",
@@ -1684,7 +1608,7 @@ const APP_DATA = {
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "blurb": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "stars": 8642,
-   "forks": 959,
+   "forks": 961,
    "language": "Python",
    "topics": [
     "ai-inference",
@@ -1709,7 +1633,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7483,
+   "stars": 7484,
    "forks": 843,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1778,7 +1702,7 @@ const APP_DATA = {
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
    "blurb": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5474,
+   "stars": 5475,
    "forks": 1362,
    "language": "Unknown",
    "topics": [
@@ -1832,7 +1756,7 @@ const APP_DATA = {
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
    "blurb": "A blazing fast inference solution for text embeddings models",
-   "stars": 4789,
+   "stars": 4790,
    "forks": 387,
    "language": "Rust",
    "topics": [
