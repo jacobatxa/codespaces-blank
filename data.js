@@ -1,7 +1,7 @@
 const APP_DATA = {
  "today": "2026-05-13",
- "fetched_at": "2026-05-13T06:00:24",
- "total": 145,
+ "fetched_at": "2026-05-13T12:00:55",
+ "total": 130,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -48,7 +48,7 @@ const APP_DATA = {
    "color": "#eab308"
   },
   "APPSO": {
-   "count": 7,
+   "count": 5,
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
@@ -60,12 +60,8 @@ const APP_DATA = {
    "color": "#f97316"
   },
   "雷锋网 - AI": {
-   "count": 15,
+   "count": 13,
    "color": "#8b5cf6"
-  },
-  "36氪 - AI": {
-   "count": 11,
-   "color": "#ec4899"
   }
  },
  "shortNames": {
@@ -93,7 +89,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 40
+   "count": 34
   },
   {
    "name": "AI Agent与智能体",
@@ -105,37 +101,37 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 9
+   "count": 5
   },
   {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 4
+   "count": 5
   },
   {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 5
+   "count": 4
   },
   {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 2
+   "count": 3
   },
   {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 19
+   "count": 17
   },
   {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 57
+   "count": 53
   }
  ],
  "sections": [
@@ -143,7 +139,7 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 40,
+   "count": 34,
    "cards": [
     {
      "title": "Medicare’s new payment model is built for AI, and most of the tech world has no idea",
@@ -299,15 +295,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "OpenAI just released its answer to Claude Mythos",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
-     "source": "The Verge - AI",
-     "date": "2026-05-11",
-     "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likel...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "How ChatGPT adoption broadened in early 2026",
      "url": "https://openai.com/signals/research/2026q1-update",
      "source": "OpenAI Blog",
@@ -389,6 +376,24 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
+     "url": "https://www.qbitai.com/2026/05/416963.html",
+     "source": "量子位",
+     "date": "2026-05-13",
+     "summary": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
+     "url": "https://www.qbitai.com/2026/05/416870.html",
+     "source": "量子位",
+     "date": "2026-05-13",
+     "summary": "谷歌把Gemini塞进了Android",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "爱思唯尔把Meta告了：拿Sci-Hub盗版论文训练大模型",
      "url": "https://www.qbitai.com/2026/05/416576.html",
      "source": "量子位",
@@ -407,20 +412,20 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "深耕“具身智能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
-     "url": "<![CDATA[https://36kr.com/p/3807039782116865?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "Android Auto 全面更新，看齐 Carplay！还有更「懂车」的 Gemini",
+     "url": "https://www.ifanr.com/1665693?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
      "date": "2026-05-13",
-     "summary": "36氪获悉，智能建造机器人本体开发商北京方石机器人有限公司（下称「方石机器人」）近期宣布完成近亿元A轮融资，由北京科创亦庄直投基金、航发基金等机构联合投资。资金将主要用于核心产品的研发迭代投入、批量化生产交付能力建设以及海外市场体系布局。 方石机器人产品矩阵 方石机器人成立于2019年，致力于解决建筑行业用工老龄化、作业环境高危低效等痛点，通过打造全栈自研的“具身智能+建筑大模型”AI解决方案，推动传统建筑业向智能建造模式转型。目前，公司已深度服务中国建筑、中国铁建等100余家头部建筑企业，落地超500个标杆工程，累计施工面积突破1500万平方米。 2023年以来，方石机器人产品逐步进入...",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": true,
      "lang": "zh"
     },
     {
-     "title": "8点1氪丨宇树发布载人变形机甲，定价390万起；微信确认不会开发已读、访客功能；国内航线燃油附加费将再上调",
-     "url": "<![CDATA[https://36kr.com/p/3806970999955201?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "联发科技×阶跃星辰，音乐大模型可视化部署，AI适配效率迎来质的飞跃",
+     "url": "https://www.leiphone.com/category/industrynews/s6ADc4GS8GIRuS4L.html",
+     "source": "雷锋网 - AI",
      "date": "2026-05-13",
-     "summary": "今日热点导览 中央网信办：平台发布短视频必选6类标签 抖音集团短剧版权中心：2026年真人短剧的保底扶持预算超15亿元 快手：正在评估拟议重组可灵AI之相关资产及业务的方案，拟议方案仍处于初步阶段 网易云音乐全面接入DeepSeek-V4 阿里发布AI店小蜜，平均询单转化提升超10% TOP3大新闻 宇树科技发布GD01载人变形机甲，投资人回应 5月12日，宇树发布GD01载人变形机甲GD01，定价390万元起。宇树创始人王兴兴亲自登上机甲驾驶舱，并演示了一段真人操作。根据官方介绍，该产品为全球首款量产版载人机甲，可以变形，民用交通工具，体重约500kg（载人后）。宇树早期投资人赵楠表示...",
+     "summary": "5月13日，联发科技在天玑开发者大会MDDC 2026上发布了天玑AI开发套件3.0，并展示了将阶跃星辰ACE-Step 音乐模型通过端侧可视化部署到天玑9500平台上，大幅度提升了模型及算法的移植效率。基于此，手机、汽车等终端领域品牌方，可以通过天玑AI开发套件，在天玑平台上快速为消费者打造极致的音乐生成产品体验。 据介绍，大模型端侧部署长期面临模型体积大、功耗高、移植周期长等工程挑战。联发科技携手阶跃，通过天玑AI开发套件 3.0，实现了ACE-Step音乐模型在端侧的可视化部署。相较于传统 SDK，模型移植速度提升 50%，算法端侧移植效率提升 10 倍；相同质量下模型压缩率提升 ...",
      "is_new": true,
      "lang": "zh"
     },
@@ -440,69 +445,6 @@ const APP_DATA = {
      "date": "2026-05-12",
      "summary": "家中监控不停推送“有人移动”“有车经过”等重复提醒，用户被海量无效信息淹没，真正关键的事件却容易被忽略；想回看某个片段只能手动逐条翻找，耗时耗力……传统安防正从“被动记录”走向“主动感知”，用户对智能监控的需求早已不满足于“看得见”，更要求“看得懂、判得准、反应快”。在此背景下，作为全球民用智慧物联网领先企业的乐橙，不断思考如何提升其产品体系的服务能力。2025年，乐橙与火山引擎达成深度合作，双方围绕豆包大模型、云服务、边缘计算、数据产品等展开智能家居全场景的升级探索，结合火山引擎和豆包大模型开发乐橙AI智见大模型服务，旨在解决当前家庭安防场景中“信息过载、关键事件难捕捉、重复提醒”等用...",
      "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "何恺明团队论文全景扫描：一场关于「生成范式」的多角度突破 | CVPR 2026",
-     "url": "https://www.leiphone.com/category/ai/dIG98W2KaEKFQ5Xp.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-12",
-     "summary": "2025 年到 2026 年，如果要问生成式 AI 领域最值得关注的研究方向，流匹配（Flow Matching） 是一个无法绕开的答案。从去年起，这个名字开始频繁出现在顶会论文里、被工业界反复讨论、被拿来和统治了图像生成领域长达五年的扩散模型正面比较。所谓流匹配，本质上是用常微分方程路径（ODE path）替代扩散模型的随机微分方程路径，让数据从噪声到图像的转变不再依赖数百步迭代，从而在理论上实现更高效的生成。但从理论可行到工程落地，中间隔着无数技术细节——训练目标怎么设计、架构怎么选、速度和质量如何兼顾，每一步都是坑。何恺明团队正是在这个节点上，密集地交出了一份多角度的答卷。AI科技...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "谁来解决大模型的“最后一公里”工程难题？",
-     "url": "https://www.leiphone.com/category/industrynews/rT4Gl5nSCqJunF8o.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-12",
-     "summary": "2026年的AI行业正陷入一种集体焦虑——DeepSeek、Kimi、Qwen……当一家企业的技术栈里躺着五到十个不同厂商的API密钥时，“多模接入”从战略优势变成了工程噩梦。协议不统一、计费黑盒化、故障切换靠人工、敏感数据在各部门的代码里裸奔——这些藏在模型能力之下的“隐性成本”，正在吃掉企业的AI预算。大模型产业的天平正在倾斜：上半场的赢家是参数规模最大的那个，下半场的赢家则可能是让模型真正“好用”的基础设施。ThinkFlow登场：给大模型时代造一个“智能调度层”记者获悉，网易有道智云近日正式发布企业级大模型聚合平台ThinkFlow。它负责解决一个被长期忽视的关键问题：当企业面对...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "不用再找了，AI落地最全的实战打法，都在亦庄这场大会里",
-     "url": "<![CDATA[https://36kr.com/p/3806179759496711?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "5月19日至20日，带上你的需求， 带上你的方案，我们在亦庄，不见不散。 如果说过去两年，我们还在争论AI的能力边界，那么2026年的资本市场与产业端已经给出了最直接的回答：AI正经历着一场严苛的“前线压力测试”。 从资本市场用真金白银为应用层投票，到全球科技界重新校准AI的价值尺度，聚光灯正从晦涩的参数竞赛，转向了真实的生产生活。当行业洗牌加速，所有人都在寻找那个能将技术兑换为价值的确定性坐标。 在这样的关键时刻，北京经开区充分发挥产业高地与政策策源地的引领作用，为AI落地提供了前瞻性的亦庄路径：以全域开放的产业图景为底座，用丰富的落地场景牵引技术创新，推动“人工智能+”在垂直行业深度...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "独家丨腾讯混元3幕后：重构架构，姚顺雨一场非典型的「逆袭」",
-     "url": "https://www.leiphone.com/category/industrynews/RcXIQ9rNkYJhHTCE.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-11",
-     "summary": "早在三月，提起马上要上线的混元 3.0，在腾讯混元工作的同学左飞就对雷峰网说过：“这次混元的新版本，其实团队预期不算太高。”一个月后，4 月 23 日晚，Hy3 的 Preview 版本正式发布，同步开源，向世界展示自己最真实的样子。雷峰网独家获悉，Hy3 规模更大、功能更全面的闭源旗舰版本将在五六月份发布，给人留下不少想象空间。（腾讯混元的新进展，雷峰网正在持续关注，欢迎添加作者微信：william_dong，交流信息，探讨认知。）说起来，腾讯 Hy3 Preview 的发布也有点“生不逢时”——前有 GPT 5.5 举世围观，后有 DeepSeek V4 重磅回归，被夹在中间的混元，...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "360内部启动“龙虾计划”：每人1亿Token自动到账 “龙虾教练”即将亮相",
-     "url": "https://www.leiphone.com/category/industrynews/ovhSH6doEiluAvyZ.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-11",
-     "summary": "360公司近日发布全员信，宣布向全体员工每人发放1亿Token，用于使用“360安全龙虾”AI智能体平台，额度无需申请，已自动充值到员工账户。此次统一发放Token，被视为360探索“人机协同”新工作模式的重要动作。公司内部人士透露，希望通过“人手一支AI专家团”，推动员工从“使用AI工具”升级为“带着AI团队工作”，实现“人人都是超级个体”。据悉，目前360安全龙虾已内置上百个专业智能体，覆盖代码开发、知识问答、办公协作、行业分析、内容创作等多个场景，其中既包括Claude Code、codex等开发专家，也有面向经营分析、商业决策等方向的“CEO智囊团”智能体。据内部人士透露，360...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "魔法原子登陆硅谷，行业首个「自进化具身大脑」发布",
-     "url": "https://www.leiphone.com/category/ai/c9KxiRBbg7PfqVqH.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-11",
-     "summary": "英伟达、亚马逊都来了。 作者丨齐铖湧 编辑丨马晓宁 美西时间 4 月 28 日，硅谷迎来一场关乎具身智能未来走向的重磅盛会。大会全称为全球具身智能创新大会，简称 GEIS。作为首届全球性具身峰会，GEIS 不仅吸引了 Openmind、PrismaX AI、Cosmicbrain AI、Physis 等一众硅谷前沿 AI 企业深度参与，更汇聚图灵奖得主、密码学先驱 Martin Hellman，英伟达 GEAR Lab 高级研究科学家 Zhengyi Luo，亚马逊前沿 AI 与机器人研究院科学家 Haozhi Qi 等知名学者，展开前沿技术深度对话，成为一场高规格行业前瞻盛会。值得关注...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "鹿明机器人完成数亿元A1及A2轮融资，产业巨头深度参与，累计融资近10亿元",
-     "url": "https://www.leiphone.com/category/industrynews/VqCT68PHdtdfvHXy.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-11",
-     "summary": "近日，产业具身领军企业鹿明机器人宣布，连续完成A1及A2两轮融资。其中A1轮融资由三菱电机智能制造科技（中国）集团有限公司（统筹在中国的工业自动化事业，以下简称“三菱电机”）领投，老股东普华资本、吴中金控等超额跟投，A2轮融资由三菱电机继续领投，恒生电子、海高集团、昆石投资等产业方跟投。两轮融资完成后，公司累计融资近10亿元。融资将用于公司具身大模型研发和场景拓展的持续投入。本轮融资引入包括全球工业自动化领域巨头三菱电机在内的多家头部产业方参与，进一步强化了公司在场景落地与产业协同方面的能力。通过与头部产业方的深度合作，鹿明机器人将技术能力嵌入真实生产体系，加速具身智能从场景落地走向规模...",
-     "is_new": false,
      "lang": "zh"
     }
    ]
@@ -586,11 +528,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
-     "url": "https://www.qbitai.com/2026/05/416582.html",
-     "source": "量子位",
-     "date": "2026-05-12",
-     "summary": "累计发现23个独立安全漏洞",
+     "title": "当 AI Agent 走向无处不在，MediaTek 想做的不只是手机芯片",
+     "url": "https://www.ifanr.com/1665681?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
+     "date": "2026-05-13",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": true,
      "lang": "zh"
     }
@@ -600,7 +542,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 9,
+   "count": 5,
    "cards": [
     {
      "title": "The Unitree GD01 Is a Giant Mecha Robot You Can Actually Buy",
@@ -621,29 +563,11 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "6月上海，这场论坛聊透出海真问题",
-     "url": "<![CDATA[https://36kr.com/p/3807234971131656?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "无界关怀，GReAT 2026共议具身康养未来",
+     "url": "https://www.leiphone.com/category/ai/VtU0MaEGqS3Kw5DN.html",
+     "source": "雷锋网 - AI",
      "date": "2026-05-13",
-     "summary": "副标题：韧性全球化，AI向未来｜EqualOcean2026出海全球化百人论坛（GGF2026）将于6月11日在上海举行 出海这件事，已经变了。 如果今天还把出海理解为“寻找增量市场”，大概率已经慢了一步。 如今，中国企业出海已经进入一个全新的阶段。真正拉开差距的，早已不是“是否出海”，而是： · 下一阶段最值得重仓的区域市场在哪里？ · AI应该优先进入哪些关键环节，才能形成真正差异化？ · 在资本趋于理性、增长更重质量的背景下，什么样的公司还具备穿越周期的可能性？ · 对于具身智能、自动驾驶、AI硬件等新技术企业而言，如何跨越从技术验证到场景落地、从产品展示到规模商业化的关键门槛？ ...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "众擎机器人增资至3206.8万，增幅900%",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3807169197825796?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-13",
-     "summary": "36氪获悉，天眼查App显示，近日，众擎机器人关联公司深圳众擎机器人科技股份有限公司发生工商变更，注册资本由约320.7万人民币增至约3206.8万人民币，增幅900%。该公司成立于2023年10月，法定代表人为赵同阳，经营范围含智能机器人的研发、智能机器人销售、工业机器人销售、人工智能双创服务平台、人工智能理论与算法软件开发、人工智能基础软件开发、人工智能通用应用系统、软件开发等。股东信息显示，该公司由赵同阳、Stone Robotics L.L.C-FZ、深圳市众鸣投资合伙企业（有限合伙）等共同持股。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "商汤善惠烧卖购机器人小店上海“开业”，让机器人真正落地线下零售",
-     "url": "https://www.qbitai.com/2026/05/416590.html",
-     "source": "量子位",
-     "date": "2026-05-12",
-     "summary": "打造“一人多面”的具身智能便利店",
+     "summary": "2026年5月13日，全球智能康复与机器人技术峰会（GReAT 2026）在上海张江机器人谷举行。本次大会以“无界关怀：突破康复边界，走向真实应用”为主题，汇聚了近百位来自全球临床康复与机器人领域的顶尖专家、行业领袖与合作伙伴，围绕机器人技术、人工智能与物联护理系统等前沿方向展开深入交流，探索康复向全周期、持续性服务转型的路径，推动前沿机器人技术走向真实应用场景。大会期间，傅利叶分别与新加坡国立医疗集团（NHG Health）和日本顶尖研究机构名古屋大学签署战略合作协议，进一步深化全球具身康养创新合作，加速康复与机器人技术的临床转化。其中，傅利叶与NHG Health自2021年首次建立...",
      "is_new": true,
      "lang": "zh"
     },
@@ -664,24 +588,6 @@ const APP_DATA = {
      "summary": "当机器从识别图像走向介入现实，视觉研究的边界也被重新划定。 作者丨郑佳美 编辑丨马晓宁 如果您漫步在 CVPR 2026 的会场，会产生一种强烈的错觉：自己是不是跑错了场馆，误入了 ICRA 或者 IROS 的现场？满屏的机械臂抓取、足式机器人的越野导航、以及在虚拟沙盒中进行千亿次迭代的物理模拟。具身智能（Embodied AI）已经不再是视觉领域的一个“边缘分支”，而是以一种占据主舞台的姿态，成为视觉顶会最难被忽视的叙事之一。这种范式的易位，让人们不禁回想起 2017 年机器人学界的顶级盛会 IROS。当时，机器人专家们打破了固守多年的运动学控制圈层，邀请计算机视觉泰斗、ImageNe...",
      "is_new": true,
      "lang": "zh"
-    },
-    {
-     "title": "愿景2036丨一场关于未来10年AI技术主权争夺战，追觅打了头阵",
-     "url": "https://www.leiphone.com/category/weiwu/qzNsjHpqOoV0W2HX.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-12",
-     "summary": "2026年的春天，硅谷的空气里弥漫着未来的气息。美国时间4月28日，追觅科技在这里呈现了一个覆盖起居、烹饪、清洁、护理乃至庭院的庞大智能产品矩阵。能感知用户、定向送风的空调，能管理全家营养健康的冰箱，能自主完成全流程的洗衣机器人，以及更聪明的割草机、泳池机器人……这些产品共同指向一个明确的信号：AI正在深入硬件的骨髓，重写每一个家电品类的定义。行业喧嚣，人人皆言“重做一遍”。然而，口号背后，一个更现实的问题浮现：谁有能力定义这场“重写”的标准与方向？或者说，在即将到来的新牌局中，谁具备坐上“主桌”、参与制定核心规则的资格？追觅的硅谷展示，可被视为对这一问题的一次系统性回应。其回应的重点在...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "36氪首发｜新加坡博士团队创业获种子轮融资，首款产品做“会飞的家庭管家”",
-     "url": "<![CDATA[https://36kr.com/p/3805672617959173?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，深圳熵约智能科技有限公司（下称“熵约科技”）日前完成数百万美元种子轮融资，本轮融资由初心资本独家投资。 熵约科技由新加坡南洋理工大学博士曾武，马来西亚理科大学博士况伟杰，清华智能产业研究院研究员万浩诚共同创立，核心团队成员来自清华大学、华中科技大��，南京航空航天大学，字节跳动，比亚迪等高校和企业，背景覆盖人工智能、理论物理与微型无人机系统。 目前，熵约科技的首款产品针对家庭空间设计，为全球首款家庭飞行机器人Flyer O1。 （图源/企业） 曾武介绍称：“家庭环境中，地面环境其实是多障碍的，设备活动受限；而空中空间相对开阔，因此我们选择从飞...",
-     "is_new": true,
-     "lang": "zh"
     }
    ]
   },
@@ -689,7 +595,7 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 4,
+   "count": 5,
    "cards": [
     {
      "title": "Google's Android-powered laptops are called Googlebooks, and they're coming this year",
@@ -719,6 +625,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "马斯克、库克随特朗普访华，黄仁勋虽迟但到；SK海力士中国员工无法做管理层，奖金不到韩国人的5%；390万元起！宇树发布载人变形机甲",
+     "url": "https://www.leiphone.com/category/zaobao/rod6WpUrAa8maOpv.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-13",
+     "summary": "要闻提示1.特朗普访华在即，随行商界大咖名单公布：马斯克、库克在列，黄仁勋虽迟但到2.390万元起，宇树发布载人变形机甲！具备大批量生产能力3.SK海力士中国员工奖金不到韩国人的5%，且无法做管理层4.5000陪我一晚？沪上阿姨官号竟骚扰消费者，涉事门店：被盗号5.拓竹发布纯净 PLA 耗材，主打极简配方和成分公开6.腾讯收购喜马拉雅股权案获批！设五大限制性条件：不得涨价、不得独家7.Anthropic洽谈融资300亿美元，估值超9000亿美元8.苹果研发重心转向智能眼镜，新款Vision Pro至少要等2年今日头条特朗普访华在即，随行商界大咖名单公布：马斯克、库克在列，黄仁勋虽迟但到5...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "早报｜曝苹果新Vision Pro研发已暂停，团队分拆/黄仁勋：AI让所有人站上同一条起跑线/微信状态将推出「访客记录」",
      "url": "https://www.ifanr.com/1665508?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
      "source": "APPSO",
@@ -733,7 +648,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 5,
+   "count": 4,
    "cards": [
     {
      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
@@ -741,15 +656,6 @@ const APP_DATA = {
      "source": "OpenAI Blog",
      "date": "2026-05-11",
      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "There’s a Long-Shot Proposal to Protect California Workers From AI",
-     "url": "https://www.wired.com/story/tom-steyer-proposes-jobs-guarantee-to-protect-california-workers-from-ai/",
-     "source": "Wired - AI",
-     "date": "2026-05-08",
-     "summary": "California gubernatorial candidate Tom Steyer is proposing a new jobs guarantee for workers displaced by artificial intelligence.",
      "is_new": false,
      "lang": "en"
     },
@@ -763,20 +669,20 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "36氪首发 | 清华系光计算芯片企业完成数千万天使轮融资，瞄准全波光计算架构",
-     "url": "<![CDATA[https://36kr.com/p/3807043342475009?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "阿里云外部收入增长40%创新高，AI收入占比首破30%",
+     "url": "https://www.leiphone.com/category/industrynews/bun2xa6hMdgmEPLh.html",
+     "source": "雷锋网 - AI",
      "date": "2026-05-13",
-     "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，近日，光子芯力（北京）科技有限公司（以下简称“光子芯力”）宣布完成数千万元天使轮融资，由苏州芯阳基金、驰星创投、盛景嘉成联合领投，开源创投跟投。 光子芯力成立于2024年，总部位于北京，是一家专注于光电融合计算芯片的硬科技初创公司。公司创始人杨其晟博士毕业于清华大学集成电路学院，具备光电融合交叉背景，核心团队亦主要来自清华大学，成员覆盖光学、算法、半导体及产业资源等方向。 当前，光计算正被视为突破电子芯片“功耗墙”“存储墙”的重要方向之一，行业也逐渐进入产业化前夜。光子芯力的核心产品聚焦于光电异构计算芯片及配套软件工具链。 硬件层面，光子芯力...",
+     "summary": "5月13日，阿里巴巴集团发布最新季度业绩。截至2026年3月31日止季度，阿里云收入同比增长38%至416.26亿元，剔除阿里巴巴并表业务后的外部商业化收入增速进一步加速至40%，创下近年新高。其中，AI相关产品收入达89.71亿元，连续第11个季度实现三位数同比增长，占外部收入比重首次突破30%。截至2026年3月，百炼平台的客户数量同比增长了8倍，反映出企业级市场对AI需求的加速释放。季度内，阿里在芯片、模型、云和应用方面均有突破。芯片层面，平头哥GPU芯片已实现规模化量产，截至26年2月，已经累计规模化交付47万片。在阿里云的实际业务场景，60%以上的平头哥芯片服务于外部商业化客户...",
      "is_new": true,
      "lang": "zh"
     },
     {
-     "title": "创业板指涨逾2%，上涨个股近3300只",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3807302307667721?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "独家丨华为、联想、富瀚微罕见「同框」，00后空间智能创业者连续获得两轮融资",
+     "url": "https://www.leiphone.com/category/ai/P1qQacTDnhEIunZu.html",
+     "source": "雷锋网 - AI",
      "date": "2026-05-13",
-     "summary": "36氪获悉，指数走强，创业板指拉升涨逾2.00%，沪指涨0.43%，深成指涨1.28%。培育钻石、存储芯片、算力租赁、电力电网等方向涨幅居前，沪深京三市上涨个股近3300只。",
+     "summary": "4D基座世界模型的 Scaling Law 呈线性可预测提升。 作者丨齐铖湧 编辑丨马晓宁 据AI科技评论独家获悉，魔芯科技近日正式完成新一轮近亿元融资。本轮由富瀚微股份、联融志道（联想控股旗下基金）、浙创投联合投资，老股东跟投。叠加一个月前华为哈勃领投的Pre-A+轮，魔芯科技在近两个月内已连续拿到两轮近亿元融资。魔芯科技的投资方目前包括，华为哈勃（算力底座）、富瀚微（核心视觉芯片）、联想控股（智能终端+产业支持）、浙创投（国资产业资本），是一个产业链关键节点+场景落地+产业生态+国资背书的完整逻辑链条。其创始人陈天润为00后浙大在读博士生，师从中国工程院院士、原浙江大学校长潘云鹤。（...",
      "is_new": true,
      "lang": "zh"
     }
@@ -786,7 +692,7 @@ const APP_DATA = {
    "name": "开源与生态",
    "icon": "🌐",
    "color": "#2563eb",
-   "count": 2,
+   "count": 3,
    "cards": [
     {
      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
@@ -798,11 +704,20 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "龙虾退烧后，荣耀给它造了一个宇宙",
-     "url": "https://www.qbitai.com/2026/05/416081.html",
+     "title": "高德与千问C端应用团队开源AGenUI：首个覆盖iOS、安卓、鸿蒙三端的原生A2UI框架",
+     "url": "https://www.qbitai.com/2026/05/416864.html",
      "source": "量子位",
-     "date": "2026-05-12",
-     "summary": "OpenClaw 不缺掌声了，它缺的是一个能长期生长的硬件生态。",
+     "date": "2026-05-13",
+     "summary": "无需为不同平台分别写UI代码",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "“收钱”Skill来了！度小满发布 ClawPay",
+     "url": "https://www.leiphone.com/category/industrynews/huYBUWTVyvMCXOC1.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-13",
+     "summary": "5月13日，在Create 2026百度AI开发者大会上，度小满发布了面向AI Skill开发者的支付解决方案“度小满ClawPay”。该产品将计费、下单、支付唤起等能力封装为标准化技术服务，帮助开发者零代码完成支付模块嵌入，打通从技术开发到商业变现的“最后一公里”。过去两年，AI应用生态经历爆发式增长。以OpenClaw为代表的开放平台涌现了大量Skill，但开发者想为自己的Skill 收费时，却发现一个难题：如何找到合适的支付通道？当前，接入支付通道，Skill开发者需要解决两个问题：一个是需要自行编写下单逻辑、搭建计费引擎、对接支付接口，这对于以AI算法为核心能力的团队而言，是一项...",
      "is_new": true,
      "lang": "zh"
     }
@@ -812,7 +727,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 19,
+   "count": 17,
    "cards": [
     {
      "title": "Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says",
@@ -914,6 +829,15 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "AI拿婚外情写勒索邮件，查一年告诉我科幻小说教坏的",
+     "url": "https://www.qbitai.com/2026/05/416831.html",
+     "source": "量子位",
+     "date": "2026-05-13",
+     "summary": "Anthropic新研究实锤了",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "奥特曼趁马斯克出差爆猛料：他曾想让子女继承OpenAI",
      "url": "https://www.qbitai.com/2026/05/416739.html",
      "source": "量子位",
@@ -923,11 +847,20 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "日本大型银行最快将于本月开始使用Anthropic公司的Mythos系统",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3807240731909639?f=rss]]>",
-     "source": "36氪 - AI",
+     "title": "全球AI药物递送第一股剂泰科技挂牌港交所，“制药界Space X”开启生物制药新纪元",
+     "url": "https://www.leiphone.com/category/industrynews/3Pcg0HIFltLk3YNa.html",
+     "source": "雷锋网 - AI",
      "date": "2026-05-13",
-     "summary": "日本经济新闻周三报道称，日本三大银行最快将于5月底获得Anthropic公司开发的人工智能模型Mythos的使用权。报道称，三菱UFJ金融集团、三井住友金融集团 以及瑞穗金融集团的银行部门，很可能已在周二于日本举行的会议上，从美国财政部长斯科特·贝森特处获悉了这一消息。这将是日本企业首次获准使用Mythos。（新浪财经）",
+     "summary": "雷峰网讯 2026年5月13日，香港, 聚焦AI纳米递送创新的科技生物公司剂泰科技（7666.HK）今日在港交所成功挂牌上市，成为全球AI药物递送第一股，也是港股AI大分子生物制药第一股。以制药界“Space X”为目标，剂泰科技创业6年，成为国内AI制药行业中完成IPO里程碑用时最短的独角兽公司。剂泰科技本次IPO由富瑞金融集团、德意志证券亚洲和中信证券（香港）担任联席保荐人，全球发行201,229,000股H股，募集资金规模超21亿港元，创下2026年迄今港股医疗健康IPO募资之最。公司在香港公开发售录得超6,900倍超额认购，锁定认购资金逾7,300亿港元，为2026年迄今港股医疗...",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "隐私又少一点？「微信状态可看访客记录」冲上热搜，腾讯客服回应；快手计划分拆可灵AI，估值超1300亿、明年IPO上市；贾跃亭出任FF全球CEO",
+     "url": "https://www.leiphone.com/category/zaobao/a6K3KTE1WDwptUvv.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-13",
+     "summary": "要闻提示1.“微信状态可看访客记录”冲上热搜，腾讯客服回应2.快手计划分拆“可灵AI”，估值超1300亿、明年IPO上市3.宗馥莉被曝罢免销售负责人，直管营销，非生产业务将外包，内部人士称或裁员30%4.贾跃亭重掌大权！出任FF全球CEO5.沃尔沃汽车大中华区换帅：原总裁兼CEO袁小林卸任，段建军接任6.原腾讯AI Lab副主任、首席科学家俞栋已加入Capital One担任副总裁7.SpaceXAI 组建进行时，马斯克已提交商标注册申请8.特朗普T1手机交付遥遥无期，近60万用户订金难追回今日头条“微信状态可看访客记录”冲上热搜，腾讯客服回应5月11日晚间，#微信状态 访客记录# 话题...",
      "is_new": true,
      "lang": "zh"
     },
@@ -948,42 +881,6 @@ const APP_DATA = {
      "summary": "OpenAI Deployment Company",
      "is_new": true,
      "lang": "zh"
-    },
-    {
-     "title": "马斯克爆出「权力暗桩」，奥特曼进入反击时刻？",
-     "url": "https://www.leiphone.com/category/ai/VZm3rt1QhzalTW22.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-12",
-     "summary": "5月，随马斯克诉 OpenAI 一案进入第二周，案件焦点逐渐从马斯克本人转向 OpenAI 的内部治理结构及董事会相关证言。更多的证据被呈现出来：比如2017年马斯克试图将OpenAI吞并入Tesla的\"打包方案\"，Brockman日记记录谈判破裂后马斯克\"撕画摔门\"的细节，Karpathy被秘密挖角等。5月6日，Oakland联邦法庭上出现了一个更特殊的身影，Shivon Zilis。她是马斯克四个孩子的母亲，也是OpenAI的前董事会成员。2026年5月6日，OpenAI公司前董事会成员Shivon Zilis离开位于加利福尼亚州奥克兰的联邦法院。她站上证人席，揭开了一个连法官都为之...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "存储现货部分「闪崩」最全详解：该离场，还是该囤货？",
-     "url": "https://www.leiphone.com/category/chips/67Z7qfkV6TdqJtxz.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-12",
-     "summary": "过去一年存储行业迎来历史性的上涨大周期。根据TrendForce今年2月发布的报告，2026年第一季度传统DRAM合约价比2025年第四季度涨了90%到95%；2026年第一季度NAND Flash合约价比前一个季度涨了55%到60%。然而3月下旬开始，市场突然变脸，DRAM现货市场出现了恐慌性抛售，DDR4、DDR5内存条现货价格一下子跌了不少，有数据显示主流32GB DDR5套装价格从3月中旬的2999元左右降至2200元附近，单月跌幅接近27%。现货市场的下跌，也让无数从业者和投资者困惑，市场真实的供需到底紧不紧张？既然 AI 算力需求这么大，为什么传统内存还会遭遇现货闪崩？存储股...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "Walulu：用六个月撕开一条新赛道",
-     "url": "<![CDATA[https://36kr.com/p/3805761383751427?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "文丨果脯 近日，成都雨之灵动科技有限公司（后称雨之灵动）宣布完成总额数千万人民币的天使轮及Pre-A轮融资。 目前其投资方阵容已颇为亮眼，包含KK集团、4399、科大讯飞和一家知名财务投资机构，涵盖了财务资本、渠道资源、游戏行业及AI技术四大维度。做到这种程度，基本已经覆盖了一家AI消费品公司的所需的核心拼图。 雨之灵动能同时吸引到这四类资方，一定程度上说明他们的项目不仅打动了财务投资人的直觉，也获得了产品方对其产品的市场期望。 雨之灵动的核心产品是AI仿生毛绒宠物Walulu。在公司创始人兼CEO顾小毛的愿景中，他们希望将Walulu打造成“AI时代的宝可梦”。 这并非雨之灵动最早的想...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "8点1氪丨美国总统特朗普：非常期待中国之行  ；OPPO发布母亲节文案事件问责通告；快手计划分拆可灵AI，融资20亿美元",
-     "url": "<![CDATA[https://36kr.com/p/3805557782486785?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "今日热点导览 天舟十号货运飞船与空间站组合体完成交会对接 国家广播电视总局：4月经备案国产电视动画片51部、9659分钟 任天堂股价因Switch 2游戏前景不佳大幅下跌 千问与淘宝打通，正式上线AI购物 TOP3大新闻 美国总统特朗普：非常期待中国之行 外交部发言人宣布：应国家主席习近平邀请，美利坚合众国总统唐纳德·特朗普将于5月13日至15日对中国进行国事访问。 当地时间5月11日，美国总统特朗普在其社交媒体“真实社交”发文表示，非常期待即将开启的中国之行，并称中国是“一个令人惊叹的国家”。(央视新闻) OPPO就母亲节文案事件发布问责通告，高级副总裁职级直降两级 5月11日，界面新...",
-     "is_new": true,
-     "lang": "zh"
     }
    ]
   },
@@ -991,8 +888,44 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 57,
+   "count": 53,
    "cards": [
+    {
+     "title": "Could this be the moment that drug manufacturing takes off in orbit?",
+     "url": "https://arstechnica.com/space/2026/05/varda-signs-deal-with-major-us-pharma-firm-to-develop-drugs-in-space/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "\"I do think it's a really good historical moment for the space industry.\"",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Data centers are coming for rural America",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
+     "source": "The Verge - AI",
+     "date": "2026-05-13",
+     "summary": "At its peak, the Androscoggin paper mill in Jay, Maine, a rural town about 67 miles northwest of Portland, employed about 1,500 people - until a pulp digester exploded in 2020, forcing the mill to close permanently. In 2023, the 1.4 million-square-foot facility was purchased through a joint ventu...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Submit Your Questions: AI Is Changing Your Job—Now What?",
+     "url": "https://www.wired.com/story/livestream-ai-is-changing-your-job-now-what/",
+     "source": "Wired - AI",
+     "date": "2026-05-13",
+     "summary": "Pose your questions ahead of our May 27 livestream AMA, where a panel of WIRED experts will discuss how AI is transforming work.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Meet the Sad Wives of AI",
+     "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
+     "source": "Wired - AI",
+     "date": "2026-05-13",
+     "summary": "Are you married to a man who’s obsessed with AI? I’m so, so sorry.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "xAI Adds 19 New Gas Turbines Despite Ongoing Lawsuit",
      "url": "https://www.wired.com/story/xai-adds-19-new-gas-turbines-despite-ongoing-lawsuit/",
@@ -1210,15 +1143,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Audi has a new Q9 flagship coming soon: Here's its interior",
-     "url": "https://arstechnica.com/cars/2026/05/take-a-look-inside-audis-new-big-three-row-q9-suv/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-11",
-     "summary": "Audi made sure to consult American tastes for its first full-size SUV.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "How enterprises are scaling AI",
      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
      "source": "OpenAI Blog",
@@ -1314,15 +1238,6 @@ const APP_DATA = {
      "source": "Hugging Face Blog",
      "date": "2026-05-08",
      "summary": "",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Nick Bostrom Has a Plan for Humanity’s ‘Big Retirement’",
-     "url": "https://www.wired.com/story/nick-bostrom-has-a-plan-for-humanitys-big-retirement/",
-     "source": "Wired - AI",
-     "date": "2026-05-08",
-     "summary": "The philosopher thinks humans should pursue advanced AI and the promise of a “solved world.”",
      "is_new": false,
      "lang": "en"
     },
@@ -1426,11 +1341,11 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "AI第一金主黄仁勋：日均花掉20亿",
-     "url": "https://www.qbitai.com/2026/05/416540.html",
-     "source": "量子位",
-     "date": "2026-05-12",
-     "summary": "“AI御三家”都投了",
+     "title": "BMJ独家牵手氢离子，阿里健康开启国际顶刊合作起点",
+     "url": "https://www.leiphone.com/category/healthai/62noVKCB2zxjcx5D.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-05-13",
+     "summary": "2026年5月13日，阿里健康在杭正式发布医学AI“氢离子”，同时宣布氢离子与英国BMJ集团（BMJ Group）达成期刊内容独家合作。这项合作标志着阿里健康与国际顶级期刊开启合作的起点。氢离子透露，目前正与全球多家顶刊进行合作沟通。发布会上，阿里健康表示，氢离子试图在“顶级医学证据”、“循证医学”、“AI能力”三个维度做好一款更可靠的医学AI助手，直连国内外顶刊的最高证据源，帮助中国医生解决医学问题。现场嘉宾见证氢离子发布国际顶刊首次牵手中国AI 氢离子支持顶刊全文阅读在氢离子和BMJ集团的独家内容合作中，BMJ集团旗下70本医学期刊过往十年里发表的内容和多媒体资源将独家授权提供给“氢...",
      "is_new": true,
      "lang": "zh"
     },
@@ -1451,60 +1366,6 @@ const APP_DATA = {
      "summary": "3D 视觉正从重建生成，走向空间理解、动态模拟与工程化应用。 作者丨郑佳美 编辑丨岑 峰 如果说过去几年的视觉 AI 主要是在回答“模型能不能看懂一张图”，那么到 CVPR 2026，一个更清晰的趋势正在浮现：模型正在被要求理解图像背后的三维世界。二维图像只是现实世界在某个视角下的投影，真正困难的地方不在于生成一张看起来合理的画面，而在于模型能否理解物体的空间结构、相机运动、材质光照、物理变化，以及这些信息在不同视角和不同时间中的一致性。从今年的一系列 3D 视觉相关工作可以看到，研究重点正在从“生成结果是否好看”，转向“生成过程是否具备空间逻辑”。有的工作试图通过自监督 3D 重建，让...",
      "is_new": true,
      "lang": "zh"
-    },
-    {
-     "title": "中国拿下这届 AI 顶会半壁江山，清华一家单挑斯坦福加 MIT",
-     "url": "https://www.ifanr.com/1665401?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-11",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "川普、孙宇晨都来当 AI 黄牛了，这门暴利生意的水有多深？",
-     "url": "https://www.ifanr.com/1665224?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-11",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "黄仁勋致 2026 届毕业生：别慌，AI 把所有人拉回同一起跑线 | 附演讲全文",
-     "url": "https://www.ifanr.com/1665359?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-11",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "第一批用 AI 写代码的 10 后，已经被苹果邀请去 WWDC 了",
-     "url": "https://www.ifanr.com/1664956?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-11",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "腾讯 AI · 五问丨混元的三年战争",
-     "url": "https://www.leiphone.com/category/industrynews/HY5vV5CioWW4KDg6.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-11",
-     "summary": "2025年，从阿里巴巴离职的语音专家鄢志杰，正面临一个重要抉择。鄢志杰一边是急于在AI领域大展拳脚的京东，其研究院正招兵买马，尤其从阿里、商汤、百度等企业招揽英才；另一边是腾讯的AI Lab团队，俞栋团队也正在寻找一位值得信赖的语音领域顶尖人才。当时，早就有意亲自管理京东研究院的刘强东求贤若渴，甚至直接与鄢志杰会面，希望将这位通义实验室语音团队的前负责人招入麾下，最终却被鄢志杰婉拒。鄢志杰婉拒老刘的原因，并非腾讯AI Lab给出的待遇优厚——在他心中，俞栋是自己在微软时期的同事，这份情谊重逾千钧。俞栋于是，鄢志杰义无反顾地加入了俞栋的团队。天有不测风云，鄢志杰到岗时，俞栋麾下语音团队已经...",
-     "is_new": false,
-     "lang": "zh"
-    },
-    {
-     "title": "《Science》最新专访：中国材料科学领域顶级学者李昊和AI for Science的三项代表性工作",
-     "url": "https://www.leiphone.com/category/ai/GI33oajsC5xZEdmF.html",
-     "source": "雷锋网 - AI",
-     "date": "2026-05-11",
-     "summary": "近日，国际顶级学术期刊《Science》发布专题报道，聚焦全球前沿材料科学领域的顶级学者。材科源图（MatSource）董事长李昊教授在报道中接受专访，分享了他对材料科学未来发展的深刻洞见。全新格局与新范式“ What we need is a new landscape, a new paradigm. ”——材科源图董事长李昊教授李昊教授在接受《Science》采访时提出的这一核心观点，不仅直击了传统材料科学“高成本、长周期、依赖试错与经验”的发展痛点，更深刻洞察了当前行业所处的关键转型期。他指出，随着人工智能与数据驱动方法的快速发展，未来的材料研发必须突破“单一材料、单一性能”的局...",
-     "is_new": false,
-     "lang": "zh"
     }
    ]
   }
@@ -1515,8 +1376,8 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42513,
-   "forks": 7557,
+   "stars": 42519,
+   "forks": 7556,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1546,7 +1407,7 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25897,
+   "stars": 25906,
    "forks": 5724,
    "language": "Python",
    "topics": [
@@ -1575,8 +1436,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18670,
-   "forks": 1700,
+   "stars": 18671,
+   "forks": 1701,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1595,7 +1456,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17908,
+   "stars": 17911,
    "forks": 1139,
    "language": "Python",
    "topics": [
@@ -1622,7 +1483,7 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15154,
+   "stars": 15158,
    "forks": 2309,
    "language": "C++",
    "topics": [
@@ -1675,7 +1536,7 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11366,
+   "stars": 11367,
    "forks": 826,
    "language": "Rust",
    "topics": [
@@ -1763,7 +1624,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7486,
+   "stars": 7488,
    "forks": 844,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1788,7 +1649,7 @@ const APP_DATA = {
    "url": "https://github.com/postgresml/postgresml",
    "description": "Postgres with GPUs for ML/AI apps.",
    "blurb": "Postgres with GPUs for ML/AI apps.",
-   "stars": 6783,
+   "stars": 6785,
    "forks": 361,
    "language": "Rust",
    "topics": [
@@ -1832,7 +1693,7 @@ const APP_DATA = {
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
    "blurb": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5477,
+   "stars": 5478,
    "forks": 1364,
    "language": "Unknown",
    "topics": [
@@ -1855,7 +1716,7 @@ const APP_DATA = {
    "url": "https://github.com/zenml-io/zenml",
    "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
    "blurb": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
-   "stars": 5411,
+   "stars": 5412,
    "forks": 613,
    "language": "Python",
    "topics": [
@@ -1886,7 +1747,7 @@ const APP_DATA = {
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
    "blurb": "A blazing fast inference solution for text embeddings models",
-   "stars": 4796,
+   "stars": 4797,
    "forks": 387,
    "language": "Rust",
    "topics": [
