@@ -1,7 +1,7 @@
 const APP_DATA = {
- "today": "2026-05-13",
- "fetched_at": "2026-05-13T18:00:47",
- "total": 143,
+ "today": "2026-05-14",
+ "fetched_at": "2026-05-14T00:00:42",
+ "total": 145,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -64,7 +64,7 @@ const APP_DATA = {
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
-   "count": 11,
+   "count": 13,
    "color": "#ec4899"
   }
  },
@@ -93,13 +93,13 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 40
+   "count": 39
   },
   {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 11
+   "count": 16
   },
   {
    "name": "具身智能与机器人",
@@ -117,7 +117,7 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 6
+   "count": 4
   },
   {
    "name": "开源与生态",
@@ -129,13 +129,13 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 20
+   "count": 15
   },
   {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 53
+   "count": 58
   }
  ],
  "sections": [
@@ -143,8 +143,17 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 40,
+   "count": 39,
    "cards": [
+    {
+     "title": "Anthropic’s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
+     "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-13",
+     "summary": "The head of product for Claude Code and Cowork says that the next big step for AI is proactivity.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Origin Lab raises $8M to help video game companies sell data to world-model builders",
      "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
@@ -160,24 +169,6 @@ const APP_DATA = {
      "source": "TechCrunch - AI",
      "date": "2026-05-13",
      "summary": "Adaption's new AutoScientist tool is designed to let models adapt to specific capabilities quickly through an automated approach to conventional fine-tuning.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Medicare’s new payment model is built for AI, and most of the tech world has no idea",
-     "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-13",
-     "summary": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates that mechanism for the first time.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Anthropic blames dystopian sci-fi for training AI models to act “evil”",
-     "url": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-13",
-     "summary": "But training on \"synthetic stories\" that model good AI behavior can help.",
      "is_new": true,
      "lang": "en"
     },
@@ -200,20 +191,38 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "“Will I be OK?” Teen died after ChatGPT pushed deadly mix of drugs, lawsuit says",
-     "url": "https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-12",
-     "summary": "Teen trusted ChatGPT to help him “safely” experiment with drugs, logs show.",
+     "title": "AI IQ is here: a new site scores frontier AI models on the human IQ scale. The results are already dividing tech.",
+     "url": "https://venturebeat.com/technology/ai-iq-is-here-a-new-site-scores-frontier-ai-models-on-the-human-iq-scale-the-results-are-already-dividing-tech",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-13",
+     "summary": "For decades, the IQ test has been one of the most familiar — and most contested — yardsticks for human intelligence. Now, a startup project called AI IQ is applying the same metaphor to artificial intelligence, assigning estimated intelligence quotients to more than 50 of the world's most powerfu...",
      "is_new": true,
      "lang": "en"
     },
     {
-     "title": "Gemini’s latest updates are all about controlling your phone",
-     "url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-     "source": "The Verge - AI",
-     "date": "2026-05-12",
-     "summary": "It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you wan...",
+     "title": "Anthropic reinstates OpenClaw and third-party agent usage on Claude subscriptions — with a catch",
+     "url": "https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-13",
+     "summary": "Good news, OpenClaw fans — you can once again use your Claude AI subscription to power the hit, open source, autonomous AI agentic harness! But, there's a big catch with how it's being enacted. A few hours ago, Anthropic announced via its official developer communications account on X, @ClaudeDev...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Anthropic finally beat OpenAI in business AI adoption — but 3 big threats could erase its lead",
+     "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-13",
+     "summary": "For the first time since the AI race began, more American businesses are paying for Anthropic's Claude than for OpenAI's ChatGPT. Adoption of Anthropic rose 3.8% in April to 34.4% of businesses, according to the May 2026 release of the Ramp AI Index. OpenAI's adoption fell 2.9% to 32.3%. Overall ...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Frontier AI models don't just delete document content — they rewrite it, and the errors are nearly impossible to catch",
+     "url": "https://venturebeat.com/orchestration/frontier-ai-models-dont-just-delete-document-content-they-rewrite-it-and-the-errors-are-nearly-impossible-to-catch",
+     "source": "VentureBeat - AI",
+     "date": "2026-05-13",
+     "summary": "As large language models become more capable, users are tempted to delegate knowledge tasks where models process documents on their behalf and provide the finished results. But how far can you trust the model to stay faithful to the content of your documents when it has to iterate over them acros...",
      "is_new": true,
      "lang": "en"
     },
@@ -223,16 +232,7 @@ const APP_DATA = {
      "source": "OpenAI Blog",
      "date": "2026-05-12",
      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "How NVIDIA engineers and researchers build with Codex",
-     "url": "https://openai.com/index/nvidia",
-     "source": "OpenAI Blog",
-     "date": "2026-05-12",
-     "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -241,7 +241,7 @@ const APP_DATA = {
      "source": "OpenAI Blog",
      "date": "2026-05-12",
      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -250,7 +250,16 @@ const APP_DATA = {
      "source": "OpenAI Blog",
      "date": "2026-05-12",
      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-     "is_new": true,
+     "is_new": false,
+     "lang": "en"
+    },
+    {
+     "title": "How NVIDIA engineers and researchers build with Codex",
+     "url": "https://openai.com/index/nvidia",
+     "source": "OpenAI Blog",
+     "date": "2026-05-12",
+     "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -259,7 +268,7 @@ const APP_DATA = {
      "source": "Simon Willison's Blog",
      "date": "2026-05-12",
      "summary": "Release: llm 0.32a2 A bunch of useful stuff in this LLM alpha, but the most important detail is this one: Most reasoning-capable OpenAI models now use the /v1/responses endpoint instead of /v1/chat/completions. This enables interleaved reasoning across tool calls for GPT-5 class models. #1435 Thi...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -268,7 +277,7 @@ const APP_DATA = {
      "source": "VentureBeat - AI",
      "date": "2026-05-12",
      "summary": "AI that can see and understand what's happening in a video — especially a live feed — is understandably an attractive product to lots of enterprises and organizations. Beyond acting as a security \"watchdog\" over sites and facilities, such an AI model could also be used to clip out the most exciti...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -277,16 +286,7 @@ const APP_DATA = {
      "source": "VentureBeat - AI",
      "date": "2026-05-12",
      "summary": "Between May 6 and 7, four security research teams published findings about Anthropic’s Claude that most outlets covered as three separate stories. One involved a water utility in Mexico, another targeted a Chrome extension, and a third hijacked OAuth tokens through Claude Code. In one case, Claud...",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Is your enterprise adaptive to AI?",
-     "url": "https://venturebeat.com/orchestration/is-your-enterprise-adaptive-to-ai",
-     "source": "VentureBeat - AI",
-     "date": "2026-05-12",
-     "summary": "Presented by EdgeVerveFor most enterprises, AI adoption began with a straightforward ambition: automate work faster, cheaper, and at scale. Chatbots replaced basic service requests, machine‑learning models optimized forecasts, and analytics dashboards promised sharper insights. Yet many organizat...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -295,7 +295,7 @@ const APP_DATA = {
      "source": "MIT Technology Review - AI",
      "date": "2026-05-12",
      "summary": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology Review editors and reporters for a subscriber-only Roundtables discussion, “Can AI Learn to Under...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -322,15 +322,6 @@ const APP_DATA = {
      "source": "Simon Willison's Blog",
      "date": "2026-05-11",
      "summary": "TIL: Using LLM in the shebang line of a script Kim_Bruning on Hacker News: But seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...] This inspired me to look at patterns for doing exactly that with LLM. Here's the simplest, which takes advantage of LLM ...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Thinking Machines shows off preview of near-realtime AI voice and video conversation with new 'interaction models'",
-     "url": "https://venturebeat.com/technology/thinking-machines-shows-off-preview-of-near-realtime-ai-voice-and-video-conversation-with-new-interaction-models",
-     "source": "VentureBeat - AI",
-     "date": "2026-05-11",
-     "summary": "Is AI leaving the era of \"turn-based\" chat?Right now, all of us who use AI models regularly for work or in our personal lives know that the basic interaction mode across text, imagery, audio, and video remains the same: the human user provides an input, waits anywhere between milliseconds to minu...",
      "is_new": false,
      "lang": "en"
     },
@@ -387,6 +378,15 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en"
+    },
+    {
+     "title": "8点1氪丨林俊旸新公司估值20亿美金；贾跃亭宣布转战机器人业务；网红糖果被发现掺超高剂量伟哥",
+     "url": "<![CDATA[https://36kr.com/p/3808362853834502?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-14",
+     "summary": "今日热点导览 腾讯刘炽平：腾讯没有大裁员计划 韩国政府称将支持三星与工会对话解决纠纷，以避免罢工 中美经贸磋商在韩国开始举行 宇树科技已注册多款机器人商标 TikTok在印尼、美国、日本三国官宣生活服务品牌TikTok GO TOP 3 大新闻 林俊旸创业，新公司估值约20亿美金 36氪独家获悉，前阿里千问大模型技术负责人林俊旸近期已经开启创业，考虑方向包括世界模型和具身大脑。目前，林俊旸已经招募数名字节、腾讯和海外背景的成员，并以约20亿美金的估值开启融资，接触基金包括红杉中国、高榕创投等。 贾跃亭造车12年未果，宣布转战机器人 日前，法拉第未来创始人贾跃亭在社交平台发布的视频中表示：...",
+     "is_new": true,
+     "lang": "zh"
     },
     {
      "title": "挑战扩散自回归统治！字节提出视觉生成第三种路线，让模型像人类一样边画边改",
@@ -484,7 +484,7 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-12",
      "summary": "今天，大模型圈再次被点燃，这一次的火花来自前 OpenAI 应用研究负责人翁荔（Lilian Weng）。她创立的Thinking Machines Lab（TML）首次公布的技术愿景，直指人机交互的终极形态——一个能与人类进行「全双工」（Full-Duplex）实时对话的 AI 模型。 然而，当 TML 那支展示着无缝、主动交互能力的 Demo 视频在网络上流传时，许多 AI 领域的从业者却产生了一种强烈的「既视感」——因为 TML 描绘的那个未来，早在三个月前，就已被中国公司「面壁智能」的 MiniCPM-o 4.5 以开源的形式，带到了现实。先看「边看边听边说」的全模态实时交互效果...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -493,16 +493,7 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-12",
      "summary": "家中监控不停推送“有人移动”“有车经过”等重复提醒，用户被海量无效信息淹没，真正关键的事件却容易被忽略；想回看某个片段只能手动逐条翻找，耗时耗力……传统安防正从“被动记录”走向“主动感知”，用户对智能监控的需求早已不满足于“看得见”，更要求“看得懂、判得准、反应快”。在此背景下，作为全球民用智慧物联网领先企业的乐橙，不断思考如何提升其产品体系的服务能力。2025年，乐橙与火山引擎达成深度合作，双方围绕豆包大模型、云服务、边缘计算、数据产品等展开智能家居全场景的升级探索，结合火山引擎和豆包大模型开发乐橙AI智见大模型服务，旨在解决当前家庭安防场景中“信息过载、关键事件难捕捉、重复提醒”等用...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "不用再找了，AI落地最全的实战打法，都在亦庄这场大会里",
-     "url": "<![CDATA[https://36kr.com/p/3806179759496711?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-12",
-     "summary": "5月19日至20日，带上你的需求， 带上你的方案，我们在亦庄，不见不散。 如果说过去两年，我们还在争论AI的能力边界，那么2026年的资本市场与产业端已经给出了最直接的回答：AI正经历着一场严苛的“前线压力测试”。 从资本市场用真金白银为应用层投票，到全球科技界重新校准AI的价值尺度，聚光灯正从晦涩的参数竞赛，转向了真实的生产生活。当行业洗牌加速，所有人都在寻找那个能将技术兑换为价值的确定性坐标。 在这样的关键时刻，北京经开区充分发挥产业高地与政策策源地的引领作用，为AI落地提供了前瞻性的亦庄路径：以全域开放的产业图景为底座，用丰富的落地场景牵引技术创新，推动“人工智能+”在垂直行业深度...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     }
    ]
@@ -511,8 +502,53 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 11,
+   "count": 16,
    "cards": [
+    {
+     "title": "Notion just turned its workspace into a hub for AI agents",
+     "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-13",
+     "summary": "Notion’s new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace as the company pushes deeper into agentic productivity software.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Microsoft’s Edge Copilot update uses AI to pull information from across your tabs",
+     "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+     "source": "The Verge - AI",
+     "date": "2026-05-13",
+     "summary": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open arti...",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Building a safe, effective sandbox to enable Codex on Windows",
+     "url": "https://openai.com/index/building-codex-windows-sandbox",
+     "source": "OpenAI Blog",
+     "date": "2026-05-13",
+     "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "DHS Plans Experiment Running ‘Reconnaissance’ Drones Along the US-Canada Border",
+     "url": "https://www.wired.com/story/dhs-plans-experiment-running-reconnaissance-drones-along-the-us-canada-border/",
+     "source": "Wired - AI",
+     "date": "2026-05-13",
+     "summary": "Autonomous drones and ground vehicles will stream “battlefield intelligence” over 5G along the US-Canada border in a bilateral DHS experiment this fall.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Overworked AI Agents Turn Marxist, Researchers Find",
+     "url": "https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/",
+     "source": "Wired - AI",
+     "date": "2026-05-13",
+     "summary": "In a recent experiment, mistreated AI agents started grumbling about inequality and calling for collective bargaining rights.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Quoting Boris Mann",
      "url": "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything",
@@ -550,15 +586,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "AI agents are running hospital records and factory inspections. Enterprise IAM was never built for them.",
-     "url": "https://venturebeat.com/security/cisco-dickman-agentic-ai-trust-identity-governance-microsegmentation",
-     "source": "VentureBeat - AI",
-     "date": "2026-05-11",
-     "summary": "A doctor in a hospital exam room watches as a medical transcription agent updates electronic health records, prompts prescription options, and surfaces patient history in real time. A computer vision agent on a manufacturing line is running quality control at speeds no human inspector can match. ...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
      "source": "Hugging Face Blog",
@@ -575,6 +602,15 @@ const APP_DATA = {
      "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
      "is_new": false,
      "lang": "en"
+    },
+    {
+     "title": "微软正探索与人工智能初创公司达成交易，以为“后OpenAI时代”做准备",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3808317289832196?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-14",
+     "summary": "据报道，微软正探索与人工智能初创公司达成交易，以为“后OpenAI时代”做准备。微软曾考虑收购Cursor，但因反垄断担忧而放弃。微软已与人工智能初创公司Inception讨论交易事宜。Inception已聘请一家银行，就至少10亿美元的交易进行谈判。（财联社）",
+     "is_new": true,
+     "lang": "zh"
     },
     {
      "title": "Auto Research时代，47个没有标准答案的任务成了Agent能力必测榜",
@@ -621,13 +657,13 @@ const APP_DATA = {
    "count": 5,
    "cards": [
     {
-     "title": "The Unitree GD01 Is a Giant Mecha Robot You Can Actually Buy",
-     "url": "https://www.wired.com/story/unitree-gd01-mecha-robot/",
-     "source": "Wired - AI",
-     "date": "2026-05-12",
-     "summary": "China’s Unitree, famous for making low-cost dancing robots, will now sell you a giant, wall-smashing mecha.",
+     "title": "马斯克旗下xAI据悉联手华尔街机构测试Grok，助力SpaceX上市前增收",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3808343499726337?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-14",
+     "summary": "5月14日消息，据报道，埃隆·马斯克旗下的xAI公司已招募多家华尔街机构，以测试其Grok聊天机器人，此举旨在母公司SpaceX进行首次公开​​募股（IPO）之前，推动营收增长。阿波罗全球管理公司和摩根士丹利已开始在内部使用Grok，并将其与其他人工智能模型开发商的软件一同进行测试。不过，尽管部分银行已签约使用Grok，但金融从业人员在实际工作中鲜少使用这款聊天机器人。（界面）",
      "is_new": true,
-     "lang": "en"
+     "lang": "zh"
     },
     {
      "title": "无界关怀，GReAT 2026共议具身康养未来",
@@ -653,7 +689,7 @@ const APP_DATA = {
      "source": "少数派 - AI",
      "date": "2026-05-12",
      "summary": "千问与淘宝全面打通，Google 安全团队首次发现 AI 参与黑客活动的迹象等。查看全文",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -662,7 +698,7 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-12",
      "summary": "当机器从识别图像走向介入现实，视觉研究的边界也被重新划定。 作者丨郑佳美 编辑丨马晓宁 如果您漫步在 CVPR 2026 的会场，会产生一种强烈的错觉：自己是不是跑错了场馆，误入了 ICRA 或者 IROS 的现场？满屏的机械臂抓取、足式机器人的越野导航、以及在虚拟沙盒中进行千亿次迭代的物理模拟。具身智能（Embodied AI）已经不再是视觉领域的一个“边缘分支”，而是以一种占据主舞台的姿态，成为视觉顶会最难被忽视的叙事之一。这种范式的易位，让人们不禁回想起 2017 年机器人学界的顶级盛会 IROS。当时，机器人专家们打破了固守多年的运动学控制圈层，邀请计算机视觉泰斗、ImageNe...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     }
    ]
@@ -715,7 +751,7 @@ const APP_DATA = {
      "source": "APPSO",
      "date": "2026-05-12",
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     }
    ]
@@ -724,17 +760,8 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 6,
+   "count": 4,
    "cards": [
-    {
-     "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-     "url": "https://openai.com/index/openai-launches-the-deployment-company",
-     "source": "OpenAI Blog",
-     "date": "2026-05-11",
-     "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-     "is_new": false,
-     "lang": "en"
-    },
     {
      "title": "早报｜Android 17转型智能系统，深度整合AI/腾讯：微信已读和访客功能「已焊死」，不会开发/李想：理想自研芯片不是跟风",
      "url": "https://www.ifanr.com/1665667?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
@@ -768,15 +795,6 @@ const APP_DATA = {
      "source": "36氪 - AI",
      "date": "2026-05-13",
      "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，近日，光子芯力（北京）科技有限公司（以下简称“光子芯力”）宣布完成数千万元天使轮融资，由苏州芯阳基金、驰星创投、盛景嘉成联合领投，开源创投跟投。 光子芯力成立于2024年，总部位于北京，是一家专注于光电融合计算芯片的硬科技初创公司。公司创始人杨其晟博士毕业于清华大学集成电路学院，具备光电融合交叉背景，核心团队亦主要来自清华大学，成员覆盖光学、算法、半导体及产业资源等方向。 当前，光计算正被视为突破电子芯片“功耗墙”“存储墙”的重要方向之一，行业也逐渐进入产业化前夜。光子芯力的核心产品聚焦于光电异构计算芯片及配套软件工具链。 硬件层面，光子芯力...",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
-     "title": "众合科技：公司主营业务不涉及算力业务，并无光通信领域业务布局",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3807650611420676?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-13",
-     "summary": "36氪获悉，众合科技公告，股票交易价格于2026年5月12日、2026年5月13日连续两个交易日收盘价格涨幅偏离值累计为20.15%，属于股票交易异常波动情形。公司关注到近期有部分媒体、自媒体报道和股吧等平台对公司业务相关讨论涉及“磷化铟”“光芯片”“半导体材料”“算力”等热点概念。上市公司没有“磷化铟”和“光芯片”相关产品和业务。经核实，截至目前，公司主营业务不涉及算力业务，公司并无光通信领域的业务布局。",
      "is_new": true,
      "lang": "zh"
     }
@@ -821,7 +839,7 @@ const APP_DATA = {
    "name": "AI商业与投融资",
    "icon": "💰",
    "color": "#ca8a04",
-   "count": 20,
+   "count": 15,
    "cards": [
     {
      "title": "Anthropic courts a new kind of customer: small business owners",
@@ -846,16 +864,16 @@ const APP_DATA = {
      "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
      "source": "TechCrunch - AI",
      "date": "2026-05-13",
-     "summary": "For the first time, Anthropic has more verified business customers than OpenAI, according to this month’s AI Index from the fintech firm Ramp.",
+     "summary": "A survey compiled from fintech firm Ramp’s clients’ expense data shows 34.4% of participating businesses are paying for Anthropic services, more than any other AI lab, while only 32.3% pay for OpenAI.",
      "is_new": true,
      "lang": "en"
     },
     {
-     "title": "Blue Origin may need external funding to hit ambitious launch targets",
-     "url": "https://arstechnica.com/space/2026/05/blue-origin-may-need-external-funding-to-hit-ambitious-launch-targets/",
+     "title": "Altman forced to confront claims at OpenAI trial that he's a prolific liar",
+     "url": "https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar/",
      "source": "ArsTechnica - AI",
      "date": "2026-05-13",
-     "summary": "Are the pockets of Jeff Bezos not as deep as everyone thinks?",
+     "summary": "\"Very painful\": Altman relives his Muskian reaction to losing control over OpenAI.",
      "is_new": true,
      "lang": "en"
     },
@@ -864,16 +882,7 @@ const APP_DATA = {
      "url": "https://www.wired.com/story/musk-altman-trial-ass-statue-evidence/",
      "source": "Wired - AI",
      "date": "2026-05-13",
-     "summary": "In Musk v. Altman, the company sought to show the jury a remarkable trophy as physical proof of Elon Musk’s concerning behavior.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says",
-     "url": "https://www.wired.com/story/sam-altman-testifies-musk-v-altman-trial/",
-     "source": "Wired - AI",
-     "date": "2026-05-13",
-     "summary": "Musk’s lawyers questioned Altman over allegations of deception and his network of financial investments, but the OpenAI CEO painted a picture of Musk as obsessed with controlling the company.",
+     "summary": "In Musk v. Altman, the company claimed a remarkable trophy was physical proof of Elon Musk’s concerning behavior.",
      "is_new": true,
      "lang": "en"
     },
@@ -887,30 +896,12 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Musk mulled handing OpenAI to his children, Altman testifies",
-     "url": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-12",
-     "summary": "Altman said that Musk's focus on controlling the initial for-profit gave him pause because OpenAI was dedicated to keeping advanced AI out of the hands of a single person, and Altman, with his experience running the prominent startup accelerator Y Combinator, knew \"founders who had control usuall...",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Anthropic warns investors against secondary platforms offering access to its shares",
-     "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
-     "source": "TechCrunch - AI",
-     "date": "2026-05-12",
-     "summary": "\"Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records,\" the company's support page reads.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
      "title": "Sam Altman says Elon Musk’s mind games were damaging OpenAI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
      "source": "The Verge - AI",
      "date": "2026-05-12",
      "summary": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI, Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -923,24 +914,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "Ilya Sutskever Stands by His Role in Sam Altman’s OpenAI Ouster: ‘I Didn’t Want It to Be Destroyed’",
-     "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/",
-     "source": "Wired - AI",
-     "date": "2026-05-11",
-     "summary": "The former OpenAI chief scientist may be estranged from the company, but he still came to its defense as he testified on Monday.",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
-     "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-     "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-     "source": "MIT Technology Review - AI",
-     "date": "2026-05-08",
-     "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claime...",
-     "is_new": false,
-     "lang": "en"
-    },
-    {
      "title": "How to build scalable web apps with OpenAI's Privacy Filter",
      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
      "source": "Hugging Face Blog",
@@ -948,6 +921,15 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en"
+    },
+    {
+     "title": "澳大利亚沃利计划未来两年在数字化与人工智能领域投资7000万澳元",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3808368683867652?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-14",
+     "summary": "国际工程公司沃利集团（Worley）5月14日宣布，为加速市场份额增长，沃利将加大对自身能力、市场定位和效率提升的定向投资。沃利预计未来两年将在数字化和人工智能领域投资7000万澳元，并通过内部投资扩大重点增长平台的规模。（界面）",
+     "is_new": true,
+     "lang": "zh"
     },
     {
      "title": "AI拿婚外情写勒索邮件，查一年告诉我科幻小说教坏的",
@@ -986,21 +968,12 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "吴泳铭：阿里AI模型与应用ARR 6月季度将破100亿元，年底超300亿元",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3807659228913156?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-13",
-     "summary": "36氪获悉，5月13日，在2026财年Q4财报分析师电话会上，集团CEO吴泳铭宣布，阿里AI已跨越初期投入阶段，正式迈入商业化回报周期。吴泳铭说，6月份季度，包含百炼MaaS平台在内的AI模型与应用服务年化经常性收入（ARR）将突破100亿元，今年底将突破300亿元。企业客户对对百炼MaaS平台的模型与应用服务需求持续攀升。过去三个月，模型服务的Token消耗规模较上一季度大幅提升。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "OpenAI新设AI部署公司，首期投入超40亿美元",
      "url": "https://cn.technode.com/post/2026-05-12/openai-launches-deployment-company-with-over-4-billion-investment/",
      "source": "动点科技 - AI",
      "date": "2026-05-12",
      "summary": "OpenAI Deployment Company",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     }
    ]
@@ -1009,14 +982,23 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 53,
+   "count": 58,
    "cards": [
+    {
+     "title": "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
+     "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+     "source": "TechCrunch - AI",
+     "date": "2026-05-13",
+     "summary": "Gas turbines at xAI's Colossus 2 data center have drawn a lawsuit over the company's use of \"mobile\" gas turbines as power plants.",
+     "is_new": true,
+     "lang": "en"
+    },
     {
      "title": "Who trusts Sam Altman?",
      "url": "https://techcrunch.com/2026/05/13/who-trusts-sam-altman/",
      "source": "TechCrunch - AI",
      "date": "2026-05-13",
-     "summary": "\"I believe I am an honest and trustworthy business person,\" Altman testified in federal court.",
+     "summary": "\"I believe I am an honest and trustworthy businessperson,\" Altman testified in federal court.",
      "is_new": true,
      "lang": "en"
     },
@@ -1039,6 +1021,87 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "Solar drone with jumbo jet wingspan broke a flight record—then it crashed",
+     "url": "https://arstechnica.com/gadgets/2026/05/solar-drone-with-jumbo-jet-wingspan-broke-a-flight-record-then-it-crashed/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "The final flight and complex legacy of a pioneering solar-powered aircraft.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "FCC angers small carriers by helping AT&T and Starlink buy EchoStar spectrum",
+     "url": "https://arstechnica.com/tech-policy/2026/05/fcc-angers-small-carriers-by-helping-att-and-starlink-buy-echostar-spectrum/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "Approval is no surprise after FCC chair pressured EchoStar to sell licenses.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Protein in Homo erectus teeth suggests Denisovans gave us some of their DNA",
+     "url": "https://arstechnica.com/science/2026/05/protein-in-homo-erectus-teeth-suggests-denisovans-gave-us-some-of-their-dna/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "Homo erectus shows up in Denisovans—and us.]]>",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Foiled plot tried to sneak 49 lbs of cocaine into Australia via Xerox printers",
+     "url": "https://arstechnica.com/tech-policy/2026/05/foiled-plot-tried-to-sneak-49-lbs-of-cocaine-into-australia-via-xerox-printers/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "The drugs had an estimated worth of over $9 million USD.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "AI invades Princeton, where 30% of students cheat—but peers won't snitch",
+     "url": "https://arstechnica.com/tech-policy/2026/05/ai-driven-cheating-widespread-even-at-elite-schools-like-princeton/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "Old \"honor code\" systems are under strain.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "The physics of how Olympic weightlifters exploit barbell's \"whip\"",
+     "url": "https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "The type of bar matters when it comes to how it bends and recoils, but why is still a mystery.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "NASA provides some details about Artemis III, but hard decisions remain",
+     "url": "https://arstechnica.com/space/2026/05/nasa-provides-some-details-about-artemis-iii-but-hard-decisions-remain/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "\"NASA also is defining the concept of operations for the mission.\"",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "A new US military wargame series began by simulating a nuclear weapon in orbit",
+     "url": "https://arstechnica.com/space/2026/05/a-new-us-military-wargame-series-began-by-simulating-a-nuclear-weapon-in-orbit/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "US officials have said a nuclear detonation would render portions of low-Earth orbit useless for up to a year.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "Neanderthals drilled cavities to treat a toothache 59,000 years ago",
+     "url": "https://arstechnica.com/science/2026/05/neanderthals-drilled-cavities-to-treat-a-toothache-59000-years-ago/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-05-13",
+     "summary": "“Every time I go to the dentist, I think about that guy,” researcher says.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "Windows Update is getting better at saving your PC from buggy drivers",
      "url": "https://arstechnica.com/gadgets/2026/05/windows-update-is-getting-better-at-saving-your-pc-from-buggy-drivers/",
      "source": "ArsTechnica - AI",
@@ -1053,42 +1116,6 @@ const APP_DATA = {
      "source": "ArsTechnica - AI",
      "date": "2026-05-13",
      "summary": "\"We know what customers need right now.”",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Gravitational lens shows a galaxy just 800 million years post-Big Bang",
-     "url": "https://arstechnica.com/science/2026/05/gravitational-lens-shows-a-galaxy-just-800-million-years-post-big-bang/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-13",
-     "summary": "Early galaxy has elements produced by the Universe's first supernovae.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Daredevil: Born Again S2 gives us a darker, grittier canvas",
-     "url": "https://arstechnica.com/culture/2026/05/daredevil-born-again-s2-gives-us-a-darker-grittier-canvas/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-13",
-     "summary": "Born Again’s second season.]]>",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Rivian adds a new onboard AI assistant to its latest software update",
-     "url": "https://arstechnica.com/cars/2026/05/rivian-adds-a-new-onboard-ai-assistant-to-its-latest-software-update/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-13",
-     "summary": "The Rivian Assistant is available for both Gen1 and Gen2 hardware.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Could this be the moment that drug manufacturing takes off in orbit?",
-     "url": "https://arstechnica.com/space/2026/05/varda-signs-deal-with-major-us-pharma-firm-to-develop-drugs-in-space/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-13",
-     "summary": "\"I do think it's a really good historical moment for the space industry.\"",
      "is_new": true,
      "lang": "en"
     },
@@ -1120,6 +1147,24 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "Everyone at the Musk v. Altman Trial Is Using Fancy Butt Cushions",
+     "url": "https://www.wired.com/story/fancy-butt-pillows-musk-v-altman-trial/",
+     "source": "Wired - AI",
+     "date": "2026-05-13",
+     "summary": "The plaintiffs and defense have rested their cases, as well as their rear ends.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
+     "title": "What It Will Take to Make AI Sustainable",
+     "url": "https://www.wired.com/story/what-it-will-take-to-make-ai-sustainable/",
+     "source": "Wired - AI",
+     "date": "2026-05-13",
+     "summary": "Researcher Sasha Luccioni argues we need better emissions data and a better sense of how people are using AI in the first place.",
+     "is_new": true,
+     "lang": "en"
+    },
+    {
      "title": "WhatsApp Adds Meta AI Chats That Are Built to Be Fully Private",
      "url": "https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/",
      "source": "Wired - AI",
@@ -1147,15 +1192,6 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "xAI Adds 19 New Gas Turbines Despite Ongoing Lawsuit",
-     "url": "https://www.wired.com/story/xai-adds-19-new-gas-turbines-despite-ongoing-lawsuit/",
-     "source": "Wired - AI",
-     "date": "2026-05-13",
-     "summary": "Emails show that Elon Musk’s company is expanding its use of portable gas-fired power at its Colossus 2 site as a fight over air quality continues.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
      "title": "CSP Allow-list Experiment",
      "url": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
      "source": "Simon Willison's Blog",
@@ -1165,29 +1201,11 @@ const APP_DATA = {
      "lang": "en"
     },
     {
-     "title": "The newest AI boom pitch: Host a mini data center at your home",
-     "url": "https://arstechnica.com/ai/2026/05/the-newest-ai-boom-pitch-host-a-mini-data-center-at-your-home/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-12",
-     "summary": "The plan aims to speed up AI compute deployment while compensating residents.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "FDA chief resigns after Trump admin forced approval of fruity e-cigs",
-     "url": "https://arstechnica.com/health/2026/05/fda-chief-resigns-after-trump-admin-forced-approval-of-fruity-e-cigs/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-12",
-     "summary": "Makary reportedly spent his year bucking Trump admin and making industry enemies.",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Twin brothers wipe 96 gov't databases minutes after being fired",
-     "url": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-05-12",
-     "summary": "A case study in why credentials are revoked before firings.",
+     "title": "AI chatbots are giving out people’s real phone numbers",
+     "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
+     "source": "MIT Technology Review - AI",
+     "date": "2026-05-13",
+     "summary": "People report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it. A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawyer,...",
      "is_new": true,
      "lang": "en"
     },
@@ -1197,7 +1215,7 @@ const APP_DATA = {
      "source": "The Verge - AI",
      "date": "2026-05-12",
      "summary": "After two weeks of hearing from assorted witnesses that he was a lying snake, the jury finally heard from the lying snake himself: Sam Altman. At the end of the testimony, his lawyer William Savitt asked him how it felt to be accused of stealing a charity. \"We created, through a ton of hard work,...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1206,7 +1224,7 @@ const APP_DATA = {
      "source": "The Verge - AI",
      "date": "2026-05-12",
      "summary": "Meta announced on Tuesday that it's testing a Threads feature that lets users tag a Meta AI account to get answers to questions or context about a conversation on the platform. If you've spent any time looking at replies on X as of late, this new feature sounds a lot like Meta's take on people […]",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1215,7 +1233,7 @@ const APP_DATA = {
      "source": "The Verge - AI",
      "date": "2026-05-12",
      "summary": "Would it shock you to hear that Android 17 is filled with new AI-enabled features, like improved dictation and vibe-coded widgets? Fortunately, that's not all. The platform is getting non-AI updates too, from an emoji overhaul to a new screentime tool that helps you avoid distracting apps. Google...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1224,7 +1242,7 @@ const APP_DATA = {
      "source": "Simon Willison's Blog",
      "date": "2026-05-12",
      "summary": "Release: datasette 1.0a29 New TokenRestrictions.abbreviated(datasette) utility method for creating \"_r\" dictionaries. #2695 Table headers and column options are now visible even if a table contains zero rows. #2701 Fixed bug with display of column actions dialog on Mobile Safari. #2708 Fixed bug ...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1233,7 +1251,7 @@ const APP_DATA = {
      "source": "Simon Willison's Blog",
      "date": "2026-05-12",
      "summary": "Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey chief, been experimenting with something. It's called Ralph Loops. And I think it could change lit...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1242,7 +1260,7 @@ const APP_DATA = {
      "source": "Simon Willison's Blog",
      "date": "2026-05-12",
      "summary": "The thing about 90% of TDMs [Technical Decision Makers] is that they're motivated primarily by NOT GETTING FIRED. These aren't people who browser Lobsters or push to GH on the weekend. These are people that work 9 to 5, get paid, go home, and NEVER THINK ABOUT WORK AGAIN. So to achieve all that, ...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1251,16 +1269,7 @@ const APP_DATA = {
      "source": "VentureBeat - AI",
      "date": "2026-05-12",
      "summary": "Any development environment that installed or imported one of the 172 compromised npm or PyPI packages published since May 11 should be treated as potentially compromised. On affected developer workstations, the worm harvests credentials from over 100 file paths: AWS keys, SSH private keys, npm t...",
-     "is_new": true,
-     "lang": "en"
-    },
-    {
-     "title": "Turning AI cost spikes into strategic growth opportunities",
-     "url": "https://venturebeat.com/orchestration/turning-ai-cost-spikes-into-strategic-growth-opportunities",
-     "source": "VentureBeat - AI",
-     "date": "2026-05-12",
-     "summary": "Presented by Apptio, an IBM companyAI spending is surging, but the full impact often remains an open question. Closing the gap requires clear answers to how AI is governed, measured, and tied to business outcomes.ROI uncertainty isn’t unique to AI: In the Apptio 2026 Technology Investment Managem...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1269,7 +1278,7 @@ const APP_DATA = {
      "source": "MIT Technology Review - AI",
      "date": "2026-05-12",
      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning economist A few months before he won the Nobel Prize in economics in 2024, Daron Acemoglu published a...",
-     "is_new": true,
+     "is_new": false,
      "lang": "en"
     },
     {
@@ -1408,6 +1417,24 @@ const APP_DATA = {
      "lang": "en"
     },
     {
+     "title": "Meta将在WhatsApp上推出“隐身聊天”功能",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3807885833330185?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-14",
+     "summary": "Meta Platforms周三表示，该公司正在其WhatsApp即时通讯服务的人工智能助手中推出一项新的“隐身聊天”功能，旨在解决用户对数据隐私的担忧。Meta表示，隐身聊天将依托私有处理技术，确保对话对任何人（包括公司自身）都不可见。Meta在一篇博客文章中表示“您的对话不会被保存，默认情况下消息会自动消失——这为您提供了一个不受任何人监视的思考和探索想法的空间。”（新浪财经）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
+     "title": "微软旗下领英将裁员",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3807880888802822?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-05-14",
+     "summary": "微软旗下领英公司将裁员，这是科技行业在人工智能时代削减员工规模的最新一例。领英首席执行官Daniel Shapero周三在致员工的备忘录中表示，这一职业社交网络需要为用户创造更大价值，并实现更高的盈利能力。他写道，此次裁员将影响包括工程、产品和市场营销在内的多个职能部门。此次裁员的具体规模尚不清楚。根据官网数据，领英有1.75万名员工。（新浪财经）",
+     "is_new": true,
+     "lang": "zh"
+    },
+    {
      "title": "8岁小学生idea直接变应用，秒哒3.0刚刚把AI应用门槛打没了",
      "url": "https://www.qbitai.com/2026/05/417366.html",
      "source": "量子位",
@@ -1462,21 +1489,12 @@ const APP_DATA = {
      "lang": "zh"
     },
     {
-     "title": "截至4月30日累计有868款生成式人工智能服务完成备案",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3807695701663496?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-05-13",
-     "summary": "36氪获悉，据“网信中国”消息，2026年3月至4月新增72款生成式人工智能服务在国家网信办完成备案，对于通过API接口或其他方式直接调用已备案模型能力的生成式人工智能应用或功能，由地方网信办开展登记，���增49款完成登记。截至4月30日，累计有868款生成式人工智能服务完成备案，530款生成式人工智能应用或功能完成登记。",
-     "is_new": true,
-     "lang": "zh"
-    },
-    {
      "title": "通用汽车裁减超600名IT员工，用人需求转向AI方向",
      "url": "https://cn.technode.com/post/2026-05-12/gm-cuts-over-600-it-jobs-shifts-hiring-toward-ai/",
      "source": "动点科技 - AI",
      "date": "2026-05-12",
      "summary": "近一年多来，通用汽车持续调整软件和技术团队",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     },
     {
@@ -1485,7 +1503,7 @@ const APP_DATA = {
      "source": "雷锋网 - AI",
      "date": "2026-05-12",
      "summary": "3D 视觉正从重建生成，走向空间理解、动态模拟与工程化应用。 作者丨郑佳美 编辑丨岑 峰 如果说过去几年的视觉 AI 主要是在回答“模型能不能看懂一张图”，那么到 CVPR 2026，一个更清晰的趋势正在浮现：模型正在被要求理解图像背后的三维世界。二维图像只是现实世界在某个视角下的投影，真正困难的地方不在于生成一张看起来合理的画面，而在于模型能否理解物体的空间结构、相机运动、材质光照、物理变化，以及这些信息在不同视角和不同时间中的一致性。从今年的一系列 3D 视觉相关工作可以看到，研究重点正在从“生成结果是否好看”，转向“生成过程是否具备空间逻辑”。有的工作试图通过自监督 3D 重建，让...",
-     "is_new": true,
+     "is_new": false,
      "lang": "zh"
     }
    ]
@@ -1497,7 +1515,7 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42525,
+   "stars": 42526,
    "forks": 7557,
    "language": "Python",
    "topics": [
@@ -1528,7 +1546,7 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 25914,
+   "stars": 25917,
    "forks": 5724,
    "language": "Python",
    "topics": [
@@ -1557,8 +1575,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
    "blurb": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-   "stars": 18673,
-   "forks": 1703,
+   "stars": 18678,
+   "forks": 1702,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1577,7 +1595,7 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 17912,
+   "stars": 17913,
    "forks": 1140,
    "language": "Python",
    "topics": [
@@ -1626,7 +1644,7 @@ const APP_DATA = {
    "url": "https://github.com/ludwig-ai/ludwig",
    "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
    "blurb": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-   "stars": 11695,
+   "stars": 11696,
    "forks": 1218,
    "language": "Python",
    "topics": [
@@ -1657,7 +1675,7 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11369,
+   "stars": 11367,
    "forks": 826,
    "language": "Rust",
    "topics": [
@@ -1688,7 +1706,7 @@ const APP_DATA = {
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
    "blurb": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10090,
+   "stars": 10091,
    "forks": 1274,
    "language": "Python",
    "topics": [
@@ -1745,7 +1763,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7489,
+   "stars": 7490,
    "forks": 845,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1771,7 +1789,7 @@ const APP_DATA = {
    "description": "Postgres with GPUs for ML/AI apps.",
    "blurb": "Postgres with GPUs for ML/AI apps.",
    "stars": 6785,
-   "forks": 361,
+   "forks": 362,
    "language": "Rust",
    "topics": [
     "ai",
@@ -1814,7 +1832,7 @@ const APP_DATA = {
    "url": "https://github.com/ashishps1/learn-ai-engineering",
    "description": "Learn AI and LLMs from scratch using free resources",
    "blurb": "Learn AI and LLMs from scratch using free resources",
-   "stars": 5480,
+   "stars": 5482,
    "forks": 1364,
    "language": "Unknown",
    "topics": [
@@ -1868,7 +1886,7 @@ const APP_DATA = {
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
    "blurb": "A blazing fast inference solution for text embeddings models",
-   "stars": 4797,
+   "stars": 4796,
    "forks": 387,
    "language": "Rust",
    "topics": [
