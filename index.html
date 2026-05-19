@@ -83,7 +83,9 @@ body{font-family:var(--ff);background:var(--b);color:var(--t);-webkit-font-smoot
 .ac:active{transform:scale(.98);background:var(--sh)}
 .ac.read{opacity:.55}
 .ac.read .ac-t{color:var(--ts)}
-.ac-t{font-size:.88em;font-weight:650;line-height:1.5;margin-bottom:7px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ac-t{font-size:.88em;font-weight:650;line-height:1.5;margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+/* ── AI Interpretation: short insight below title ── */
+.ac-it{font-size:.68em;color:#f59e0b;line-height:1.45;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:500;padding-left:8px;border-left:2px solid #f59e0b44}
 /* ── Summary: show more text (4 lines) for better preview ── */
 .ac-sm{font-size:.72em;color:var(--ts);line-height:1.55;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .ac-f{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
@@ -338,7 +340,8 @@ function renderCards(cards){
     var date=fmtDate(c.date);
     var isNew=c.is_new?'<span class="ac-new">NEW</span>':'';
     var urlEsc=escAttr(c.url);
-    html+='<a class="ac '+readClass+'" data-url="'+c.url+'" href="'+urlEsc+'" target="_blank" rel="noopener" onclick="markRead(\''+urlEsc+'\')" style="animation-delay:'+(i*0.03)+'s"><div class="ac-t">'+escHtml(c.title)+'</div><div class="ac-sm">'+escHtml(c.summary)+'</div><div class="ac-f"><button class="ac-st '+starClass+'" onclick="toggleStar(\''+urlEsc+'\',event)" title="星标"></button>'+isNew+'<span class="ac-bdg" style="color:'+srcColor+';border-color:'+srcColor+'44;background:'+srcColor+'15">'+escHtml(srcShort)+'</span><span class="ac-dt">'+date+'</span></div></a>';
+    var interp=c.interpretation?'<div class="ac-it">💡 '+escHtml(c.interpretation)+'</div>':'';
+    html+='<a class="ac '+readClass+'" data-url="'+c.url+'" href="'+urlEsc+'" target="_blank" rel="noopener" onclick="markRead(\''+urlEsc+'\')" style="animation-delay:'+(i*0.03)+'s"><div class="ac-t">'+escHtml(c.title)+'</div>'+interp+'<div class="ac-sm">'+escHtml(c.summary)+'</div><div class="ac-f"><button class="ac-st '+starClass+'" onclick="toggleStar(\''+urlEsc+'\',event)" title="星标"></button>'+isNew+'<span class="ac-bdg" style="color:'+srcColor+';border-color:'+srcColor+'44;background:'+srcColor+'15">'+escHtml(srcShort)+'</span><span class="ac-dt">'+date+'</span></div></a>';
   });
   fd.innerHTML=html;
 }

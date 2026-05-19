@@ -635,6 +635,72 @@ def main():
         except:
             a["is_new"] = False
     
+    # ── AI Interpretation ──
+    
+    def _gen_interpretations(articles, batch_size=10):
+        """Call DeepSeek API to generate 1-sentence Chinese interpretation for each article."""
+        key_path = os.path.expanduser("~/.hermes/.env")
+        api_key = None
+        try:
+            with open(key_path) as f:
+                for line in f:
+                    if line.startswith("DEEPSEEK_API_KEY="):
+                        api_key = line.strip().split("=", 1)[1]
+                        break
+        except:
+            pass
+        
+        if not api_key:
+            print("  ⚠️  No DeepSeek API key found, skipping interpretations")
+            return articles
+        
+        api_url = "https://api.deepseek.com/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        
+        for batch_idx in range(0, len(articles), batch_size):
+            batch = articles[batch_idx:batch_idx+batch_size]
+            titles = "\n".join(f"{j+1}. [{a['lang'].upper()}] {a['title']}" 
+                              for j, a in enumerate(batch))
+            
+            prompt = f"对以下每条新闻，写一句中文解读（15-25字），说明为什么重要、有什么影响、或关键看点。不要翻译标题。\n\n{titles}\n\n返回格式：\n1. 解读内容\n2. 解读内容"
+            
+            try:
+                payload = {
+                    "model": "deepseek-chat",
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": len(batch) * 50,
+                    "temperature": 0.3,
+                }
+                req = urllib.request.Request(api_url, data=json.dumps(payload).encode(), headers=headers)
+                resp = urllib.request.urlopen(req, timeout=60)
+                result = json.loads(resp.read())
+                text = result["choices"][0]["message"]["content"]
+                
+                lines = [l.strip() for l in text.split("\n") if l.strip()]
+                interpretations = []
+                for line in lines:
+                    m = re.match(r'^\d+\.\s*(.+)$', line)
+                    if m:
+                        interpretations.append(m.group(1))
+                
+                for j, art in enumerate(batch):
+                    art["interpretation"] = interpretations[j] if j < len(interpretations) else ""
+                
+                print(f"    Batch {batch_idx//batch_size+1}: {len(interpretations)} interpretations")
+                
+            except Exception as e:
+                print(f"    Batch {batch_idx//batch_size+1} failed: {e}")
+                for art in batch:
+                    art["interpretation"] = ""
+        
+        return articles
+    
+    print(f"\n  🤖 Generating AI interpretations for {len(selected)} articles...")
+    selected = _gen_interpretations(selected)
+    
     # Group into sections
     sections = []
     seen_cats = set()
@@ -647,6 +713,7 @@ def main():
             "summary": a.get("summary", ""),
             "is_new": a.get("is_new", False),
             "lang": a.get("lang", "en"),
+            "interpretation": a.get("interpretation", ""),
         } for a in selected if a["category"] == cat["name"]]
         
         if cards:
