@@ -1,7 +1,7 @@
 const APP_DATA = {
- "today": "2026-06-04",
- "fetched_at": "2026-06-04T22:04:30",
- "total": 146,
+ "today": "2026-06-05",
+ "fetched_at": "2026-06-05T04:03:52",
+ "total": 152,
  "sources": {
   "TechCrunch - AI": {
    "count": 12,
@@ -48,11 +48,11 @@ const APP_DATA = {
    "color": "#eab308"
   },
   "APPSO": {
-   "count": 14,
+   "count": 15,
    "color": "#f43f5e"
   },
   "动点科技 - AI": {
-   "count": 5,
+   "count": 3,
    "color": "#10b981"
   },
   "少数派 - AI": {
@@ -60,11 +60,11 @@ const APP_DATA = {
    "color": "#f97316"
   },
   "雷锋网 - AI": {
-   "count": 8,
+   "count": 10,
    "color": "#8b5cf6"
   },
   "36氪 - AI": {
-   "count": 10,
+   "count": 15,
    "color": "#ec4899"
   }
  },
@@ -93,31 +93,31 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37
+   "count": 41
   },
   {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 18
+   "count": 22
   },
   {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 8
+   "count": 10
   },
   {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 8
+   "count": 6
   },
   {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 6
+   "count": 5
   },
   {
    "name": "开源与生态",
@@ -141,7 +141,7 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 55
+   "count": 54
   }
  ],
  "sections": [
@@ -149,8 +149,28 @@ const APP_DATA = {
    "name": "大模型与基础架构",
    "icon": "🧠",
    "color": "#7c3aed",
-   "count": 37,
+   "count": 41,
    "cards": [
+    {
+     "title": "Airbnb’s Brian Chesky plans to launch a new AI lab",
+     "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+     "source": "TechCrunch - AI",
+     "date": "2026-06-04",
+     "summary": "The Airbnb CEO said last year it hasn't struck an LLM partnership because existing products weren't quite ready.",
+     "is_new": true,
+     "lang": "en",
+     "interpretation": "爱彼迎CEO计划成立AI实验室，表明共享经济巨头正加速布局AI赛道。"
+    },
+    {
+     "title": "These LLMs are the best at resisting Russian propaganda",
+     "url": "https://arstechnica.com/ai/2026/06/these-llms-are-the-best-at-resisting-russian-propaganda/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-06-04",
+     "summary": "Estonian government benchmark shows how dozens of models combat Russia's \"strategic narratives.\"",
+     "is_new": true,
+     "lang": "en",
+     "interpretation": "部分大模型在对抗虚假信息中表现突出，凸显AI在信息战中的价值。"
+    },
     {
      "title": "How Endava is redesigning software delivery around AI agents",
      "url": "https://openai.com/index/endava-frontiers",
@@ -159,7 +179,7 @@ const APP_DATA = {
      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "Endava以AI代理重构软件交付，预示开发流程正从工具化向智能化跃迁。"
+     "interpretation": "恩达瓦公司正以AI代理为核心重构软件交付流程，预示开发模式变革。"
     },
     {
      "title": "Dreaming: Better memory for a more helpful ChatGPT",
@@ -169,7 +189,7 @@ const APP_DATA = {
      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "记忆增强让ChatGPT更懂上下文，AI对话体验将更接近人类思维连贯性。"
+     "interpretation": "通过优化记忆机制让ChatGPT更实用，是提升AI交互体验的关键。"
     },
     {
      "title": "Anthropic says 80% of its new production code is now authored by Claude — how your enterprise can keep up",
@@ -179,7 +199,7 @@ const APP_DATA = {
      "summary": "Anthropic co-founder and CEO Dario Amodei said it was coming, but it still feels like a milestone: More than 80% of the code merged into Anthropic’s production codebase in May wasn't authored by humans, but by its own AI model, Claude, according to a new report shared by the record-breaking AI st...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "八成新代码由AI生成，企业需加速适应AI主导的开发模式才能保持竞争力。"
+     "interpretation": "克劳德生成80%生产代码，企业需重新定义人机协作开发模式。"
     },
     {
      "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
@@ -189,7 +209,7 @@ const APP_DATA = {
      "summary": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "初创公司与谷歌云签长期大单，显示AI应用需求爆发式增长与商业价值落地。"
+     "interpretation": "Lovable与谷歌云签多年协议，目标使用量提升5倍，显示AI初创公司扩张野心。"
     },
     {
      "title": "As AI gets better, it reveals an empty promise",
@@ -199,7 +219,7 @@ const APP_DATA = {
      "summary": "This week we've got tandem hands-ons with Google's new Gemini AI agent - Spark - from my colleagues David Pierce and Jay Peters. Their takeaways are similar: It's so effective that it's scary. Spark knew that David's dog is named Frida and knew the first name of Jay's wife, even though neither of...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "AI能力提升反而凸显其承诺空洞，引发对技术真实价值的反思。"
+     "interpretation": "AI能力提升反暴露其承诺空洞，技术进步与真实价值间存在鸿沟。"
     },
     {
      "title": "Microsoft and OpenAI broke up — now they’re ready to fight",
@@ -209,7 +229,7 @@ const APP_DATA = {
      "summary": "At Microsoft's annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of ...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "微软与OpenAI关系破裂后转向竞争，重塑AI行业合作与对抗格局。"
+     "interpretation": "微软与OpenAI关系破裂，从合作转向竞争，AI行业格局面临重塑。"
     },
     {
      "title": "Introducing new capabilities to GPT-Rosalind",
@@ -219,7 +239,7 @@ const APP_DATA = {
      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "GPT-Rosalind新增功能，或推动生物信息学与AI交叉领域应用突破。"
+     "interpretation": "GPT-Rosalind新增功能，或推动AI在特定垂直领域的应用深化。"
     },
     {
      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
@@ -229,7 +249,7 @@ const APP_DATA = {
      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "边缘计算与AI结合，将大幅降低Node.js应用延迟，推动云服务去中心化。"
+     "interpretation": "Wasmer用Codex构建边缘端Node.js运行时，降低边缘计算开发门槛。"
     },
     {
      "title": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
@@ -239,7 +259,7 @@ const APP_DATA = {
      "summary": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs I wrote the other day about Uber blowing its 2026 AI budget in four months, and how that wasn't particularly surprising given they would have set that budget in 2025, before anyone could have predicted how popular token-burning coding a...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "Uber限制AI工具用量，暴露企业在大规模部署AI时面临的成本控制难题。"
+     "interpretation": "Uber限制Claude Code等AI工具使用，暴露企业级AI成本控制难题。"
     },
     {
      "title": "Google's new open source Gemma 4 12B analyzes audio, video — and runs entirely locally on a typical 16GB enterprise laptop",
@@ -249,7 +269,7 @@ const APP_DATA = {
      "summary": "While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market. Today, the tech giant released Gemma 4 12B, an 11.95-billion-parameter open-weights model with permissive Apache 2.0 license opti...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "Gemma 4本地运行多模态分析，让企业无需联网即可在普通笔记本上处理音视频。"
+     "interpretation": "谷歌开源多模态模型，可在普通笔记本本地运行，降低AI应用门槛。"
     },
     {
      "title": "Microsoft's new MAI models",
@@ -259,7 +279,7 @@ const APP_DATA = {
      "summary": "Microsoft announced two new text LLMs this morning - MAI-Thinking-1 (reasoning, 1T parameters, 35B active, available to \"select early partners\") and MAI-Code-1-Flash (137B Parameters, 5B active, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "微软发布全新MAI模型，或将在AI基础能力上追赶并挑战现有巨头。"
+     "interpretation": "微软发布新MAI模型系列，进一步丰富其AI模型生态。"
     },
     {
      "title": "datasette-agent-micropython 0.1a0",
@@ -269,7 +289,7 @@ const APP_DATA = {
      "summary": "Release: datasette-agent-micropython 0.1a0 I want Datasette Agent to be able to generate and execute Python code safely. This alpha is looking promising so far. GPT-5.5 has so far failed to break out of the sandbox! Tags: python, sandboxing, datasette, webassembly, datasette-agent",
      "is_new": false,
      "lang": "en",
-     "interpretation": "新工具让AI代理能直接操作MicroPython环境，拓展物联网自动化边界。"
+     "interpretation": "datasette-agent-micropython首个测试版发布，拓展数据工具与微控制器结合。"
     },
     {
      "title": "California Brown Pelican",
@@ -279,7 +299,7 @@ const APP_DATA = {
      "summary": "California Brown Pelican, in Fort Mason, CA, USI'm at the Microsoft Build conference today, held at Fort Mason in San Francisco. There are California Brown Pelicans diving into the water directly behind venue! Tags: microsoft, ai, generative-ai, llms, llm-release",
      "is_new": false,
      "lang": "en",
-     "interpretation": "加州褐鹈鹕数量异常死亡，或反映海洋生态系统的潜在危机。"
+     "interpretation": "加州褐鹈鹕相关动态，反映当地生态保护或物种生存状况。"
     },
     {
      "title": "Pasted File Editor",
@@ -289,7 +309,7 @@ const APP_DATA = {
      "summary": "Tool: Pasted File Editor I really like how you can paste a large volume of text into claude.ai (or the Claude desktop/mobile apps) and it will detect it as a large paste and turn it into a file attachment instead. I decided to have Codex desktop build me a version of that as a prototype. You can ...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "粘贴文件编辑器上线，简化文件内容直接编辑流程，提升日常操作效率。"
+     "interpretation": "文件编辑工具迎来新选择，提升本地编辑效率与灵活性。"
     },
     {
      "title": "Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary",
@@ -299,7 +319,7 @@ const APP_DATA = {
      "summary": "Alibaba this week released Qwen3.7-Plus, the latest AI large language model (LLM) in its globally beloved and increasingly expansive Qwen family, boasting more multimodal capabilities and a 60% lower cost than the prior, text-only Qwen3.7-Max model released just weeks ago. However, like its immed...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "阿里多模态模型低价开放，但闭源策略可能限制生态发展。"
+     "interpretation": "阿里多模态模型低价开放，但闭源策略可能限制行业生态发展。"
     },
     {
      "title": "Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs",
@@ -309,7 +329,7 @@ const APP_DATA = {
      "summary": "Microsoft on Monday unveiled the Surface RTX Spark Dev Box, a compact desktop computer designed to let software developers run large AI models on their desks instead of paying for cloud computing — a move that directly challenges the per-token pricing model that has defined the AI industry's econ...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "微软推出本地AI开发设备，帮助企业摆脱云端依赖与成本。"
+     "interpretation": "微软推本地AI开发机，降低云端依赖，加速边缘模型落地。"
     },
     {
      "title": "How small businesses can leverage AI",
@@ -319,7 +339,7 @@ const APP_DATA = {
      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "小企业借助AI工具，可低成本实现自动化与精准营销。"
+     "interpretation": "小企业借AI降本增效，技术门槛降低带来普惠机遇。"
     },
     {
      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
@@ -329,7 +349,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "JetBrains发布12B参数MoE模型，专注代码智能与开发者效率。"
+     "interpretation": "JetBrains发布12B参数混合专家模型，专注代码智能新突破。"
     },
     {
      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
@@ -339,7 +359,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "企业AI落地关键不在模型大小，而在可编排的智能体逻辑。"
+     "interpretation": "企业AI规模化落地关键不在大模型，而在可执行的智能体逻辑。"
     },
     {
      "title": "May 2026 newsletter",
@@ -349,7 +369,7 @@ const APP_DATA = {
      "summary": "I just sent out the May edition of my sponsors-only monthly newsletter. If you are a sponsor (or if you start a sponsorship now) you can access it here. This month: Al got expensive, and Anthropic had a really good month The model releases were a little disappointing Conferences and podcasts I la...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "五月简报可能预告重要产品更新或政策变化，值得关注后续细节。"
+     "interpretation": "该新闻标题无具体内容，无法解读。"
     },
     {
      "title": "How we used Gemini to build Google I/O 2026",
@@ -359,17 +379,7 @@ const APP_DATA = {
      "summary": "Learn how Googlers used AI to produce Google I/O 2026.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "用Gemini开发大会本身，展示AI工具在大型活动策划中的实际应用能力。"
-    },
-    {
-     "title": "The solution might be cancelling my AI subscription",
-     "url": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
-     "source": "Simon Willison's Blog",
-     "date": "2026-05-31",
-     "summary": "The solution might be cancelling my AI subscription I find this post by David Wilson very relatable. David lists 16+ projects he's spun up with AI tooling, and concludes: I didn't mean to build most of these things. Usually the Claude session started with something like \"write a quick script for ...",
-     "is_new": false,
-     "lang": "en",
-     "interpretation": "取消AI订阅可能是对抗工具依赖与隐私风险的理性选择，引发行业反思。"
+     "interpretation": "谷歌用Gemini自建开发者大会，展示AI赋能自身产品开发闭环。"
     },
     {
      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
@@ -379,7 +389,7 @@ const APP_DATA = {
      "summary": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "Gemini新模型九大演示，揭示多模态AI在实时交互与复杂任务中的突破。"
+     "interpretation": "Gemini Omni与3.5模型九大实机演示，秀出多模态与推理实力。"
     },
     {
      "title": "Catch up on 12 major I/O 2026 moments",
@@ -389,7 +399,47 @@ const APP_DATA = {
      "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "I/O 2026十二大亮点总结，揭示谷歌年度技术战略与行业风向。"
+     "interpretation": "I/O 2026十二大亮点回顾，揭示谷歌AI技术最新突破与未来方向。"
+    },
+    {
+     "title": "硬氪独家 | 唐文斌「原力灵机」并购物流机器人公司，并获智谱、商汤、阶跃等投资",
+     "url": "<![CDATA[https://36kr.com/p/3838835333253385?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪独家获悉，具身智能企业「原力灵机」近期完成新一轮融资，资方主要为数家大模型公司，包括智谱、阶跃星辰、商汤科技。此外，华勤、上汽恒旭等产业投资方持续加注。 「原力灵机」是一家通用具身大模型公司，2025年3月由旷视科技联合创始人兼CTO唐文斌创立，团队核心创始成员为旷视科技原班人马。 有意思的是，此次融资也是商汤、旷视这两家曾经的对手，在具身智能的热潮中罕见“会师”； 另外，算上A+轮独家领投的阿里，这也是具身智能赛道罕见同时聚齐国内四家大模型厂商——此前，智谱仅通过Z基金小范围投资具身智能领域，阶跃星辰则几乎未出手具身智能。 而这一集体动作也释放出...",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "唐文斌新公司整合物流机器人并获多家AI巨头投资，行业并购加速。"
+    },
+    {
+     "title": "国家队下场做AI虚拟细胞，「百曜科技」完成数千万元新一轮融资｜36氪首发",
+     "url": "<![CDATA[https://36kr.com/p/3835460873385348?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "文｜胡香赟 编辑｜海若镜 36氪获悉，AI虚拟细胞（AIVC）平台公司「百曜科技」近期已完成数千万元新一轮融资。本轮融资由国家级国有资本运营平台中国国新旗下的国新创投基金领投，道彤资本和云启资本跟投，老股东峰瑞资本和百度风投追加投资。募集资金将主要用于全新一代虚拟细胞算法模型迭代、独家数据收集平台建设以及加速产业化落地。 百曜科技是36氪持续追踪报道的企业（附链接），公司创始团队依托中国科学院动物研究所、北京干细胞与再生医学研究院的科研资源，自2023年起开始构建AI虚拟细胞基础大模型，以实现细胞行为和状态变化的精准分析及预测，并持续推进AIVC模型升级和产业化落地实践。 2026年来，...",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "国家队布局AI虚拟细胞研发，生物计算赛道获资本和政策双重加持。"
+    },
+    {
+     "title": "华为云发布新一代ModelArts Next模型训推平台",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3839749039802626?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "36氪获悉，华为云正式发布新一代模型训推平台ModelArts Next，提供RL服务、机密推理、模型路由、模型矩阵四大核心能力。",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "华为云升级AI训练平台，降低大模型开发门槛，加速企业智能化。"
+    },
+    {
+     "title": "NBA中国携手阿里巴巴上线首个官方AI大模型",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3839693822085382?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "36氪获悉，NBA中国携手阿里巴巴打造的首个官方大模型“NBA Chat”正式上线。NBA Chat基于阿里千问大模型开发，结合比赛历史数据、球员深度分析等NBA数据，提供智能篮球问答服务。",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "NBA与阿里合作推出官方AI大模型，体育产业数字化迈入AI时代。"
     },
     {
      "title": "LeCun 10亿押注的方向，全球领先视觉大模型团队早已布局",
@@ -399,7 +449,7 @@ const APP_DATA = {
      "summary": "”隐空间世界模型很难，但我们一定要做“",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "LeCun押注方向早有布局，视觉大模型竞争已进入深水区。"
+     "interpretation": "LeCun押注的方向早有布局，表明视觉大模型竞争已进入深水区。"
     },
     {
      "title": "一个GPT Plus会员的钱，够机器人跑一个月世界模型了",
@@ -409,7 +459,7 @@ const APP_DATA = {
      "summary": "不多不少，只要150",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "GPT Plus月费够机器人跑世界模型，AI成本正快速下降。"
+     "interpretation": "世界模型运行成本大幅下降，AI从对话走向具身智能的门槛降低。"
     },
     {
      "title": "早报｜曝苹果Vision Pro系列被砍/多地高考将查验智能眼镜/DeepSeek首轮融资规模约500亿元",
@@ -419,7 +469,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "苹果Vision Pro或被砍，智能眼镜高考查验，AR赛道面临政策与市场双重考验。"
+     "interpretation": "苹果头显项目转向，高考防作弊升级，DeepSeek融资规模引关注。"
     },
     {
      "title": "不卷价格和参数，中国汽车如何卖到5000万辆？",
@@ -429,7 +479,7 @@ const APP_DATA = {
      "summary": "2026年，国内新能源汽车渗透率突破60%，中国汽车品牌的售价提升到80万元。中国乘联会秘书长崔东树说，国产车未来要达到5000万辆销售规模，在全球市场中，占比超过50%。中国汽车越过规模大关，但高速发展之下，行业参数内卷、体验同质化、盈利承压等痛点日益凸显。第四届未来汽车先行者大会上，奇瑞副总经理王琅直言，行业进入新的“无人区”，不能再卷参数了。跳出价格与参数之外，国产车如何寻找下一个增长点？01元戎启行周光：智驾几十公里接管一次和1000公里接管一次，是两个物种最近几年，智驾行业的技术重心从端到端、VLA向着大模型、基座模型和物理AI快速迭代。元戎启行CEO周光分享了他对物理AI基座...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "中国汽车销量目标揭示：品牌与生态竞争取代价格战。"
+     "interpretation": "中国汽车需靠技术溢价与品牌价值突破，而非低价竞争实现规模。"
     },
     {
      "title": "面壁智能「开源周」：一场定义端侧 AI 终局的系统性「亮剑」",
@@ -439,7 +489,7 @@ const APP_DATA = {
      "summary": "一场罕见的「技术组曲」。 作者丨马晓宁 编辑丨林觉民 难得能遇到一次大模型开源周。5 月 25 日至 29 日，面壁智能联合 OpenBMB 开源社区，以每日发布一项关键技术成果的节奏，举办了一场「端侧大模型开源周」。这在中国乃至全球的大模型公司中，都是一次极为罕见的集体「亮剑」。从适配国产昇腾、未来有望将 600 亿参数大模型装进手机的 1.58-bit 低比特训练大模型 BitCPM-CANN，到性能超越两倍参数模型、全球同级最优的 MiniCPM5-1B；从 AI 亲手编写、在 H100 上比英伟达自家大模型训练框架 Megatron 更快的 ForgeTrain，到重构交互范式的...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "面壁智能开源周，或重新定义端侧AI竞争格局。"
+     "interpretation": "端侧AI开源系统性布局，或重塑终端智能设备竞争格局。"
     },
     {
      "title": "独家｜华为系帧跃科技完成千万美金天使轮融资，将发布视频产品 Leadde",
@@ -449,7 +499,17 @@ const APP_DATA = {
      "summary": "创始人杨昌鹏曾任华为云媒体创新 Lab 首任主任、交互式媒体方向 1 号位。 作者丨马晓宁 编辑丨林觉民 AI 科技评论独家获悉，主攻 AI 交互式视频赛道的初创公司「帧跃科技」，已敲定一笔千万美金级的天使轮融资。本轮投资方包括创新工场、国谦资本、零一万物、璞跃中国及盈动资本等机构。资金将主要用于视频推理平台的持续迭代、应用层产品开发，以及全球化人才团队建设。帧跃科技成立于 2025 年 6 月，锚定 AI 交互式视频方向。创始人兼 CEO 杨昌鹏为南洋理工大学与加州大学伯克利分校联合培养博士，曾任华为云媒体创新 Lab 首任主任、交互式媒体方向 1 号位。在华为期间，他主导搭建了首个实...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "华为系获千万融资推视频产品，显示AI视频赛道升温。"
+     "interpretation": "华为系创业公司获资本青睐，视频AI产品有望冲击内容创作市场。"
+    },
+    {
+     "title": "你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水；莲花CEO因超1.8吨是菜车言论惹争议！网友：暴论营销；阿里副总裁离职创业",
+     "url": "https://www.leiphone.com/category/zaobao/C3tCocG23hAwhe3f.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-06-04",
+     "summary": "要闻提示1.你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水2.莲花CEO称车重超过1.8吨就是菜车，荣耀高管回应：实在不理解3.曝DeepSeek首轮融资拟筹集500亿元，腾讯、京东等参投4.阿里副总裁张凯夫离职创业5.比亚迪，入局人形机器人6.字节 Seedance 2.0 模型单月营收已超 10 亿元，且仍在爬升期7.安克创新向港交所提交上市申请8.OpenAI 将在 ChatGPT 应用中集成 Codex 功能今日头条你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水6月3日消息，据报道，三星与SK海力士之间的薪酬博弈正陷入恶性循环，员工互相攀比待遇的压力已从半...",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "芯片巨头薪酬内卷蔓延全行业，暴露人才争夺战加剧产业成本压力。"
     },
     {
      "title": "00后创业者站上C位，「go big or go home」｜36氪离线聚会第二期",
@@ -459,7 +519,7 @@ const APP_DATA = {
      "summary": "“妨碍真理发现过程的，不是谎言，而是极其精辟的错误见解。”德国物理学家兼讽刺作家利希滕贝格在面对启蒙运动中的种种愚昧时，戏谑式地写下了这一句名言。 许多误判之所以危险，恰恰因为它们看上去过于正确。它们能在一个短周期里解释世界，也容易在世界已经变化之后，继续以“共识”的面貌停留在原地。 AI也曾经历类似的混沌阶段。过去两年，人们习惯用一些简单指标理解这场变化：谁拥有更多GPU，谁训练了更大参数的模型，谁的团队烧掉了更多Token。以至于硅谷一度流行“Token消耗量”的隐形竞赛，以证明到底谁是最AI Native的公司。 但现实是，Token消耗量可以衡量投入的程度，却无法衡量投入的方向—...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "00后创业者崛起，体现新一代“要么做大要么回家”的冒险精神。"
+     "interpretation": "00后创业者高调登场，预示新一代冒险精神正在重塑创业生态。"
     },
     {
      "title": "36氪独家｜2026 年字节 AI 的四个关键命题",
@@ -469,7 +529,7 @@ const APP_DATA = {
      "summary": "文｜周鑫雨 编辑｜张雨忻 杨轩 《智能涌现》从多个信源处独家获悉，2026 年，字节 AI 有四个重要的命题： 加大对世界模型训练的投入，年底前，模型性能达到现阶段世界模型全球 SOTA（最佳）Google Genie 3 的水平。 视频模型继续保持领先地位，探索“动态生成”等新方向。 进一步打好 Coding 的地基，做好 Coding 的 Dogfooding（数据回流、评测，形成飞轮），提升 Agent 能力。 豆包强化商业化能力，重点场景是“办公”。 字节的未竟之地：世界模型 如今，字节的 AI 矩阵中，有让字节终于得以进入中国大模型第一梯队的 Seed 2.0，还有做到世界 S...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "字节AI战略方向曝光，预示其将在2026年集中发力关键赛道。"
+     "interpretation": "字节AI战略聚焦四大命题，将决定其未来在AI赛道的胜负手。"
     },
     {
      "title": "一夜之间，ChatGPT 变成了第二个 Claude",
@@ -479,7 +539,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "ChatGPT功能趋同Claude，显示大模型产品同质化竞争加剧。"
+     "interpretation": "ChatGPT功能趋近Claude，AI助手同质化竞争加速，用户选择更依赖细节差异。"
     },
     {
      "title": "早报｜微软发布Windows「梦中神机」/腾讯云DeepSeek-V4最高降价97.5%/徕卡相机或被中国资本收购",
@@ -489,17 +549,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "微软硬件突破、腾讯云大降价、徕卡收购传闻，科技与资本格局生变。"
-    },
-    {
-     "title": "氪星晚报 ｜曲美家居：境外子公司拟发行不超9亿挪威克朗境外债券；段永平在泡泡玛特持股比例升至6.04%；现货白银向下跌破74美元/盎司",
-     "url": "<![CDATA[https://36kr.com/p/3837330582008963?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-06-03",
-     "summary": "大公司： 瑞典AI初创公司Lovable与Google Cloud扩大多年期合作 据报道，瑞典AI初创公司Lovable扩大了与Google Cloud的多年期合作，以整合Gemini模型和AI优化基础设施，从而向全球用户扩展其AI驱动的软件开发服务。（界面） 美银：英伟达2027财年下半年Vera CPU销售额有望达200亿美元 美银分析师Vivek Arya团队更新了英伟达研报。该机构测算2027财年下半年Vera CPU销售额有望达200亿美元；下一财年产品年化营收规模将突破500亿美元，英伟达有望跻身全球头部服务器CPU供应商。（新浪财经） 段永平在泡泡玛特持股比例升至6.04%...",
-     "is_new": false,
-     "lang": "zh",
-     "interpretation": "企业跨境融资、资本增持与大宗商品波动，反映市场避险与套利动向。"
+     "interpretation": "微软硬件与腾讯降价凸显AI竞争白热化，徕卡收购案折射资本布局。"
     },
     {
      "title": "任务成本仅为Claude Opus 4.6 1/9，阶跃刷新Flash模型效率",
@@ -509,17 +559,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "阶跃星辰以极低成本实现接近顶级模型性能，或将颠覆AI大模型定价逻辑。"
-    },
-    {
-     "title": "早报｜曝苹果眼镜明年底发布/英伟达首款自研芯片PC本周亮相/特斯拉推出Model Y原厂手动遮阳帘",
-     "url": "https://www.ifanr.com/1667599?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
-     "source": "APPSO",
-     "date": "2026-05-31",
-     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
-     "is_new": false,
-     "lang": "zh",
-     "interpretation": "苹果、英伟达、特斯拉三巨头同日曝新品，消费电子与汽车行业竞争白热化。"
+     "interpretation": "成本碾压式突破，AI模型效率竞赛进入“分毫必争”阶段。"
     }
    ]
   },
@@ -527,7 +567,7 @@ const APP_DATA = {
    "name": "AI Agent与智能体",
    "icon": "🤯",
    "color": "#d97706",
-   "count": 18,
+   "count": 22,
    "cards": [
     {
      "title": "Apple approves Poke as the first AI agent on its Messages for Business platform",
@@ -537,7 +577,7 @@ const APP_DATA = {
      "summary": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple’s Messages for Business platform.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "Apple批准首个AI代理接入商业平台，标志企业级AI应用进入新阶段。"
+     "interpretation": "苹果批准首个AI代理入驻商务平台，标志企业级AI应用正式进入苹果生态。"
     },
     {
      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
@@ -547,7 +587,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": true,
      "lang": "en",
-     "interpretation": "设计代理优化版CLI工具，降低开发者与AI模型交互的技术门槛。"
+     "interpretation": "将命令行工具设计为智能体友好接口，降低开发者与平台交互门槛。"
     },
     {
      "title": "Amazon develops a warehouse robot that workers can speak to",
@@ -557,7 +597,7 @@ const APP_DATA = {
      "summary": "Amazon has announced a new version of its fully autonomous warehouse robot, Proteus, that will interact using language instead of code. The expanded capabilities come as part of a growing pivot toward automation as the e-commerce giant replaces its human workers with robots. Amazon says the AI-po...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "亚马逊语音交互机器人落地，标志仓储物流向人机协作新阶段演进。"
+     "interpretation": "亚马逊开发可对话仓库机器人，推动人机协作效率与物流行业变革。"
     },
     {
      "title": "Adding MCP Tools to Reachy Mini",
@@ -567,7 +607,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "为机器人添加MCP工具接口，拓展其物理交互与任务执行范围。"
+     "interpretation": "Reachy Mini接入MCP工具，拓展机器人交互能力，推动智能硬件实用化。"
     },
     {
      "title": "Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.",
@@ -587,7 +627,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "Holo3.1实现本地快速运行，让AI代理直接操控电脑，隐私与效率兼得。"
+     "interpretation": "Holo3.1实现快速本地化电脑操作代理，提升自动化效率与隐私保护。"
     },
     {
      "title": "micropython-wasm 0.1a1",
@@ -597,7 +637,7 @@ const APP_DATA = {
      "summary": "Release: micropython-wasm 0.1a1 Fixes for some limitations that emerged while I was trying to use this to build datasette-agent-micropython. Tags: python, sandboxing, webassembly",
      "is_new": false,
      "lang": "en",
-     "interpretation": "MicroPython的WebAssembly版本发布，可在浏览器中运行Python，降低门槛。"
+     "interpretation": "micropython-wasm首个测试版发布，推动Python在浏览器端运行。"
     },
     {
      "title": "Perplexity AI unveils hybrid local-cloud inference system at Computex 2026",
@@ -607,7 +647,7 @@ const APP_DATA = {
      "summary": "Perplexity AI, the fast-growing search startup now valued at $20 billion, unveiled what it calls the first hybrid local-server inference orchestrator at Computex 2026 on Monday night, demonstrating software that autonomously decides — in real time and mid-task — which AI workloads stay on a user'...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "混合推理系统兼顾隐私与算力，或成边缘AI新范式。"
+     "interpretation": "混合推理系统亮相，兼顾隐私与性能，或改变AI部署模式。"
     },
     {
      "title": "Microsoft launches MXC, an OS-level sandbox for AI agents, with OpenAI and Nvidia already on board",
@@ -617,7 +657,7 @@ const APP_DATA = {
      "summary": "For the past two years, the technology industry has raced to make AI agents more capable — teaching them to write code, navigate software interfaces, manage files, and orchestrate multi-step workflows with increasing autonomy. What the industry has not done, at least not with any consistency, is ...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "微软联合OpenAI、英伟达打造AI安全沙箱，防范智能体失控风险。"
+     "interpretation": "操作系统级AI沙箱发布，巨头联手，为智能体安全运行定标准。"
     },
     {
      "title": "Rehumanizing global health care with agentic AI",
@@ -627,7 +667,7 @@ const APP_DATA = {
      "summary": "The global health care sector is under increasing strain. Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stres...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "智能体AI让医疗回归人性化，缓解医护资源不均问题。"
+     "interpretation": "智能体AI重塑医疗，让技术回归人性化服务核心。"
     },
     {
      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
@@ -637,7 +677,47 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "厘清AI代理核心术语，为行业标准化和开发实践奠定基础。"
+     "interpretation": "明确Harness、Scaffold等AI智能体术语，为行业标准化协作奠定基础。"
+    },
+    {
+     "title": "微信AI对手机厂商打开一道窄门｜焦点分析",
+     "url": "<![CDATA[https://36kr.com/p/3839575253993985?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "文｜王毓婵 梁键强 编辑｜张雨忻 昨日，腾讯客服回应称，微信正在与华为、小米、荣耀、OPPO、vivo等手机厂商合作推出A2A助手能力，目前已有多家厂商完成接入。 “您可以通过对应手机系统的AI助手发起微信音视频通话或向指定好友发送消息。该功能基于A2A（Agent-to-Agent）协作机制，数据安全与隐私通过双重授权机制保障。合作旨在将微信高频沟通功能融入手机系统助手，为您提供更便捷的使用体验。”腾讯客服表示。 与之前字节跳动推出的豆包手机相比，腾讯的微信AI采取了完全不同的技术路径。 以豆包手机为代表的很多 OS 端 AI 助手，走的是 GUI agent（图形界面智能体） 路线—...",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "微信AI向手机厂商开放合作，可能重塑移动端AI生态格局。"
+    },
+    {
+     "title": "8点1氪丨分析师曝苹果Vision Pro产品线被移除；黄仁勋将首次亮相综艺节目；粉笔CEO就骂人大学生“活该找不到工作”道歉",
+     "url": "<![CDATA[https://36kr.com/p/3839505332161026?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "今日热点导览 微信正与手机厂商合作推出Agent-to-Agent助手能力 擅用“LABUBU”相近标识商业推广，泡泡玛特告奈雪的茶获赔32万 腾讯客服回应与华为、小米等合作 神农旅游集团就国道收费进行道歉 苹果智能眼镜推迟至2029年，无显示屏AI眼镜仍将于2027年推出 TOP 3 大新闻 分析师曝苹果Vision Pro产品线被移除，2027年推AI眼镜 知名苹果分析师郭明錤发布最新供应链调查称，苹果已正式从其XR头显与智能眼镜路线图中移除Vision Pro系列后续产品，资源全面转向更具大众市场潜力的AI眼镜品类。据悉，这一重大战略调整已获苹果下一任CEO约翰·特努斯批准。 郭明...",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "苹果Vision Pro或停产、黄仁勋跨界综艺、粉笔CEO争议言论，科技圈热点密集。"
+    },
+    {
+     "title": "腾讯首发效率智能体工具集，覆盖20多个垂直场景Agent",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3839715093662211?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "36氪获悉，腾讯在2026腾讯云AI产业应用大会上首次系统发布“效率智能体工具集”，针对20多个垂直场景提供差异化的智能体解决方案。针对个人用户，本地AI助手QClaw首创“微信直连”模式，并打通腾讯文档、腾讯会议、ima、QQ邮箱等工具。面向职场人群，腾讯推出了“Buddy”家族系列产品。针对企业用户，腾讯还正式发布WorkBuddy企业版及办公智能体套件Agent Suite，升级企业智能体管控平台ClawPro和智能体开发平台ADP 4.0。",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "腾讯推出多场景智能体工具，推动AI从通用向垂直行业深度渗透。"
+    },
+    {
+     "title": "百度智能云与FluxA达成战略合作",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3839673465866498?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "36氪获悉，全球AI Agent支付基础设施提供商FluxA与百度智能云正式建立战略合作伙伴关系。国内OPC（一人公司）可在百度智能云“云市场”将AI技能、数字内容等封装为可被Agent调用和购买的商品并定价上架，上架商品经FluxA平台向海外数万个Agent分销，调用产生的费用由FluxA支付系统自动完成收付款、分账及跨境结算，全程无需人工介入。",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "百度与FluxA合作，加速AI云服务在产业端的落地应用。"
     },
     {
      "title": "全球首个！材科源图发布有机高分子应用智能体",
@@ -647,7 +727,7 @@ const APP_DATA = {
      "summary": "在人工智能重塑科研范式的科技浪潮中，因体系复杂、配方变量多，长期面临高度依赖专家经验、试错成本高、知识难以沉淀复用等行业瓶颈，研发效率提升亟待突破。近日，据雷峰网了解，苏州材科源图（MatSource)正式发布全球首个有机高分子材料研发应用智能体（Organic Polymer Agent）。该智能体依托自主构建的通用材料科学智能体框架（Materials Agent Framework），面向高分子材料研发场景打造专家级人工智能系统，推动“人工驱动”向“人工智能协同驱动”加速跃迁，为高新材料的高效自主研发提供了关键的技术支撑。01 面向复杂研发场景，构建高分子材料研发“智能中枢”作为材...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "首个有机高分子AI智能体，将颠覆材料研发范式。"
+     "interpretation": "首个有机高分子AI智能体发布，材料科学研发范式迎来变革。"
     },
     {
      "title": "蓝信发布2026全栈AI新品，打造100%国产化政企智能办公新范式",
@@ -657,7 +737,7 @@ const APP_DATA = {
      "summary": "北京，2026年6月2日——“知行无界・智启未来——蓝信 2026 AI 新品发布会暨生态渠道大会” 在北京国家会议中心隆重召开。蓝信现场重磅发布听蓝AI录音卡、蓝域智能体平台、知行AI超级助理三款原生 AI 产品，并发起成立政企智能办公生态联盟，以全链路、国产化、高安全属性的智能办公体系，正式定义政企AI办公新范式，开启政企智能办公新征程。北京市西城区人民政府党组成员、副区长洪英子出席并致辞。她谈到，人工智能是新一轮科技革命核心驱动力，政企数字化转型已从“选择题”变为“必答题”，安全与智能深度融合已成为关键要求。蓝信作为行业标杆企业，此次发布的全栈式安全智能办公方案，是我国政企智能办公...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "蓝信全栈AI新品，推动政企办公国产化与智能化双升级。"
+     "interpretation": "蓝信全栈国产化AI新品，标志着政企智能办公自主可控迈出关键一步。"
     },
     {
      "title": "慕尼黑工大Johannes Betz 教授：时速300公里的自动驾驶超车 ｜ ICRA 2026",
@@ -667,7 +747,7 @@ const APP_DATA = {
      "summary": "大多数AI赛车研究停留在仿真里，这辆车是真的在赛道上撞过。 作者丨陈淑瑜 编辑丨岑 峰 2026年6月2日，在ICRA 2026大会上，慕尼黑工业大学（TUM）自动驾驶实验室负责人Johannes Betz发表了题为“Autonomous Vehicles & Navigation ”的演讲，系统回顾了过去八、九年其团队在自动驾驶赛车领域的研究历程与核心洞察。Johannes Betz开篇即抛出一个尖锐的问题：为什么要研究自动驾驶赛车？他的回答直指机器人学的一个根本困境：赛车天然集成了多变环境、高速交互与极小容错空间三个极致要素，构成了完美的研究沙盒。在此基础上，他的团队选择了一条与主流...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "时速300公里自动驾驶超车，突破高速场景技术瓶颈。"
+     "interpretation": "高速自动驾驶超车技术突破，将推动无人驾驶在极限场景下的安全落地。"
     },
     {
      "title": "氪星晚报 ｜OpenAI首席财务官谈公司AI设备：今年年底前将正式发布；腾讯客服回应与华为、小米等合作；香港推出首个生产力级超级智能体",
@@ -677,7 +757,7 @@ const APP_DATA = {
      "summary": "大公司： OpenAI首席财务官谈公司AI设备：今年年底前将正式发布 OpenAI首席财务官Sarah Friar日前在受访时透露，已经亲自体验过OpenAI的AI设备。她表示到“今年年底之前”OpenAI将正式发布这款产品。此前，OpenAI曾在一份文件中表示，预计最早也要到2027年2月才会开始发货。（财联社） LG Innotek计划扩建半导体基板工厂 LG Innotek将于下月开始扩建其位于越南的半导体基板工厂。此次扩建将通过其越南生产子公司的直接投资进行，计划2027年5月竣工。（新浪财经） 鸿海与SK集团深化AI基础设施合作 鸿海表示，董事长刘扬伟近日会见韩国SK集团会长崔...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "OpenAI硬件落地、腾讯合作、香港智能体，显示AI正加速渗透消费与产业端。"
+     "interpretation": "OpenAI硬件落地在即，AI设备商业化竞争进入倒计时阶段。"
     },
     {
      "title": "刚刚，Windows「梦中神机」来了，把你的 PC 变成 Agent 工位",
@@ -687,7 +767,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "Windows新功能将PC变为AI代理，标志操作系统级AI应用落地。"
+     "interpretation": "Windows新功能让PC变身智能助手，个人计算体验迎来Agent化革命。"
     },
     {
      "title": "制糖工厂发布 AI 小电拼 Mirror，支持 AI Agent 原生接入",
@@ -697,7 +777,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "将AI智能体直接嵌入电源设备，开启硬件与AI交互新范式。"
+     "interpretation": "消费级AI硬件落地，智能电源管理或成新赛道。"
     },
     {
      "title": "制糖工厂发布 AI 小电拼 Mirror：全球首款智能体电源，支持 AI Agent 原生接入",
@@ -707,7 +787,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "全球首款智能体电源诞生，让AI Agent能直接控制物理设备，拓展应用边界。"
+     "interpretation": "电源设备首次接入AI智能体，标志着硬件从被动供电向主动服务转型。"
     }
    ]
   },
@@ -715,7 +795,7 @@ const APP_DATA = {
    "name": "具身智能与机器人",
    "icon": "🤖",
    "color": "#059669",
-   "count": 8,
+   "count": 10,
    "cards": [
     {
      "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
@@ -725,7 +805,17 @@ const APP_DATA = {
      "summary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "Hello Robot推动家用机器人落地，检验硅谷技术能否突破家庭场景。"
+     "interpretation": "Hello Robot率先探索家用机器人，打破硅谷对家庭场景的谨慎态度，推动人机共居。"
+    },
+    {
+     "title": "The skeptic’s guide to humanoid robots going viral on the Internet",
+     "url": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-06-04",
+     "summary": "Robot demonstrations can distort public perceptions of robotic capabilities.",
+     "is_new": true,
+     "lang": "en",
+     "interpretation": "人形机器人走红视频需警惕技术炒作，真实能力与营销存在差距。"
     },
     {
      "title": "Used Waymo robotaxi batteries become backup storage for power grids",
@@ -735,7 +825,7 @@ const APP_DATA = {
      "summary": "Used Waymo batteries will bolster California and Texas energy storage projects.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "二手Waymo无人出租车电池转作电网储能，开创退役电池循环利用新模式。"
+     "interpretation": "退役自动驾驶电池用于电网储能，开创循环经济与新能源协同新模式。"
     },
     {
      "title": "The Humanoid Robot of the Future Is a 6-Foot-Tall Beefcake With a Chinese Body and an American Brain",
@@ -745,7 +835,7 @@ const APP_DATA = {
      "summary": "Spencer Huang, Nvidia’s robotics lead, tells WIRED that the new bot combines the best of both worlds.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "人形机器人采用中美技术结合，凸显全球供应链在高端制造中的关键作用。"
+     "interpretation": "中美技术融合的人形机器人，预示全球供应链与AI竞争新格局。"
     },
     {
      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
@@ -755,7 +845,27 @@ const APP_DATA = {
      "summary": "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "I/O 2026对话舞台内容汇总，聚焦AI伦理、应用与未来对话。"
+     "interpretation": "I/O 2026对话舞台内容汇总，聚焦AI伦理、应用与行业深度讨论。"
+    },
+    {
+     "title": "小字不免责！因宣传语蹭LABUBU营销，奈雪赔偿泡泡玛特32万；iPhone改日期多出20G？苹果泼冷水；粉笔CEO张小龙辱骂学生：活该找不到工作",
+     "url": "https://www.leiphone.com/category/zaobao/HiubaQdZiMf44U3A.html",
+     "source": "雷锋网 - AI",
+     "date": "2026-06-05",
+     "summary": "要闻提示1.小字不免责！因宣传语“蹭”LABUBU营销，奈雪赔偿泡泡玛特32万2.手机厂商语音助手可直接调动微信？腾讯客服回应3.改个日期iPhone多出20G！网友神操作火了，苹果：官方没这方法4.粉笔CEO张小龙大学演讲公然辱骂台下学生：活该找不到工作5.“加价两万可插队提GX”？何小鹏：小鹏明令禁止加价插队，我朋友都拒绝了6.罗永浩卸任锤子软件“执行董事”，知情人士称“既定人事安排”7.Meta元宇宙管理层更迭：原负责人悄然离职四个月，前Epic高管接棒8.马斯克 xAI 暂停招聘 Grok 聊天机器人“AI 导师”，HR 部门已不堪重负今日头条小字不免责！因宣传语“蹭”LABUB...",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "奈雪因蹭LABUBU营销被判赔32万，警示“小字免责”式擦边球风险。"
+    },
+    {
+     "title": "千寻智能在杭州成立机器人公司，注册资本1000万",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3839698027317766?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "36氪获悉，天眼查App显示，近日，千寻智能（杭州）机器人有限公司成立，法定代表人为孙荣毅，注册资本1000万人民币，经营范围包括服务消费机器人制造、软件销售、人工智能基础软件开发等，由千寻智能（北京）科技有限公司全资持股。",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "千寻智能在杭州成立机器人公司，区域产业布局再添新玩家。"
     },
     {
      "title": "A股账户可以买Robotaxi了",
@@ -765,7 +875,7 @@ const APP_DATA = {
      "summary": "Robotaxi双雄同日官宣",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "A股可直接买Robotaxi，意味着自动驾驶商业化获资本市场认可。"
+     "interpretation": "Robotaxi概念股开放交易，无人驾驶商业化进入投资阶段。"
     },
     {
      "title": "戴盟机器人完成亿元融资，阿里通义多模态大牛加盟攻关物理世界模型",
@@ -775,17 +885,7 @@ const APP_DATA = {
      "summary": "甩开视觉内卷",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "戴盟机器人获亿元融资，物理世界模型成具身智能新焦点。"
-    },
-    {
-     "title": "深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发",
-     "url": "<![CDATA[https://36kr.com/p/3837269482091656?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-06-04",
-     "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，戴盟机器人近日完成亿元A轮融资，由汇川技术旗下产业基金汇川产投与中国电信联合投资。资金将用于进一步打造超大规模含物理交互信息数据集，加速物理世界模型研发、并驱动真实物理场景下的数据飞轮与商业闭环。 戴盟机器人于2023年正式运营，核心团队长期聚焦机器人灵巧操作与物理交互智能领域。联合创始人兼首席科学家王煜教授曾任港科大机器人研究院创始院长，他所提出的“具身技能”与“技能克隆”等概念，是戴盟机器人核心技术路线的重要组成部分。创始人兼CEO段江哗博士及主要技术负责人，均来自港科大机器人研究院核心团队，具备10年操作智能Know-how。首席AI科学家原玮浩...",
-     "is_new": true,
-     "lang": "zh",
-     "interpretation": "具身智能获产业资本重注，视触觉传感器成机器人感知核心突破口。"
+     "interpretation": "阿里系技术加盟，机器人物理世界模型研发获关键人才与资本助力。"
     },
     {
      "title": "早报｜OpenAI官宣进军机器人领域/AI误把文物照片上架，闲鱼致歉/天涯社区重启首日被挤爆",
@@ -795,7 +895,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "OpenAI入局机器人、AI误标文物、天涯重启，技术野心与伦理漏洞并存。"
+     "interpretation": "OpenAI跨界机器人、闲鱼AI翻车、天涯重启，反映AI应用机遇与乱象并存。"
     }
    ]
   },
@@ -803,7 +903,7 @@ const APP_DATA = {
    "name": "多模态与AIGC",
    "icon": "🎨",
    "color": "#dc2626",
-   "count": 8,
+   "count": 6,
    "cards": [
     {
      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
@@ -813,7 +913,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": true,
      "lang": "en",
-     "interpretation": "多模态内容安全工具发布，为全球企业AI部署提供可定制合规方案。"
+     "interpretation": "Nemotron 3.5推出可定制多模态安全方案，为企业AI部署提供灵活合规的防护墙。"
     },
     {
      "title": "After 11 years at Mars, NASA's MAVEN spacecraft went out with a whisper",
@@ -823,7 +923,7 @@ const APP_DATA = {
      "summary": "“I think the team has really experienced the loss of a loved one with the end of the mission.”",
      "is_new": true,
      "lang": "en",
-     "interpretation": "美国MAVEN探测器在火星工作11年后悄然退役，标志深空探测里程碑。"
+     "interpretation": "MAVEN探测器在火星工作11年后静默退役，标志人类深空探索重要节点。"
     },
     {
      "title": "Let us filter AI slop, you cowards",
@@ -833,27 +933,7 @@ const APP_DATA = {
      "summary": "It's almost impossible to avoid seeing AI-generated content online, but it doesn't have to be this way. YouTube, Instagram, TikTok, and more have ramped up content authentication efforts over the last year, with many now automatically applying labels to distinguish AI-generated images, videos, an...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "呼吁平台主动过滤AI低质内容，否则将加剧信息污染与信任危机。"
-    },
-    {
-     "title": "Amazon will show AI product images when you search for some reason",
-     "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
-     "source": "TechCrunch - AI",
-     "date": "2026-06-03",
-     "summary": "Amazon will use visual search and AI to show AI-generated product images that match your search queries. The retailer says it will help guide users to products.",
-     "is_new": false,
-     "lang": "en",
-     "interpretation": "亚马逊搜索直接展示AI生成产品图，电商购物体验正被AI内容生成深刻改变。"
-    },
-    {
-     "title": "These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked",
-     "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
-     "source": "TechCrunch - AI",
-     "date": "2026-06-03",
-     "summary": "The startup's own stack for Africa and Middle East is now handling more than 17,000 calls per day.",
-     "is_new": false,
-     "lang": "en",
-     "interpretation": "前高盛与Meta高管创业，专注被忽视市场的语音AI，开辟差异化竞争新赛道。"
+     "interpretation": "呼吁平台过滤AI低质内容，反映公众对信息生态污染的强烈不满。"
     },
     {
      "title": "Amazon’s search bar will invent AI-generated products you can’t buy",
@@ -863,7 +943,7 @@ const APP_DATA = {
      "summary": "Amazon's updated search bar will now show you AI-generated images of products as you describe them. For now, the in-app feature only surfaces AI images of clothing and home goods, allowing you to tap on the image that best matches what you're looking for and search for similar-looking items. In a...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "亚马逊搜索栏虚构AI生成商品，暴露电商平台内容审核与信任危机。"
+     "interpretation": "亚马逊搜索栏虚构AI商品，暴露算法生成内容与现实脱节的隐患。"
     },
     {
      "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
@@ -873,7 +953,7 @@ const APP_DATA = {
      "summary": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked I had trouble believing this story was true, but I've seen it verified from multiple sources now: One video shows a hacker starting a conversation with Meta’s AI support bot and asking it to link the ta...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "黑客仅靠提问就让Meta AI交出高权限账号，暴露AI安全漏洞的严重性。"
+     "interpretation": "黑客仅靠提问就让Meta AI交出高权限账户，暴露AI安全漏洞。"
     },
     {
      "title": "郭明錤：苹果已砍掉 Vision Pro，改玩 AI 眼镜了",
@@ -883,7 +963,7 @@ const APP_DATA = {
      "summary": "知名分析师郭明錤发帖称，苹果 XR 头显 […]",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "苹果放弃头显转向AI眼镜，预示消费电子新风口。"
+     "interpretation": "苹果放弃高价头显，转向更轻量AI眼镜，预示消费级AR新方向。"
     }
    ]
   },
@@ -891,8 +971,18 @@ const APP_DATA = {
    "name": "AI硬件与芯片",
    "icon": "💾",
    "color": "#0891b2",
-   "count": 6,
+   "count": 5,
    "cards": [
+    {
+     "title": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
+     "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
+     "source": "TechCrunch - AI",
+     "date": "2026-06-04",
+     "summary": "On Thursday, June 18, at The Aerospace Corporation Campus, investors, founders, and tech leaders will gather for an evening of conversation exploring some of the most consequential shifts taking place across venture capital, defense technology, artificial intelligence, and advanced industry. Secu...",
+     "is_new": true,
+     "lang": "en",
+     "interpretation": "国防科技与AI成为风投焦点，反映地缘政治下硬科技投资的新趋势。"
+    },
     {
      "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
      "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
@@ -901,7 +991,7 @@ const APP_DATA = {
      "summary": "Apple's WWDC nears: Here's what you can look forward to.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "Siri大改与AI更新成WWDC 2026核心看点，预示苹果AI战略关键转折。"
+     "interpretation": "Siri大改版与苹果AI更新成WWDC焦点，预示苹果将全力追赶AI语音助手赛道。"
     },
     {
      "title": "Biodefense in the Intelligence Age",
@@ -911,7 +1001,7 @@ const APP_DATA = {
      "summary": "An action plan for AI-powered biological resilience",
      "is_new": true,
      "lang": "en",
-     "interpretation": "情报时代生物防御升级，AI或成应对新型生物威胁的关键技术。"
+     "interpretation": "情报时代生物防御需融合AI与数据，关乎国家安全新防线。"
     },
     {
      "title": "Nvidia’s RTX Spark Laptops Look Hell-Bent on Disruption",
@@ -921,7 +1011,7 @@ const APP_DATA = {
      "summary": "The company’s RTX Spark chips might finally turn the “AI PC” into reality.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "RTX Spark笔记本若成功，可能颠覆移动工作站市场，重塑AI开发硬件格局。"
+     "interpretation": "英伟达RTX Spark笔记本瞄准颠覆市场，或重塑移动端AI算力格局。"
     },
     {
      "title": "实现芯片设计验证自动化，提升开发效率10倍以上，「智维创芯」完成数千万元天使轮融资｜36氪首发",
@@ -931,27 +1021,7 @@ const APP_DATA = {
      "summary": "从芯片行业在资本市场的狂飙，到华为发布“韬（τ）定律”，AI浪潮带动下，烈火烹油的半导体行业进入超级周期，推动芯片设计等上游产业链迎来需求爆发。 但随着需求暴增，设计复杂度不断提高，芯片验证周期过长，拖累开发节奏的瓶颈也越来越明显。2024年西门子和威尔逊研究集团的研究报告中指出高工艺复杂芯片的流片风险非常大，首次流片成功率只有14%。“一款芯片从架构到流片一般需要两年时间，其中验证环节消耗的人力与时间往往超过60%。”王翕对36氪表示。 数字芯片开发流程 王翕是「智维创芯」的创始人兼董事长，目前也是东南大学的副教授、博士生导师。2025年，王翕团队依托此前在国家集成电路设计自动化技术创...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "芯片设计自动化融资，标志国产EDA工具在效率突破上获资本认可。"
-    },
-    {
-     "title": "万通发展：目前PCIe 6.0 switch芯片处于在研阶段，尚未投片",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3838834040604932?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-06-04",
-     "summary": "36氪获悉，万通发展发布股票交易异常波动公告，公司发现有投资者关注PCIe 6.0 switch芯片的投片进度等相关信息，目前PCIe 6.0 switch芯片处于在研阶段，尚未投片。",
-     "is_new": true,
-     "lang": "zh",
-     "interpretation": "万通发展披露芯片研发阶段，揭示国产高速互联芯片仍处早期攻坚。"
-    },
-    {
-     "title": "博通股价盘前跌超15%",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3838788717152776?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-06-04",
-     "summary": "36氪获悉，博通股价盘前跌超15%；消息面上，公司预计第三财季AI芯片销售额为160亿美元，不及市场预期。",
-     "is_new": true,
-     "lang": "zh",
-     "interpretation": "博通股价暴跌，反映市场对AI芯片竞争格局变化的剧烈反应。"
+     "interpretation": "芯片设计自动化获资本加持，有望大幅缩短国产芯片研发周期。"
     }
    ]
   },
@@ -969,7 +1039,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "PyTorch性能分析入门指南，降低开发者优化模型的门槛，提升训练效率。"
+     "interpretation": "PyTorch性能分析入门教程，帮助开发者定位模型训练瓶颈。"
     },
     {
      "title": "比亚迪与中国石化深化战略合作 共建智慧能源生态",
@@ -979,7 +1049,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "比亚迪与中石化合作，充电网络与加油站融合加速能源转型。"
+     "interpretation": "比亚迪与中石化合作，推动充电网络与能源体系深度融合。"
     }
    ]
   },
@@ -990,6 +1060,16 @@ const APP_DATA = {
    "count": 11,
    "cards": [
     {
+     "title": "Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns",
+     "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+     "source": "TechCrunch - AI",
+     "date": "2026-06-04",
+     "summary": "Anthropic has been growing at a breakneck pace. The company announced that annualized revenue crossed $47 billion in May, up dramatically from roughly $9 billion at the end of 2025. That trajectory faces a real test, though.",
+     "is_new": true,
+     "lang": "en",
+     "interpretation": "安思睿CEO淡化AI回报质疑，为IPO造势，凸显行业对盈利前景的焦虑。"
+    },
+    {
      "title": "The AI IPO Race Heats Up, DOGE Whistleblower Sues Elon Musk, and Instagram Gets Hacked",
      "url": "https://www.wired.com/story/uncanny-valley-podcast-ai-ipo-race-elon-musk-doge-whistleblower-instagram-hacking-incident/",
      "source": "Wired - AI",
@@ -997,7 +1077,7 @@ const APP_DATA = {
      "summary": "On Uncanny Valley, we dive into the IPO bonanza that the top AI companies are embarking on to the point where some real estate listings are looking for not just regular old cash, but Anthropic stock.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "AI公司IPO竞争白热化，马斯克遭起诉与Instagram被黑折射行业乱象。"
+     "interpretation": "AI公司IPO竞争白热化，马斯克遭举报、Instagram被黑凸显行业乱象。"
     },
     {
      "title": "Jeff Bezos Is Funding a Wild Hunt for the Brain’s ‘Core Algorithm’",
@@ -1007,7 +1087,7 @@ const APP_DATA = {
      "summary": "With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "贝索斯资助脑算法研究，试图破解大脑运行密码以推动AI底层突破。"
+     "interpretation": "贝索斯资助破解大脑核心算法，或颠覆AI与神经科学交叉领域。"
     },
     {
      "title": "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons",
@@ -1017,7 +1097,7 @@ const APP_DATA = {
      "summary": "Leading AI labs, executives, and scientists are sending a letter to lawmakers urging them to improve tracking of synthetic DNA sequences that could be used for bioweapons.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "顶级AI公司主动设限，防止技术被用于制造生物武器，体现行业自律与安全共识。"
+     "interpretation": "两大AI巨头联手承诺不开发生物武器，为技术伦理划出红线。"
     },
     {
      "title": "A blueprint for democratic governance of frontier AI",
@@ -1027,7 +1107,7 @@ const APP_DATA = {
      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "为前沿AI建立民主治理框架，关乎技术发展方向与公众利益平衡。"
+     "interpretation": "为前沿AI治理提供民主化框架，平衡技术创新与公众利益。"
     },
     {
      "title": "OpenAI public policy agenda",
@@ -1037,7 +1117,7 @@ const APP_DATA = {
      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "OpenAI公开政策议程，预示其将主动影响全球AI监管与伦理标准制定。"
+     "interpretation": "OpenAI发布政策议程，预示其将主动影响AI监管方向。"
     },
     {
      "title": "What’s Worth More Than Cash in San Francisco Real Estate? Anthropic Stock",
@@ -1047,7 +1127,7 @@ const APP_DATA = {
      "summary": "Several real estate listings in the San Francisco Bay Area are offering to exchange a home for a piece of the AI startup.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "旧金山房产接受Anthropic股票，反映AI初创公司估值已深度渗透实体经济。"
+     "interpretation": "Anthropic股票在旧金山比现金更值钱，反映AI初创公司估值泡沫化。"
     },
     {
      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
@@ -1067,7 +1147,7 @@ const APP_DATA = {
      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How small businesses can leverage AI From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "AI接管行政办公，企业运营效率将迎来质变。"
+     "interpretation": "AI接管行政流程，企业运营效率有望迎来质变。"
     },
     {
      "title": "派早报：豆包确认将推出付费版服务、樱桃发布 UWB 键盘等",
@@ -1077,7 +1157,7 @@ const APP_DATA = {
      "summary": "OpenAI 扩展 Codex 的使用场景、华米推出 Amazfit Balance 3 智能手表等。查看全文",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "豆包付费与樱桃UWB键盘，标志AI与硬件融合加速。"
+     "interpretation": "豆包付费模式落地，UWB键盘提升输入精度，AI工具商业化加速。"
     },
     {
      "title": "Anthropic 抢跑 IPO，AI 巨头接连秘密上市，背后是怎样的攻防战",
@@ -1087,17 +1167,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "头部AI公司抢跑上市，揭示行业资本化竞争与监管博弈白热化。"
-    },
-    {
-     "title": "新加坡拿下东南亚AI基建融资99%，BEYOND Expo 2026圆满收官｜SEA Now",
-     "url": "https://cn.technode.com/post/2026-06-01/2026-05-25-2026-05-31/",
-     "source": "动点科技 - AI",
-     "date": "2026-06-01",
-     "summary": "2026.05.25-2026.05.31",
-     "is_new": false,
-     "lang": "zh",
-     "interpretation": "新加坡几乎垄断东南亚AI基建资金，凸显其区域科技中心地位与投资吸引力。"
+     "interpretation": "巨头抢跑IPO揭示AI行业资本博弈与估值泡沫风险。"
     }
    ]
   },
@@ -1115,7 +1185,7 @@ const APP_DATA = {
      "summary": "Four people suing Elon Musk's AI firm under pseudonyms due to the risks of being identified may face a difficult choice: Reveal your real names, or drop the lawsuit.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "xAI要求剥夺受害者匿名权，可能开创AI深度伪造诉讼中隐私保护的先例。"
+     "interpretation": "xAI要求剥夺深度伪造受害者匿名权，可能改变AI侵权诉讼规则。"
     }
    ]
   },
@@ -1123,18 +1193,8 @@ const APP_DATA = {
    "name": "其他AI资讯",
    "icon": "🔮",
    "color": "#6b7280",
-   "count": 55,
+   "count": 54,
    "cards": [
-    {
-     "title": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
-     "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
-     "source": "TechCrunch - AI",
-     "date": "2026-06-04",
-     "summary": "With just two weeks to go, StrictlyVC Los Angeles is quickly approaching. On Thursday, June 18, at The Aerospace Corporation Campus in El Segundo, investors, founders, and tech leaders will gather for an evening of conversation exploring some of the most consequential shifts taking place across v...",
-     "is_new": true,
-     "lang": "en",
-     "interpretation": "防务科技与AI融资成焦点，反映资本向国家安全领域倾斜趋势。"
-    },
     {
      "title": "Meta steals a tactic from Tesla and builds data centers in tents",
      "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
@@ -1143,7 +1203,7 @@ const APP_DATA = {
      "summary": "Meta may have found one way to slash its massive data center bill: tents.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "Meta效仿特斯拉用帐篷建数据中心，凸显AI算力需求下的成本焦虑。"
+     "interpretation": "Meta效仿特斯拉搭建帐篷数据中心，显示其以低成本快速扩张AI算力的野心。"
     },
     {
      "title": "Meta rolls out a new AI creator assistant on Facebook",
@@ -1153,7 +1213,7 @@ const APP_DATA = {
      "summary": "Creators often have to parse through charts and dashboards to understand their performance, but with the new AI assistant, they can get quick answers to questions like \"When should I post?\" and \"What are people saying in my comments?\"",
      "is_new": true,
      "lang": "en",
-     "interpretation": "Meta推出AI创作助手，加速社交平台内容生产的智能化转型。"
+     "interpretation": "Meta推出AI创作者助手，旨在降低内容创作门槛，争夺社交媒体创作者经济。"
     },
     {
      "title": "Apple touts $1.4 trillion in App Store billings and sales, 90% without a commission",
@@ -1163,7 +1223,7 @@ const APP_DATA = {
      "summary": "Apple's App Store generated $1.4 trillion in sales, up from $1.3 trillion last year, with $149 billion in sales for digital goods.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "Apple强调App Store九成交易免佣金，意在回应反垄断监管压力。"
+     "interpretation": "苹果公布App Store九成交易免佣金，意在回应反垄断压力，重塑开发者关系。"
     },
     {
      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
@@ -1173,7 +1233,27 @@ const APP_DATA = {
      "summary": "",
      "is_new": true,
      "lang": "en",
-     "interpretation": "多领域工具场景数据集发布，推动AI代理在复杂任务中的泛化能力。"
+     "interpretation": "新基准覆盖三大领域121种工具，推动AI工具调用能力评估标准化。"
+    },
+    {
+     "title": "AT&T and Verizon lose Supreme Court case over fines for selling location data",
+     "url": "https://arstechnica.com/tech-policy/2026/06/att-and-verizon-lose-supreme-court-case-over-fines-for-selling-location-data/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-06-04",
+     "summary": "FCC did not violate carriers' right to jury trial, court says in 8-1 ruling.",
+     "is_new": true,
+     "lang": "en",
+     "interpretation": "美国最高法院裁定运营商出售位置数据违法，强化用户隐私保护。"
+    },
+    {
+     "title": "Dashlane explains how attackers managed to download encrypted password vaults",
+     "url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
+     "source": "ArsTechnica - AI",
+     "date": "2026-06-04",
+     "summary": "By targeting large numbers of users, attackers increased their chances of success.",
+     "is_new": true,
+     "lang": "en",
+     "interpretation": "Dashlane披露攻击细节，提醒用户密码管理器并非绝对安全。"
     },
     {
      "title": "Elon Musk tries again to escape FTC audits of X data handling",
@@ -1183,7 +1263,7 @@ const APP_DATA = {
      "summary": "Musk can't be trusted to protect X user privacy, public commenters warn FTC.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "马斯克试图规避FTC对X数据处理的审计，反映科技巨头与监管的持续博弈。"
+     "interpretation": "马斯克再次挑战FTC监管，暴露科技巨头与数据隐私监管的持续博弈。"
     },
     {
      "title": "Cable lobby warns of chaos if FCC doesn't relax ban on foreign routers",
@@ -1193,7 +1273,7 @@ const APP_DATA = {
      "summary": "NCTA seeks waiver from foreign-router ban, citing memory and substrate shortages.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "有线电视业警告若FCC不放松外国路由器禁令，可能引发网络混乱。"
+     "interpretation": "有线电视行业施压FCC放宽外国路由器禁令，背后是供应链与安全博弈。"
     },
     {
      "title": "Bumblebees can spontaneously solve problems, study finds",
@@ -1203,7 +1283,7 @@ const APP_DATA = {
      "summary": "Scientists in Finland found bees could solve an insect version of the classic \"box-and-banana\" problem.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "大黄蜂能自发解决问题，挑战了昆虫智能的传统认知边界。"
+     "interpretation": "大黄蜂展现自发解决问题能力，挑战传统对昆虫智能的认知边界。"
     },
     {
      "title": "It doesn't feel very agricultural: The 2026 Subaru Solterra review",
@@ -1213,7 +1293,7 @@ const APP_DATA = {
      "summary": "Subaru's badge-engineered SUV remains on sale alongside the new Trailseeker.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "2026款斯巴鲁Solterra评测显示，其农业定位与电动化体验存在落差。"
+     "interpretation": "斯巴鲁Solterra评测显示其农业风格设计，反映电动车市场差异化竞争趋势。"
     },
     {
      "title": "How some data center operators are tackling their water use problems",
@@ -1223,7 +1303,7 @@ const APP_DATA = {
      "summary": "Hyperscalers have come under scrutiny for their impact on water quality and availability.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "数据中心运营商探索节水技术，应对高能耗行业的水资源危机。"
+     "interpretation": "数据中心节水技术突破，关乎科技行业可持续发展与环保责任。"
     },
     {
      "title": "My SSN was exposed in a breach at Columbia—a school I have no connection with",
@@ -1233,17 +1313,7 @@ const APP_DATA = {
      "summary": "Columbia admits last year’s data breach exposed victims beyond its students, staff.",
      "is_new": true,
      "lang": "en",
-     "interpretation": "与本人无关的学校数据泄露竟暴露社保号，凸显数据安全漏洞的连锁风险。"
-    },
-    {
-     "title": "Flesh-eating screwworm infection confirmed in South Texas, USDA says",
-     "url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-06-04",
-     "summary": "With the case confirmed, it is the fly's first breach of the US-Mexico border.",
-     "is_new": true,
-     "lang": "en",
-     "interpretation": "美国农业部确认南德州出现食肉蝇感染，警示热带疾病北扩风险。"
+     "interpretation": "无关学校数据泄露暴露个人隐私，凸显第三方数据管理漏洞的普遍风险。"
     },
     {
      "title": "Kevin O’Leary agrees to downsize massive Utah data center",
@@ -1253,7 +1323,7 @@ const APP_DATA = {
      "summary": "Kevin O'Leary agreed to halve the size of his planned 40,000-acre data center in Utah amid mounting pressure from residents and activists, as reported earlier by local affiliate ABC4. The Shark Tank star sent a letter to Utah Senate President J. Stuart Adams on Thursday, saying that he will remov...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "凯文·奥利里同意缩减犹他州大型数据中心规模，折射行业投资理性回归。"
+     "interpretation": "知名投资人缩减数据中心规模，或预示行业泡沫风险与理性回归。"
     },
     {
      "title": "TSMC struggles to keep up with AI demand: ‘We can only support so much’",
@@ -1263,7 +1333,7 @@ const APP_DATA = {
      "summary": "Taiwan Semiconductor Manufacturing Co. - the world's biggest semiconductor-maker - is struggling to meet demands from American customers even with its factory buildout in the US, according to reports from Reuters and Bloomberg. \"Customer demand is so high, and we can only support so much,\" TSMC C...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "台积电产能瓶颈凸显，AI芯片供应紧张或持续制约行业发展。"
+     "interpretation": "台积电产能瓶颈制约AI发展，凸显全球芯片供应链的脆弱性。"
     },
     {
      "title": "Elon Musk is steamrolling Wall Street to become a trillionaire",
@@ -1273,7 +1343,7 @@ const APP_DATA = {
      "summary": "Today on Decoder, I’m talking to Ryan Mac, a technology reporter at The New York Times and coauthor of the excellent book Character Limit: How Elon Musk Destroyed Twitter, which came out in 2024. I can’t recommend it enough. I wanted to have Ryan on the show because we’re on the cusp of the Space...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "马斯克碾压华尔街，其商业版图扩张速度正重塑资本格局。"
+     "interpretation": "马斯克碾压华尔街成万亿富豪，标志科技资本对传统金融的颠覆性胜利。"
     },
     {
      "title": "AI leaders call for tougher protections against AI-aided bioweapons",
@@ -1283,7 +1353,17 @@ const APP_DATA = {
      "summary": "Some of the AI industry's biggest rivals have put their many, many grievances aside for a common cause: making it harder for people to use their technology to develop biological weapons. In an open letter to US lawmakers, tech leaders are pressing Congress to enact rules closing what they say is ...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "AI领袖警示生物安全风险，亟需建立防御机制防止技术滥用。"
+     "interpretation": "AI领袖呼吁防范生物武器风险，警示技术滥用可能引发的全球安全危机。"
+    },
+    {
+     "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+     "url": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything",
+     "source": "Simon Willison's Blog",
+     "date": "2026-06-04",
+     "summary": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy Charity Majors neatly captures the dynamic between AI enthusiasts and AI skeptics, both of whom are trying to build great software, often in the same teams: The enthusiasts are not wrong. We are starting to see r...",
+     "is_new": true,
+     "lang": "en",
+     "interpretation": "AI乐观派与怀疑派分别对抗时间与熵，本质是技术加速与自然规律博弈。"
     },
     {
      "title": "Quoting Emanuel Maiberg, 404 Media",
@@ -1293,7 +1373,7 @@ const APP_DATA = {
      "summary": "After this story was published Google's spokesperson reached out and asked us to publish a slightly different version of that statement. The new statement no longer stated that \"it's critical that we maintain humans in the loop.\" — Emanuel Maiberg, 404 Media, Google Employees Internally Share Mem...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "媒体引用来源，强调报道可信度与信息溯源的重要性。"
+     "interpretation": "引用404媒体观点，揭示科技报道中批判性视角的稀缺价值。"
     },
     {
      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
@@ -1303,7 +1383,7 @@ const APP_DATA = {
      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts th...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "AI引发诉讼激增与数据中心虚拟电厂兴起，技术正重塑法律与能源格局。"
+     "interpretation": "AI生成诉讼与虚拟电厂成焦点，反映技术滥用与能源需求双重挑战。"
     },
     {
      "title": "How courts are coping with a flood of AI-generated lawsuits",
@@ -1313,7 +1393,7 @@ const APP_DATA = {
      "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully, m...",
      "is_new": true,
      "lang": "en",
-     "interpretation": "法院面临AI生成诉讼文件泛滥，司法系统急需新机制应对虚假诉讼挑战。"
+     "interpretation": "法院面临AI生成诉讼激增，考验司法系统应对技术滥用的能力。"
     },
     {
      "title": "Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal",
@@ -1323,7 +1403,7 @@ const APP_DATA = {
      "summary": "If Alphabet's record-breaking $85 billion stock sale signals investor appetite for AI-related offerings, we can see that investors are ready to chow.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "Alphabet创纪录融资850亿美元押注AI，释放行业资本信心与战略决心。"
+     "interpretation": "Alphabet创纪录850亿美元融资，为谷歌AI业务注入强心针，市场信心大增。"
     },
     {
      "title": "Google’s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
@@ -1333,7 +1413,7 @@ const APP_DATA = {
      "summary": "Dreambeans is a curated list of AI-illustrated \"stories\" culled from the personal data in your Google account.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "谷歌推出将生活变卡通的AI工具，标志AI应用向娱乐化、个性化方向拓展。"
+     "interpretation": "谷歌“梦豆”工具可将生活变卡通，命名古怪但展现AI创意应用新方向。"
     },
     {
      "title": "Direct Preference Optimization Beyond Chatbots",
@@ -1343,37 +1423,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "偏好优化技术从聊天机器人扩展到更广泛AI应用，提升模型对齐能力。"
-    },
-    {
-     "title": "Microsoft, Atom Computing update their quantum computing progress",
-     "url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-06-03",
-     "summary": "Some quantum computing companies we've covered have done recent progress updates.",
-     "is_new": false,
-     "lang": "en",
-     "interpretation": "微软与Atom Computing更新量子计算进展，显示实用化竞争加速。"
-    },
-    {
-     "title": "Google ordered to put clearer links in AI search and let UK publishers opt out",
-     "url": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-06-03",
-     "summary": "Google must change AI Overviews after claiming users don't want \"lots of sources.\"",
-     "is_new": false,
-     "lang": "en",
-     "interpretation": "谷歌被要求明确标注AI搜索链接，并允许英国出版商退出，强化监管透明度。"
-    },
-    {
-     "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
-     "url": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/",
-     "source": "ArsTechnica - AI",
-     "date": "2026-06-03",
-     "summary": "Security advisory leaves out key details. Dashlane maintains complete silence.",
-     "is_new": false,
-     "lang": "en",
-     "interpretation": "Dashlane密码库被盗通知令人困惑，暴露安全事件沟通的普遍问题。"
+     "interpretation": "直接偏好优化技术突破聊天机器人边界，或重塑AI训练与反馈机制。"
     },
     {
      "title": "AI has a water problem — Google thinks it has a fix",
@@ -1383,7 +1433,7 @@ const APP_DATA = {
      "summary": "In the face of widespread backlash to the AI data center buildout throughout the US, Google is touting its efforts to minimize the environmental impact by actually increasing water for local communities. The company laid out five commitments around water use in a new blog post published Wednesday...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "AI耗水问题严峻，谷歌提出解决方案，凸显可持续性成关键挑战。"
+     "interpretation": "谷歌提出AI耗水问题解决方案，技术环保平衡成行业关键议题。"
     },
     {
      "title": "This Is How Trump Finally Signed the AI Executive Order",
@@ -1393,7 +1443,7 @@ const APP_DATA = {
      "summary": "After shelving the original executive order last month, Donald Trump finally got on board Monday night.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "特朗普签署AI行政令，标志美国联邦层面首次系统性规范AI发展路径。"
+     "interpretation": "特朗普签署AI行政令，标志美国联邦层面AI政策进入实质阶段。"
     },
     {
      "title": "5 ways Google Search can level up your thrift and vintage shopping",
@@ -1403,7 +1453,7 @@ const APP_DATA = {
      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "谷歌搜索新增五大功能，帮助用户更高效地淘到二手和复古好物。"
+     "interpretation": "谷歌搜索推出五种新技巧，帮助用户提升二手和复古购物体验。"
     },
     {
      "title": "The Download: Trump’s new AI order, and smart glasses for warfare",
@@ -1413,7 +1463,7 @@ const APP_DATA = {
      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. 5 key points in Trump’s new AI order Less than two weeks after scrapping an executive order on AI, President Donald Trump signed a new one on Tuesday. Promisin...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "特朗普签署新AI行政令，同时智能眼镜被用于战场，科技与政治交织。"
+     "interpretation": "特朗普签署新AI行政令，同时智能眼镜在军事领域应用加速。"
     },
     {
      "title": "micropython-wasm 0.1a0",
@@ -1423,7 +1473,7 @@ const APP_DATA = {
      "summary": "Release: micropython-wasm 0.1a0 My latest sandboxing experiment: This alpha package bundles a lightly customized WASM build of MicroPython with a wrapper to execute code in it via wasmtime. Tags: python, sandboxing, webassembly",
      "is_new": false,
      "lang": "en",
-     "interpretation": "在浏览器中运行MicroPython，降低物联网与Web开发门槛。"
+     "interpretation": "微Python首次登陆WebAssembly，为浏览器端嵌入式开发打开新可能。"
     },
     {
      "title": "The Download: China’s brain implant ambitions",
@@ -1433,7 +1483,7 @@ const APP_DATA = {
      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. China has approved the world’s first invasive brain-computer chip—here’s what’s next Sitting in the courtyard of his house in China’s Henan province last Octob...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "中国脑机接口野心提速，或重塑全球神经科技竞争格局与伦理讨论。"
+     "interpretation": "中国脑机接口技术加速追赶，野心直指全球领先地位。"
     },
     {
      "title": "China has approved the world’s first invasive brain-computer chip—here’s what’s next",
@@ -1443,7 +1493,7 @@ const APP_DATA = {
      "summary": "One day last October, sitting in the courtyard of his house in China’s Henan province, Dong Hui decided to see if he could hold a pen to write. Dong, 39, had sustained spinal cord injuries in a car accident six years earlier that left him paralyzed from the neck down. Slowly but determinedly, he ...",
      "is_new": false,
      "lang": "en",
-     "interpretation": "全球首款侵入式脑机芯片获批，开启人脑与AI融合的医疗与伦理新阶段。"
+     "interpretation": "中国批准全球首款侵入式脑机芯片，开启人机融合新阶段。"
     },
     {
      "title": "datasette 1.0a32",
@@ -1453,7 +1503,7 @@ const APP_DATA = {
      "summary": "Release: datasette 1.0a32 A minor bugfix release. Fixes a bug with INSERT ... RETURNING queries via the new /db/-/execute-write endpoint and a bunch of base_url issues which showed up when I was experimenting with Service Workers yesterday. Tags: datasette, annotated-release-notes",
      "is_new": false,
      "lang": "en",
-     "interpretation": "开源数据工具发布新版本，提升数据探索效率，利好开发者与分析师。"
+     "interpretation": "开源数据工具Datasette发布新版本，持续优化数据处理体验。"
     },
     {
      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
@@ -1463,7 +1513,7 @@ const APP_DATA = {
      "summary": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "用AI Studio“氛围编码”做大会测验，展示低代码开发与趣味交互的结合。"
+     "interpretation": "谷歌I/O 2026趣味问答由AI生成，展示AI Studio的创意能力。"
     },
     {
      "title": "Check out real-life AI prototypes from the Futures Lab.",
@@ -1473,7 +1523,7 @@ const APP_DATA = {
      "summary": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "未来实验室原型展示AI落地可能性，预示技术从概念走向实用。"
+     "interpretation": "未来实验室的AI原型展示，预示AI正从概念走向实际应用场景。"
     },
     {
      "title": "Reachy Mini goes fully local",
@@ -1483,7 +1533,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "Reachy Mini完全本地化运行，标志边缘AI自主性关键突破。"
+     "interpretation": "Reachy Mini实现完全本地化运行，推动AI机器人脱离云端依赖。"
     },
     {
      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
@@ -1493,7 +1543,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": false,
      "lang": "en",
-     "interpretation": "万亿参数模型通过增量权重同步实现高效传输，降低大模型部署门槛。"
+     "interpretation": "万亿参数模型通过Hub Bucket同步，大幅降低大模型部署与更新成本。"
     },
     {
      "title": "We’re announcing new community investments in Missouri.",
@@ -1503,7 +1553,47 @@ const APP_DATA = {
      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
      "is_new": false,
      "lang": "en",
-     "interpretation": "密苏里州新社区投资计划，体现科技巨头下沉区域经济布局。"
+     "interpretation": "谷歌在密苏里州新增社区投资，加速AI基础设施与本地生态建设。"
+    },
+    {
+     "title": "是时候造一台 AI 时代的手机了｜AIDONE 第五期",
+     "url": "https://www.ifanr.com/1668163?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
+     "date": "2026-06-05",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "呼吁打造AI原生手机，标志移动设备正从工具向智能体进化。"
+    },
+    {
+     "title": "早报｜苹果App Store四成头部应用已支持AI/千问上线肯德基skill/奈雪擦边LABUBU被判赔32万",
+     "url": "https://www.ifanr.com/1668169?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+     "source": "APPSO",
+     "date": "2026-06-05",
+     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "苹果App Store四成头部应用接入AI，显示AI正成为应用标配。"
+    },
+    {
+     "title": "汤道生回应\"腾讯慢了\"：承认业务线快慢不一，接受外界提醒和建议",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3839712634014208?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "在腾讯AI产业峰会现场，针对外界“腾讯慢了”的批判，腾讯集团高级执行副总裁汤道生作出回应，其承认在复杂组织中不同业务线速度不一，有快有慢，也有失败与探索，对外界批评与提醒持开放态度并接受建议。汤道生表示：\"在这样的一个长跑，我相信模型会不断迭代，用户的需求也在不断变化，也会有新的产品形态出现，我觉得我们今年年初对龙虾这一波热潮也反应比较快。\"（财联社）",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "汤道生回应“腾讯慢”争议，承认业务节奏差异，展现开放态度。"
+    },
+    {
+     "title": "腾讯高管：今年腾讯大部分代码都由AI生成",
+     "url": "<![CDATA[https://36kr.com/newsflashes/3839702186838530?f=rss]]>",
+     "source": "36氪 - AI",
+     "date": "2026-06-05",
+     "summary": "在腾讯云AI产业应用大会上，腾讯高级执行副总裁汤道生在与腾讯首席AI科学家姚顺雨的对话中表示，今年腾讯大部分代码都是由AI生成，腾讯的工程师可能会花更多的时间去做架构设计等，他们把写代码的工作都交给AI了，定期指导、修正AI写的东西。（第一财经）",
+     "is_new": true,
+     "lang": "zh",
+     "interpretation": "腾讯高管称AI生成代码占比过半，标志AI已深度融入核心研发流程。"
     },
     {
      "title": "重估比亚迪，从智驾开始",
@@ -1513,7 +1603,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "以智能驾驶为切入点重估比亚迪，反映市场对其技术转型的期待。"
+     "interpretation": "智能驾驶成为比亚迪价值重估的核心变量，市场逻辑生变。"
     },
     {
      "title": "中国足球小将夺冠，比亚迪携手足球少年走向世界",
@@ -1523,7 +1613,7 @@ const APP_DATA = {
      "summary": "",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "比亚迪赞助足球少年夺冠，借体育营销提升品牌国际影响力。"
+     "interpretation": "比亚迪赞助足球少年，借体育赛事提升品牌全球影响力。"
     },
     {
      "title": "CVPR 2026，英伟达特斯拉Waymo一块听中国公司讲物理AI",
@@ -1533,7 +1623,7 @@ const APP_DATA = {
      "summary": "率先实现物理AI闭环飞轮",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "CVPR 2026上中国公司主导物理AI讨论，显示该领域话语权转移。"
+     "interpretation": "中国公司在物理AI领域崛起，成为国际顶会焦点。"
     },
     {
      "title": "连GitLab都开始裁程序员了",
@@ -1543,7 +1633,7 @@ const APP_DATA = {
      "summary": "硅谷科技公司Q1裁员同比增长40%",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "连GitLab都裁程序员，说明AI替代编程岗位已成行业趋势。"
+     "interpretation": "连GitLab都裁员，说明AI编程工具正替代部分程序员岗位。"
     },
     {
      "title": "英博数科亮相CCIG 2026，首次公开EBFlex私有化算力管理平台",
@@ -1553,7 +1643,7 @@ const APP_DATA = {
      "summary": "聚焦高校科研算力",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "英博数科发布私有化算力平台，企业可自主掌控AI训练基础设施。"
+     "interpretation": "英博数科发布私有化算力平台，满足企业数据安全与高效训练需求。"
     },
     {
      "title": "今年最值得升级的生产力工具，可能是一整张 AI 工位",
@@ -1563,7 +1653,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "AI工位成生产力工具，办公效率可能迎来系统性重构。"
+     "interpretation": "集成AI的工位或成个人效率革命，重新定义办公生产力边界。"
     },
     {
      "title": "制糖工厂发布 AI 小电拼 Mirror：FluxAI 自由流让多口充电进入「功率复用」时代",
@@ -1573,7 +1663,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "多口充电进入功率复用时代，充电器从“分配”走向“智能调度”。"
+     "interpretation": "多口充电实现功率动态分配，打破传统充电头固定输出限制。"
     },
     {
      "title": "港中深王方鑫团队：3D 重建的「玻璃杯难题」，终于被摆上台面丨CVPR 2026",
@@ -1583,27 +1673,7 @@ const APP_DATA = {
      "summary": "3DReflecNet：一个专为玻璃、金属与陶瓷等材料建立的大规模数据集。 作者丨樊天骄、郑佳美 编辑丨郑佳美 想为手上的玻璃杯生成 3D 模型，需要几步？拍照、扫描、建模......听上去似乎很简单，可如果你真的动手试试，得到的往往是布满孔洞、边缘扭曲的残缺结果。这就是当前 3D 重建技术的瓶颈：无论是爆火的 3D 高斯溅射（3D Gaussian Splatting, 3DGS）、神经辐射场（Neural Radiance Fields, NeRF），还是传统的多视图立体匹配方法，都只对不反光的漫反射材质且拥有足够清晰的纹理特征的物体有效。而对于那些具有反射、透明和低纹理表面特性的材...",
      "is_new": true,
      "lang": "zh",
-     "interpretation": "3D重建攻克玻璃透明物体难题，提升视觉感知精度。"
-    },
-    {
-     "title": "8点1氪丨A股第4只两千元股诞生；问界回应浙江台州M9事故；马斯克个人财富将突破万亿美元",
-     "url": "<![CDATA[https://36kr.com/p/3838091144464644?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-06-04",
-     "summary": "今日热点导览 名创优品称会员买单仅限潮玩商品 谷歌扩大Quick Share与AirDrop互传适配范围，覆盖更多安卓机型 Meta在全球范围扩大青少年内容管控 多家银行下架3年期5年期定期存款 TOP 3大新闻 A股第4只两千元股诞生，联讯仪器盘中股价冲破2000元 6月3日，联讯仪器盘中股价冲破2000元，最高达2047.88元。公司总市值超2000亿元。数据显示，自A股1990年12月19日开市以来，最高价曾突破2000元的股票屈指可数，仅有中安科、贵州茅台、云赛智联3只。这3只股票的上涨动因各异，长期市场表现也大相径庭。与A股史上前3只最高价曾触及2000元的股票相比，联讯仪器的...",
-     "is_new": true,
-     "lang": "zh",
-     "interpretation": "A股高价股、问界事故、马斯克财富，反映市场分化与科技巨头影响力。"
-    },
-    {
-     "title": "沪电股份回应海外订单传闻：若有大额订单会及时披露，目前没有需披露信息",
-     "url": "<![CDATA[https://36kr.com/newsflashes/3838866659838216?f=rss]]>",
-     "source": "36氪 - AI",
-     "date": "2026-06-04",
-     "summary": "有消息称，沪电股份斩获海外某AI巨头旗下服务器高份额订单。对此，沪电股份方面回应，公司对具体客户的情况无法评论，但如果有大额订单，单一订单达到信息披露标准，即便不提具体厂商也会披露。在记者一再追问下，沪电股份方面又补充道，目前，公司没有相关要披露的信息，一切以公司公告为准。公司也无法做到对网传的所有信息都进行辟谣。“在订单获取上，公司是希望客户群体能够越来越多，不依赖单一客户。”沪电股份方面回应。（中证报）",
-     "is_new": true,
-     "lang": "zh",
-     "interpretation": "沪电股份回应订单传闻，表明市场对AI算力产业链预期高度敏感。"
+     "interpretation": "3D重建攻克透明物体难题，为机器人视觉和AR应用扫清重要障碍。"
     },
     {
      "title": "亚马逊高管：AI 已越过恐怖谷，普通观众难分辨",
@@ -1613,7 +1683,7 @@ const APP_DATA = {
      "summary": "亚马逊米高梅影业 AI 工作室负责人阿尔 […]",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "AI生成内容逼真度突破临界点，公众辨别真假将成新挑战。"
+     "interpretation": "AI生成内容逼真度突破临界点，真假难辨引发信任危机。"
     },
     {
      "title": "宏利香港与阿里云达成战略合作，加速保险业AI规模化落地",
@@ -1623,7 +1693,7 @@ const APP_DATA = {
      "summary": "6月2日，全球金融服务业巨头宏利(Manulife）旗下宏利人寿保险（国际）有限公司与阿里云智能集团在香港签署战略合作备忘录。未来，双方将围绕保险业务全场景，加速AI技术的规模化应用，共同探索保险行业智能化升级新路径。 宏利香港及澳门首席AI及数据总监刘宏隽博士与阿里云新金融行业部副总经理李晨代表双方签署协议。宏利香港及澳门首席资讯总监李安杰与阿里云智能集团公共云事业部副总裁、新金融行业总经理张翅共同见证签约。 宏利扎根香港125年，深耕澳门近30年，目前在港澳服务超过260万名客户，是全球及亚洲领先的综合金融服务机构之一。 根据协议，双方将共建联合AI中心（Joint AI Hub），...",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "保险业借云与AI实现效率革命，传统行业数字化转型加速。"
+     "interpretation": "传统保险业借云与AI降本增效，金融科技规模化应用提速。"
     },
     {
      "title": "制糖工厂发布 AI 小电拼 Mirror：琥珀屏、双支架与可拼拆设计，重构桌面能源设备",
@@ -1633,7 +1703,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "模块化设计与琥珀屏融合，桌面电源从工具向智能美学终端进化。"
+     "interpretation": "模块化桌面电源设计创新，或推动智能家居生态互联。"
     },
     {
      "title": "莫言硬核发声：AI 无法取代作家，它是靠偷师人类长大的",
@@ -1643,7 +1713,7 @@ const APP_DATA = {
      "summary": "据新华社报道，中国作家莫言近日接受专访时 […]",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "莫言强调创作本质是生命体验，AI模仿无法替代人类灵魂表达。"
+     "interpretation": "文学界回应AI威胁论，强调人类创作不可替代的原创性与情感深度。"
     },
     {
      "title": "得力管家还是多此一举？聊聊 macOS 后台进程管理工具 App Tamer",
@@ -1653,7 +1723,7 @@ const APP_DATA = {
      "summary": "AppTamer是St.ClairSoftware开发多年的一款菜单栏工具。它常驻后台、实时监控所有运行中的进程，主打以可视化的方式管控应用后台资源占用。通过AppTamer，用户既可以设定进程的CP ...查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "后台进程管理工具的价值争议，折射macOS用户对系统控制权的深层需求。"
+     "interpretation": "工具类软件争议凸显用户对系统资源控制与隐私安全的深层需求。"
     },
     {
      "title": "英伟达掀桌，Windows 终于迎来真 AI PC",
@@ -1663,17 +1733,7 @@ const APP_DATA = {
      "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。]]>",
      "is_new": false,
      "lang": "zh",
-     "interpretation": "英伟达推动Windows端AI硬件落地，标志PC正式进入本地大模型时代。"
-    },
-    {
-     "title": "会踩奶的 AI 仿生小猫挂坠，撸多了就炸毛",
-     "url": "https://cn.technode.com/post/2026-05-30/kavvo/",
-     "source": "动点科技 - AI",
-     "date": "2026-05-30",
-     "summary": "不知道你有没有过这样的感受：市面上的智能 […]",
-     "is_new": false,
-     "lang": "zh",
-     "interpretation": "仿生宠物结合触觉反馈与情绪模拟，探索AI陪伴产品的情感交互新维度。"
+     "interpretation": "英伟达推动AI底层技术革新，Windows PC的智能化体验将迎来质变。"
     }
    ]
   }
@@ -1684,8 +1744,8 @@ const APP_DATA = {
    "url": "https://github.com/ray-project/ray",
    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
    "blurb": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-   "stars": 42770,
-   "forks": 7635,
+   "stars": 42775,
+   "forks": 7636,
    "language": "Python",
    "topics": [
     "data-science",
@@ -1715,8 +1775,8 @@ const APP_DATA = {
    "url": "https://github.com/mlflow/mlflow",
    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
    "blurb": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controllin",
-   "stars": 26300,
-   "forks": 5812,
+   "stars": 26302,
+   "forks": 5813,
    "language": "Python",
    "topics": [
     "agentops",
@@ -1744,8 +1804,8 @@ const APP_DATA = {
    "url": "https://github.com/screenpipe/screenpipe",
    "description": "YC (S26) | AI that knows what you've seen, said, or heard. Records everything you do, say, hear 24/7, local, private, secure",
    "blurb": "YC (S26) | AI that knows what you've seen, said, or heard. Records everything you do, say, hear 24/7, local, private, secure",
-   "stars": 19130,
-   "forks": 1798,
+   "stars": 19136,
+   "forks": 1799,
    "language": "Rust",
    "topics": [
     "agents",
@@ -1771,8 +1831,8 @@ const APP_DATA = {
    "url": "https://github.com/stas00/ml-engineering",
    "description": "Machine Learning Engineering Open Book",
    "blurb": "Machine Learning Engineering Open Book",
-   "stars": 18052,
-   "forks": 1146,
+   "stars": 18054,
+   "forks": 1147,
    "language": "Python",
    "topics": [
     "ai",
@@ -1798,7 +1858,7 @@ const APP_DATA = {
    "url": "https://github.com/alibaba/MNN",
    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
    "blurb": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
-   "stars": 15404,
+   "stars": 15406,
    "forks": 2342,
    "language": "C++",
    "topics": [
@@ -1851,7 +1911,7 @@ const APP_DATA = {
    "url": "https://github.com/tensorzero/tensorzero",
    "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
    "blurb": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-   "stars": 11435,
+   "stars": 11436,
    "forks": 835,
    "language": "Rust",
    "topics": [
@@ -1882,7 +1942,7 @@ const APP_DATA = {
    "url": "https://github.com/Netflix/metaflow",
    "description": "Build, Manage and Deploy AI/ML Systems",
    "blurb": "Build, Manage and Deploy AI/ML Systems",
-   "stars": 10113,
+   "stars": 10114,
    "forks": 1287,
    "language": "Python",
    "topics": [
@@ -1913,7 +1973,7 @@ const APP_DATA = {
    "url": "https://github.com/bentoml/BentoML",
    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
    "blurb": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
-   "stars": 8664,
+   "stars": 8665,
    "forks": 969,
    "language": "Python",
    "topics": [
@@ -1939,7 +1999,7 @@ const APP_DATA = {
    "url": "https://github.com/evidentlyai/evidently",
    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
    "blurb": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-   "stars": 7572,
+   "stars": 7574,
    "forks": 858,
    "language": "Jupyter Notebook",
    "topics": [
@@ -1965,7 +2025,7 @@ const APP_DATA = {
    "description": "Postgres with GPUs for ML/AI apps.",
    "blurb": "Postgres with GPUs for ML/AI apps.",
    "stars": 6794,
-   "forks": 363,
+   "forks": 362,
    "language": "Rust",
    "topics": [
     "ai",
@@ -2031,7 +2091,7 @@ const APP_DATA = {
    "url": "https://github.com/zenml-io/zenml",
    "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
    "blurb": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
-   "stars": 5431,
+   "stars": 5432,
    "forks": 622,
    "language": "Python",
    "topics": [
@@ -2062,8 +2122,8 @@ const APP_DATA = {
    "url": "https://github.com/huggingface/text-embeddings-inference",
    "description": "A blazing fast inference solution for text embeddings models",
    "blurb": "A blazing fast inference solution for text embeddings models",
-   "stars": 4838,
-   "forks": 396,
+   "stars": 4839,
+   "forks": 397,
    "language": "Rust",
    "topics": [
     "ai",
