@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>行业打标全链路图</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background: #020617;
+      min-height: 100vh;
+      padding: 2rem;
+      color: white;
+    }
+    .container { max-width: 1300px; margin: 0 auto; }
+    .header { margin-bottom: 1.5rem; }
+    h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; color: #f1f5f9; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-top: 0.3rem; }
+    .diagram-container {
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 1rem;
+      border: 1px solid #1e293b;
+      padding: 1.5rem;
+      overflow-x: auto;
+    }
+    svg { width: 100%; min-width: 1150px; display: block; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 0.75rem;
+      border: 1px solid #1e293b;
+      padding: 1.25rem;
+    }
+    .card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .card-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .card-dot.emerald { background: #34d399; }
+    .card-dot.amber { background: #fbbf24; }
+    .card-dot.cyan { background: #22d3ee; }
+    .card h3 { font-size: 0.875rem; font-weight: 600; }
+    .card ul { list-style: none; color: #94a3b8; font-size: 0.75rem; }
+    .card li { margin-bottom: 0.375rem; }
+    .footer { text-align: center; margin-top: 1.5rem; color: #475569; font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>行业打标全链路架构</h1>
+      <p class="subtitle">StarRocks（人力数据）→ Python 预处理 → Agent + Skill → LLM → 飞书表格</p>
+    </div>
+
+    <div class="diagram-container">
+      <svg viewBox="0 0 1200 820">
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+          </marker>
+          <marker id="arrowhead-emerald" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#34d399" />
+          </marker>
+          <marker id="arrowhead-cyan" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#22d3ee" />
+          </marker>
+          <marker id="arrowhead-violet" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#a78bfa" />
+          </marker>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+          </pattern>
+        </defs>
+
+        <rect width="100%" height="100%" fill="url(#grid)" />
+
+        <!-- 分区标题 -->
+        <rect x="20" y="25" width="1160" height="30" rx="4" fill="transparent" stroke="#475569" stroke-width="0.5" stroke-dasharray="2,2"/>
+        <text x="30" y="44" fill="#a78bfa" font-size="9">数据层</text>
+        <text x="340" y="44" fill="#34d399" font-size="9">代码层</text>
+        <text x="680" y="44" fill="#22d3ee" font-size="9">Agent 编排</text>
+        <text x="960" y="44" fill="#fbbf24" font-size="9">LLM / Skill</text>
+
+        <!-- 1. StarRocks -->
+        <rect x="30" y="70" width="240" height="75" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="2"/>
+        <text x="150" y="92" fill="white" font-size="12" font-weight="700" text-anchor="middle">StarRocks (SR) 数仓</text>
+        <text x="150" y="110" fill="#c4b5fd" font-size="9" text-anchor="middle">OLAP 引擎 · 秒级查询</text>
+        <text x="150" y="126" fill="#94a3b8" font-size="8" text-anchor="middle">数据范围：仅人力相关数据</text>
+        <text x="150" y="139" fill="#64748b" font-size="7" text-anchor="middle">SQL 直查</text>
+
+        <!-- SQL 箭头 -->
+        <line x1="270" y1="100" x2="320" y2="100" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrowhead-violet)"/>
+        <text x="285" y="92" fill="#94a3b8" font-size="7" text-anchor="middle">SQL</text>
+
+        <!-- 2. Python 脚本 -->
+        <rect x="325" y="65" width="260" height="90" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="455" y="85" fill="white" font-size="12" font-weight="600" text-anchor="middle">Python 预处理脚本</text>
+        <text x="455" y="103" fill="#94a3b8" font-size="9" text-anchor="middle">特征提取逻辑</text>
+        <text x="455" y="118" fill="#94a3b8" font-size="8" text-anchor="middle">公司名关键词提取</text>
+        <text x="455" y="131" fill="#94a3b8" font-size="8" text-anchor="middle">经营范词组解析</text>
+        <text x="455" y="144" fill="#64748b" font-size="7" text-anchor="middle">Python + 正则</text>
+
+        <!-- 特征缓存 -->
+        <rect x="325" y="175" width="260" height="55" rx="6" fill="rgba(6, 78, 59, 0.3)" stroke="#34d399" stroke-width="1" stroke-dasharray="3,3"/>
+        <text x="455" y="196" fill="white" font-size="11" font-weight="600" text-anchor="middle">特征缓存文件</text>
+        <text x="455" y="213" fill="#94a3b8" font-size="8" text-anchor="middle">JSON 格式</text>
+
+        <line x1="455" y1="155" x2="455" y2="173" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+
+        <!-- 3. Agent -->
+        <rect x="325" y="260" width="260" height="110" rx="8" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="2"/>
+        <text x="455" y="282" fill="white" font-size="12" font-weight="700" text-anchor="middle">Hermes Agent（编排层）</text>
+        <text x="455" y="300" fill="#94a3b8" font-size="9" text-anchor="middle">任务调度 + 工具调用</text>
+        <text x="455" y="318" fill="#64748b" font-size="8" text-anchor="middle">1. 调 SQL → 从 SR 拉数据</text>
+        <text x="455" y="333" fill="#64748b" font-size="8" text-anchor="middle">2. 调 Python → 特征提取</text>
+        <text x="455" y="348" fill="#64748b" font-size="8" text-anchor="middle">3. 加载 Skill + 调 LLM</text>
+        <text x="455" y="363" fill="#64748b" font-size="8" text-anchor="middle">4. 调 lark-cli → 写入飞书</text>
+
+        <!-- Agent → LLM -->
+        <line x1="585" y1="300" x2="650" y2="300" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrowhead-cyan)"/>
+        <text x="620" y="296" fill="#22d3ee" font-size="7">调用</text>
+
+        <!-- 4. LLM -->
+        <rect x="660" y="250" width="230" height="100" rx="6" fill="rgba(251, 191, 36, 0.2)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="775" y="273" fill="white" font-size="12" font-weight="700" text-anchor="middle">LLM (DeepSeek)</text>
+        <text x="775" y="293" fill="#94a3b8" font-size="8" text-anchor="middle">接收预处理特征 + 公司信息</text>
+        <text x="775" y="308" fill="#94a3b8" font-size="8" text-anchor="middle">按 Skill 标准推理判断</text>
+        <text x="775" y="323" fill="#94a3b8" font-size="8" text-anchor="middle">输出 一级行业 / 二级行业</text>
+        <text x="775" y="342" fill="#fbbf24" font-size="7" text-anchor="middle">DeepSeek API</text>
+
+        <!-- 5. Skill -->
+        <rect x="660" y="380" width="230" height="90" rx="6" fill="rgba(251, 146, 60, 0.25)" stroke="#fb923c" stroke-width="1.5"/>
+        <text x="775" y="402" fill="white" font-size="12" font-weight="600" text-anchor="middle">Skill (分类标准)</text>
+        <text x="775" y="420" fill="#94a3b8" font-size="8" text-anchor="middle">加载 T2 工作表行业标准</text>
+        <text x="775" y="435" fill="#94a3b8" font-size="8" text-anchor="middle">关键词映射 + 分类规则</text>
+        <text x="775" y="450" fill="#94a3b8" font-size="8" text-anchor="middle">作为 Prompt 注入 LLM</text>
+        <text x="775" y="464" fill="#fb923c" font-size="7" text-anchor="middle">Hermes Skill 系统</text>
+
+        <!-- Agent → Skill → LLM -->
+        <path d="M 455 370 L 455 400 Q 455 420 475 420 L 658 420" fill="none" stroke="#fb923c" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrowhead)"/>
+        <text x="555" y="416" fill="#fb923c" font-size="7" text-anchor="middle">加载</text>
+
+        <line x1="890" y1="425" x2="920" y2="425" stroke="#fb923c" stroke-width="1.5"/>
+        <line x1="920" y1="425" x2="920" y2="300" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,3"/>
+        <text x="925" y="370" fill="#fbbf24" font-size="7">注入标准</text>
+
+        <!-- 6. 写回飞书 -->
+        <line x1="455" y1="390" x2="455" y2="500" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrowhead-cyan)"/>
+
+        <rect x="325" y="505" width="260" height="75" rx="6" fill="rgba(251, 191, 36, 0.15)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="455" y="527" fill="white" font-size="12" font-weight="600" text-anchor="middle">Agent 写回飞书</text>
+        <text x="455" y="545" fill="#94a3b8" font-size="8" text-anchor="middle">通过 lark-cli 调用 Sheets API</text>
+        <text x="455" y="560" fill="#94a3b8" font-size="8" text-anchor="middle">写入 Sheet T1 的 E/F 列</text>
+        <text x="455" y="574" fill="#64748b" font-size="7" text-anchor="middle">lark-cli (Sheets API)</text>
+
+        <!-- 7. 飞书表格 -->
+        <rect x="660" y="520" width="230" height="80" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="775" y="542" fill="white" font-size="12" font-weight="600" text-anchor="middle">飞书表格 (结果)</text>
+        <text x="775" y="560" fill="#94a3b8" font-size="8" text-anchor="middle">Sheet T1 · E=一级行业</text>
+        <text x="775" y="575" fill="#94a3b8" font-size="8" text-anchor="middle">Sheet T2 · 分类标准</text>
+
+        <line x1="585" y1="542" x2="658" y2="542" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <text x="625" y="538" fill="#fbbf24" font-size="7">写入</text>
+
+        <!-- 循环 -->
+        <path d="M 455 580 L 455 630 L 100 630 L 100 145" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4,4" marker-end="url(#arrowhead-violet)"/>
+        <text x="275" y="626" fill="#94a3b8" font-size="8" text-anchor="middle">循环 → 处理下一批</text>
+
+        <!-- 图例 -->
+        <rect x="930" y="65" width="240" height="180" rx="8" fill="rgba(15, 23, 42, 0.6)" stroke="#475569" stroke-width="1"/>
+        <text x="940" y="85" fill="white" font-size="11" font-weight="600">工具 / 能力</text>
+
+        <rect x="940" y="98" width="14" height="10" rx="2" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1"/>
+        <text x="960" y="106" fill="#94a3b8" font-size="8">SQL — 从 SR 查数据</text>
+
+        <rect x="940" y="116" width="14" height="10" rx="2" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1"/>
+        <text x="960" y="124" fill="#94a3b8" font-size="8">Python — 特征提取/预处理</text>
+
+        <rect x="940" y="134" width="14" height="10" rx="2" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1"/>
+        <text x="960" y="142" fill="#94a3b8" font-size="8">Hermes Agent — 编排+工具调用</text>
+
+        <rect x="940" y="152" width="14" height="10" rx="2" fill="rgba(251, 191, 36, 0.2)" stroke="#fbbf24" stroke-width="1"/>
+        <text x="960" y="160" fill="#94a3b8" font-size="8">LLM — 推理/行业判断</text>
+
+        <rect x="940" y="170" width="14" height="10" rx="2" fill="rgba(251, 146, 60, 0.25)" stroke="#fb923c" stroke-width="1"/>
+        <text x="960" y="178" fill="#94a3b8" font-size="8">Skill — 加载分类标准</text>
+
+        <rect x="940" y="188" width="14" height="10" rx="2" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1"/>
+        <text x="960" y="196" fill="#94a3b8" font-size="8">lark-cli — 写飞书表格</text>
+
+        <!-- 流程说明 -->
+        <rect x="930" y="260" width="240" height="305" rx="8" fill="rgba(15, 23, 42, 0.6)" stroke="#475569" stroke-width="1"/>
+        <text x="940" y="280" fill="white" font-size="11" font-weight="600">流程拆解</text>
+
+        <text x="940" y="300" fill="#a78bfa" font-size="9">Step 1 · SQL 查询</text>
+        <text x="940" y="315" fill="#94a3b8" font-size="7">Agent 用 SQL 从 SR 拉取</text>
+        <text x="940" y="329" fill="#94a3b8" font-size="7">待打标公司数据（人力相关）</text>
+
+        <text x="940" y="351" fill="#34d399" font-size="9">Step 2 · Python 预处理</text>
+        <text x="940" y="366" fill="#94a3b8" font-size="7">Agent 调用 python 脚本</text>
+        <text x="940" y="380" fill="#94a3b8" font-size="7">提取关键词/经营范围特征</text>
+
+        <text x="940" y="402" fill="#22d3ee" font-size="9">Step 3 · Agent + Skill</text>
+        <text x="940" y="417" fill="#94a3b8" font-size="7">Agent 加载行业分类 Skill</text>
+        <text x="940" y="431" fill="#94a3b8" font-size="7">读取 T2 标准 + 分类规则</text>
+
+        <text x="940" y="453" fill="#fbbf24" font-size="9">Step 4 · LLM 推理</text>
+        <text x="940" y="468" fill="#94a3b8" font-size="7">特征 + 标准 → 构造 Prompt</text>
+        <text x="940" y="482" fill="#94a3b8" font-size="7">DeepSeek 输出行业标签</text>
+
+        <text x="940" y="504" fill="#fb923c" font-size="9">Step 5 · 写回飞书</text>
+        <text x="940" y="519" fill="#94a3b8" font-size="7">Agent 用 lark-cli 写入</text>
+        <text x="940" y="533" fill="#94a3b8" font-size="7">Sheet T1 的 E/F 列</text>
+
+        <text x="940" y="555" fill="#a78bfa" font-size="9">Step 6 · 循环</text>
+        <text x="940" y="570" fill="#94a3b8" font-size="7">处理下一批 → 回到 Step 1</text>
+
+      </svg>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-header"><div class="card-dot emerald"></div><h3>Python 脚本</h3></div>
+        <ul>
+          <li>从 SR 查询原始数据（公司名/经营范围）</li>
+          <li>关键词提取：局/银行/科技/智能 等</li>
+          <li>数据清洗、格式化、缓存</li>
+          <li>生成 LLM 可用的结构化输入</li>
+          <li>纯数据处理，不需要智能判断</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-header"><div class="card-dot amber"></div><h3>LLM (DeepSeek)</h3></div>
+        <ul>
+          <li>接收预处理特征 + 公司信息</li>
+          <li>结合 Skill 注入的行业标准</li>
+          <li>推理判断 → 一级/二级行业</li>
+          <li>处理模糊、歧义、罕见公司名</li>
+          <li>输出结构化打标结果</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-header"><div class="card-dot cyan"></div><h3>Agent 编排</h3></div>
+        <ul>
+          <li>决定何时 SQL 查 SR、何时调 Python</li>
+          <li>加载合适的 Skill 分类标准</li>
+          <li>特征+标准→构造 Prompt→调 LLM</li>
+          <li>结果→调用 lark-cli 写回</li>
+          <li>循环批处理</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer">行业打标全链路 · StarRocks → Python → Agent+Skill → LLM → 飞书 · 2026</p>
+  </div>
+</body>
+</html>
